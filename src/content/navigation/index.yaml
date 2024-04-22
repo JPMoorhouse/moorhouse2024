@@ -1,0 +1,17 @@
+logo: /images/logo.png
+navItems:
+  - label: Home
+    link: /
+  - label: About
+    link: /about
+  - label: Services
+    link: /services
+  - label: Gallery
+    link: /gallery
+  - label: Blog
+    link: /blog
+button:
+  - buttontext: 1 (435) 655-9076
+    buttonSlug: '#'
+  - buttontext: Contact Us
+    buttonSlug: '#'

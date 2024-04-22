@@ -1,0 +1,13 @@
+message:
+  icon: /images/message/icon.png
+  email: info@moorhousecoating.com
+social:
+  - icontext: instagram
+    image: /images/social/0/image.svg
+    link: '#'
+  - icontext: facebook
+    image: /images/social/1/image.svg
+    link: '#'
+  - icontext: youtube
+    image: /images/social/2/image.svg
+    link: '#'

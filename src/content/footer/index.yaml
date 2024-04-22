@@ -1,0 +1,41 @@
+pretitle: Get In Touch With Us!
+heading: Request Your FREE Estimate!
+logo: /images/logo.svg
+bedge: /images/bedge.webp
+Sitemap:
+  - label: Home
+    link: /
+  - label: About
+    link: /about
+  - label: Our blog
+    link: /blog
+  - label: Services
+    link: /services
+  - label: Gallery
+    link: /gallery
+  - label: Testimonials
+    link: /testimonials
+OurServices:
+  - label: Residential Painting
+    link: '#'
+  - label: Commercial Painting
+    link: '#'
+  - label: Exterior Painting
+    link: '#'
+  - label: Exterior Staining
+    link: '#'
+  - label: Other Service Here
+    link: '#'
+  - label: Special Requests
+    link: '#'
+OpeningHours:
+  openHours: Monday-Friday 10AM - 6PM
+  openDays: Saturday-Sunday Closed
+  Button:
+    label: Get FREE Estimate
+    url: '#'
+otherlinks:
+  - label: Privacy Policy
+    link: '#'
+  - label: Terms & Conditions
+    link: '#'

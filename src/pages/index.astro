@@ -1,0 +1,75 @@
+---
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import Testimonial from "../components/Testimonial";
+import TwoCol from "../components/TwoCol.astro";
+import WhatToExpect from "../components/WhatToExpect";
+import { createReader } from "@keystatic/core/reader";
+import keystaticConfig from "../../keystatic.config";
+import Layout from "../layouts/Layout.astro";
+import { getBlockValueByDiscriminant } from "../utils/getBlockValue";
+import WhatWeOffer from "../components/WhatWeOffer.astro";
+import Gallery from "../components/Gallery";
+import IndustrialPainting from "../components/IndustrialPainting.astro";
+import Faq from "../components/Faq.astro";
+const reader = createReader(process.cwd(), keystaticConfig);
+const homePage = await reader.collections.Pages.read("home");
+const heroData = getBlockValueByDiscriminant(homePage?.blocks, "Hero");
+const aboutdata = getBlockValueByDiscriminant(
+  homePage?.blocks,
+  "aboutmoorhouse"
+);
+const whatweoffer = getBlockValueByDiscriminant(
+  homePage?.blocks,
+  "WhatWeOffer"
+);
+const gallery = getBlockValueByDiscriminant(homePage?.blocks, "Gallerys");
+const whattoexpect = getBlockValueByDiscriminant(
+  homePage?.blocks,
+  "WhatToExpect"
+);
+const industrialPainting = getBlockValueByDiscriminant(
+  homePage?.blocks,
+  "industrialPainting"
+);
+
+const FrequentlyAskedQuestions = getBlockValueByDiscriminant(
+  homePage?.blocks,
+  "FrequentlyAskedQuestions"
+);
+const testimonials = getBlockValueByDiscriminant(
+  homePage?.blocks,
+  "Testimonials"
+);
+const seodata = homePage?.seoData;
+---
+
+<Layout
+  title={seodata?.seoTitle}
+  description={seodata?.seoDesription}
+  image={seodata?.ogImage}
+>
+  <div class="overflow-hidden">
+    <div class="relative">
+      <div class="hero-bg"></div>
+      <div
+        class="bg-[#04708F] blur-[100px] absolute -top-12 w-full h-[270px] z-10"
+      >
+      </div>
+      <div class="relative z-50">
+        <Header />
+        <Hero {...heroData} />
+      </div>
+    </div>
+    <div class="lg:mt-10 lg:py-20 py-16">
+      <TwoCol {...aboutdata} index={0} />
+    </div>
+    <WhatWeOffer {...whatweoffer} />
+    <Gallery {...gallery} client:only />
+    <WhatToExpect client:only {...whattoexpect} />
+
+    <IndustrialPainting {...industrialPainting} />
+    <Faq {...FrequentlyAskedQuestions} />
+    <Testimonial client:only {...testimonials} />
+  </div>
+</Layout>

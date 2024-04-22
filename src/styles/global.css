@@ -1,0 +1,114 @@
+/* .bg-hero-gradient {
+  background: #2d2d2d;
+  border-radius: 0 0 60px 60px;
+} */
+.hero-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 60px 60px;
+  background-image: url("/assets/images/home-hero.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 10;
+}
+
+.what-we-offer-gradient {
+  background: #047291;
+}
+.what-we-offer-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border-radius: 30px;
+  background-image: url("/assets/images/what-we-offer-bg.webp");
+  background-repeat: no-repeat;
+  opacity:0.3;
+  background-position: center;
+  background-size: cover;
+}
+.footer-gradient {
+  background: #2d2d2d;
+}
+.footer-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border-radius: 30px;
+  background-image: url("/assets/images/footer-bg.webp");
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  background-position: center;
+  background-size: cover;
+}
+.industry-bg {
+  background-image: url("/assets/images/industry-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 1199px) {
+  .custom-container {
+    max-width: 100%;
+    margin-inline: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-container {
+    margin: auto;
+    @apply w-full px-5 sm:px-6 lg:px-10;
+  }
+}
+@media (min-width: 1440px) {
+  .custom-container {
+    margin: auto;
+    max-width: 1300px;
+  }
+}
+.testimonals .swiper-slide {
+  @apply lg:!w-[700px] md:!w-[600px] sm:!w-[500px]  !w-11/12;
+}
+.slide-item {
+  padding:0 18px;
+}
+.testimonals .swiper-slide-prev,
+.testimonals .swiper-slide-next {
+  @apply opacity-35;
+}
+
+.slick-slide {
+  opacity: 0.3;
+}
+
+.slick-center {
+  opacity: 1;
+}
+
+/* Media queries for responsive gap */
+@media (max-width: 1024px) {
+  .slide-item {
+    padding: 10px; /* Adjust as needed */
+  }
+}
+
+@media (max-width: 600px) {
+  .slide-item {
+    padding: 5px; /* Adjust as needed */
+  }
+}
+
+@media (max-width: 480px) {
+  .slide-item {
+    padding: 0; /* No gap for smallest screens */
+  }
+}

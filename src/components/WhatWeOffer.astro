@@ -1,0 +1,40 @@
+---
+import TwoCol from "./TwoCol.astro";
+interface card {
+  Cardicon: string;
+  cardText: string;
+  cardDescription: string;
+}
+
+interface WhatWeOfferProps {
+  pretitle: string;
+  heading: string;
+  whatweoffer: card[];
+}
+// @ts-ignore
+const { pretitle, heading, whatweoffer }: WhatWeOfferProps = Astro.props; // Access data prop directly
+---
+
+<div
+  class="lg:py-[85px] font-body py-12 rounded-[30px] lg:mt-16 mt-8 lg:mx-12 mx-6 what-we-offer-gradient relative"
+>
+  <div class="what-we-offer-bg">
+    <div class="relative z-50 custom-container">
+      <p class="text-secondary text-center text-lg mb-5">{pretitle}</p>
+      <h2
+        class="lg:text-6xl md:text-5xl text-4xl xl:w-[60%] lg:leading-[70px] mx-auto font-medium text-center  text-white"
+      >
+        {heading}
+      </h2>
+    </div>
+  </div>
+</div>
+    <div class="lg:my-[39px] my-12">
+      {
+        whatweoffer.map((item: card, index: number) => (
+          <div class="md:py-16 py-6">
+          <TwoCol {...item} index={index +1} steps/>
+        </div>
+        ))
+      }
+    </div>

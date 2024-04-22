@@ -1,0 +1,27 @@
+---
+import Accordion from "./Accordion.astro";
+
+interface accordion {
+  title: string;
+  answer: string;
+}
+
+interface faqprops {
+  pretitle: string; // Type annotation added
+  heading: string; // Type annotation added
+  FrequentlyAskedQuestions: accordion[]; // Type annotation added
+}
+//@ts-ignore
+const { pretitle, heading, FrequentlyAskedQuestions }: faqprops = Astro.props; 
+
+---
+<div class="custom-container lg:py-20 py-10">
+  <p class="text-helper text-center text-lg mb-5">{pretitle}</p>
+  <h2
+    class="lg:text-6xl md:text-5xl text-4xl mb-12 lg:mb-32 lg:leading-[70px] mx-auto font-medium text-center text-black"
+  >
+    {heading}
+  </h2>
+  
+  {FrequentlyAskedQuestions.map((item) => <Accordion {...item} />)}
+</div>

@@ -1,0 +1,95 @@
+<form action="">
+  <div class="flex justify-center items-center md:flex-row w-full flex-col gap-4">
+    <div class="flex-1 flex justify-start items-start flex-col w-full gap-2">
+      <label for="fullName" class="text-white">Full Name*</label>
+      <input
+        id="fullName"
+        type="text"
+        placeholder="Full Name Here"
+        class="rounded-xl w-full h-14 px-4 outline-none text-white border-white border bg-transparent placeholder:text-white"
+      />
+    </div>
+    <div class="flex-1 flex justify-start items-start flex-col w-full gap-2">
+      <label for="phoneNumber" class="text-white">Phone Number*</label>
+      <input
+        id="phoneNumber"
+        type="text"
+        placeholder="Phone Number Here"
+        class="rounded-xl w-full h-14 px-4 border-white outline-none text-white border bg-transparent placeholder:text-white"
+      />
+    </div>
+    <div class="flex-1 flex justify-start items-start flex-col w-full gap-2">
+      <label for="emailAddress" class="text-white">Email Address*</label>
+      <input
+        id="emailAddress"
+        type="text"
+        placeholder="Your Email Address"
+        class="rounded-xl w-full h-14 px-4 border-white outline-none text-white border bg-transparent placeholder:text-white"
+      />
+    </div>
+  </div>
+  <div class="flex justify-center items-center gap-4 md:flex-row w-full flex-col mt-8">
+    <div class="flex-1 flex justify-start items-start flex-col w-full gap-2">
+      <label for="address" class="text-white">Your Address*</label>
+      <input
+        id="address"
+        type="text"
+        placeholder="Include Street, City, State & Zip Code"
+        class="rounded-xl w-full h-14 px-4 outline-none text-white border-white border bg-transparent placeholder:text-white"
+      />
+    </div>
+
+    <div class="flex md:w-80 w-full justify-start items-start flex-col gap-2">
+      <label for="paintingType" class="text-white">Service Needed</label>
+      <select id="paintingType" class="rounded-xl w-full h-14 px-4 border-white outline-none text-white border bg-transparent placeholder:text-white">
+        <option value="" selected>Exterior Painting</option>
+        <option value="">Exterior Painting</option>
+        <option value="">Exterior Painting</option>
+        <option value="">Exterior Painting</option>
+        <option value="">Exterior Painting</option>
+      </select>
+    </div>
+  </div>
+  <div class="flex justify-center items-center gap-4 md:flex-row w-full flex-col mt-8">
+    <div class="md:w-fit w-full flex justify-start items-start flex-col gap-2">
+      <label class="text-white">Property Type*</label>
+      <div class="flex justify-start items-center sm:flex-row flex-col gap-4">
+        <div class="bg-[#187692] rounded-xl h-14 px-4 text-white flex justify-center items-center w-full gap-4">
+          <input
+            type="radio"
+            id="Commercial"
+            class="w-6 h-6"
+            name="property-type"
+          />
+          <label for="Commercial" class="text-lg font-bold"> Commercial </label>
+        </div>
+
+        <div class="bg-[#187692] rounded-xl h-14 px-4 text-white flex justify-center items-center gap-4">
+          <input
+            type="radio"
+            id="Residential"
+            class="w-6 h-6"
+            name="property-type"
+          />
+          <label for="Residential" class="text-lg font-bold">
+            Residential
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-1 justify-start items-start w-full flex-col gap-2">
+      <label for="comments" class="text-white">Other Comments</label>
+      <input
+        id="comments"
+        type="text"
+        placeholder="Any additional helpful details"
+        class="rounded-xl w-full h-14 px-4 border-white outline-none text-white border bg-transparent placeholder:text-white"
+      />
+    </div>
+  </div>
+  <button
+    type="submit"
+    class="bg-secondary w-full rounded-xl h-14 mt-12 text-[#333] font-bold text-lg"
+  >Get My FREE Estimate!</button>
+</form>
