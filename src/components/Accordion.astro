@@ -6,57 +6,62 @@ type props = {
 //@ts-ignore
 const { title, answer }: props = Astro.props;
 ---
+
 <div class="group">
-
-
-<div
-  class="accordion-item duration-200  my-7 lg:px-12 md:px-6 px-4 cursor-pointer rounded-2xl md:rounded-[30px] group-hover:bg-helper border"
->
-  <button
-    class="accordion-header flex justify-between items-center gap-4 w-full   py-6"
+  <div
+    class="accordion-item duration-200 my-7 lg:px-12 md:px-6 px-4 cursor-pointer rounded-2xl md:rounded-[30px] group-hover:bg-helper border"
   >
-    <p class=" group-hover:text-white duration-200   md:text-lg text-sm transition-all text-start  ease-in-out" >{title}</p>
-    <div
-      class="bg-helper group-hover:bg-secondary sm:min-w-12 min-w-10 min-h-10 sm:min-h-12 flex justify-center items-center rounded-full"
+    <button
+      class="accordion-header flex justify-between items-center gap-4 w-full py-6"
     >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="20"
-        height="20"
-        class="shrink-0 w-5 h-5"
+      <p
+        class="group-hover:text-white duration-200 md:text-lg text-sm transition-all text-start ease-in-out"
       >
-        <path fill="white" d="M14 7H9V2H7v5H2v2h5v5h2V9h5V7z"></path>
-      </svg>
+        {title}
+      </p>
+      <div
+        class="bg-helper group-hover:bg-secondary sm:min-w-12 min-w-10 min-h-10 sm:min-h-12 flex justify-center items-center rounded-full"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          class="shrink-0 w-5 h-5"
+        >
+          <path fill="white" d="M14 7H9V2H7v5H2v2h5v5h2V9h5V7z"></path>
+        </svg>
+      </div>
+    </button>
+    <div class="accordion-content overflow-hidden hidden pb-6 text-white">
+      <p>{answer}</p>
     </div>
-  </button>
-  <div class="accordion-content overflow-hidden hidden pb-6 text-white">
-    <p>{answer}</p>
-  </div>
 
-  <script>
-    const accordionItems = document.querySelectorAll(".accordion-item");
+    <script>
+      const accordionItems = document.querySelectorAll(".accordion-item");
 
-    accordionItems.forEach((item) => {
-      const header = item.querySelector(".accordion-header");
-      const content = item.querySelector(".accordion-content");
+      accordionItems.forEach((item) => {
+        const header = item.querySelector(".accordion-header");
+        const content = item.querySelector(".accordion-content");
 
-      header.addEventListener("click", () => {
-        content.classList.toggle("hidden");
-        const svg = header.querySelector("svg path");
-        svg.setAttribute("fill", content.classList.contains("hidden") ? "white" :  "#187692");
-
+        header?.addEventListener("click", () => {
+          content?.classList.toggle("hidden");
+          const svg = header.querySelector("svg path");
+          svg?.setAttribute(
+            "fill",
+            content?.classList.contains("hidden") ? "white" : "#187692"
+          );
+        });
       });
-    });
-  </script>
+    </script>
 
-  <style>
-    /* Place your Tailwind CSS styles here */
+    <style>
+      /* Place your Tailwind CSS styles here */
 
-    .accordion {
-      @apply mb-10;
-    }
+      .accordion {
+        @apply mb-10;
+      }
 
-    /* ... other Tailwind styles ... */
-  </style>
-</div>
+      /* ... other Tailwind styles ... */
+    </style>
+  </div>
 </div>
