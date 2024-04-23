@@ -1,5 +1,7 @@
 title: Home page
-seoData: {}
+seoData:
+  seoTitle: Moor House
+  seoDesription: Professional Painting Contractor with Roots in Park City, Utah.
 blocks:
   - discriminant: Hero
     value:
