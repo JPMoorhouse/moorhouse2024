@@ -1,6 +1,6 @@
 title: Home page
 seoData:
-  seoTitle: Moor House
+  seoTitle: MoorHouse
   seoDesription: Professional Painting Contractor with Roots in Park City, Utah.
 blocks:
   - discriminant: Hero
@@ -12,7 +12,7 @@ blocks:
         url: '#'
   - discriminant: aboutmoorhouse
     value:
-      pretitle: Welcome to Moorhouse Painting
+      pretitle: Welcome to Moorhouse Coating
       heading: Your Locally Owned Commercial  & Industrial Painters
       title: About Moorhouse Coating
       subtitle: >-
