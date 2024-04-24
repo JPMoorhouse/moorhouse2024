@@ -4,6 +4,11 @@ export const HomeHero = {
   schema: fields.object({
     title: fields.text({ label: "Title" }),
     subtitle: fields.text({ label: "Subtitle" }),
+    bgImage: fields.image({
+      label: "Hero background image",
+      directory: "/public/images/",
+      publicPath: "/images/",
+    }),
     Button: fields.object({
       label: fields.text({ label: "firstButton" }),
       url: fields.text({ label: "firstButton Slug" }),
@@ -34,6 +39,11 @@ export const WhatWeOffer = {
   schema: fields.object({
     pretitle: fields.text({ label: "Pretitle" }),
     heading: fields.text({ label: "Heading" }),
+    bgImage: fields.image({
+      label: "background image",
+      directory: "/public/images/",
+      publicPath: "/images/",
+    }),
     whatweoffer: fields.array(
       fields.object({
         image: fields.image({

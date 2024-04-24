@@ -12,29 +12,35 @@ interface WhatWeOfferProps {
   whatweoffer: card[];
 }
 // @ts-ignore
-const { pretitle, heading, whatweoffer }: WhatWeOfferProps = Astro.props; // Access data prop directly
+const { pretitle, heading, whatweoffer, bgImage }: WhatWeOfferProps =
+  Astro.props; // Access data prop directly
 ---
 
 <div
-  class="lg:py-[85px] font-body py-12 rounded-[30px] lg:mt-16 mt-8 lg:mx-12 mx-6 what-we-offer-gradient relative"
+  class="font-body rounded-[30px] lg:mt-16 mt-8 lg:mx-12 mx-6 bg-[#047291] overflow-hidden"
 >
-  <div class="what-we-offer-bg">
+  <div
+    class="h-full lg:py-[85px] py-12 bg-cover bg-top relative"
+    style={`background-image: url(${bgImage})`}
+  >
+    <div class="h-full w-full bg-[#047291] opacity-50 absolute top-0 bottom-0">
+    </div>
     <div class="relative z-50 custom-container">
       <p class="text-secondary text-center text-lg mb-5">{pretitle}</p>
       <h2
-        class="lg:text-6xl md:text-5xl text-4xl xl:w-[60%] lg:leading-[70px] mx-auto font-medium text-center  text-white"
+        class="lg:text-6xl md:text-5xl text-4xl xl:w-[60%] lg:leading-[70px] mx-auto font-medium text-center text-white"
       >
         {heading}
       </h2>
     </div>
   </div>
 </div>
-    <div class="lg:my-[39px] my-12">
-      {
-        whatweoffer.map((item: card, index: number) => (
-          <div class="md:py-16 py-6">
-          <TwoCol {...item} index={index +1} steps/>
-        </div>
-        ))
-      }
-    </div>
+<div class="lg:my-[39px] my-12">
+  {
+    whatweoffer.map((item: card, index: number) => (
+      <div class="md:py-16 py-6">
+        <TwoCol {...item} index={index + 1} steps />
+      </div>
+    ))
+  }
+</div>

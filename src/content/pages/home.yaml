@@ -5,6 +5,7 @@ blocks:
     value:
       title: Commercial & Industrial <span class="text-secondary">Painting</span>
       subtitle: Professional Painting Contractor with Roots in Park City, Utah.
+      bgImage: /images/home/blocks/0/value/bgImage.webp
       Button:
         label: Get FREE Estimate
         url: '#'
@@ -29,8 +30,9 @@ blocks:
     value:
       pretitle: What We Offer
       heading: We Tailor Our Services To Suit Your Needs.
+      bgImage: /images/home/blocks/2/value/bgImage.webp
       whatweoffer:
-        - image: /images/home/blocks/2/value/whatweoffer/0/image.png
+        - image: /images/home/blocks/2/value/whatweoffer/0/image.webp
           title: Residential Painting
           subtitle: >-
             Moorhouse Painting believes in providing our customers with
@@ -44,7 +46,7 @@ blocks:
           Button:
             label: Get FREE Estimate
             url: '#'
-        - image: /images/home/blocks/2/value/whatweoffer/1/image.png
+        - image: /images/home/blocks/2/value/whatweoffer/1/image.webp
           title: 'Commercial Painting '
           subtitle: >-
             Moorhouse Painting believes in providing our customers with
@@ -58,7 +60,7 @@ blocks:
           Button:
             label: Get FREE Estimate
             url: '#'
-        - image: /images/home/blocks/2/value/whatweoffer/2/image.png
+        - image: /images/home/blocks/2/value/whatweoffer/2/image.webp
           title: 'Exterior Staining '
           subtitle: >-
             Moorhouse Painting believes in providing our customers with
@@ -72,7 +74,7 @@ blocks:
           Button:
             label: Get FREE Estimate
             url: '#'
-        - image: /images/home/blocks/2/value/whatweoffer/3/image.png
+        - image: /images/home/blocks/2/value/whatweoffer/3/image.webp
           title: Exterior Painting
           subtitle: >-
             Moorhouse Painting believes in providing our customers with
