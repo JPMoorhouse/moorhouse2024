@@ -28,8 +28,14 @@ const footer: any = await reader.singletons.footer.read();
       class="custom-container flex justify-between flex-col lg:flex-row gap-12 lg:gap-0 items-start mt-24 lg:p-14"
     >
       <div class="lg:w-1/4 w-full gap-6">
-        <img src={footer.logo} alt="" />
-        <img src={footer.bedge} class="ml-3 mt-6" alt="" />
+        <img src={footer.logo} alt="" width="138" height="110" />
+        <img
+          src={footer.bedge}
+          class="ml-3 mt-6"
+          alt=""
+          width="102"
+          height="68"
+        />
       </div>
       <div
         class="flex justify-between items-start flex-wrap gap-12 xl:gap-0 lg:w-3/4 w-full"
@@ -39,7 +45,7 @@ const footer: any = await reader.singletons.footer.read();
         >
           <span class="font-bold text-xl">Sitemap</span>
           {
-           footer.Sitemap.map((link:any) => (
+            footer.Sitemap.map((link: any) => (
               <a href={link.link} class="font-light">
                 {link.label}
               </a>
@@ -51,7 +57,7 @@ const footer: any = await reader.singletons.footer.read();
         >
           <span class="font-bold text-xl">Our Services</span>
           {
-            footer.OurServices.map((link:any) => (
+            footer.OurServices.map((link: any) => (
               <a href={link.link} class="font-light">
                 {link.label}
               </a>
@@ -126,7 +132,7 @@ const footer: any = await reader.singletons.footer.read();
 
         <div class="flex mt-3 -mx-2 sm:mt-0">
           {
-            footer.otherlinks.map((link:any) => (
+            footer.otherlinks.map((link: any) => (
               <a
                 href={link.link}
                 class="mx-2 text-sm text-white transition-colors duration-300 hover:text-white dark:hover:text-gray-300"

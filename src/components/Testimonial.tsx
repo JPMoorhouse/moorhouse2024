@@ -22,12 +22,12 @@ interface TestimonialProps {
 }
 
 const Testimonial: React.FC<TestimonialProps> = ({ pretitle, heading, Testimonials }) => {
-  return(
+  return (
     <div className=" lg:py-[90px] py-16">
       <div className="custom-container">
         <p className="text-helper text-center">{pretitle}</p>
         <h2 className="lg:text-6xl md:text-5xl text-4xl  lg:leading-[70px] mx-auto font-medium text-center text-black mt-3">
-       {heading}
+          {heading}
         </h2>
       </div>
 
@@ -43,15 +43,14 @@ const Testimonial: React.FC<TestimonialProps> = ({ pretitle, heading, Testimonia
             nextEl: ".next",
           }}
           modules={[Navigation]}
-
           pagination={{
             clickable: true,
           }}
           className="testimonals"
         >
-          {Testimonials.map((slide:any, index:number) => (
+          {Testimonials.map((slide: any, index: number) => (
             <SwiperSlide key={index}>
-              <div  >
+              <div>
                 <div className="border border-[#F1F1F1] rounded-[50px] lg:px-20 lg:py-14 md:px-10 md:py-7 px-5 py-4">
                   <div className="flex justify-center items-center gap-2 mb-12">
                     {Array.from(
@@ -84,7 +83,13 @@ const Testimonial: React.FC<TestimonialProps> = ({ pretitle, heading, Testimonia
                     {slide.cardText}
                   </h3>
                   <div className="flex justify-center gap-2 items-center">
-                    <img src={slide.author} className="" alt="" />
+                    <img
+                      src={slide.author}
+                      className=""
+                      alt=""
+                      width={65}
+                      height={65}
+                    />
                     <div>
                       <p className="text-[#747474] text-center line-clamp-4">
                         {slide.authorName}
@@ -98,60 +103,53 @@ const Testimonial: React.FC<TestimonialProps> = ({ pretitle, heading, Testimonia
           ))}
         </Swiper>
         <div className="lg:w-[700px] md:w-[600px] sm:w-[500px]  w-11/12 mx-auto">
-
-      
-        <div className=" absolute lg:w-[700px] md:w-[600px] sm:w-[500px]  w-11/12  md:-ml-8 -ml-6 px-3  flex justify-between items-center top-1/2">
-          <div className="prev cursor-pointer">
-            <div className=" bg-helper rounded-full md:w-16 md:h-16 w-10 h-10 p-3 top-1/2 z-50  absolute flex justify-center items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="26"
-                height="26"
-                viewBox="0 0 26 26"
-                fill="none"
-              >
-                <g clipPath="url(#clip0_1_203)">
-                  <path
-                    d="M0.547796 11.7758L5.64753 6.67603L6.4119 7.44039L1.4192 12.4331H26V13.5142H1.42136L6.41298 18.5059L5.64862 19.2702L0.547796 14.1694C-0.1117 13.5099 -0.1117 12.4353 0.547796 11.7758Z"
-                    fill="white"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_1_203">
-                    <rect
-                      width="25.9474"
-                      height="25.9474"
+          <div className=" absolute lg:w-[700px] md:w-[600px] sm:w-[500px]  w-11/12  md:-ml-8 -ml-6 px-3  flex justify-between items-center top-1/2">
+            <div className="prev cursor-pointer">
+              <div className=" bg-helper rounded-full md:w-16 md:h-16 w-10 h-10 p-3 top-1/2 z-50  absolute flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                >
+                  <g clipPath="url(#clip0_1_203)">
+                    <path
+                      d="M0.547796 11.7758L5.64753 6.67603L6.4119 7.44039L1.4192 12.4331H26V13.5142H1.42136L6.41298 18.5059L5.64862 19.2702L0.547796 14.1694C-0.1117 13.5099 -0.1117 12.4353 0.547796 11.7758Z"
                       fill="white"
-                      transform="matrix(-1 0 0 1 26 0)"
                     />
-                  </clipPath>
-                </defs>
-              </svg>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_203">
+                      <rect
+                        width="25.9474"
+                        height="25.9474"
+                        fill="white"
+                        transform="matrix(-1 0 0 1 26 0)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+            <div className="next cursor-pointer">
+              <div className=" bg-helper rounded-full md:w-16 md:h-16 w-10 h-10 p-3 top-1/2  z-50 absolute flex justify-center items-center">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
+                  <g clipPath="url(#clip0_1_199)">
+                    <path
+                      d="M25.4522 11.7758L20.3525 6.67603L19.5881 7.44039L24.5808 12.4331H0V13.5142H24.5786L19.587 18.5059L20.3514 19.2702L25.4522 14.1694C26.1117 13.5099 26.1117 12.4353 25.4522 11.7758Z"
+                      fill="white"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_199">
+                      <rect width="25.9474" height="25.9474" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
             </div>
           </div>
-          <div className="next cursor-pointer">
-            <div className=" bg-helper rounded-full md:w-16 md:h-16 w-10 h-10 p-3 top-1/2  z-50 absolute flex justify-center items-center">
-              <svg
-                width="26"
-                height="26"
-                viewBox="0 0 26 26"
-                fill="none"
-              >
-                <g clipPath="url(#clip0_1_199)">
-                  <path
-                    d="M25.4522 11.7758L20.3525 6.67603L19.5881 7.44039L24.5808 12.4331H0V13.5142H24.5786L19.587 18.5059L20.3514 19.2702L25.4522 14.1694C26.1117 13.5099 26.1117 12.4353 25.4522 11.7758Z"
-                    fill="white"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_1_199">
-                    <rect width="25.9474" height="25.9474" fill="white" />
-                  </clipPath>
-                </defs>
-              </svg>
-            </div>
-          </div>
-        </div>
         </div>
       </div>
       <a
