@@ -50,6 +50,8 @@ const WhatToExpect: React.FC<WhatToExpectProps> = ({ pretitle, heading, WhatToEx
                     src={slide.Cardicon}
                     className="bg-primary bg-opacity-15 mx-auto rounded-2xl p-2"
                     alt=""
+                    width={60}
+                    height={60}
                   />
                   <h3 className="text-xl font-medium  my-6 text-center md:h-14 leading-normal">
                     {slide.cardText}
