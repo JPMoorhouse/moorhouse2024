@@ -1,4 +1,4 @@
-pretitle: Get In Touch With Us!
+pretitle: ' Get In Touch With Us!'
 heading: Request Your FREE Estimate!
 logo: /images/logo.svg
 bedge: /images/bedge.webp
@@ -8,7 +8,7 @@ Sitemap:
   - label: About
     link: /about
   - label: Our blog
-    link: /blog
+    link: '#'
   - label: Services
     link: /services
   - label: Gallery
@@ -17,7 +17,7 @@ Sitemap:
     link: /testimonials
 OurServices:
   - label: Residential Painting
-    link: '#'
+    link: /residential-painting
   - label: Commercial Painting
     link: '#'
   - label: Exterior Painting
@@ -29,11 +29,32 @@ OurServices:
   - label: Special Requests
     link: '#'
 OpeningHours:
-  openHours: Monday-Friday 10AM - 6PM
+  openHours: ' Monday-Friday 10AM - 6PM'
   openDays: Saturday-Sunday Closed
   Button:
-    label: Get FREE Estimate
+    label: ' Get FREE Estimate'
     url: '#'
+locations:
+  title: Moorhouse Painting Locations
+  location:
+    - label: Perth
+      link: '#'
+    - label: Duncraig
+      link: '#'
+    - label: Hillary
+      link: '#'
+    - label: Marmion
+      link: '#'
+    - label: Karrinyup
+      link: '#'
+    - label: Kingsley
+      link: '#'
+    - label: Woodvale
+      link: '#'
+    - label: Mindarie
+      link: '#'
+    - label: Floreat
+      link: '#'
 otherlinks:
   - label: Privacy Policy
     link: '#'
