@@ -178,6 +178,20 @@ export default config({
             url: fields.text({ label: "Button Slug" }),
           }),
         }),
+        locations: fields.object({
+          title: fields.text({ label: "Locations title" }),
+          location: fields.array(
+            fields.object({
+              label: fields.text({ label: "Label" }),
+              link: fields.text({ label: "Link" }),
+            }),
+            {
+              label: "Our locations",
+              description: "E.g. other services, Exterior Painting, etc.",
+              itemLabel: (props) => props.fields.label.value,
+            }
+          ),
+        }),
         otherlinks: fields.array(
           fields.object({
             label: fields.text({ label: "Label" }),

@@ -107,20 +107,18 @@ const footer: any = await reader.singletons.footer.read();
         class="border-b pb-10 mt-16 flex justify-between lg:items-center lg:flex-row gap-4 flex-col"
       >
         <h4 class="text-white text-xl font-bold">
-          Moorhouse Painting Locations
+          {footer.locations.title}
         </h4>
         <div
           class="divide-x-2 flex justify-center text-white items-center gap-4 lg:gap-0 flex-wrap lg:flex-nowrap"
         >
-          <p class="px-4 font-light">Perth</p>
-          <p class="px-4 font-light">Duncraig</p>
-          <p class="px-4 font-light">Hillary</p>
-          <p class="px-4 font-light">Marmion</p>
-          <p class="px-4 font-light">Karrinyup</p>
-          <p class="px-4 font-light">Kingsley</p>
-          <p class="px-4 font-light">Woodvale</p>
-          <p class="px-4 font-light">Mindarie</p>
-          <p class="px-4 font-light">Floreat</p>
+          {
+            footer.locations.location.map((item: any) => (
+              <a href={item.link} class="px-4  font-light">
+                {item.label}
+              </a>
+            ))
+          }
         </div>
       </div>
       <div

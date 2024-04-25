@@ -121,5 +121,5 @@ body{
 }
 .gradient-hero:before{
   content: "";
-  @apply  bg-[#04708F] blur-[100px] absolute -top-12 w-full h-[270px] z-10
+  @apply  bg-[#04708F] blur-[100px]  h-[270px] absolute -top-12 w-full z-10
 }
