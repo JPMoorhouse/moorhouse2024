@@ -109,6 +109,11 @@ export const industrialPainting = {
   schema: fields.object({
     title: fields.text({ label: "Title" }),
     subtitle: fields.text({ label: "Subtitle" }),
+    bgImage: fields.image({
+      label: "Background Image",
+      directory: "/public/images/",
+      publicPath: "/images",
+    }),
     Button: fields.object({
       label: fields.text({ label: "firstButton" }),
       link: fields.text({ label: "firstButton Slug" }),

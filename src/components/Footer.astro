@@ -1,5 +1,6 @@
 ---
 import FooterForm from "./FooterForm.astro";
+import Image from "astro/components/Image.astro";
 import keystaticConfig from "../../keystatic.config";
 const reader = createReader(process.cwd(), keystaticConfig);
 import { createReader } from "@keystatic/core/reader";
@@ -28,8 +29,13 @@ const footer: any = await reader.singletons.footer.read();
       class="custom-container flex justify-between flex-col lg:flex-row gap-12 lg:gap-0 items-start mt-24 lg:p-14"
     >
       <div class="lg:w-1/4 w-full gap-6">
-        <img src={footer.logo} alt="" width="138" height="110" />
-        <img
+        <Image
+          src={footer.logo}
+          alt="Moor House Footer Logo"
+          width="138"
+          height="110"
+        />
+        <Image
           src={footer.bedge}
           class="ml-3 mt-6"
           alt=""

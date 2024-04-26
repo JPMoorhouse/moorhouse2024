@@ -1,10 +1,10 @@
 ---
 import keystaticConfig from "../../keystatic.config";
+import { Image } from "astro:assets";
 const reader = createReader(process.cwd(), keystaticConfig);
 import { createReader } from "@keystatic/core/reader";
 const header: any = await reader.singletons.header.read();
 const topbar: any = await reader.singletons.topbar.read();
-console.log(topbar);
 ---
 
 <div class="bg-secondary relative z-50">
@@ -43,7 +43,7 @@ console.log(topbar);
       {
         topbar.social.map((item: any) => (
           <a href={item.link} aria-label={item.icontext}>
-            <img
+            <Image
               src={item.image}
               class="w-4 h-4"
               alt=""
@@ -59,7 +59,7 @@ console.log(topbar);
 <div class="custom-container bg-nav-gradient">
   <div class="relative lg:px-14 z-50 flex justify-between items-center gap-14">
     <div class="w-fit relative z-50">
-      <img src={header.logo} class="w-36" alt="" width="144" height="135" />
+      <Image src={header.logo} class="w-36" alt="" width="144" height="135" />
     </div>
     <div class="lg:w-full">
       <div
@@ -95,7 +95,7 @@ console.log(topbar);
         {
           topbar.social.map((item: any) => (
             <a href={item.link} aria-label={item.icontext}>
-              <img
+              <Image
                 src={item.image}
                 class="w-4 h-4"
                 alt=""
