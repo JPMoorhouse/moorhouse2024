@@ -2,7 +2,9 @@
 const { title, subtitle, Button } = Astro.props;
 ---
 
-<div class="font-body pt-16 pb-20 mb-16 lg:mt-16 lg:rounded-[90px] rounded-[30px]  w-full industry-bg bg-cover">
+<div
+  class="font-body pt-16 pb-20 mb-16 lg:mt-16 lg:rounded-[90px] rounded-[30px] w-full industry-bg bg-cover"
+>
   <!-- <div class="hero-bg"></div> -->
   <svg
     width="1128"
@@ -41,13 +43,13 @@ const { title, subtitle, Button } = Astro.props;
   <div class="custom-container relative z-[20]">
     <div class="lg:mx-12">
       <h1
-        class="lg:text-6xl md:text-5xl text-4xl lg:leading-[90px] text-start  text-black font-medium lg:w-[45%]"
+        class="lg:text-6xl md:text-5xl text-4xl lg:leading-[90px] text-start text-black font-medium lg:w-[45%]"
         set:html={title}
       />
       <p class="mt-6 mb-8 text-lg text-start lg:w-[45%]">{subtitle}</p>
       <a
-        href={Button.url}
-        class="rounded-full px-4 whitespace-nowrap py-3 gap-3 text-white bg-helper  w-fit  border border-helper flex justify-center items-center"
+        href={Button.link}
+        class="rounded-full px-4 whitespace-nowrap py-3 gap-3 text-white bg-helper w-fit border border-helper flex justify-center items-center"
       >
         {Button.label}
         <svg
