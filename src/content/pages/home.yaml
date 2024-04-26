@@ -95,9 +95,9 @@ blocks:
       pretitle: Slideshow Gallery
       heading: Our Completed Projects
       galleryImages:
-        - /images/home/blocks/3/value/galleryImages/0.png
-        - /images/home/blocks/3/value/galleryImages/1.png
-        - /images/home/blocks/3/value/galleryImages/2.png
+        - /images/home/blocks/3/value/galleryImages/0.webp
+        - /images/home/blocks/3/value/galleryImages/1.webp
+        - /images/home/blocks/3/value/galleryImages/2.webp
   - discriminant: WhatToExpect
     value:
       pretitle: Professional Commercial & Residential Painting
