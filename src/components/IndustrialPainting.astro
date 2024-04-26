@@ -1,9 +1,10 @@
 ---
-const { title, subtitle, Button } = Astro.props;
+const { title, subtitle, bgImage, Button } = Astro.props;
 ---
 
 <div
-  class="font-body pt-16 pb-20 mb-16 lg:mt-16 lg:rounded-[90px] rounded-[30px] w-full industry-bg bg-cover"
+  class="font-body pt-16 pb-20 mb-16 lg:mt-16 lg:rounded-[90px] rounded-[30px] w-full bg-cover"
+  style=`background-image: url(${bgImage});`
 >
   <!-- <div class="hero-bg"></div> -->
   <svg

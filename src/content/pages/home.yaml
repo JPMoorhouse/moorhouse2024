@@ -143,6 +143,7 @@ blocks:
     value:
       title: Commercial  & Industrial <span class="text-helper">Painting</span>
       subtitle: "Our experienced and qualified painters will help you achieve  the look and feel you desire.\_"
+      bgImage: /images/home/blocks/5/value/bgImage.webp
       Button:
         label: Get FREE Estimate
         link: '#'
