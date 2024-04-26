@@ -4,6 +4,7 @@ import Image from "astro/components/Image.astro";
 import keystaticConfig from "../../keystatic.config";
 const reader = createReader(process.cwd(), keystaticConfig);
 import { createReader } from "@keystatic/core/reader";
+import { lazy } from "react";
 const footer: any = await reader.singletons.footer.read();
 ---
 
@@ -30,6 +31,7 @@ const footer: any = await reader.singletons.footer.read();
     >
       <div class="lg:w-1/4 w-full gap-6">
         <Image
+          loading="lazy"
           src={footer.logo}
           alt="Moor House Footer Logo"
           width="138"

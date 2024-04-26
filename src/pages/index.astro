@@ -5,6 +5,7 @@ import Testimonial from "../components/Testimonial";
 import TwoCol from "../components/TwoCol.astro";
 import WhatToExpect from "../components/WhatToExpect";
 import { createReader } from "@keystatic/core/reader";
+import { Image } from "astro:assets";
 import keystaticConfig from "../../keystatic.config";
 import Layout from "../layouts/Layout.astro";
 import { getBlockValueByDiscriminant } from "../utils/getBlockValue";
@@ -50,10 +51,14 @@ const seodata = homePage?.seoData;
   image={seodata?.ogImage}
 >
   <div class="relative overflow-hidden">
-    <div
-      class="relative z-50 gradient-hero"
-      style={`width: 100%; height: 100%; border-radius: 0 0 60px 60px; background-image: url(${heroData.bgImage}); background-repeat: no-repeat; background-position: center; background-size: cover; z-index: 10;`}
-    >
+    <div class="z-50 gradient-hero relative rounded-b-[60px] overflow-hidden">
+      <Image
+        src={heroData.bgImage}
+        width={1920}
+        height={880}
+        alt="HOme Hero"
+        class="w-full h-full object-cover absolute top-0 bottom-0 left-0 right-0"
+      />
       <Header />
       <Hero {...heroData} />
     </div>

@@ -50,6 +50,7 @@ const WhatToExpect: React.FC<WhatToExpectProps> = ({ pretitle, heading, WhatToEx
                     src={slide.Cardicon}
                     className="bg-primary bg-opacity-15 mx-auto rounded-2xl p-2"
                     alt=""
+                    loading="lazy"
                     width={60}
                     height={60}
                   />
