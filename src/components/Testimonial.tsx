@@ -86,6 +86,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ pretitle, heading, Testimonia
                     <img
                       src={slide.author}
                       className=""
+                      loading="lazy"
                       alt=""
                       width={65}
                       height={65}

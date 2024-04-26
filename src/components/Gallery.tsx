@@ -25,7 +25,9 @@ const Gallery: React.FC<GalleryProps> = ({
     <div className=" lg:py-[90px] bg-[#DFDFDF33] lg:my-20 my-10 lg:rounded-[90px] rounded-[30px] py-16">
       <div className="custom-container">
         <p className="text-helper text-center">{pretitle}</p>
-        <h2 className="lg:text-6xl md:text-5xl text-4xl font-medium text-center mt-3">{heading}</h2>
+        <h2 className="lg:text-6xl md:text-5xl text-4xl font-medium text-center mt-3">
+          {heading}
+        </h2>
       </div>
 
       <div className="relative md:mt-[70px] mt-12">
@@ -39,7 +41,7 @@ const Gallery: React.FC<GalleryProps> = ({
             prevEl: ".prev",
             nextEl: ".next",
           }}
-          modules={[Navigation,Pagination]}
+          modules={[Navigation, Pagination]}
           pagination={{
             clickable: true,
           }}
@@ -49,7 +51,12 @@ const Gallery: React.FC<GalleryProps> = ({
             <SwiperSlide key={index}>
               <div>
                 <div className="border border-[#F1F1F1] rounded-[50px]  ">
-                  <img src={slide} className="w-full lg:h-[500px]" alt=""/>
+                  <img
+                    loading="lazy"
+                    src={slide}
+                    className="w-full lg:h-[500px]"
+                    alt=""
+                  />
                 </div>
               </div>
             </SwiperSlide>
@@ -111,7 +118,6 @@ const Gallery: React.FC<GalleryProps> = ({
           </div>
         </div>
       </div>
-      
     </div>
   );
 };

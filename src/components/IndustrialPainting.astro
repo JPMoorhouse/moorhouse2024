@@ -1,12 +1,20 @@
 ---
+import { Image } from "astro:assets";
+
 const { title, subtitle, bgImage, Button } = Astro.props;
 ---
 
 <div
-  class="font-body pt-16 pb-20 mb-16 lg:mt-16 lg:rounded-[90px] rounded-[30px] w-full bg-cover"
-  style=`background-image: url(${bgImage});`
+  class="font-body pt-16 pb-20 mb-16 lg:mt-16 lg:rounded-[90px] rounded-[30px] w-full relative overflow-hidden"
 >
-  <!-- <div class="hero-bg"></div> -->
+  <Image
+    src={bgImage}
+    alt=""
+    loading="lazy"
+    class="w-full h-full absolute top-0 left-0 right-0 bottom-0 object-cover"
+    width={1200}
+    height={900}
+  />
   <svg
     width="1128"
     height="683"
