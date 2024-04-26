@@ -79,9 +79,9 @@ const Testimonial: React.FC<TestimonialProps> = ({ pretitle, heading, Testimonia
                       )
                     )}
                   </div>
-                  <h3 className="md:text-xl text-base mb-12  text-center font-light leading-8">
+                  <p className="md:text-xl text-base mb-12  text-center font-light leading-8">
                     {slide.cardText}
-                  </h3>
+                  </p>
                   <div className="flex justify-center gap-2 items-center">
                     <img
                       src={slide.author}
