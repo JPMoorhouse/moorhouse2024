@@ -7,7 +7,7 @@ Sitemap:
     link: /
   - label: About
     link: /about
-  - label: Blog
+  - label: Our blog
     link: '#'
   - label: Services
     link: /services
