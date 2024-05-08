@@ -29,7 +29,7 @@ OurServices:
   - label: Coating
     link: '#'
 OpeningHours:
-  openHours: ' Monday-Friday 7:00am to 6:00pm'
+  openHours: ' Monday-Friday '
   openDays: Saturday-Sunday Closed
   Button:
     label: ' Get FREE Estimate'
