@@ -7,7 +7,7 @@ Sitemap:
     link: /
   - label: About
     link: /about
-  - label: Our blog
+  - label: Blog
     link: '#'
   - label: Services
     link: /services
@@ -24,9 +24,9 @@ OurServices:
     link: '#'
   - label: Exterior Staining
     link: '#'
-  - label: Other Service Here
+  - label: Handyman
     link: '#'
-  - label: Special Requests
+  - label: Coating
     link: '#'
 OpeningHours:
   openHours: ' Monday-Friday 7:00am to 6:00pm'
