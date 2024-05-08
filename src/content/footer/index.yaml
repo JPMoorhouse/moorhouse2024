@@ -24,12 +24,10 @@ OurServices:
     link: '#'
   - label: Exterior Staining
     link: '#'
-  - label: Handyman
-    link: '#'
-  - label: Coating
+  - label: Other Service Here
     link: '#'
 OpeningHours:
-  openHours: ' Monday-Friday '
+  openHours: ' Monday-Friday 10AM - 6PM'
   openDays: Saturday-Sunday Closed
   Button:
     label: ' Get FREE Estimate'
@@ -37,19 +35,15 @@ OpeningHours:
 locations:
   title: Moorhouse Painting Locations
   location:
-    - label: Phoenix
-      link: '#'
-    - label: Palm Desert
+    - label: Park City
       link: '#'
     - label: Los Angeles
       link: '#'
-    - label: Salt Lake City
+    - label: Palm Desert
       link: '#'
-    - label: Park City
+    - label: Phoenix
       link: '#'
     - label: St George
-      link: '#'
-    - label: Austin
       link: '#'
 otherlinks:
   - label: Privacy Policy
