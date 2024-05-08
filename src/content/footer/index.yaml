@@ -29,7 +29,7 @@ OurServices:
   - label: Special Requests
     link: '#'
 OpeningHours:
-  openHours: ' Monday-Friday 10AM - 6PM'
+  openHours: ' Monday-Friday 7:00am to 6:00pm'
   openDays: Saturday-Sunday Closed
   Button:
     label: ' Get FREE Estimate'
