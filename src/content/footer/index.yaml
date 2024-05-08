@@ -37,23 +37,23 @@ OpeningHours:
 locations:
   title: Moorhouse Painting Locations
   location:
-    - label: Perth
+    - label: Phoenix
       link: '#'
-    - label: Duncraig
+    - label: Palm Desert
       link: '#'
-    - label: Hillary
+    - label: Los Angeles
       link: '#'
-    - label: Marmion
+    - label: Salt Lake City
       link: '#'
-    - label: Karrinyup
+    - label: Park City
       link: '#'
-    - label: Kingsley
+    - label: Ogden
       link: '#'
-    - label: Woodvale
+    - label: St George
       link: '#'
-    - label: Mindarie
+    - label: Tucson
       link: '#'
-    - label: Floreat
+    - label: Austin
       link: '#'
 otherlinks:
   - label: Privacy Policy
