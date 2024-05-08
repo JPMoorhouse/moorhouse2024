@@ -2,6 +2,7 @@ title: About
 seoData:
   seoTitle: About Moorhouse Coating
   seoDesription: About Moorhouse Coating
+  ogImage: /images/seo/about/seoData/ogImage.webp
 blocks:
   - discriminant: FrequentlyAskedQuestions
     value:
