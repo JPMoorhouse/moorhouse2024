@@ -2,4 +2,13 @@ title: About
 seoData:
   seoTitle: About Moorhouse Coating
   seoDesription: About Moorhouse Coating
-blocks: []
+blocks:
+  - discriminant: FrequentlyAskedQuestions
+    value:
+      pretitle: How many years in business
+      heading: How many years have you been in business?
+      FrequentlyAskedQuestions:
+        - title: How many years have you been in business?
+          answer: >-
+            We have been painting and staining homes since 1997, roughly 25
+            years
