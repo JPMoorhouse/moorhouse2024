@@ -17,7 +17,7 @@ Sitemap:
     link: /testimonials
 OurServices:
   - label: Residential Painting
-    link: /residential-painting
+    link: '#'
   - label: Commercial Painting
     link: '#'
   - label: Exterior Painting
