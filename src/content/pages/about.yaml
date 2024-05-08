@@ -13,3 +13,11 @@ blocks:
           answer: >-
             We have been painting and staining homes since 1997, roughly 25
             years
+  - discriminant: aboutmoorhouse
+    value:
+      pretitle: Stuff about moorhouse
+      heading: Stuff about moorhouse
+      title: Stuff about moorhouse
+      subtitle: Stuff about moorhouse
+      description: Stuff about moorhouse
+      Button: {}
