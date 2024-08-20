@@ -6,11 +6,16 @@ import {
   testimonials,
   whatToExpect,
   whatWeOffer,
-  gallerys,
+  gallery,
   industrialPainting,
   frequentlyAskedQuestions,
   aboutmoorhouse,
-  locallyOwnedBusiness
+  locallyOwnedBusiness,
+  subServiceCards,
+  twoColumnWithTitle,
+  sectionTitleDescription,
+  serviceGallery,
+  heroWithBanner,
 } from "./src/blocks";
 
 export default config({
@@ -44,10 +49,12 @@ export default config({
         blocks: fields.blocks(
           {
             hero,
+            heroWithBanner,
             aboutmoorhouse,
             twoColumn,
+            sectionTitleDescription,
             whatWeOffer,
-            gallerys,
+            gallery,
             locallyOwnedBusiness,
             whatToExpect,
             industrialPainting,
@@ -84,7 +91,7 @@ export default config({
             aboutmoorhouse,
             twoColumn,
             whatWeOffer,
-            gallerys,
+            gallery,
             whatToExpect,
             locallyOwnedBusiness,
             industrialPainting,
@@ -95,6 +102,70 @@ export default config({
         ),
       },
     }),
+    serviceCategory: collection({
+      label: "Service Category Pages",
+      slugField: "title",
+      path: "src/content/service-category/*",
+      schema: {
+        title: fields.slug({
+          name: {
+            label: "Page Title",
+          },
+        }),
+        seoData: fields.object({
+          seoTitle: fields.text({ label: "SEO Title" }),
+          seoDesription: fields.text({ label: "SEO Description" }),
+          ogImage: fields.image({
+            label: "Open Graph Image",
+            directory: "/public/images/seo/",
+            publicPath: "/images/seo/",
+          }),
+        }),
+        blocks: fields.blocks(
+          {
+            twoColumnWithTitle,
+            subServiceCards,
+            gallery,
+            industrialPainting,
+            frequentlyAskedQuestions,
+            testimonials,
+          },
+          { label: "Blocks" }
+        ),
+      },
+    }),
+    singleServices: collection({
+      label: "Single Services",
+      slugField: "title",
+      path: "src/content/single-service/*",
+      schema: {
+        title: fields.slug({
+          name: {
+            label: "Page Title",
+          },
+        }),
+        seoData: fields.object({
+          seoTitle: fields.text({ label: "SEO Title" }),
+          seoDesription: fields.text({ label: "SEO Description" }),
+          ogImage: fields.image({
+            label: "Open Graph Image",
+            directory: "/public/images/seo/",
+            publicPath: "/images/seo/",
+          }),
+        }),
+
+        blocks: fields.blocks(
+          {
+            sectionTitleDescription,
+            serviceGallery,
+            industrialPainting,
+            gallery,
+            testimonials,
+          },
+          { label: "Blocks" }
+        ),
+      },
+     })
   },
   singletons: {
     header: singleton({

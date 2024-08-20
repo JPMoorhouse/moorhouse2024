@@ -118,7 +118,7 @@ const topbar: any = await reader.singletons.topbar.read();
                 }
             </div>
             <div
-                class="lg:flex lg:rounded-b-3xl rounded-b-[30px] lg:flex-row hidden flex-col lg:static absolute top-0 left-0 lg:right-0 l lg:bg-transparent bg-primary w-full justify-end items-center lg:pb-0 pb-4 text-white text-sm gap-8 lg:pt-6 pt-40"
+                class="lg:flex lg:rounded-b-3xl rounded-b-[30px] lg:flex-row hidden flex-col lg:static absolute top-0 left-0 lg:right-0 l lg:bg-transparent bg-primary w-full justify-start items-center lg:pb-0 pb-4 text-white text-sm gap-8 lg:pt-6 pt-40"
                 id="menu-items"
             >
                 {
@@ -127,7 +127,7 @@ const topbar: any = await reader.singletons.topbar.read();
                     ))
                 }
 
-                <div class="flex justify-center items-center gap-4">
+                <div class="flex justify-end items-center gap-4">
                     <a
                         href={header.button[0].buttonSlug}
                         class="rounded-full px-4 py-2 gap-3 text-sm whitespace-nowrap bg-transparent border border-white flex text-white justify-center items-center w-fit"

@@ -138,3 +138,7 @@ p{
   content: "";
   @apply  bg-[#04708F] blur-[100px]  h-[270px] absolute -top-12 w-full z-10
 }
+.blue-gradient:before{
+  content: "";
+  @apply  bg-purple/30 h-full absolute w-full z-10
+}

@@ -30,7 +30,7 @@ interface blockProps {
             {block.discriminant == "hero" && <Hero {...block.value} />}
             {block.discriminant == "aboutmoorhouse" && <AboutMoorehouse {...block.value} />}
             {block.discriminant == "whatWeOffer" && <WhatWeOffer {...block.value} />}
-            {block.discriminant == "gallerys" && <Gallery {...block.value} client:only />}
+            {block.discriminant == "gallery" && <Gallery {...block.value} client:only />}
             {block.discriminant == "whatToExpect" && <WhatToExpect {...block.value} />}
             {block.discriminant == "industrialPainting" && <IndustrialPainting {...block.value} />}
             {block.discriminant == "twoColumn" && <TwoCol {...block.value} />}

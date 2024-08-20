@@ -35,11 +35,16 @@ export const aboutmoorhouse = {
     }),
   }),
 };
-export const sectionTitleDescription={
+export const sectionTitleDescription = {
   label: "Section Title With Description",
+  schema: fields.object({
+    pretitle: fields.text({ label: "Pretitle" }),
+    title: fields.text({ label: "Title" }),
+    description: fields.markdoc.inline({ label: "Description" }),
+  }),
 }
 export const twoColumn = {
-  label: "Two Column Section",
+  label: "Two Column Cards",
   schema: fields.object({
     cardWithImage: fields.array(
       fields.object({
@@ -96,7 +101,7 @@ export const whatWeOffer = {
     }),
   }),
 };
-export const gallerys = {
+export const gallery = {
   label: "Gallery",
   schema: fields.object({
     pretitle: fields.text({ label: "Pretitle" }),
@@ -223,3 +228,84 @@ export const locallyOwnedBusiness ={
   })
   })
 }
+export const subServiceCards ={
+  label: "Sub Service Cards",
+  schema: fields.object({
+    cards: fields.array(
+      fields.object({
+        title: fields.text({label: "Card Title"}),
+        description: fields.text({label: "Card Description"}),
+        image: fields.image({
+          label: "Card Image",
+          directory: "/public/images/",
+          publicPath: "/images",
+        }),
+        link: fields.text({label: "Link"})
+      }),
+      {
+        label: "Sub Service Card",
+        itemLabel: (props) => props.fields.title.value,
+      }
+    )
+  })
+}
+export const twoColumnWithTitle ={
+  label: "Two Column Section With Title",
+  schema: fields.object({
+    pretitle: fields.text({label: "Pre Title"}),
+    title: fields.text({label: "Title"}),
+    cards: fields.array(
+      fields.object({
+        title: fields.text({label: "Card Title"}),
+        description: fields.markdoc.inline({label: "Card Description"}),
+        image: fields.image({
+          label: "Card Image",
+          directory: "/public/images/",
+          publicPath: "/images",
+        }),
+      }),
+      {
+        label: "Two Column Section With Title",
+        itemLabel: (props) => props.fields.title.value,
+      }
+    )
+  })
+}
+export const serviceGallery = {
+  label: "Service Gallery",
+  schema: fields.object({
+    featuredImage: fields.image({
+      label: "Featured Image",
+      directory: "/public/images/",
+      publicPath: "/images",
+    }),
+    galleryImages: fields.array(
+      fields.image({
+        label: "Gallery Image",
+        directory: "/public/images/",
+        publicPath: "/images",
+      })
+    )
+  })
+}
+
+export const heroWithBanner = {
+  label: "Hero With Banner",
+  schema: fields.object({
+    title: fields.text({ label: "Title" }),
+    subtitle: fields.text({ label: "Subtitle" }),
+    bgImage: fields.image({
+      label: "Hero background image",
+      directory: "/public/images/",
+      publicPath: "/images/",
+    }),
+    banner: fields.object({
+      title: fields.text({ label: "Banner Title" }),
+      button: fields.object({
+        label: fields.text({ label: "Button Label" }),
+        link: fields.text({ label: "Button Link" }),
+      }),
+    }),
+  }),
+  
+};

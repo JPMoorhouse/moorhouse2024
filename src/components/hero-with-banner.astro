@@ -1,0 +1,45 @@
+---
+const { title,subtitle,bgImage ,banner} = Astro.props;
+import { Image } from "astro:assets";
+import Banner from "./Banner.astro";
+---
+
+<div class="relative bg-black/10">
+    <!-- Adjust this negative margin to match your header height -->
+    <div class="blue-gradient relative rounded-b-[60px] overflow-hidden">
+        <Image
+            src={bgImage}
+            width={1920}
+            height={880}
+            alt="Home Hero"
+            class="w-full h-full object-cover absolute top-0 bottom-0 left-0 right-0"
+        />
+        <div
+            class="font-body pt-[200px] lg:pb-[149px] pb-20 relative w-full text-white"
+        >
+            <div class="custom-container relative z-[20]">
+                <div class="lg:mx-12 lg:mt-12">
+                    <h1
+                        class="lg:text-[80px] lg:leading-[90px] text-start md:text-6xl text-5xl text-white font-medium lg:w-[45%]"
+                        set:html={title}
+                    />
+                    <p class="mt-6 mb-8 text-lg text-start">{subtitle}</p>
+                    
+                </div>
+                {
+                    banner.title && (
+                        <div class="lg:mt-12 mt-6">
+                            <Banner
+                                bgColor="bg-purple"
+                                title={banner.title}
+                                buttonText={banner.text}
+                                buttonSlug={banner.slug}
+                            />
+                        </div>
+                    )
+
+                }
+            </div>
+        </div>
+    </div>
+</div>

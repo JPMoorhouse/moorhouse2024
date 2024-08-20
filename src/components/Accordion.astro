@@ -9,7 +9,7 @@ const { title, answer }: props = Astro.props;
 
 <div class="group">
   <div
-    class="accordion-item duration-200 my-7 lg:px-12 md:px-6 px-4 cursor-pointer rounded-2xl md:rounded-[30px] group-hover:bg-secondary border"
+    class="accordion-item duration-200 my-7 lg:px-12 md:px-6 px-4 cursor-pointer rounded-2xl md:rounded-[30px] group-hover:bg-purple border"
   >
     <button
       class="accordion-header flex justify-between items-center gap-4 w-full py-6"
@@ -24,15 +24,15 @@ const { title, answer }: props = Astro.props;
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          class="shrink-0 w-5 h-5"
+          width="15"
+          height="15"
+          class="shrink-0"
         >
           <path fill="white" d="M14 7H9V2H7v5H2v2h5v5h2V9h5V7z"></path>
         </svg>
       </div>
     </button>
-    <div class="accordion-content overflow-hidden hidden pb-6 text-white">
+    <div class="accordion-content overflow-hidden hidden pb-6 text-black group-hover:text-white">
       <p>{answer}</p>
     </div>
 
@@ -55,13 +55,9 @@ const { title, answer }: props = Astro.props;
     </script>
 
     <style>
-      /* Place your Tailwind CSS styles here */
-
       .accordion {
         @apply mb-10;
       }
-
-      /* ... other Tailwind styles ... */
     </style>
   </div>
 </div>

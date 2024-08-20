@@ -5,6 +5,7 @@ import { createReader } from "@keystatic/core/reader";
 import keystaticConfig from "keystatic.config";
 import WhatToExpect from "@components/WhatToExpect.astro";
 import Hero from "@components/Hero.astro";
+import LocalOwnedBusiness from "@components/localOwnedBusiness.astro"
 import TwoCol from "@components/TwoCol.astro";
 import Testimonial from "@components/Testimonial";
 import AboutMoorehouse from "@components/about-moorehouse.astro";
@@ -12,21 +13,22 @@ import Gallery from "@components/Gallery";
 import IndustrialPainting from "@components/IndustrialPainting.astro";
 import Faq from "@components/Faq.astro";
 import { getEntry } from "astro:content";
-import LocalOwnedBusiness from "@components/local-owned-business.astro";
+import HeroWithBanner from "@components/hero-with-banner.astro";
 export async function getStaticPaths() {
     const reader = createReader(process.cwd(), keystaticConfig);
-    const Locations = await reader.collections.locations.all();
-    return Locations.map(({ slug }) => {
+    const Locations = await reader.collections.Pages.all();
+    return Locations.filter(({ slug }) => slug !== 'home').map(({ slug }) => {
         return {
             params: { slug },
-           
         };
     });
 }
 
+
 const { slug } = Astro.params;
-const locationData:any = await getEntry("locations",slug)
+const locationData:any = await getEntry("pages",slug)
 const data = locationData.data
+console.log(data.blocks)
 ---
 
 <Layout
@@ -38,6 +40,7 @@ const data = locationData.data
         data?.blocks.map((block: any) => (
             <main class="">
             {block.discriminant == "hero" && <Hero {...block.value} />}
+            {block.discriminant == "heroWithBanner" && <HeroWithBanner {...block.value} />}
             {block.discriminant == "aboutmoorhouse" && <AboutMoorehouse {...block.value} />}
             {block.discriminant == "whatWeOffer" && <WhatWeOffer {...block.value} />}
             {block.discriminant == "gallery" && <Gallery {...block.value} client:only />}
