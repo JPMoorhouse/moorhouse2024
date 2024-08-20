@@ -1,46 +1,71 @@
 ---
-import TwoCol from "./TwoCol.astro";
+import Banner from "./Banner.astro";
 interface card {
-  Cardicon: string;
-  cardText: string;
-  cardDescription: string;
+    cardIcon: string;
+    cardText: string;
+    cardDescription: string;
 }
 
 interface WhatWeOfferProps {
-  pretitle: string;
-  heading: string;
-  whatweoffer: card[];
+    pretitle: string;
+    heading: string;
+    banner: any;
+    bgImage: string;
+    featureCards: card[];
 }
 // @ts-ignore
-const { pretitle, heading, whatweoffer, bgImage }: WhatWeOfferProps =
-  Astro.props; // Access data prop directly
+const { pretitle, heading, featureCards, banner, bgImage }: WhatWeOfferProps =
+    Astro.props; // Access data prop directly
 ---
 
 <div
-  class="font-body rounded-[30px] lg:mt-16 mt-8 lg:mx-12 mx-6 bg-[#047291] overflow-hidden"
+    class="lg:py-[85px] font-body py-12 rounded-[30px] lg:my-16 my-8 lg:mx-12 mx-6 relative bg-cover bg-center overflow-hidden"
+    style={`background-image: url(${bgImage});background-size:cover;background-position:center;`}
 >
-  <div
-    class="h-full lg:py-[85px] py-12 bg-cover bg-top relative"
-    style={`background-image: url(${bgImage})`}
-  >
-    <div class="h-full w-full bg-[#047291] opacity-50 absolute top-0 bottom-0">
+    <div class="h-full w-full bg-purple/85 absolute top-0"></div>
+    <div
+        class="relative z-50 custom-container flex flex-col h-full justify-center items-center"
+    >
+        <p class="text-secondary text-center text-lg mb-5">{pretitle}</p>
+        <h2
+            class="lg:text-6xl md:text-5xl text-4xl xl:w-[60%] lg:leading-[70px] mx-auto font-medium text-center text-white"
+        >
+            {heading}
+        </h2>
+        {
+            featureCards.length > 0 && (
+                <div class="">
+                    <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 lg:mt-28 mt-16">
+                        {featureCards.map((item: card) => (
+                            <div>
+                                <img
+                                    src={item.cardIcon}
+                                    alt={"Image Description"}
+                                    class="w-16 bg-white rounded-xl p-4 h-16"
+                                />
+                                <h6 class="my-6 font-medium text-white text-base">
+                                    {item.cardText}
+                                </h6>
+                                <p class="text-white opacity-90">
+                                    {item.cardDescription}
+                                </p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            )
+        }
+        {
+            banner.title && (
+                <div class="lg:mt-24 mt-16 w-full">
+                    <Banner
+                        bgColor="bg-black bg-opacity-25"
+                        title={banner.title}
+                        buttonText={banner.text}
+                        buttonSlug={banner.slug}
+                    />
+                </div>
+            )
+        }
     </div>
-    <div class="relative z-50 custom-container">
-      <p class="text-secondary text-center text-lg mb-5">{pretitle}</p>
-      <h2
-        class="lg:text-6xl md:text-5xl text-4xl xl:w-[60%] lg:leading-[70px] mx-auto font-medium text-center text-white"
-      >
-        {heading}
-      </h2>
-    </div>
-  </div>
-</div>
-<div class="lg:my-[39px] my-12">
-  {
-    whatweoffer.map((item: card, index: number) => (
-      <div class="md:py-16 py-6">
-        <TwoCol {...item} index={index + 1} steps />
-      </div>
-    ))
-  }
 </div>

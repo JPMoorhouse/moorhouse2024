@@ -1,0 +1,91 @@
+---
+import { Image } from "astro:assets";
+import Banner from "./Banner.astro";
+const {pretitle,title,card,banner} = Astro.props;
+---
+
+<section class="bg-[#f9f9f9] rounded-b-3xl">
+<div class="custom-container lg:mt-10 lg:py-20 py-16">
+    {
+        pretitle && title && (
+            <>
+                <p class="text-helper text-center">{pretitle}</p>
+                <h2 class="lg:text-6xl md:text-5xl text-4xl font-medium font-body text-center mt-3 !leading-tight">
+                    {title}
+                </h2>
+            </>
+        )
+    }
+    {
+        card &&
+       (
+                <div
+                    class=" flex gap-16 justify-between lg:flex-row flex-col-reverse lg:px-12 items-center my-14"
+                >
+                    <div class="lg:w-1/2 w-full relative">
+                        <div class="size-full internal-shadow absolute top-0 bottom-0 left-0 right-0 rounded-[45px] z-40"></div>
+                        <Image
+                            src={card.image}
+                            alt=""
+                            class="w-full rounded-[45px] z-0"
+                            width="500"
+                            height="450"
+                        />
+                    </div>
+                    <div class="lg:w-1/2 w-full">
+                        <h3 class="lg:text-4xl md:text-3xl font-body text-2xl font-medium md:mb-6 mb-3">
+                            {card.title}
+                        </h3>
+                        <div
+                            class="text-lg opacity-80 font-normal md:mb-12 mb-3 leading-[29px]"
+                            set:html={card.description}
+                        />
+                        {card.Button && card.Button.label && (
+                            <a
+                                href={card.Button.link}
+                                class="rounded-full px-6 gap-4 py-3 border border-black flex justify-center items-center w-fit"
+                            >
+                                {card.Button.label}
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="26"
+                                    height="27"
+                                    viewBox="0 0 26 27"
+                                    fill="none"
+                                >
+                                    <g clip-path="url(#clip0_1_113)">
+                                        <path
+                                            d="M25.4522 12.0389L20.3525 6.93921L19.5881 7.70358L24.5808 12.6963H0V13.7774H24.5786L19.587 18.769L20.3514 19.5334L25.4522 14.4326C26.1117 13.7731 26.1117 12.6984 25.4522 12.0389Z"
+                                            fill="black"
+                                        />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1_113">
+                                            <rect
+                                                width="25.9474"
+                                                height="25.9474"
+                                                fill="white"
+                                                transform="translate(0 0.263184)"
+                                            />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        )}
+                    </div>
+                </div>
+            )
+    }
+    {
+        banner.title &&  
+        <div class=" lg:px-12">
+        <Banner
+                        bgColor="bg-purple"
+                        title={banner.title}
+                        buttonText={banner.text}
+                        buttonSlug={banner.slug}
+                    />
+                    </div>
+    }
+</div>
+</section>

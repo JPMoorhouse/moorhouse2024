@@ -3,7 +3,7 @@ seoData:
   seoTitle: MoorHouse Coating
   seoDesription: Professional Painting Contractor serving the Southwest
 blocks:
-  - discriminant: Hero
+  - discriminant: hero
     value:
       title: Commercial & Industrial <span class="text-secondary">Painting</span>
       subtitle: Professional Painting Contractor with Roots in Park City, Utah.
@@ -14,127 +14,122 @@ blocks:
   - discriminant: aboutmoorhouse
     value:
       pretitle: Welcome to Moorhouse Coating
-      heading: Your Locally Owned Commercial  & Industrial Painters
-      title: About Moorhouse Coating
-      subtitle: >-
-        Moorhouse Coating is a professional painting contractor Serving the
-        Southwest with roots in Park City, Summit County Utah.
-      description: >-
-        For over 20 years we have provided both professional and technical paint
-        and stain solutions for residential and commercial properties in Summit
-        County, as well as, all surrounding mountain communities. Our goal is to
-        remove the headache from your painting and staining project.
-      image: /images/home/blocks/1/value/image.webp
-      Button:
-        label: Our Services
-        url: '#'
-  - discriminant: WhatWeOffer
+      sectionTitle: Proudly Serving the Southwest United States
+      card:
+        title: About Moorhouse Coating
+        description: >
+          ***Moorhouse Coating is a professional painting contractor Serving the
+          Southwest with roots in Park City, Summit County Utah.*** \
+
+          \
+
+          Founded in 1997,&nbsp; Moorhouse Coating began with a vision of making
+          residential and commercial painting services easier and more
+          convenient for property owners and commercial managers.&nbsp; From the
+          beginning, Moorhouse took on large commercial&nbsp;painting projects,
+          while maintaining the personal touch of a small company. Moorhouse
+          aims to reassure customers thru it’s expertise and personalized
+          service thru professional painting, staining, coating operations.\
+
+          \
+        image: /images/home/blocks/1/value/card/image.png
+        Button:
+          label: Learn more
+          url: /about-us
+  - discriminant: whatWeOffer
     value:
       pretitle: What We Offer
       heading: We Tailor Our Services To Suit Your Needs.
       bgImage: /images/home/blocks/2/value/bgImage.webp
-      whatweoffer:
-        - image: /images/home/blocks/2/value/whatweoffer/0/image.webp
-          title: Residential Painting
-          subtitle: >-
-            Moorhouse Painting believes in providing our customers with
-            solutions and outstanding service.
+      featureCards: []
+      banner:
+        button: {}
+  - discriminant: twoColumn
+    value:
+      cardWithImage:
+        - title: Exterior Residential Painting
           description: >-
-            As such, we understand how to help you achieve your vision with both
-            interior and exterior painting needs. With customer satisfaction in
-            mind, we tailor our services to suit your needs. As a result
-            Moorhouse painting is proud to have built strong and long lasting
-            relationships with homeowners and developers alike.
+            Painting the exterior of your house is about more than just curb
+            appeal. The right paint provides a protective layer between your
+            home and the elements, preventing costly damage to siding, trim and
+            other materials. With proper prep work and the right paint for the
+            job, you can expect your home’s paint job to look great and stand up
+            to the conditions for several years.
+          image: /images/home/blocks/3/value/cardWithImage/0/image.png
           Button:
-            label: Get FREE Estimate
-            url: '#'
-        - image: /images/home/blocks/2/value/whatweoffer/1/image.webp
-          title: 'Commercial Painting '
-          subtitle: >-
-            Moorhouse Painting believes in providing our customers with
-            solutions and outstanding service.
+            text: Learn more
+            slug: /exterior-residential-painting
+        - title: Interior Residential Painting
+          description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint.\nNo matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
+          image: /images/home/blocks/3/value/cardWithImage/1/image.png
+          Button:
+            text: Learn more
+        - title: Commercial Painting
           description: >-
-            As such, we understand how to help you achieve your vision with both
-            interior and exterior painting needs. With customer satisfaction in
-            mind, we tailor our services to suit your needs. As a result
-            Moorhouse painting is proud to have built strong and long lasting
-            relationships with homeowners and developers alike.
+            Knowledgeable, professional and experienced, Moorhouse Coating
+            provides superior commercial painting services at an affordable
+            rate. We specialize in delivering quality painting that makes your
+            business look great, while minimizing disruption to your normal
+            operations.
+          image: /images/home/blocks/3/value/cardWithImage/2/image.png
           Button:
-            label: Get FREE Estimate
-            url: '#'
-        - image: /images/home/blocks/2/value/whatweoffer/2/image.webp
-          title: 'Exterior Staining '
-          subtitle: >-
-            Moorhouse Painting believes in providing our customers with
-            solutions and outstanding service.
+            text: Learn more
+        - title: Industrial Painting
           description: >-
-            As such, we understand how to help you achieve your vision with both
-            interior and exterior painting needs. With customer satisfaction in
-            mind, we tailor our services to suit your needs. As a result
-            Moorhouse painting is proud to have built strong and long lasting
-            relationships with homeowners and developers alike.
+            There are several important factors to consider when planning and
+            completing an industrial painting project. These factors include
+            substrate material, chemical exposure, atmospheric conditions, and
+            required lifespan of the new coating system. Working with an
+            experienced industrial painting contractor with many years of
+            experience can be the difference in the success of a project.
+          image: /images/home/blocks/3/value/cardWithImage/3/image.png
           Button:
-            label: Get FREE Estimate
-            url: '#'
-        - image: /images/home/blocks/2/value/whatweoffer/3/image.webp
-          title: Exterior Painting
-          subtitle: >-
-            Moorhouse Painting believes in providing our customers with
-            solutions and outstanding service.
-          description: >-
-            As such, we understand how to help you achieve your vision with both
-            interior and exterior painting needs. With customer satisfaction in
-            mind, we tailor our services to suit your needs. As a result
-            Moorhouse painting is proud to have built strong and long lasting
-            relationships with homeowners and developers alike.
-          Button:
-            label: Get FREE Estimate
-            url: '#'
-  - discriminant: Gallerys
+            text: Learn more
+  - discriminant: gallerys
     value:
       pretitle: Slideshow Gallery
       heading: Our Completed Projects
       galleryImages:
-        - /images/home/blocks/3/value/galleryImages/0.webp
-        - /images/home/blocks/3/value/galleryImages/1.webp
-        - /images/home/blocks/3/value/galleryImages/2.webp
-  - discriminant: WhatToExpect
+        - /images/home/blocks/4/value/galleryImages/0.webp
+        - /images/home/blocks/4/value/galleryImages/1.webp
+        - /images/home/blocks/4/value/galleryImages/2.webp
+  - discriminant: whatToExpect
     value:
       pretitle: Professional Commercial & Residential Painting
       heading: What To Expect When You Hire Moorhouse Coating
-      WhatToExpect:
-        - Cardicon: /images/home/blocks/4/value/WhatToExpect/0/Cardicon.svg
+      cards:
+        - cardIcon: /images/home/blocks/5/value/cards/0/cardIcon.svg
           cardText: Effective Communication Throughout The Process
           cardDescription: >-
             The Key to a successful project is found in good communication. As a
             licensed painting contractor, we have years of experience performing
             quality for commercial and residential clients.
-        - Cardicon: /images/home/blocks/4/value/WhatToExpect/1/Cardicon.svg
-          cardText: We Value Integrity & Honesty
+        - cardIcon: /images/home/blocks/5/value/cards/1/cardIcon.svg
+          cardText: We Value Integrity <br/> & Honesty
           cardDescription: >-
             To Paint with integrity we must be open and forthright, even when
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
-        - Cardicon: /images/home/blocks/4/value/WhatToExpect/2/Cardicon.svg
-          cardText: Over 20+ Years Experience
+        - cardIcon: /images/home/blocks/5/value/cards/2/cardIcon.svg
+          cardText: Over 20+ Years <br/> Experience
           cardDescription: >-
             Our 20+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
-        - Cardicon: /images/home/blocks/4/value/WhatToExpect/3/Cardicon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/3/cardIcon.svg
           cardText: Effective Communication Throughout The Process
           cardDescription: >-
             The Key to a successful project is found in good communication. As a
             licensed painting contractor, we have years of experience performing
             quality for commercial and residential clients.
-        - Cardicon: /images/home/blocks/4/value/WhatToExpect/4/Cardicon.svg
-          cardText: We Value Integrity & Honesty
+        - cardIcon: /images/home/blocks/5/value/cards/4/cardIcon.svg
+          cardText: We Value Integrity <br/> & Honesty
           cardDescription: >-
             To Paint with integrity we must be open and forthright, even when
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
-        - Cardicon: /images/home/blocks/4/value/WhatToExpect/5/Cardicon.svg
-          cardText: Over 20+ Years Experience
+        - cardIcon: /images/home/blocks/5/value/cards/5/cardIcon.svg
+          cardText: Over 20+ Years <br/> Experience
           cardDescription: >-
             Our 20+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
@@ -143,52 +138,11 @@ blocks:
     value:
       title: Commercial  & Industrial <span class="text-helper">Painting</span>
       subtitle: "Our experienced and qualified painters will help you achieve  the look and feel you desire.\_"
-      bgImage: /images/home/blocks/5/value/bgImage.webp
+      bgImage: /images/home/blocks/6/value/bgImage.webp
       Button:
         label: Get FREE Estimate
         link: '#'
-  - discriminant: Testimonials
-    value:
-      pretitle: Customer Testimonials
-      heading: What People Say About Us
-      Testimonials:
-        - rating: 5
-          cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip
-          author: /images/home/blocks/6/value/Testimonials/0/author.png
-          authorName: Chris Michael
-          authorpost: Park City
-        - rating: 5
-          cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          author: /images/home/blocks/6/value/Testimonials/1/author.png
-          authorName: Chris Michael
-          authorpost: Park City
-        - rating: 3
-          cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          author: /images/home/blocks/6/value/Testimonials/2/author.png
-          authorName: Chris Michael
-          authorpost: Park City
-        - rating: 5
-          cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          author: /images/home/blocks/6/value/Testimonials/3/author.png
-          authorName: Chris Michael
-          authorpost: Park City
-  - discriminant: FrequentlyAskedQuestions
+  - discriminant: frequentlyAskedQuestions
     value:
       pretitle: You`ve got questions, we`ve got answers
       heading: Frequently Asked Questions
@@ -227,3 +181,40 @@ blocks:
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 3
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City

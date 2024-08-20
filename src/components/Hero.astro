@@ -1,45 +1,37 @@
 ---
-const { title, subtitle, Button } = Astro.props;
+const { title,subtitle,bgImage ,Button} = Astro.props;
+import { Image } from "astro:assets";
 ---
 
-<div class="font-body pt-16 lg:pb-[149px] pb-20 relative w-full text-white">
-  <!-- <div class="hero-bg"></div> -->
-  <div class="custom-container relative z-[20]">
-    <div class="lg:mx-12 lg:mt-12">
-      <h1
-        class="lg:text-[80px] lg:leading-[90px] text-start md:text-6xl text-5xl text-white font-medium lg:w-[45%]"
-        set:html={title}
-      />
-      <p class="mt-6 mb-8  text-lg text-start">{subtitle}</p>
-      <a
-        href={Button.url}
-        class="rounded-full px-4 whitespace-nowrap py-3 gap-3 text-white bg-transparent w-fit border border-white flex justify-center items-center"
-      >
-        {Button.label}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="26"
-          height="27"
-          viewBox="0 0 26 27"
-          fill="none"
+<div class="relative bg-black/10">
+    <!-- Adjust this negative margin to match your header height -->
+    <div class="gradient-hero relative rounded-b-[60px] overflow-hidden">
+        <Image
+            src={bgImage}
+            width={1920}
+            height={880}
+            alt="Home Hero"
+            class="w-full h-full object-cover absolute top-0 bottom-0 left-0 right-0"
+        />
+        <div
+            class="font-body pt-[200px] lg:pb-[149px] pb-20 relative w-full text-white"
         >
-          <g clip-path="url(#clip0_1_426)">
-            <path
-              d="M25.4522 12.0392L20.3525 6.93945L19.5881 7.70382L24.5808 12.6965H0V13.7777H24.5786L19.587 18.7693L20.3514 19.5337L25.4522 14.4328C26.1117 13.7733 26.1117 12.6987 25.4522 12.0392Z"
-              fill="white"></path>
-          </g>
-          <defs>
-            <clipPath id="clip0_1_426">
-              <rect
-                width="25.9474"
-                height="25.9474"
-                fill="white"
-                transform="translate(0 0.263184)"></rect>
-            </clipPath>
-          </defs>
-        </svg>
-      </a>
-      <!-- <div class="white-blob size-[634px] absolute left-1/2 top-0"></div> -->
+            <div class="custom-container relative z-[20]">
+                <div class="lg:mx-12 lg:mt-12">
+                    <h1
+                        class="lg:text-[80px] lg:leading-[90px] text-start md:text-6xl text-5xl text-white font-medium lg:w-[45%]"
+                        set:html={title}
+                    />
+                    <p class="mt-6 mb-8 text-lg text-start">{subtitle}</p>
+                    <a
+                        href={Button.url}
+                        class="rounded-2xl px-6 py-3 whitespace-nowrap font-medium md:w-fit w-full gap-4 bg-white text-primary flex justify-center items-center"
+                    >
+                        {Button.label}
+                        
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>

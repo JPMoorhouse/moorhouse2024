@@ -1,6 +1,6 @@
 import { fields } from "@keystatic/core";
-export const HomeHero = {
-  label: "Home Hero",
+export const hero = {
+  label: "Hero",
   schema: fields.object({
     title: fields.text({ label: "Title" }),
     subtitle: fields.text({ label: "Subtitle" }),
@@ -19,22 +19,50 @@ export const aboutmoorhouse = {
   label: "About moorhouse",
   schema: fields.object({
     pretitle: fields.text({ label: "Pretitle" }),
-    heading: fields.text({ label: "Heading" }),
-    title: fields.text({ label: "Title" }),
-    subtitle: fields.text({ label: "Subtitle" }),
-    description: fields.text({ label: "Description", multiline: true }),
-    image: fields.image({
-      label: "What we do image",
-      directory: "/public/images/",
-      publicPath: "/images/",
-    }),
-    Button: fields.object({
-      label: fields.text({ label: "Button" }),
-      url: fields.text({ label: "Button Slug" }),
+    sectionTitle: fields.text({ label: "Section Title" }),
+    card: fields.object({
+      title: fields.text({ label: "Card Title" }),
+      description: fields.markdoc.inline({ label: "Card Description"}),
+      image: fields.image({
+        label: "Card Image",
+        directory: "/public/images/",
+        publicPath: "/images/",
+      }),
+      Button: fields.object({
+        label: fields.text({ label: "Button" }),
+        url: fields.text({ label: "Button Slug" }),
+      }),
     }),
   }),
 };
-export const WhatWeOffer = {
+export const sectionTitleDescription={
+  label: "Section Title With Description",
+}
+export const twoColumn = {
+  label: "Two Column Section",
+  schema: fields.object({
+    cardWithImage: fields.array(
+      fields.object({
+        title: fields.text({ label: "Title" }),
+        description: fields.text({ label: "Description", multiline: true }),
+        image: fields.image({
+          label: "What we do image",
+          directory: "/public/images/",
+          publicPath: "/images/",
+        }),
+        Button: fields.object({
+          text: fields.text({ label: "Button Text" }),
+          slug: fields.text({ label: "Button Slug" }),
+        }),
+      }),
+      {
+        label: "Card with Image",
+        itemLabel: (props) => props.fields.title.value,
+      }
+    ),
+  }),
+};
+export const whatWeOffer = {
   label: "What we offer",
   schema: fields.object({
     pretitle: fields.text({ label: "Pretitle" }),
@@ -44,29 +72,31 @@ export const WhatWeOffer = {
       directory: "/public/images/",
       publicPath: "/images/",
     }),
-    whatweoffer: fields.array(
+    featureCards: fields.array(
       fields.object({
-        image: fields.image({
-          label: "image",
+        cardIcon: fields.image({
+          label: "Card Icon",
           directory: "/public/images/",
           publicPath: "/images",
         }),
-        title: fields.text({ label: " Text" }),
-        subtitle: fields.text({ label: " Subtitle" }),
-        description: fields.text({ label: " Description" }),
-        Button: fields.object({
-          label: fields.text({ label: "Button" }),
-          url: fields.text({ label: "Button Slug" }),
-        }),
+        cardText: fields.text({ label: "Card Text" }),
+        cardDescription: fields.text({ label: "Card Description" }),
       }),
       {
         label: "What we offer ",
-        itemLabel: (props) => props.fields.title.value,
+        itemLabel: (props) => props.fields.cardText.value,
       }
     ),
+    banner: fields.object({
+      title: fields.text({ label: "Banner Title" }),
+      button: fields.object({
+        text: fields.text({ label: "Button Text" }),
+        slug: fields.text({ label: "Button Slug" }),
+      }),
+    }),
   }),
 };
-export const Gallerys = {
+export const gallerys = {
   label: "Gallery",
   schema: fields.object({
     pretitle: fields.text({ label: "Pretitle" }),
@@ -76,20 +106,19 @@ export const Gallerys = {
         label: "Gallery picture",
         directory: "/public/images/",
         publicPath: "/images",
-      }),
-      
+      })
     ),
   }),
 };
 
-export const WhatToExpect = {
+export const whatToExpect = {
   label: "What to expect",
   schema: fields.object({
     pretitle: fields.text({ label: "Pretitle" }),
     heading: fields.text({ label: "Heading" }),
-    WhatToExpect: fields.array(
+    cards: fields.array(
       fields.object({
-        Cardicon: fields.image({
+        cardIcon: fields.image({
           label: "Card Icon",
           directory: "/public/images/",
           publicPath: "/images",
@@ -120,7 +149,7 @@ export const industrialPainting = {
     }),
   }),
 };
-export const FrequentlyAskedQuestions={
+export const frequentlyAskedQuestions = {
   label: "Frequently Asked Questions",
   schema: fields.object({
     pretitle: fields.text({ label: "Pretitle" }),
@@ -136,13 +165,13 @@ export const FrequentlyAskedQuestions={
       }
     ),
   }),
-}
-export const Testimonials = {
+};
+export const testimonials = {
   label: "Testimonials",
   schema: fields.object({
     pretitle: fields.text({ label: "Pretitle" }),
     heading: fields.text({ label: "Heading" }),
-    Testimonials: fields.array(
+    testimonials: fields.array(
       fields.object({
         rating: fields.number({
           label: "rating",
@@ -170,3 +199,27 @@ export const Testimonials = {
     ),
   }),
 };
+export const locallyOwnedBusiness ={
+ label: "Locally Owned Business",
+ schema: fields.object({
+  pretitle: fields.text({label: "Pre Title"}),
+  title: fields.text({label: "Section Title"}),
+  card: fields.object({
+    title: fields.text({label: "Title"}),
+    description: fields.text({label: "Description"}),
+    image: fields.image({
+      label: "Card Image",
+      directory: "/public/images/",
+      publicPath: "/images",
+    }),
+  }),
+  banner: fields.object({
+    title: fields.text({label: "Banner Title"}),
+    button: fields.object({
+      label: fields.text({label: "Button Label"}),
+      link: fields.text({label: "Button Link"})
+    })
+    
+  })
+  })
+}

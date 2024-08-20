@@ -6,7 +6,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 interface Slide {
-  Cardicon: string;
+  cardIcon: string;
   cardText: string;
   cardDescription: string;
   author: string;
@@ -18,10 +18,14 @@ interface Slide {
 interface TestimonialProps {
   pretitle: string;
   heading: string;
-  Testimonials: Slide[];
+  testimonials: Slide[];
 }
 
-const Testimonial: React.FC<TestimonialProps> = ({ pretitle, heading, Testimonials }) => {
+const Testimonial: React.FC<TestimonialProps> = ({
+  pretitle,
+  heading,
+  testimonials,
+}) => {
   return (
     <div className=" lg:py-[90px] py-16">
       <div className="custom-container">
@@ -48,10 +52,10 @@ const Testimonial: React.FC<TestimonialProps> = ({ pretitle, heading, Testimonia
           }}
           className="testimonals"
         >
-          {Testimonials.map((slide: any, index: number) => (
+          {testimonials.map((slide: any, index: number) => (
             <SwiperSlide key={index}>
               <div>
-                <div className="border border-[#F1F1F1] rounded-[50px] lg:px-20 lg:py-14 md:px-10 md:py-7 px-5 py-4">
+                <div className="bg-[#F9F9F9] border border-[#E3E3E3] rounded-[50px] lg:px-20 lg:py-14 md:px-10 md:py-7 px-5 py-4">
                   <div className="flex justify-center items-center gap-2 mb-12">
                     {Array.from(
                       { length: Math.floor(slide.rating) },
@@ -106,7 +110,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ pretitle, heading, Testimonia
         <div className="lg:w-[700px] md:w-[600px] sm:w-[500px]  w-11/12 mx-auto">
           <div className=" absolute lg:w-[700px] md:w-[600px] sm:w-[500px]  w-11/12  md:-ml-8 -ml-6 px-3  flex justify-between items-center top-1/2">
             <div className="prev cursor-pointer">
-              <div className=" bg-helper rounded-full md:w-16 md:h-16 w-10 h-10 p-3 top-1/2 z-50  absolute flex justify-center items-center">
+              <div className=" bg-secondary rounded-full md:w-16 md:h-16 w-10 h-10 p-3 top-1/2 z-50  absolute flex justify-center items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="26"
@@ -117,7 +121,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ pretitle, heading, Testimonia
                   <g clipPath="url(#clip0_1_203)">
                     <path
                       d="M0.547796 11.7758L5.64753 6.67603L6.4119 7.44039L1.4192 12.4331H26V13.5142H1.42136L6.41298 18.5059L5.64862 19.2702L0.547796 14.1694C-0.1117 13.5099 -0.1117 12.4353 0.547796 11.7758Z"
-                      fill="white"
+                      fill="black"
                     />
                   </g>
                   <defs>
@@ -125,7 +129,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ pretitle, heading, Testimonia
                       <rect
                         width="25.9474"
                         height="25.9474"
-                        fill="white"
+                        fill="black"
                         transform="matrix(-1 0 0 1 26 0)"
                       />
                     </clipPath>
@@ -134,17 +138,17 @@ const Testimonial: React.FC<TestimonialProps> = ({ pretitle, heading, Testimonia
               </div>
             </div>
             <div className="next cursor-pointer">
-              <div className=" bg-helper rounded-full md:w-16 md:h-16 w-10 h-10 p-3 top-1/2  z-50 absolute flex justify-center items-center">
+              <div className=" bg-secondary rounded-full md:w-16 md:h-16 w-10 h-10 p-3 top-1/2  z-50 absolute flex justify-center items-center">
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
                   <g clipPath="url(#clip0_1_199)">
                     <path
                       d="M25.4522 11.7758L20.3525 6.67603L19.5881 7.44039L24.5808 12.4331H0V13.5142H24.5786L19.587 18.5059L20.3514 19.2702L25.4522 14.1694C26.1117 13.5099 26.1117 12.4353 25.4522 11.7758Z"
-                      fill="white"
+                      fill="black"
                     />
                   </g>
                   <defs>
                     <clipPath id="clip0_1_199">
-                      <rect width="25.9474" height="25.9474" fill="white" />
+                      <rect width="25.9474" height="25.9474" fill="black" />
                     </clipPath>
                   </defs>
                 </svg>
@@ -153,36 +157,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ pretitle, heading, Testimonia
           </div>
         </div>
       </div>
-      <a
-        href={""}
-        className="rounded-full px-4 py-3 gap-4 bg-white border mx-auto mt-[70px] border-black  flex justify-center items-center w-fit"
-      >
-        See All Reviews
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="26"
-          height="27"
-          viewBox="0 0 26 27"
-          fill="none"
-        >
-          <g clipPath="url(#clip0_1_321)">
-            <path
-              d="M25.4522 12.0389L20.3525 6.93919L19.5881 7.70356L24.5808 12.6963H0V13.7774H24.5786L19.587 18.769L20.3514 19.5334L25.4522 14.4326C26.1117 13.7731 26.1117 12.6984 25.4522 12.0389Z"
-              fill="black"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_1_321">
-              <rect
-                width="25.9474"
-                height="25.9474"
-                fill="white"
-                transform="translate(0 0.263153)"
-              />
-            </clipPath>
-          </defs>
-        </svg>
-      </a>
+      
     </div>
   );
 };

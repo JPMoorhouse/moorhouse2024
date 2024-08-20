@@ -1,0 +1,158 @@
+title: Park City
+seoData:
+  seoTitle: Park City
+blocks:
+  - discriminant: hero
+    value:
+      title: Full Service Painting in Park City
+      subtitle: >-
+        Enhance your space with Summit County's premier painting contractor,
+        offering residential, commercial, and industrial services. Contact us
+        today for a free estimate.
+      bgImage: /images/park-city/blocks/0/value/bgImage.jpeg
+      Button:
+        label: Free Estimate
+        url: '#'
+  - discriminant: aboutmoorhouse
+    value:
+      pretitle: Welcome to Moorhouse Coating
+      sectionTitle: Proudly Serving Summit County Utah Since 1997
+      card:
+        title: About Moorhouse Coating
+        description: >
+          ***Moorhouse Coating is a professional painting contractor Serving the
+          Southwest with roots in Park City, Summit County Utah.*** \
+
+          \
+
+          Founded in 1997, Moorhouse Coating has established itself as the
+          leading commercial painting contractor in Summit County, Utah. With a
+          commitment to excellence and a passion for perfection, our locally
+          owned and operated company has been transforming commercial spaces,
+          one brush stroke at a time. Our team of expert painters brings years
+          of experience, cutting-edge techniques, and a keen eye for detail to
+          every project, ensuring unmatched quality and customer satisfaction.
+        image: /images/park-city/blocks/1/value/card/image.png
+        Button: {}
+  - discriminant: whatWeOffer
+    value:
+      pretitle: What We Offer
+      heading: We Tailor Our Services  To Suit Your Needs.
+      bgImage: /images/park-city/blocks/2/value/bgImage.jpg
+      featureCards:
+        - cardIcon: /images/park-city/blocks/2/value/featureCards/0/cardIcon.svg
+          cardText: Residential Exterior Painting Services
+          cardDescription: >-
+            From offices to boutiques, we provide flawless interior painting
+            services that reflect your brand's identity and ethos
+        - cardIcon: /images/park-city/blocks/2/value/featureCards/1/cardIcon.svg
+          cardText: Residential Interior  Painting Services
+          cardDescription: >-
+            Boost your curb appeal with our exterior painting services, designed
+            to withstand Summit County's weather while looking great
+        - cardIcon: /images/park-city/blocks/2/value/featureCards/2/cardIcon.svg
+          cardText: Specialty Coating Services
+          cardDescription: >-
+            From waterproofing to anti-graffiti coatings, our specialty services
+            offer added protection and functionality to your premises
+        - cardIcon: /images/park-city/blocks/2/value/featureCards/3/cardIcon.svg
+          cardText: Color Consultation Services
+          cardDescription: >-
+            Unsure about colors? Our color experts can help you choose the
+            perfect palette to match your commercial space's ambiance.
+      banner:
+        title: Have a Special Request? We’re Up For It!
+        button:
+          text: Get a Free Estimate
+          slug: /
+  - discriminant: locallyOwnedBusiness
+    value:
+      pretitle: Moorhouse Coating
+      title: ' Locally Owned Business'
+      card:
+        title: Hiring a local painter will save you time and money.
+        description: "For starters, a local painter will likely already be working in the area. Combined resources and employees familiar with the style and detail of homes in the area will be a huge head start. In addition, they know the best products and applications to use for your specific environment.\_"
+        image: /images/park-city/blocks/3/value/card/image.png
+      banner:
+        title: Looking for a painter? Start local.
+        button:
+          label: Get a Free Estimate
+          link: /
+  - discriminant: whatToExpect
+    value:
+      pretitle: Professional Commercial & Residential Painting
+      heading: What To Expect When You Hire Moorhouse Coating
+      cards:
+        - cardIcon: /images/park-city/blocks/4/value/cards/0/cardIcon.svg
+          cardText: Effective Communication Throughout The Process
+          cardDescription: >-
+            The Key to a successful project is found in good communication. As a
+            licensed painting contractor, we have years of experience performing
+            quality for commercial and residential clients.
+        - cardIcon: /images/park-city/blocks/4/value/cards/1/cardIcon.svg
+          cardText: We Value Integrity <br/> & Honesty
+          cardDescription: >-
+            To Paint with integrity we must be open and forthright, even when
+            its difficult. Open, truthful conversations create opportunities for
+            better analysis and future decisions.
+        - cardIcon: /images/park-city/blocks/4/value/cards/2/cardIcon.svg
+          cardText: Over 20+ Years <br/> Experience
+          cardDescription: >-
+            Our 20+ years experience in the painting, has shown us nearly every
+            possible situation. Moorhouse handles your paint job in the most
+            efficient, professional way possible.
+        - cardIcon: /images/park-city/blocks/4/value/cards/3/cardIcon.svg
+          cardText: Effective Communication Throughout The Process
+          cardDescription: >-
+            The Key to a successful project is found in good communication. As a
+            licensed painting contractor, we have years of experience performing
+            quality for commercial and residential clients.
+        - cardIcon: /images/park-city/blocks/4/value/cards/4/cardIcon.svg
+          cardText: We Value Integrity <br/> & Honesty
+          cardDescription: >-
+            To Paint with integrity we must be open and forthright, even when
+            its difficult. Open, truthful conversations create opportunities for
+            better analysis and future decisions.
+        - cardIcon: /images/park-city/blocks/4/value/cards/5/cardIcon.svg
+          cardText: Over 20+ Years <br/> Experience
+          cardDescription: >-
+            Our 20+ years experience in the painting, has shown us nearly every
+            possible situation. Moorhouse handles your paint job in the most
+            efficient, professional way possible.
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 3
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City

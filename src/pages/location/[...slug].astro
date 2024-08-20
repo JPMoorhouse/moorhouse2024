@@ -1,0 +1,53 @@
+---
+import Layout from "@layouts/Layout.astro";
+import WhatWeOffer from "@components/WhatWeOffer.astro";
+import { createReader } from "@keystatic/core/reader";
+import keystaticConfig from "keystatic.config";
+import WhatToExpect from "@components/WhatToExpect.astro";
+import Hero from "@components/Hero.astro";
+import TwoCol from "@components/TwoCol.astro";
+import Testimonial from "@components/Testimonial";
+import AboutMoorehouse from "@components/about-moorehouse.astro";
+import Gallery from "@components/Gallery";
+import IndustrialPainting from "@components/IndustrialPainting.astro";
+import Faq from "@components/Faq.astro";
+import { getEntry } from "astro:content";
+import LocalOwnedBusiness from "@components/local-owned-business.astro";
+export async function getStaticPaths() {
+    const reader = createReader(process.cwd(), keystaticConfig);
+    const Locations = await reader.collections.locations.all();
+    return Locations.map(({ slug }) => {
+        return {
+            params: { slug },
+           
+        };
+    });
+}
+
+const { slug } = Astro.params;
+const locationData:any = await getEntry("locations",slug)
+const data = locationData.data
+---
+
+<Layout
+    title={data.seoData.seoTitle}
+    description={data.seoData.seoDesription}
+    image={data.seoData.ogImage}
+>
+    {
+        data?.blocks.map((block: any) => (
+            <main class="">
+            {block.discriminant == "hero" && <Hero {...block.value} />}
+            {block.discriminant == "aboutmoorhouse" && <AboutMoorehouse {...block.value} />}
+            {block.discriminant == "whatWeOffer" && <WhatWeOffer {...block.value} />}
+            {block.discriminant == "gallerys" && <Gallery {...block.value} client:only />}
+            {block.discriminant == "whatToExpect" && <WhatToExpect {...block.value} />}
+            {block.discriminant == "locallyOwnedBusiness" && <LocalOwnedBusiness {...block.value} />}
+            {block.discriminant == "industrialPainting" && <IndustrialPainting {...block.value} />}
+            {block.discriminant == "twoColumn" && <TwoCol {...block.value} />}
+            {block.discriminant == "frequentlyAskedQuestions" && <Faq {...block.value} />}
+            {block.discriminant == "testimonials" && <Testimonial client:only {...block.value} />}
+            </main>
+        ))
+    }
+</Layout>

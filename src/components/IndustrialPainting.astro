@@ -58,31 +58,9 @@ const { title, subtitle, bgImage, Button } = Astro.props;
       <p class="mt-6 mb-8 text-lg text-start lg:w-[45%]">{subtitle}</p>
       <a
         href={Button.link}
-        class="rounded-full px-4 whitespace-nowrap py-3 gap-3 text-white bg-helper w-fit border border-helper flex justify-center items-center"
+        class="rounded-2xl text-base cursor-pointer bg-green px-8 gap-4 py-3 font-bold text-white flex justify-center items-center w-fit"
       >
         {Button.label}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="26"
-          height="27"
-          viewBox="0 0 26 27"
-          fill="none"
-        >
-          <g clip-path="url(#clip0_1_426)">
-            <path
-              d="M25.4522 12.0392L20.3525 6.93945L19.5881 7.70382L24.5808 12.6965H0V13.7777H24.5786L19.587 18.7693L20.3514 19.5337L25.4522 14.4328C26.1117 13.7733 26.1117 12.6987 25.4522 12.0392Z"
-              fill="white"></path>
-          </g>
-          <defs>
-            <clipPath id="clip0_1_426">
-              <rect
-                width="25.9474"
-                height="25.9474"
-                fill="white"
-                transform="translate(0 0.263184)"></rect>
-            </clipPath>
-          </defs>
-        </svg>
       </a>
     </div>
   </div>

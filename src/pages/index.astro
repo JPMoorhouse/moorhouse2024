@@ -1,76 +1,42 @@
 ---
-import Header from "../components/Header.astro";
 import Hero from "../components/Hero.astro";
 import Testimonial from "../components/Testimonial";
 import TwoCol from "../components/TwoCol.astro";
-import WhatToExpect from "../components/WhatToExpect";
-import { createReader } from "@keystatic/core/reader";
-import { Image } from "astro:assets";
-import keystaticConfig from "../../keystatic.config";
+import AboutMoorehouse from "@components/about-moorehouse.astro";
+import WhatToExpect from "@components/WhatToExpect.astro";
 import Layout from "../layouts/Layout.astro";
-import { getBlockValueByDiscriminant } from "../utils/getBlockValue";
 import WhatWeOffer from "../components/WhatWeOffer.astro";
 import Gallery from "../components/Gallery";
+import { getEntry } from "astro:content";
 import IndustrialPainting from "../components/IndustrialPainting.astro";
 import Faq from "../components/Faq.astro";
-const reader = createReader(process.cwd(), keystaticConfig);
-const homePage = await reader.collections.Pages.read("home");
-const heroData = getBlockValueByDiscriminant(homePage?.blocks, "Hero");
-const aboutdata = getBlockValueByDiscriminant(
-  homePage?.blocks,
-  "aboutmoorhouse"
-);
-const whatweoffer = getBlockValueByDiscriminant(
-  homePage?.blocks,
-  "WhatWeOffer"
-);
-const gallery = getBlockValueByDiscriminant(homePage?.blocks, "Gallerys");
-const whattoexpect = getBlockValueByDiscriminant(
-  homePage?.blocks,
-  "WhatToExpect"
-);
-const industrialPainting = getBlockValueByDiscriminant(
-  homePage?.blocks,
-  "industrialPainting"
-);
 
-const FrequentlyAskedQuestions = getBlockValueByDiscriminant(
-  homePage?.blocks,
-  "FrequentlyAskedQuestions"
-);
-const testimonials = getBlockValueByDiscriminant(
-  homePage?.blocks,
-  "Testimonials"
-);
+const homePage:any = await getEntry("pages","home");
 const seodata = homePage?.seoData;
+interface blockProps {
+    discriminant: string;
+    value: any;
+}
 ---
 
 <Layout
-  title={seodata?.seoTitle}
-  description={seodata?.seoDesription}
-  image={seodata?.ogImage}
+    title={seodata?.seoTitle}
+    description={seodata?.seoDesription}
+    image={seodata?.ogImage}
 >
-  <div class="relative overflow-hidden">
-    <div class="z-50 gradient-hero relative rounded-b-[60px] overflow-hidden">
-      <Image
-        src={heroData.bgImage}
-        width={1920}
-        height={880}
-        alt="HOme Hero"
-        class="w-full h-full object-cover absolute top-0 bottom-0 left-0 right-0"
-      />
-      <Header />
-      <Hero {...heroData} />
-    </div>
-  </div>
-  <div class="lg:mt-10 lg:py-20 py-16">
-    <TwoCol {...aboutdata} index={0} />
-  </div>
-  <WhatWeOffer {...whatweoffer} />
-  <Gallery {...gallery} client:only />
-  <WhatToExpect client:only {...whattoexpect} />
-
-  <IndustrialPainting {...industrialPainting} />
-  <Faq {...FrequentlyAskedQuestions} />
-  <Testimonial client:only {...testimonials} />
+{
+    homePage?.data.blocks.map((block:blockProps)=>(
+        <main>
+            {block.discriminant == "hero" && <Hero {...block.value} />}
+            {block.discriminant == "aboutmoorhouse" && <AboutMoorehouse {...block.value} />}
+            {block.discriminant == "whatWeOffer" && <WhatWeOffer {...block.value} />}
+            {block.discriminant == "gallerys" && <Gallery {...block.value} client:only />}
+            {block.discriminant == "whatToExpect" && <WhatToExpect {...block.value} />}
+            {block.discriminant == "industrialPainting" && <IndustrialPainting {...block.value} />}
+            {block.discriminant == "twoColumn" && <TwoCol {...block.value} />}
+            {block.discriminant == "frequentlyAskedQuestions" && <Faq {...block.value} />}
+            {block.discriminant == "testimonials" && <Testimonial client:only {...block.value} />}
+        </main>
+    ))
+}
 </Layout>

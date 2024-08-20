@@ -1,23 +1,25 @@
 // keystatic.config.ts
-import { config, fields, collection, singleton } from "@keystatic/core" 
+import { config, fields, collection, singleton } from "@keystatic/core";
 import {
-  aboutmoorhouse,
-  HomeHero,
-  Testimonials,
-  WhatToExpect,
-  WhatWeOffer,
-  Gallerys,
+  twoColumn,
+  hero,
+  testimonials,
+  whatToExpect,
+  whatWeOffer,
+  gallerys,
   industrialPainting,
-  FrequentlyAskedQuestions
+  frequentlyAskedQuestions,
+  aboutmoorhouse,
+  locallyOwnedBusiness
 } from "./src/blocks";
 
 export default config({
   storage: {
-    kind: "cloud",
+    kind: "local",
   },
-  cloud: {
-    project: "moorhouse/moorhouse2024",
-  },
+  // cloud: {
+  //   project: "moorhouse/moorhouse2024",
+  // },
   collections: {
     Pages: collection({
       label: "Pages",
@@ -41,14 +43,53 @@ export default config({
 
         blocks: fields.blocks(
           {
-            Hero: HomeHero,
-            aboutmoorhouse: aboutmoorhouse,
-            WhatWeOffer: WhatWeOffer,
-            Gallerys: Gallerys,
-            WhatToExpect: WhatToExpect,
-            industrialPainting: industrialPainting,
-            FrequentlyAskedQuestions: FrequentlyAskedQuestions,
-            Testimonials: Testimonials,
+            hero,
+            aboutmoorhouse,
+            twoColumn,
+            whatWeOffer,
+            gallerys,
+            locallyOwnedBusiness,
+            whatToExpect,
+            industrialPainting,
+            frequentlyAskedQuestions,
+            testimonials,
+          },
+          { label: "Blocks" }
+        ),
+      },
+    }),
+    locations: collection({
+      label: "Locations",
+      slugField: "title",
+      path: "src/content/locations/*",
+      schema: {
+        title: fields.slug({
+          name: {
+            label: "Page Title",
+          },
+        }),
+        seoData: fields.object({
+          seoTitle: fields.text({ label: "SEO Title" }),
+          seoDesription: fields.text({ label: "SEO Description" }),
+          ogImage: fields.image({
+            label: "Open Graph Image",
+            directory: "/public/images/seo/",
+            publicPath: "/images/seo/",
+          }),
+        }),
+
+        blocks: fields.blocks(
+          {
+            hero,
+            aboutmoorhouse,
+            twoColumn,
+            whatWeOffer,
+            gallerys,
+            whatToExpect,
+            locallyOwnedBusiness,
+            industrialPainting,
+            frequentlyAskedQuestions,
+            testimonials,
           },
           { label: "Blocks" }
         ),

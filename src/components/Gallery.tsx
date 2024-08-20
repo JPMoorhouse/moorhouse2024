@@ -65,7 +65,7 @@ const Gallery: React.FC<GalleryProps> = ({
         <div className="lg:w-[700px] md:w-[600px] sm:w-[500px]  w-11/12 mx-auto">
           <div className=" absolute lg:w-[700px] md:w-[600px] sm:w-[500px]  w-11/12  md:-ml-8 -ml-6 px-3  flex justify-between items-center top-1/2">
             <div className="prev cursor-pointer">
-              <div className=" bg-helper rounded-full md:w-16 md:h-16 w-10 h-10 p-3 top-1/2 z-10  absolute flex justify-center items-center">
+              <div className=" bg-secondary rounded-full md:w-16 md:h-16 w-10 h-10 p-3 top-1/2 z-10  absolute flex justify-center items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="26"
@@ -93,7 +93,7 @@ const Gallery: React.FC<GalleryProps> = ({
               </div>
             </div>
             <div className="next cursor-pointer">
-              <div className=" bg-helper rounded-full md:w-16 md:h-16 w-10 h-10 p-3 top-1/2  z-10 absolute flex justify-center items-center">
+              <div className=" bg-secondary rounded-full md:w-16 md:h-16 w-10 h-10 p-3 top-1/2  z-10 absolute flex justify-center items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="26"
