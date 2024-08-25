@@ -1,0 +1,38 @@
+title: Exterior House Painting
+seoData: {}
+blocks:
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Service
+      title: Exterior House Painting
+      description: >
+        Exterior home painting is physically challenging. Prep work can often be
+        under appreciated. A quality job begins with having a good surface to
+        work with. Prep work requires patience and expertise that tends to get
+        glossed over by non-professionals.&nbsp; Proper preparation will entail
+        pressure washing, sanding, caulking, patching and removing chips, peels,
+        mold, mildew, lead paint, and all other imperfections. Proper
+        prep&nbsp;and priming will enhance surface consistency for paint
+        adhesion and long lasting quality results. \
+
+        \
+
+        Prior to applying any paint, patio furniture, potted plants and any
+        other surfaces that are not being painted must be removed and/or
+        covered. A product will be chosen after the color scheme has been
+        decided. Depending upon your substrate, different products will give you
+        different results for color. Moorhouse Coating has professional color
+        consultants who can assist you with choosing the right color
+        combinations for your home. Our exterior home painters will then use
+        high-quality material to make a project as vibrant and long-lasting as
+        possible.\
+
+        \
+  - discriminant: serviceGallery
+    value:
+      featuredImage: /images/exterior-house-painting/blocks/1/value/featuredImage.png
+      galleryImages:
+        - /images/exterior-house-painting/blocks/1/value/galleryImages/0.png
+        - /images/exterior-house-painting/blocks/1/value/galleryImages/1.png
+        - /images/exterior-house-painting/blocks/1/value/galleryImages/2.png
+        - /images/exterior-house-painting/blocks/1/value/galleryImages/3.png

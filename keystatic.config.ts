@@ -16,6 +16,8 @@ import {
   sectionTitleDescription,
   serviceGallery,
   heroWithBanner,
+  coreValues,
+  servingSouthwest
 } from "./src/blocks";
 
 export default config({
@@ -60,6 +62,8 @@ export default config({
             industrialPainting,
             frequentlyAskedQuestions,
             testimonials,
+            coreValues,
+            servingSouthwest
           },
           { label: "Blocks" }
         ),
@@ -97,6 +101,8 @@ export default config({
             industrialPainting,
             frequentlyAskedQuestions,
             testimonials,
+            coreValues,
+            servingSouthwest
           },
           { label: "Blocks" }
         ),
@@ -105,7 +111,7 @@ export default config({
     serviceCategory: collection({
       label: "Service Category Pages",
       slugField: "title",
-      path: "src/content/service-category/*",
+      path: "src/content/service-category/**",
       schema: {
         title: fields.slug({
           name: {
@@ -121,6 +127,15 @@ export default config({
             publicPath: "/images/seo/",
           }),
         }),
+        subService: fields.array(
+          fields.relationship({
+            label: 'Sub Service',
+            description: 'A list of sub service for this Category',
+            collection: 'subServices'
+          }), {
+            label: 'Sub Service',
+          }
+        ),
         blocks: fields.blocks(
           {
             twoColumnWithTitle,
@@ -129,15 +144,17 @@ export default config({
             industrialPainting,
             frequentlyAskedQuestions,
             testimonials,
+            coreValues,
+            servingSouthwest
           },
           { label: "Blocks" }
         ),
       },
     }),
-    singleServices: collection({
-      label: "Single Services",
+    subServices: collection({
+      label: "Sub Services",
       slugField: "title",
-      path: "src/content/single-service/*",
+      path: "src/content/sub-services/*",
       schema: {
         title: fields.slug({
           name: {
@@ -161,6 +178,8 @@ export default config({
             industrialPainting,
             gallery,
             testimonials,
+            coreValues,
+            servingSouthwest
           },
           { label: "Blocks" }
         ),

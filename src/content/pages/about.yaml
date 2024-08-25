@@ -1,0 +1,203 @@
+title: About
+seoData: {}
+blocks:
+  - discriminant: heroWithBanner
+    value:
+      title: >-
+        Residential, Commercial  & Industrial <span class="text-secondary">
+        Projects</span>
+      subtitle: Professional Painting Contractor with Roots in Park City, Utah.
+      bgImage: /images/about/blocks/0/value/bgImage.png
+      banner:
+        title: Receive a FREE Estimate!
+        button:
+          label: Get a Free Estimate
+          link: '#'
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: About Us
+      title: The Big Picture
+      description: >
+        Conceived in 1997,&nbsp; Jason Moorhouse began with a vision of making
+        residential and commercial painting services easier and more convenient
+        for property owners and commercial managers.&nbsp; From the beginning
+        Moorhouse took on large commercial&nbsp; painting projects, while
+        maintaining the personal touch of a small company. Moorhouse aims to
+        reassure customers through it’s expertise and personalized service
+        through professional painting, staining, coating operations.\
+
+        \
+
+        Moorhouse Painting focuses on providing complete satisfaction.&nbsp;
+        Everything we do, our reputation is about ensuring a reliable successful
+        painting project.\
+
+        \
+
+        Moorhouse Coating is not a franchise, it is locally owned and
+        operated.&nbsp; There are no subsidiary, no affiliates, or franchise
+        network.&nbsp;
+  - discriminant: coreValues
+    value:
+      pretitle: Moorhouse Core Values
+      title: The Moorhouse Pledge
+      description: >-
+        These core values help us achieve success with every project and ensures
+        our customers are always satisfied with the end result.
+      coreValues:
+        - icon: /images/about/blocks/2/value/coreValues/0/icon.png
+          title: Deliver More than you Promised
+          description: >-
+            The promises made to our customers is always a top priority.
+            Ensuring the project is completed on time, within budget, and meets
+            your quality standards is our number one goal.
+        - icon: /images/about/blocks/2/value/coreValues/1/icon.png
+          title: Always Professional and Respectful
+          description: >-
+            It’s important for all Moorhouse Employees, customers and suppliers
+            to feel valued and respected throughout every interaction with our
+            painters.
+        - icon: /images/about/blocks/2/value/coreValues/2/icon.png
+          title: We Take Pride in our Craftmanship
+          description: >-
+            While working on your home or business our painters pay attention to
+            the finest details, giving every space the attention it deserves.
+        - icon: /images/about/blocks/2/value/coreValues/3/icon.png
+          title: Always Striving to Improve
+          description: >-
+            We are always thinking about ways to improve your experience with
+            Moorhouse Coating. Continually improving the customer experience
+            with better techniques, products, and new technologies.
+  - discriminant: servingSouthwest
+    value:
+      pretitle: Locations
+      title: Proudly Serving the Southwest
+      description: >-
+        Moorhouse Coating has been proudly serving the Southwest United States
+        for over 20 years with locations in Utah, Arizona, and California.
+      phone: 1-435-655-9706
+      email: info@moorhousecoating.com
+      locations:
+        - Parkcity, Utah
+        - Palm Springs, California
+        - Los Angeles, California
+        - Phoenix, Arizona
+        - St. George, Utah
+      mapImage: /images/about/blocks/3/value/mapImage.png
+  - discriminant: whatToExpect
+    value:
+      pretitle: Professional Commercial & Residential Painting
+      heading: What To Expect When You Hire Moorhouse Coating
+      cards:
+        - cardIcon: /images/about/blocks/4/value/cards/0/cardIcon.svg
+          cardText: Effective Communication Throughout The Process
+          cardDescription: >-
+            The Key to a successful project is found in good communication. As a
+            licensed painting contractor, we have years of experience performing
+            quality for commercial and residential clients.
+        - cardIcon: /images/about/blocks/4/value/cards/1/cardIcon.svg
+          cardText: We Value Integrity <br/> & Honesty
+          cardDescription: >-
+            To Paint with integrity we must be open and forthright, even when
+            its difficult. Open, truthful conversations create opportunities for
+            better analysis and future decisions.
+        - cardIcon: /images/about/blocks/4/value/cards/2/cardIcon.svg
+          cardText: Over 20+ Years <br/> Experience
+          cardDescription: >-
+            Our 20+ years experience in the painting, has shown us nearly every
+            possible situation. Moorhouse handles your paint job in the most
+            efficient, professional way possible.
+        - cardIcon: /images/about/blocks/4/value/cards/3/cardIcon.svg
+          cardText: Effective Communication Throughout The Process
+          cardDescription: >-
+            The Key to a successful project is found in good communication. As a
+            licensed painting contractor, we have years of experience performing
+            quality for commercial and residential clients.
+        - cardIcon: /images/about/blocks/4/value/cards/4/cardIcon.svg
+          cardText: We Value Integrity <br/> & Honesty
+          cardDescription: >-
+            To Paint with integrity we must be open and forthright, even when
+            its difficult. Open, truthful conversations create opportunities for
+            better analysis and future decisions.
+        - cardIcon: /images/about/blocks/4/value/cards/5/cardIcon.svg
+          cardText: Over 20+ Years <br/> Experience
+          cardDescription: >-
+            Our 20+ years experience in the painting, has shown us nearly every
+            possible situation. Moorhouse handles your paint job in the most
+            efficient, professional way possible.   
+  - discriminant: frequentlyAskedQuestions
+    value:
+      pretitle: You`ve got questions, we`ve got answers
+      heading: Frequently Asked Questions
+      FrequentlyAskedQuestions:
+        - title: >-
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium?
+          answer: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+        - title: Nemo enim ipsam voluptatem quia voluptas sit aspernatur?
+          answer: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+        - title: Ut enim ad minima veniam, quis nostrum exercitationem?
+          answer: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+        - title: Quis autem vel eum iure reprehenderit qui in ea voluptate?
+          answer: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+        - title: >-
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium?
+          answer: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 3
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City

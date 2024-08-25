@@ -1,0 +1,56 @@
+---
+
+const {locations,phone,email,mapImage,pretitle,title,description}=Astro.props
+---
+
+<section class="py-16 my-24 bg-purple bg-opacity-90 lg:mx-16 mx-8 text-white rounded-[45px]">
+  <div class="custom-container ">
+
+ 
+  <h3 class="text-yellow text-xl text-center font-semibold mb-4">{pretitle}</h3>
+  <h2 class="text-6xl text-center font-bold mb-6">{title}</h2>
+  <p class="text-xl max-w-[820px] mx-auto text-center mb-12">
+   {description}
+  </p>
+  <div class="flex justify-between  items-center lg:flex-row flex-col  gap-8">
+
+    <div class="lg:w-2/5 w-full">
+     
+      <div class="bg-black bg-opacity-25  py-8 px-6 rounded-[45px] mb-10">
+        <h4 class="text-white text-lg font-semibold mb-4">Contact Information</h4>
+        <div class="space-y-4">
+          <div class="flex items-center space-x-4">
+            <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0895 0.98895C8.96124 1.02818 5.82941 2.87305 5.27425 3.77988C4.1637 5.59364 4.8879 10.4554 5.51569 12.4823C7.63417 18.5152 9.70448 21.5159 14.3309 25.9691C15.5379 26.9904 17.7538 28.4645 19.421 28.9725C20.4777 29.2284 21.4422 28.9413 22.0897 28.5775C23.9265 27.4601 26.1012 27.258 25.0029 25.3258L22.5611 21.0893C22.3394 20.619 21.7768 20.1704 21.1771 20.3374C20.5773 20.5047 18.1645 21.6905 17.517 22.0543C14.9777 22.3766 9.42869 12.4928 9.89536 10.1066C10.1575 9.02445 12.5911 8.67679 13.7223 7.70108C14.0051 7.45706 14.2062 7.08936 14.1139 6.54622C13.9397 5.8792 11.8016 2.23701 11.2629 1.68988C10.9116 1.29228 10.5367 0.993266 10.0901 0.989179L10.0895 0.98895Z" fill="white"/>
+              </svg>
+              
+            <a href={`tel:${phone}`} class="text-lg text-gray-200">{phone}</a>
+          </div>
+          <div class="flex items-center space-x-4">
+            <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.875 0H3.125C2.29647 0.000902401 1.50213 0.336419 0.91627 0.93293C0.330411 1.52944 0.000886287 2.33822 0 3.18182V16.8182C0.000886287 17.6618 0.330411 18.4706 0.91627 19.0671C1.50213 19.6636 2.29647 19.9991 3.125 20H21.875C22.7035 19.9991 23.4979 19.6636 24.0837 19.0671C24.6696 18.4706 24.9991 17.6618 25 16.8182V3.18182C24.9991 2.33822 24.6696 1.52944 24.0837 0.93293C23.4979 0.336419 22.7035 0.000902401 21.875 0ZM21.0837 5.26307L13.048 11.6267C12.8913 11.7507 12.6985 11.8181 12.5 11.8181C12.3015 11.8181 12.1087 11.7507 11.952 11.6267L3.91629 5.26307C3.82188 5.19047 3.74258 5.0995 3.683 4.99543C3.62342 4.89136 3.58474 4.77627 3.56922 4.65685C3.5537 4.53743 3.56165 4.41607 3.5926 4.2998C3.62354 4.18353 3.67688 4.07469 3.7495 3.97959C3.82212 3.88449 3.91257 3.80504 4.01561 3.74585C4.11865 3.68665 4.23222 3.6489 4.34971 3.63478C4.46721 3.62066 4.58628 3.63045 4.70003 3.6636C4.81377 3.69674 4.91991 3.75257 5.01228 3.82784L12.5 9.75739L19.9877 3.82784C20.175 3.68388 20.4103 3.62073 20.6429 3.65207C20.8755 3.68341 21.0866 3.8067 21.2307 3.9953C21.3747 4.18389 21.44 4.42262 21.4125 4.65986C21.385 4.89711 21.2669 5.1138 21.0837 5.26307Z" fill="white"/>
+              </svg>
+              
+            <a href={`mailto:${email}`} class="text-lg text-gray-200">{email}</a>
+          </div>
+        </div>
+      </div>
+      <ul class="">
+        {locations.map((location:any) => (
+          <li class="flex items-center space-x-4 mb-8 bg-white text-black p-4 rounded-full">
+            <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 0C3.5835 0 0 3.45589 0 7.71429C0 14.5714 8 24 8 24C8 24 16 14.5714 16 7.71429C16 3.45589 12.4165 0 8 0ZM8 12C7.3671 12 6.74841 11.7989 6.22218 11.4222C5.69594 11.0454 5.28579 10.51 5.04359 9.88349C4.80139 9.257 4.73801 8.56763 4.86149 7.90255C4.98496 7.23747 5.28973 6.62656 5.73726 6.14706C6.18479 5.66757 6.75497 5.34103 7.37571 5.20874C7.99645 5.07644 8.63986 5.14434 9.22459 5.40384C9.80931 5.66334 10.3091 6.10279 10.6607 6.66662C11.0123 7.23044 11.2 7.89332 11.2 8.57143C11.1991 9.48044 10.8616 10.3519 10.2617 10.9947C9.6618 11.6375 8.84841 11.999 8 12Z" fill="#DC2D2D"/>
+</svg>
+
+            <span class="font-semibold">{location}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+    <!-- Map Image -->
+    <div class="lg:w-3/5 w-full">
+      <img src={mapImage} alt="Map of Southwest Locations" class="lg:w-full lg:max-w-full max-w-[400px] mx-auto  object-cover">
+    </div>
+  </div>
+</div>
+</section>

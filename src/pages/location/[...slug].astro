@@ -12,7 +12,7 @@ import Gallery from "@components/Gallery";
 import IndustrialPainting from "@components/IndustrialPainting.astro";
 import Faq from "@components/Faq.astro";
 import { getEntry } from "astro:content";
-import LocalOwnedBusiness from "@components/local-owned-business.astro";
+import LocalOwnedBusiness from "@components/localOwnedBusiness.astro";
 export async function getStaticPaths() {
     const reader = createReader(process.cwd(), keystaticConfig);
     const Locations = await reader.collections.locations.all();

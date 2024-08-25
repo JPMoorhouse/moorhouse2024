@@ -20,7 +20,7 @@ import Banner from "./Banner.astro";
             <div class="custom-container relative z-[20]">
                 <div class="lg:mx-12 lg:mt-12">
                     <h1
-                        class="lg:text-[80px] lg:leading-[90px] text-start md:text-6xl text-5xl text-white font-medium lg:w-[45%]"
+                        class="lg:text-[80px] lg:leading-[90px] text-start md:text-6xl text-5xl text-white font-medium lg:w-11/12"
                         set:html={title}
                     />
                     <p class="mt-6 mb-8 text-lg text-start">{subtitle}</p>
@@ -39,7 +39,17 @@ import Banner from "./Banner.astro";
                     )
 
                 }
+              
             </div>
         </div>
+    </div>
+    <div class="md:flex hidden text-white w-full  z-50 justify-center items-center gap-4 absolute bottom-8">
+        <img src="/assets/icons/google.svg" alt="">
+        <div class="flex">
+
+            <h2 class="text-xl">4.6 - </h2>
+            <img src="/assets/icons/stars.svg" alt="">
+        </div>
+<p>-  Premier Services Tailored to Meet Your Needs!</p>
     </div>
 </div>

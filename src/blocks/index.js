@@ -22,7 +22,7 @@ export const aboutmoorhouse = {
     sectionTitle: fields.text({ label: "Section Title" }),
     card: fields.object({
       title: fields.text({ label: "Card Title" }),
-      description: fields.markdoc.inline({ label: "Card Description"}),
+      description: fields.markdoc.inline({ label: "Card Description" }),
       image: fields.image({
         label: "Card Image",
         directory: "/public/images/",
@@ -42,7 +42,7 @@ export const sectionTitleDescription = {
     title: fields.text({ label: "Title" }),
     description: fields.markdoc.inline({ label: "Description" }),
   }),
-}
+};
 export const twoColumn = {
   label: "Two Column Cards",
   schema: fields.object({
@@ -204,60 +204,59 @@ export const testimonials = {
     ),
   }),
 };
-export const locallyOwnedBusiness ={
- label: "Locally Owned Business",
- schema: fields.object({
-  pretitle: fields.text({label: "Pre Title"}),
-  title: fields.text({label: "Section Title"}),
-  card: fields.object({
-    title: fields.text({label: "Title"}),
-    description: fields.text({label: "Description"}),
-    image: fields.image({
-      label: "Card Image",
-      directory: "/public/images/",
-      publicPath: "/images",
+export const locallyOwnedBusiness = {
+  label: "Locally Owned Business",
+  schema: fields.object({
+    pretitle: fields.text({ label: "Pre Title" }),
+    title: fields.text({ label: "Section Title" }),
+    card: fields.object({
+      title: fields.text({ label: "Title" }),
+      description: fields.text({ label: "Description" }),
+      image: fields.image({
+        label: "Card Image",
+        directory: "/public/images/",
+        publicPath: "/images",
+      }),
+    }),
+    banner: fields.object({
+      title: fields.text({ label: "Banner Title" }),
+      button: fields.object({
+        label: fields.text({ label: "Button Label" }),
+        link: fields.text({ label: "Button Link" }),
+      }),
     }),
   }),
-  banner: fields.object({
-    title: fields.text({label: "Banner Title"}),
-    button: fields.object({
-      label: fields.text({label: "Button Label"}),
-      link: fields.text({label: "Button Link"})
-    })
-    
-  })
-  })
-}
-export const subServiceCards ={
+};
+export const subServiceCards = {
   label: "Sub Service Cards",
   schema: fields.object({
     cards: fields.array(
       fields.object({
-        title: fields.text({label: "Card Title"}),
-        description: fields.text({label: "Card Description"}),
+        title: fields.text({ label: "Card Title" }),
+        description: fields.text({ label: "Card Description" }),
         image: fields.image({
           label: "Card Image",
           directory: "/public/images/",
           publicPath: "/images",
         }),
-        link: fields.text({label: "Link"})
+        link: fields.text({ label: "Link" }),
       }),
       {
         label: "Sub Service Card",
         itemLabel: (props) => props.fields.title.value,
       }
-    )
-  })
-}
-export const twoColumnWithTitle ={
+    ),
+  }),
+};
+export const twoColumnWithTitle = {
   label: "Two Column Section With Title",
   schema: fields.object({
-    pretitle: fields.text({label: "Pre Title"}),
-    title: fields.text({label: "Title"}),
+    pretitle: fields.text({ label: "Pre Title" }),
+    title: fields.text({ label: "Title" }),
     cards: fields.array(
       fields.object({
-        title: fields.text({label: "Card Title"}),
-        description: fields.markdoc.inline({label: "Card Description"}),
+        title: fields.text({ label: "Card Title" }),
+        description: fields.markdoc.inline({ label: "Card Description" }),
         image: fields.image({
           label: "Card Image",
           directory: "/public/images/",
@@ -268,9 +267,9 @@ export const twoColumnWithTitle ={
         label: "Two Column Section With Title",
         itemLabel: (props) => props.fields.title.value,
       }
-    )
-  })
-}
+    ),
+  }),
+};
 export const serviceGallery = {
   label: "Service Gallery",
   schema: fields.object({
@@ -285,9 +284,9 @@ export const serviceGallery = {
         directory: "/public/images/",
         publicPath: "/images",
       })
-    )
-  })
-}
+    ),
+  }),
+};
 
 export const heroWithBanner = {
   label: "Hero With Banner",
@@ -307,5 +306,53 @@ export const heroWithBanner = {
       }),
     }),
   }),
-  
+};
+export const coreValues = {
+  label: "Core Values",
+  schema: fields.object({
+    pretitle: fields.text({ label: "Pretitle" }),
+    title: fields.text({ label: "Title" }),
+    description: fields.text({
+      label: "Description",
+      multiline: true,
+    }),
+    coreValues: fields.array(
+      fields.object({
+        icon: fields.image({
+          label: "Icon",
+          directory: "/public/images/",
+          publicPath: "/images/",
+        }),
+        title: fields.text({ label: "Title" }),
+        description: fields.text({ label: "Description" }),
+      }),
+      {
+        label: "Core Values",
+        itemLabel: (props) => props.fields.title.value,
+      }
+    ),
+  }),
+};
+export const servingSouthwest = {
+  label: "Serving the Southwest",
+  schema: fields.object({
+    pretitle: fields.text({ label: "Pretitle" }),
+    title: fields.text({ label: "Title" }),
+    description: fields.text({
+      label: "Description",
+      multiline: true,
+    }),
+    phone: fields.text({ label: "Phone Number" }),
+    email: fields.text({ label: "Email Address" }),
+
+    locations: fields.array(fields.text({ label: "Location Name" }), {
+      label: "Locations",
+      itemLabel: (props) => props.value,
+    }),
+    mapImage: fields.image({
+      label: "Map Image",
+      directory: "/public/images/",
+      publicPath: "/images/",
+    }),
+  }),
 };

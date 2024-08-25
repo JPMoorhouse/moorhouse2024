@@ -1,0 +1,160 @@
+title: Exterior House Painting Services
+seoData:
+  seoTitle: Exterior House Painting Services
+subService:
+  - exterior-house-painting
+blocks:
+  - discriminant: twoColumnWithTitle
+    value:
+      pretitle: Services
+      title: Exterior House Painting Services
+      cards:
+        - description: >
+            Moorhouse Coating offers a wide selection of painting
+            services.&nbsp; Painting is a common activity that everyone sees in
+            their home or office. It improves the appearance of a building that
+            has been affected by water, corrosion, mold, debris, and general
+            wear and tear.\
+
+            \
+
+            Moorhouse Coating is a dedicated team of local painters, committed
+            to providing our customers with the best painting services in the
+            area. We provide professional painting and coating services for all
+            residential, commercial and industrial properties.&nbsp;\
+
+            \
+
+            Taking our painting services seriously requires a level of expertise
+            and artistic capability. As such, our professional painters
+            regularly undergo training to stay current with the latest
+            techniques and products. That is to say, we strive to stay on top of
+            the latest painting trends for your home.&nbsp;
+          image: >-
+            /images/exterior-house-painting-services/blocks/0/value/cards/0/image.png
+  - discriminant: subServiceCards
+    value:
+      cards:
+        - title: Exterior House Painting
+          description: >-
+            Transform your home’s curb appeal with our expert exterior painting
+            services! Discover vibrant, long-lasting colors that breathe new
+            life into your house.
+          image: >-
+            /images/exterior-house-painting-services/blocks/1/value/cards/0/image.svg
+          link: /exterior-house-painting
+        - title: Interior House Painting
+          description: >-
+            Revitalize your living space with a fresh coat of paint! Our
+            interior painting services offer vibrant, high-quality finishes that
+            reflect your unique style.
+          image: >-
+            /images/exterior-house-painting-services/blocks/1/value/cards/1/image.svg
+        - title: Garage Floor Coating
+          description: >-
+            Elevate your garage with a sleek, durable floor coating that stands
+            up to every challenge. Our top-tier solutions offer stunning looks
+            and unbeatable protection
+          image: >-
+            /images/exterior-house-painting-services/blocks/1/value/cards/2/image.svg
+        - title: Deck and Fence Painting
+          description: >-
+            Refresh your outdoor spaces with our expert deck and fence painting
+            services! Enjoy vibrant, weather-resistant finishes that enhance
+            your home's charm and durability.
+          image: >-
+            /images/exterior-house-painting-services/blocks/1/value/cards/3/image.svg
+        - title: Concrete Resurfacing
+          description: >-
+            Revitalize your worn-out concrete with our seamless resurfacing
+            solutions! Achieve a fresh, modern look that enhances durability and
+            adds curb appeal.
+          image: >-
+            /images/exterior-house-painting-services/blocks/1/value/cards/4/image.svg
+        - title: Pressure Washing
+          description: >-
+            Reveal your property’s true beauty with our high-powered pressure
+            washing services! Say goodbye to grime and stains and hello to a
+            spotless, refreshed exterior.
+          image: >-
+            /images/exterior-house-painting-services/blocks/1/value/cards/5/image.svg
+        - title: Drywall Repair
+          description: >-
+            Say goodbye to unsightly dents and cracks with our expert drywall
+            repair services! We deliver seamless, flawless results that restore
+            your walls to perfection.
+          image: >-
+            /images/exterior-house-painting-services/blocks/1/value/cards/6/image.svg
+        - title: Specialty Coating
+          description: >-
+            Elevate your space with our premium specialty coatings! Whether it's
+            for added durability, unique textures, or stunning finishes, we've
+            got you covered.
+          image: >-
+            /images/exterior-house-painting-services/blocks/1/value/cards/7/image.svg
+        - title: Stucco Patch and Repair
+          description: >-
+            Restore your stucco to its original elegance with our expert patch
+            and repair services! We tackle cracks and damage with precision for
+            a flawless finish.
+          image: >-
+            /images/exterior-house-painting-services/blocks/1/value/cards/8/image.svg
+        - title: Wood Staining
+          description: >-
+            Enhance the natural beauty of your wood with our premium staining
+            services! Choose from a range of rich, vibrant tones to bring out
+            the grain and add a touch of elegance.
+          image: >-
+            /images/exterior-house-painting-services/blocks/1/value/cards/9/image.svg
+        - title: Color Consultation
+          description: >-
+            Enhance the natural beauty of your wood with our premium staining
+            services! Choose from a range of rich, vibrant tones to bring out
+            the grain and add a touch of elegance.
+          image: >-
+            /images/exterior-house-painting-services/blocks/1/value/cards/10/image.svg
+  - discriminant: industrialPainting
+    value:
+      title: Interior Residential <span class="text-secondary">Painting</span>
+      subtitle: "Our experienced and qualified painters will help you achieve  the look and feel you desire.\_"
+      bgImage: /images/exterior-house-painting-services/blocks/2/value/bgImage.jpg
+      Button:
+        label: Learn more   >
+        link: /
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 3
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
