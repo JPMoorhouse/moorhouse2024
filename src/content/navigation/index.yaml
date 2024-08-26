@@ -2,12 +2,12 @@ logo: /images/logo.png
 navItems:
   - label: Home
     link: /
-  - label: About
-    link: /about
   - label: Services
     link: /services
-  - label: Gallery
-    link: /gallery
+  - label: Projects
+    link: /projects
+  - label: About
+    link: /about
   - label: Blog
     link: /blog
 button:

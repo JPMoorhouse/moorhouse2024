@@ -23,7 +23,7 @@ const { categories } = Astro.props;
       <h2 class="text-3xl font-bold text-gray-900 mb-6">{category.title}</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {category.cards.map((card) => (
-          <a href={card.link} class="group">
+          <a href={`/projects/${card.link}`} class="group">
             <div class="bg-[#F9F9F9] border border-[#E3E3E3] rounded-[30px] overflow-hidden transition-transform duration-300 ease-in-out transform hover:-translate-y-1">
               <img src={card.image} alt={card.title} class="w-full h-48 object-cover" />
               <div class="p-4">

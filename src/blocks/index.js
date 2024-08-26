@@ -270,8 +270,8 @@ export const twoColumnWithTitle = {
     ),
   }),
 };
-export const serviceGallery = {
-  label: "Service Gallery",
+export const gridGallery = {
+  label: "Grid Gallery",
   schema: fields.object({
     featuredImage: fields.image({
       label: "Featured Image",

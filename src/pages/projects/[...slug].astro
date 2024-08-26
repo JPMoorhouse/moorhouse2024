@@ -1,46 +1,37 @@
 ---
-import AboutMoorehouse from '@components/about-moorehouse.astro';
-import Faq from '@components/Faq.astro';
-import Gallery from '@components/Gallery';
-import HeroWithBanner from '@components/hero-with-banner.astro';
-import Hero from '@components/Hero.astro';
-import IndustrialPainting from '@components/IndustrialPainting.astro';
-import LocalOwnedBusiness from '@components/localOwnedBusiness.astro';
-import SubServicesCards from '@components/sub-services-cards.astro';
-import Testimonial from '@components/Testimonial';
-import TwoColumnTitle from '@components/two-column-title.astro';
-import TwoCol from '@components/TwoCol.astro';
-import WhatToExpect from '@components/WhatToExpect.astro';
-import WhatWeOffer from '@components/WhatWeOffer.astro';
-import { createReader } from '@keystatic/core/reader';
-import RichTextWithTitle from "@components/rich-text-with-title.astro"
-import Layout from '@layouts/Layout.astro';
-import { getEntry } from 'astro:content';
-import keystaticConfig from 'keystatic.config';
-import ServiceGallery from '@components/service-gallery.astro';
-
+import Layout from "@layouts/Layout.astro";
+import WhatWeOffer from "@components/WhatWeOffer.astro";
+import { createReader } from "@keystatic/core/reader";
+import keystaticConfig from "keystatic.config";
+import WhatToExpect from "@components/WhatToExpect.astro";
+import Hero from "@components/Hero.astro";
+import TwoCol from "@components/TwoCol.astro";
+import Testimonial from "@components/Testimonial";
+import AboutMoorehouse from "@components/about-moorehouse.astro";
+import Gallery from "@components/Gallery";
+import IndustrialPainting from "@components/IndustrialPainting.astro";
+import Faq from "@components/Faq.astro";
+import { getEntry } from "astro:content";
+import LocalOwnedBusiness from "@components/localOwnedBusiness.astro";
+import ServiceGallery from "@components/service-gallery.astro";
+import RichTextWithTitle from "@components/rich-text-with-title.astro";
+import TwoColumnTitle from "@components/two-column-title.astro";
+import SubServicesCards from "@components/sub-services-cards.astro";
+import HeroWithBanner from "@components/hero-with-banner.astro";
 export async function getStaticPaths() {
     const reader = createReader(process.cwd(), keystaticConfig);
-    const serviceCategories = await reader.collections.serviceCategory.all();
-  const paths = [];
-
-  for (const category of serviceCategories) {
-    const relatedServices = category.entry.subService || [];
-    for (const service of relatedServices) {
-      paths.push({
-        params: { category: category.slug, service: service },
-        props: { service },
-      });
-    }
-  }
-
-  return paths;
+    const projects = await reader.collections.projects.all();
+    return projects.map(({ slug }) => {
+        return {
+            params: { slug },
+           
+        };
+    });
 }
 
-const { service } = Astro.props;
-const serviceData:any = await getEntry('sub-services', service);
-const data = serviceData.data; 
-console.log(data)
+const { slug } = Astro.params;
+const projectsData:any = await getEntry("projects",slug)
+const data = projectsData.data
 ---
 <Layout
     title={data.seoData.seoTitle}

@@ -28,7 +28,7 @@ blocks:
         possible.\
 
         \
-  - discriminant: serviceGallery
+  - discriminant: gridGallery
     value:
       featuredImage: /images/exterior-house-painting/blocks/1/value/featuredImage.png
       galleryImages:

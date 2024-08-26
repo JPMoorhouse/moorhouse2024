@@ -1,0 +1,81 @@
+title: Golden Bear Golf Villa
+seoData: {}
+blocks:
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Commercial Project
+      title: Golden Bear Golf Villa
+      description: >
+        Exterior home painting is physically challenging. Prep work can often be
+        under appreciated. A quality job begins with having a good surface to
+        work with. Prep work requires patience and expertise that tends to get
+        glossed over by non-professionals.&nbsp; Proper preparation will entail
+        pressure washing, sanding, caulking, patching and removing chips, peels,
+        mold, mildew, lead paint, and all other imperfections. Proper
+        prep&nbsp;and priming will enhance surface consistency for paint
+        adhesion and long lasting quality results. \
+
+        \
+
+        Prior to applying any paint, patio furniture, potted plants and any
+        other surfaces that are not being painted must be removed and/or
+        covered. A product will be chosen after the color scheme has been
+        decided. Depending upon your substrate, different products will give you
+        different results for color. Moorhouse Coating has professional color
+        consultants who can assist you with choosing the right color
+        combinations for your home. Our exterior home painters will then use
+        high-quality material to make a project as vibrant and long-lasting as
+        possible.
+  - discriminant: gridGallery
+    value:
+      featuredImage: /images/golden-bear-golf-villa/blocks/1/value/featuredImage.png
+      galleryImages:
+        - /images/golden-bear-golf-villa/blocks/1/value/galleryImages/0.png
+        - /images/golden-bear-golf-villa/blocks/1/value/galleryImages/1.png
+        - /images/golden-bear-golf-villa/blocks/1/value/galleryImages/2.png
+        - /images/golden-bear-golf-villa/blocks/1/value/galleryImages/3.png
+  - discriminant: gallery
+    value:
+      pretitle: Slideshow Gallery
+      heading: Our Completed Projects
+      galleryImages:
+        - /images/golden-bear-golf-villa/blocks/2/value/galleryImages/0.webp
+        - /images/golden-bear-golf-villa/blocks/2/value/galleryImages/1.webp
+        - /images/golden-bear-golf-villa/blocks/2/value/galleryImages/2.webp
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 3
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City

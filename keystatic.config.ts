@@ -14,7 +14,7 @@ import {
   subServiceCards,
   twoColumnWithTitle,
   sectionTitleDescription,
-  serviceGallery,
+  gridGallery,
   heroWithBanner,
   coreValues,
   servingSouthwest,
@@ -110,6 +110,40 @@ export default config({
         ),
       },
     }),
+    projects: collection({
+      label: "Projects",
+      slugField: "title",
+      path: "src/content/projects/*",
+      schema: {
+        title: fields.slug({
+          name: {
+            label: "Page Title",
+          },
+        }),
+        seoData: fields.object({
+          seoTitle: fields.text({ label: "SEO Title" }),
+          seoDesription: fields.text({ label: "SEO Description" }),
+          ogImage: fields.image({
+            label: "Open Graph Image",
+            directory: "/public/images/seo/",
+            publicPath: "/images/seo/",
+          }),
+        }),
+
+        blocks: fields.blocks(
+          {
+            sectionTitleDescription,
+            gridGallery,
+            industrialPainting,
+            gallery,
+            testimonials,
+            coreValues,
+            servingSouthwest
+          },
+          { label: "Blocks" }
+        ),
+      },
+     }),
     serviceCategory: collection({
       label: "Service Category Pages",
       slugField: "title",
@@ -176,7 +210,7 @@ export default config({
         blocks: fields.blocks(
           {
             sectionTitleDescription,
-            serviceGallery,
+            gridGallery,
             industrialPainting,
             gallery,
             testimonials,
