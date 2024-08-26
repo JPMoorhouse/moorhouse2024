@@ -17,6 +17,7 @@ import HeroWithBanner from "@components/hero-with-banner.astro";
 import RichTextWithTitle from "@components/rich-text-with-title.astro";
 import CoreValues from "@components/core-values.astro";
 import ServingSouthwest from "@components/ServingSouthwest.astro";
+import ProjectCardWithCatergory from "@components/project-card-with-catergory.astro";
 export async function getStaticPaths() {
     const reader = createReader(process.cwd(), keystaticConfig);
     const Locations = await reader.collections.Pages.all();
@@ -54,6 +55,7 @@ const data = locationData.data
             {block.discriminant == "testimonials" && <Testimonial client:only {...block.value} />}
             {block.discriminant == "sectionTitleDescription" && <RichTextWithTitle {...block.value} />}
             {block.discriminant == "coreValues" && <CoreValues {...block.value} />}
+            {block.discriminant == "projectCardsWithCategory" && <ProjectCardWithCatergory {...block.value} />}
             {block.discriminant == "servingSouthwest" && <ServingSouthwest {...block.value} />}
 
             </main>

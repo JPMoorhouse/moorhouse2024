@@ -17,7 +17,8 @@ import {
   serviceGallery,
   heroWithBanner,
   coreValues,
-  servingSouthwest
+  servingSouthwest,
+  projectCardsWithCategory
 } from "./src/blocks";
 
 export default config({
@@ -57,6 +58,7 @@ export default config({
             sectionTitleDescription,
             whatWeOffer,
             gallery,
+            projectCardsWithCategory,
             locallyOwnedBusiness,
             whatToExpect,
             industrialPainting,

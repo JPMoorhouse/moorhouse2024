@@ -1,0 +1,130 @@
+title: Projects
+seoData: {}
+blocks:
+  - discriminant: heroWithBanner
+    value:
+      title: >-
+        Residential, Commercial  & Industrial <span
+        class="text-secondary">Projects</span>
+      subtitle: Professional Painting Contractor with Roots in Park City, Utah.
+      bgImage: /images/projects/blocks/0/value/bgImage.png
+      banner:
+        title: Receive a FREE Estimate!
+        button:
+          label: Get a Free Estimate
+          link: /
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Projects
+      title: Pictures are Worth a <br/> Thousand Words
+      description: >
+        Moorhouse Painting provides a wide range of painting services.&nbsp;
+        Moorhouse offers custom interior and exterior painting services,
+        allowing for a seamless installation experience.&nbsp; Moorhouse offers
+        exceptional results in every home and commercial painting project.&nbsp;
+        Thinking about refreshing the interior of your home’s walls, bedrooms or
+        bathrooms?&nbsp; The Moorhouse Painting team approaches every painting
+        project with an eye for detail and a complete painting plan.\
+
+        \
+
+        Finding the right team to paint your home or office can feel
+        overwhelming, but with Moorhouse Coating and Painting you’ll have peace
+        of mind and experts that treat your home with the respect it deserves.
+  - discriminant: projectCardsWithCategory
+    value:
+      categories:
+        - title: Exterior Residential Painting
+          cards:
+            - title: Single Family Home
+              link: /
+              image: /images/projects/blocks/2/value/categories/0/cards/0/image.jpg
+            - title: Club House Villa
+              link: /
+              image: /images/projects/blocks/2/value/categories/0/cards/1/image.png
+            - title: Club House Villa
+              link: /
+              image: /images/projects/blocks/2/value/categories/0/cards/2/image.jpg
+            - title: Club House Villa
+              link: /
+              image: /images/projects/blocks/2/value/categories/0/cards/3/image.jpg
+            - title: Condo
+              link: /
+              image: /images/projects/blocks/2/value/categories/0/cards/4/image.jpg
+            - title: Single Family Home
+              link: /
+              image: /images/projects/blocks/2/value/categories/0/cards/5/image.jpg
+        - title: Interior Residential Painting
+          cards:
+            - title: Client Name 1
+              link: /
+              image: /images/projects/blocks/2/value/categories/1/cards/0/image.jpg
+            - title: Client Name 2
+              link: /
+              image: /images/projects/blocks/2/value/categories/1/cards/1/image.jpg
+            - title: Client Name 3
+              image: /images/projects/blocks/2/value/categories/1/cards/2/image.jpg
+            - title: Client Name 4
+              link: /
+              image: /images/projects/blocks/2/value/categories/1/cards/3/image.jpg
+            - title: Client Name 5
+              link: /
+              image: /images/projects/blocks/2/value/categories/1/cards/4/image.jpg
+            - title: Client Name 6
+              link: /
+              image: /images/projects/blocks/2/value/categories/1/cards/5/image.jpg
+        - title: Commercial Painting
+          cards:
+            - title: Golden Bear Golf Villa
+              link: /
+              image: /images/projects/blocks/2/value/categories/2/cards/0/image.jpg
+            - title: Auto Zone
+              link: /
+              image: /images/projects/blocks/2/value/categories/2/cards/1/image.jpg
+            - title: Chateaux Deer Valley
+              image: /images/projects/blocks/2/value/categories/2/cards/2/image.jpg
+            - title: Bear Lodge Park City
+              link: /
+              image: /images/projects/blocks/2/value/categories/2/cards/3/image.jpg
+            - title: Promontory
+              link: /
+              image: /images/projects/blocks/2/value/categories/2/cards/4/image.jpg
+            - title: Golf Pro Shop
+              image: /images/projects/blocks/2/value/categories/2/cards/5/image.jpg
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 3
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City

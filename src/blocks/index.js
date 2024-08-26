@@ -356,3 +356,32 @@ export const servingSouthwest = {
     }),
   }),
 };
+export const projectCardsWithCategory = {
+  label: "Project Cards With Categories",
+  schema: fields.object({
+    categories: fields.array(
+      fields.object({
+        title: fields.text({ label: "Category Title" }),
+        cards: fields.array(
+          fields.object({
+            title: fields.text({ label: "Project Title" }),
+            link: fields.text({ label: "Project Link" }),
+            image: fields.image({
+              label: "Project Image",
+              directory: "/public/images/",
+              publicPath: "/images",
+            }),
+          }),
+          {
+            label: "Project Cards",
+            itemLabel: (props) => props.fields.title.value,
+          }
+        ),
+      }),
+      {
+        label: "Categories",
+        itemLabel: (props) => props.fields.title.value,
+      }
+    ),
+  }),
+}
