@@ -1,0 +1,23 @@
+---
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "@components/Header.astro";
+import SimpleHeader from "@components/SimpleHeader.astro";
+import SimpleFooter from "@components/SimpleFooter.astro";
+const { title, description, image } = Astro.props;
+---
+
+<html lang="en">
+    <head> </head>
+    <BaseHead title={title} description={description} image={image} />
+    <body>
+        <SimpleHeader />
+        <main class="overflow-x-hidden">
+            <slot />
+        </main>
+        <SimpleFooter />
+    </body>
+
+
+</html>

@@ -23,11 +23,11 @@ import {
 
 export default config({
   storage: {
-    kind: "local",
+    kind: "cloud",
   },
-  // cloud: {
-  //   project: "moorhouse/moorhouse2024",
-  // },
+  cloud: {
+    project: "moorhouse/moorhouse2024",
+  },
   collections: {
     Pages: collection({
       label: "Pages",

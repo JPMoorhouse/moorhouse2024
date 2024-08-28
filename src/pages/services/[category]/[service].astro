@@ -18,6 +18,7 @@ import Layout from '@layouts/Layout.astro';
 import { getEntry } from 'astro:content';
 import keystaticConfig from 'keystatic.config';
 import ServiceGallery from '@components/service-gallery.astro';
+import DetailLayout from '@layouts/DetailLayout.astro';
 
 export async function getStaticPaths() {
     const reader = createReader(process.cwd(), keystaticConfig);
@@ -42,7 +43,7 @@ const serviceData:any = await getEntry('sub-services', service);
 const data = serviceData.data; 
 console.log(data)
 ---
-<Layout
+<DetailLayout
     title={data.seoData.seoTitle}
     description={data.seoData.seoDesription}
     image={data.seoData.ogImage}
@@ -68,4 +69,4 @@ console.log(data)
             </>
         ))
     }
-</Layout>
+</DetailLayout>

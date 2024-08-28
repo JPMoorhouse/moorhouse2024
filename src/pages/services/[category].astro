@@ -16,6 +16,7 @@ import HeroWithBanner from "@components/hero-with-banner.astro";
 import SubServicesCards from "@components/sub-services-cards.astro";
 import { createReader } from '@keystatic/core/reader';
 import keystaticConfig from 'keystatic.config';
+import DetailLayout from "@layouts/DetailLayout.astro";
 export async function getStaticPaths() {
   const reader = createReader(process.cwd(), keystaticConfig);
     const serviceCategories = await reader.collections.serviceCategory.all();
@@ -32,7 +33,7 @@ const data = Categorydata.data
 
 console.log(data.blocks)
 ---
-<Layout
+<DetailLayout
     title={data.seoData.seoTitle}
     description={data.seoData.seoDesription}
     image={data.seoData.ogImage}
@@ -56,4 +57,4 @@ console.log(data.blocks)
             </>
         ))
     }
-</Layout>
+</DetailLayout>

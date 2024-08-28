@@ -1,0 +1,141 @@
+---
+import Image from "astro/components/Image.astro";
+import keystaticConfig from "../../keystatic.config";
+const reader = createReader(process.cwd(), keystaticConfig);
+import { createReader } from "@keystatic/core/reader";
+const footer: any = await reader.singletons.footer.read();
+---
+
+<div
+    class="pt-16 pb-14 md:rounded-t-[90px] rounded-t-[30px] footer-gradient relative"
+>
+    <div class="footer-bg"></div>
+    <div class="relative z-50">
+        <div
+            class="custom-container flex justify-between flex-col lg:flex-row gap-12 lg:gap-0 items-start mt-24 lg:p-14"
+        >
+            <div class="lg:w-1/4 w-full gap-6">
+                <Image
+                    loading="lazy"
+                    src={footer.logo}
+                    alt="Moor House Footer Logo"
+                    width="138"
+                    height="110"
+                />
+                <Image
+                    src={footer.bedge}
+                    class="ml-3 mt-6"
+                    alt=""
+                    width="102"
+                    height="68"
+                />
+            </div>
+            <div
+                class="flex justify-between items-start flex-wrap gap-12 xl:gap-0 lg:w-3/4 w-full"
+            >
+                <div
+                    class="text-white flex justify-start items-start gap-1 flex-col lg:ml-12 ml-0"
+                >
+                    <span class="font-bold text-xl">Sitemap</span>
+                    {
+                        footer.Sitemap.map((link: any) => (
+                            <a href={link.link} class="font-light">
+                                {link.label}
+                            </a>
+                        ))
+                    }
+                </div>
+                <div
+                    class="text-white flex justify-start items-start gap-1 flex-col lg:ml-12 ml-0"
+                >
+                    <span class="font-bold text-xl">Our Services</span>
+                    {
+                        footer.OurServices.map((link: any) => (
+                            <a href={link.link} class="font-light">
+                                {link.label}
+                            </a>
+                        ))
+                    }
+                </div>
+
+                <div
+                    class="text-white flex justify-start items-start gap-1 flex-col lg:ml-12 ml-0"
+                >
+                    <span class="font-bold text-xl"> Opening Hours</span>
+                    <p class="font-light">{footer.OpeningHours.openHours}</p>
+                    <p class="font-light">{footer.OpeningHours.openDays}</p>
+                    <a
+                        href={footer.OpeningHours.Button.url}
+                        class="rounded-full px-4 py-3 gap-4 border mt-8 border-white text-white flex justify-center items-center w-fit"
+                    >
+                        {footer.OpeningHours.Button.label}
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="26"
+                            height="27"
+                            viewBox="0 0 26 27"
+                            fill="none"
+                        >
+                            <g clip-path="url(#clip0_1_383)">
+                                <path
+                                    d="M25.4522 12.0389L20.3525 6.93921L19.5881 7.70358L24.5808 12.6963H0V13.7774H24.5786L19.587 18.769L20.3514 19.5334L25.4522 14.4326C26.1117 13.7731 26.1117 12.6984 25.4522 12.0389Z"
+                                    fill="white"></path>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1_383">
+                                    <rect
+                                        width="25.9474"
+                                        height="25.9474"
+                                        fill="white"
+                                        transform="translate(0 0.263184)"
+                                    ></rect>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="lg:px-14 custom-container">
+            <div
+                class="border-b pb-10 mt-16 flex justify-between lg:items-center lg:flex-row gap-4 flex-col"
+            >
+                <h6 class="text-white text-xl font-bold">
+                    {footer.locations.title}
+                </h6>
+                <div
+                    class="divide-x-2 flex justify-center text-white items-center gap-4 lg:gap-0 flex-wrap lg:flex-nowrap"
+                >
+                    {
+                        footer.locations.location.map((item: any) => (
+                            <a href={item.link} class="px-4  font-light">
+                                {item.label}
+                            </a>
+                        ))
+                    }
+                </div>
+            </div>
+            <div
+                class="flex flex-col items-center pt-14 sm:flex-row sm:justify-between"
+            >
+                <p class="text-sm text-white">
+                    Copyright © 2024 Moorhouse Coating. All Rights Reserved.
+                </p>
+
+                <div class="flex mt-3 -mx-2 sm:mt-0">
+                    {
+                        footer.otherlinks.map((link: any) => (
+                            <a
+                                href={link.link}
+                                class="mx-2 text-sm text-white transition-colors duration-300 hover:text-white dark:hover:text-gray-300"
+                                aria-label="Reddit"
+                            >
+                                {link.label}
+                            </a>
+                        ))
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -18,6 +18,7 @@ import RichTextWithTitle from "@components/rich-text-with-title.astro";
 import TwoColumnTitle from "@components/two-column-title.astro";
 import SubServicesCards from "@components/sub-services-cards.astro";
 import HeroWithBanner from "@components/hero-with-banner.astro";
+import DetailLayout from "@layouts/DetailLayout.astro";
 export async function getStaticPaths() {
     const reader = createReader(process.cwd(), keystaticConfig);
     const projects = await reader.collections.projects.all();
@@ -33,7 +34,7 @@ const { slug } = Astro.params;
 const projectsData:any = await getEntry("projects",slug)
 const data = projectsData.data
 ---
-<Layout
+<DetailLayout
     title={data.seoData.seoTitle}
     description={data.seoData.seoDesription}
     image={data.seoData.ogImage}
@@ -59,4 +60,4 @@ const data = projectsData.data
             </>
         ))
     }
-</Layout>
+</DetailLayout>
