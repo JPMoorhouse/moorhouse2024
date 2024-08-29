@@ -12,7 +12,7 @@ const footer: any = await reader.singletons.footer.read();
 >
     <div class="footer-bg"></div>
     <div class="relative z-50">
-        <div class="bg-purple/75 md:p-14 p-6 lg:mx-12 mx-6 rounded-[30px]">
+        <div class="bg-purple/75 md:p-14 p-6  lg:mx-12 mx-6 rounded-[30px]">
             <p class="text-secondary text-center font-body text-lg mb-4">
                 {footer.pretitle}
             </p>
@@ -21,7 +21,10 @@ const footer: any = await reader.singletons.footer.read();
             >
                 {footer.heading}
             </h2>
-            <FooterForm />
+            <div class="lg:max-w-[900px] mx-auto">
+                <FooterForm />
+            </div>
+            
         </div>
         <div
             class="custom-container flex justify-between flex-col lg:flex-row gap-12 lg:gap-0 items-start mt-24 lg:p-14"

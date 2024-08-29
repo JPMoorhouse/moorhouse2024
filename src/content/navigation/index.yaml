@@ -1,4 +1,4 @@
-logo: /images/logo.png
+logo: /images/logo.svg
 navItems:
   - label: Home
     link: /
@@ -11,7 +11,5 @@ navItems:
   - label: Blog
     link: /blog
 button:
-  - buttontext: 1 (855) 666-2628
-    buttonSlug: '#'
-  - buttontext: Contact Us
-    buttonSlug: '#'
+  buttontext: Customer Portal
+  buttonSlug: '#'

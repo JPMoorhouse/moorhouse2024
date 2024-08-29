@@ -19,7 +19,7 @@ import { getEntry } from 'astro:content';
 import keystaticConfig from 'keystatic.config';
 import ServiceGallery from '@components/service-gallery.astro';
 import DetailLayout from '@layouts/DetailLayout.astro';
-
+import PantingProcess from "@components/panting-process.astro"
 export async function getStaticPaths() {
     const reader = createReader(process.cwd(), keystaticConfig);
     const serviceCategories = await reader.collections.serviceCategory.all();
@@ -41,7 +41,7 @@ export async function getStaticPaths() {
 const { service } = Astro.props;
 const serviceData:any = await getEntry('sub-services', service);
 const data = serviceData.data; 
-console.log(data)
+console.log(data);
 ---
 <DetailLayout
     title={data.seoData.seoTitle}
@@ -66,6 +66,8 @@ console.log(data)
             {block.discriminant == "twoColumn" && <TwoCol {...block.value} />}
             {block.discriminant == "frequentlyAskedQuestions" && <Faq {...block.value} />}
             {block.discriminant == "testimonials" && <Testimonial client:only {...block.value} />}
+            {block.discriminant == "paintingProcess" && <PantingProcess {...block.value} />}
+
             </>
         ))
     }

@@ -5,9 +5,9 @@ seoData:
 blocks:
   - discriminant: hero
     value:
-      title: Commercial & Industrial <span class="text-secondary">Painting</span>
+      title: Full Service <span class="text-secondary">Painting</span>
       subtitle: Professional Painting Contractor with Roots in Park City, Utah.
-      bgImage: /images/home/blocks/0/value/bgImage.webp
+      bgImage: /images/home/blocks/0/value/bgImage.png
       Button:
         label: Get FREE Estimate
         url: '#'

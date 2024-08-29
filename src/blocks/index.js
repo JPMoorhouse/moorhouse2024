@@ -384,4 +384,22 @@ export const projectCardsWithCategory = {
       }
     ),
   }),
-}
+};
+export const paintingProcess = {
+  label: "Painting Process",
+  schema: fields.object({
+    pretitle: fields.text({ label: "Pretitle " }),
+    title: fields.text({ label: " Title" }),
+    description: fields.text({ label: "Description" }),
+    cards: fields.array(
+      fields.object({
+        title: fields.text({ label: " Title" }),
+        description: fields.text({ label: " description" }),
+      }),
+      {
+        label: " Cards",
+        itemLabel: (props) => props.fields.title.value,
+      }
+    ),
+  }),
+};

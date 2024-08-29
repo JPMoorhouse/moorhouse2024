@@ -18,13 +18,17 @@ import {
   heroWithBanner,
   coreValues,
   servingSouthwest,
-  projectCardsWithCategory
+  projectCardsWithCategory,
+  paintingProcess
 } from "./src/blocks";
 
 export default config({
   storage: {
-    kind: "cloud",
+    // kind: "cloud",
+kind: "local",
+
   },
+  
   cloud: {
     project: "moorhouse/moorhouse2024",
   },
@@ -181,7 +185,8 @@ export default config({
             frequentlyAskedQuestions,
             testimonials,
             coreValues,
-            servingSouthwest
+            servingSouthwest,
+            paintingProcess
           },
           { label: "Blocks" }
         ),
@@ -215,7 +220,8 @@ export default config({
             gallery,
             testimonials,
             coreValues,
-            servingSouthwest
+            servingSouthwest,
+            paintingProcess
           },
           { label: "Blocks" }
         ),
@@ -247,16 +253,11 @@ export default config({
             itemLabel: (props) => props.fields.label.value,
           }
         ),
-        button: fields.array(
-          fields.object({
-            buttontext: fields.text({ label: "Button Text" }),
-            buttonSlug: fields.text({ label: "Button Slug" }),
-          }),
-          {
-            label: "Seperate Us Button",
-            itemLabel: (props) => props.fields.buttontext.value,
-          }
-        ),
+        button: fields.object({
+          buttontext: fields.text({ label: "Button Text" }),
+          buttonSlug: fields.text({ label: "Button Slug" }),
+        }),
+       
       },
     }),
     topbar: singleton({

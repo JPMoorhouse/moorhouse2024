@@ -36,3 +36,65 @@ blocks:
         - /images/exterior-house-painting/blocks/1/value/galleryImages/1.png
         - /images/exterior-house-painting/blocks/1/value/galleryImages/2.png
         - /images/exterior-house-painting/blocks/1/value/galleryImages/3.png
+  - discriminant: paintingProcess
+    value:
+      pretitle: Residential Painting Process
+      title: Your Home is Our Canvas
+      description: "House painting is led by people, process, and paint, then followed by professional service. Our proven process helps ensure your project will meet our high standards and the job is done right the first time.\_"
+      cards:
+        - title: Estimate and Color Consultation
+          description: "Our process begins with a free estimate and color consultation. We confirm paint colors and details.\_\_Answer questions or concerns immediately."
+        - title: Approve Painting Proposal
+          description: >-
+            Once you have accepted our proposal we will make sure all questions
+            are answered and colors confirmed. 
+        - title: Prepare Job Site
+          description: "Before we even start painting, we perform a massive cover and drape of the entire area. Move and/or cover all furniture.\_"
+        - title: Surface Preparation
+          description: "Our painters will prep, patch, and prime all surfaces prior to installing the finish paint.\_ This ensures a long lasting quality paint job."
+        - title: Paint Application
+          description: >-
+            The painting process begins with the right application according to
+            the surface type. Attention to detail ensures the right finish and
+            amount of paint is applied to your surfaces.
+        - title: Final Inspection
+          description: >-
+            Your project manager will inspect the paint application for defects
+            and correct any problems.
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 3
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City

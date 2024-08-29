@@ -5,7 +5,7 @@ blocks:
     value:
       title: Commercial & Industrial <span class="text-secondary">Painting</span>
       subtitle: Professional Painting Contractor with Roots in Park City, Utah.
-      bgImage: /images/services/blocks/0/value/bgImage.jpeg
+      bgImage: /images/services/blocks/0/value/bgImage.png
       banner:
         title: Receive a FREE Estimate!
         button:
