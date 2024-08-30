@@ -1,4 +1,5 @@
 ---
+import type { GetStaticPaths } from 'astro';
 import AboutMoorehouse from '@components/about-moorehouse.astro';
 import Faq from '@components/Faq.astro';
 import Gallery from '@components/Gallery';
@@ -14,60 +15,68 @@ import WhatToExpect from '@components/WhatToExpect.astro';
 import WhatWeOffer from '@components/WhatWeOffer.astro';
 import { createReader } from '@keystatic/core/reader';
 import RichTextWithTitle from "@components/rich-text-with-title.astro"
-import Layout from '@layouts/Layout.astro';
 import { getEntry } from 'astro:content';
 import keystaticConfig from 'keystatic.config';
 import ServiceGallery from '@components/service-gallery.astro';
 import DetailLayout from '@layouts/DetailLayout.astro';
 import PantingProcess from "@components/panting-process.astro"
-export async function getStaticPaths() {
+
+export const getStaticPaths = async () => {
     const reader = createReader(process.cwd(), keystaticConfig);
     const serviceCategories = await reader.collections.serviceCategory.all();
-  const paths = [];
+    const paths = [];
 
-  for (const category of serviceCategories) {
-    const relatedServices = category.entry.subService || [];
-    for (const service of relatedServices) {
-      paths.push({
-        params: { category: category.slug, service: service },
-        props: { service },
-      });
+    for (const category of serviceCategories) {
+        const relatedServices = category.entry.subService || [];
+        for (const service of relatedServices) {
+            paths.push({
+                params: { category: category.slug, service: service },
+                props: { service },
+            });
+        }
     }
-  }
 
-  return paths;
+    return paths;
+};
+
+interface Props {
+    service: string;
 }
 
 const { service } = Astro.props;
-const serviceData:any = await getEntry('sub-services', service);
-const data = serviceData.data; 
+const serviceData = await getEntry('sub-services', service);
+const data = serviceData?.data;
 console.log(data);
+
+interface Block {
+    discriminant: string;
+    value: any;
+}
 ---
 <DetailLayout
-    title={data.seoData.seoTitle}
-    description={data.seoData.seoDesription}
-    image={data.seoData.ogImage}
+    title={data?.seoData.seoTitle}
+    description={data?.seoData.seoDesription}
+    image={data?.seoData.ogImage}
 >
     {
-        data?.blocks.map((block: any) => (
-          <>
-            {block.discriminant == "twoColumnWithTitle" && <TwoColumnTitle {...block.value} />}
-            {block.discriminant == "subServiceCards" && <SubServicesCards {...block.value} />}
-            {block.discriminant == "sectionTitleDescription" && <RichTextWithTitle {...block.value} />}
-            {block.discriminant == "gridGallery" && <ServiceGallery {...block.value} />}
-            {block.discriminant == "hero" && <Hero {...block.value} />}
-            {block.discriminant == "heroWithBanner" && <HeroWithBanner {...block.value} />}
-            {block.discriminant == "aboutmoorhouse" && <AboutMoorehouse {...block.value} />}
-            {block.discriminant == "whatWeOffer" && <WhatWeOffer {...block.value} />}
-            {block.discriminant == "gallery" && <Gallery {...block.value} client:only />}
-            {block.discriminant == "whatToExpect" && <WhatToExpect {...block.value} />}
-            {block.discriminant == "locallyOwnedBusiness" && <LocalOwnedBusiness {...block.value} />}
-            {block.discriminant == "industrialPainting" && <IndustrialPainting {...block.value} />}
-            {block.discriminant == "twoColumn" && <TwoCol {...block.value} />}
-            {block.discriminant == "frequentlyAskedQuestions" && <Faq {...block.value} />}
-            {block.discriminant == "testimonials" && <Testimonial client:only {...block.value} />}
-            {block.discriminant == "paintingProcess" && <PantingProcess {...block.value} />}
-
+        data?.blocks.map((block: Block) => (
+            <>
+                {block.discriminant === "twoColumnWithTitle" && <TwoColumnTitle {...block.value} />}
+                {block.discriminant === "subServiceCards" && <SubServicesCards {...block.value} />}
+                {block.discriminant === "sectionTitleDescription" && <RichTextWithTitle {...block.value} />}
+                {block.discriminant === "gridGallery" && <ServiceGallery {...block.value} />}
+                {block.discriminant === "hero" && <Hero {...block.value} />}
+                {block.discriminant === "heroWithBanner" && <HeroWithBanner {...block.value} />}
+                {block.discriminant === "aboutmoorhouse" && <AboutMoorehouse {...block.value} />}
+                {block.discriminant === "whatWeOffer" && <WhatWeOffer {...block.value} />}
+                {block.discriminant === "gallery" && <Gallery {...block.value} client:only />}
+                {block.discriminant === "whatToExpect" && <WhatToExpect {...block.value} />}
+                {block.discriminant === "locallyOwnedBusiness" && <LocalOwnedBusiness {...block.value} />}
+                {block.discriminant === "industrialPainting" && <IndustrialPainting {...block.value} />}
+                {block.discriminant === "twoColumn" && <TwoCol {...block.value} />}
+                {block.discriminant === "frequentlyAskedQuestions" && <Faq {...block.value} />}
+                {block.discriminant === "testimonials" && <Testimonial client:only {...block.value} />}
+                {block.discriminant === "paintingProcess" && <PantingProcess {...block.value} />}
             </>
         ))
     }
