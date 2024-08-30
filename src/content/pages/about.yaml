@@ -1,5 +1,9 @@
 title: About
-seoData: {}
+seoData:
+  seoTitle: 'About Moorhouse Coating '
+  seoDesription: >-
+    Commercial Painting Contractor About Services Interior Exterior Paint
+    Company
 blocks:
   - discriminant: heroWithBanner
     value:
