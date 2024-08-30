@@ -15,7 +15,7 @@ blocks:
       banner:
         title: Receive a FREE Estimate!
         button:
-          label: Get a Free Estimate
+          label: Free Estimate Now
           link: '#'
   - discriminant: sectionTitleDescription
     value:
@@ -56,11 +56,10 @@ blocks:
             Ensuring the project is completed on time, within budget, and meets
             your quality standards is our number one goal.
         - icon: /images/about/blocks/2/value/coreValues/1/icon.png
-          title: Always Professional and Respectful
+          title: Professional and Respectful
           description: >-
-            It’s important for all Moorhouse Employees, customers and suppliers
-            to feel valued and respected throughout every interaction with our
-            painters.
+            It’s important for all Moorhouse employees, customers and suppliers
+            to feel valued and respected throughout every interaction.
         - icon: /images/about/blocks/2/value/coreValues/2/icon.png
           title: We Take Pride in our Craftmanship
           description: >-
@@ -82,7 +81,7 @@ blocks:
       phone: 1-435-655-9706
       email: info@moorhousecoating.com
       locations:
-        - Parkcity, Utah
+        - Park City, Utah
         - Palm Springs, California
         - Los Angeles, California
         - Phoenix, Arizona
@@ -98,7 +97,7 @@ blocks:
           cardDescription: >-
             The Key to a successful project is found in good communication. As a
             licensed painting contractor, we have years of experience performing
-            quality for commercial and residential clients.
+            quality commercial and residential painting projects.
         - cardIcon: /images/about/blocks/4/value/cards/1/cardIcon.svg
           cardText: We Value Integrity <br/> & Honesty
           cardDescription: >-
@@ -124,9 +123,9 @@ blocks:
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
         - cardIcon: /images/about/blocks/4/value/cards/5/cardIcon.svg
-          cardText: Over 20+ Years <br/> Experience
+          cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
-            Our 20+ years experience in the painting, has shown us nearly every
+            Our 25+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.   
   - discriminant: frequentlyAskedQuestions
@@ -175,19 +174,22 @@ blocks:
       testimonials:
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip
-          authorName: Chris Michael
+            "After getting several quotes, we decided to go with Moorhouse
+            Coating because of their fair pricing and reputation for quality.
+            They didn't disappoint! The team was friendly, efficient, and
+            delivered a top-notch paint job. Our house looks better than ever,
+            and the paint has held up beautifully through the seasons. Great
+            value for the money!"
+          authorName: Michael
           authorpost: Park City
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
+            Moorhouse Coating. They were very professional and finished the job
+            on time, which was important for us as we were preparing our house
+            for sale. The new paint job really added to the curb appeal, and we
+            were able to sell our home quickly. We would definitely recommend
+            them to anyone needing painting services in the Park City area.
+          authorName: Steve
           authorpost: Park City
         - rating: 3
           cardText: >-
