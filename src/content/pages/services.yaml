@@ -10,7 +10,7 @@ blocks:
         title: Receive a FREE Estimate!
         button:
           label: Get a Free Estimate
-          link: /
+          link: https://calendly.com/mrlft/onsite-estimate
   - discriminant: sectionTitleDescription
     value:
       pretitle: Our Services
@@ -40,7 +40,7 @@ blocks:
             other materials. With proper prep work and the right paint for the
             job, you can expect your home’s paint job to look great and stand up
             to the conditions for several years.
-          image: /images/services/blocks/2/value/cardWithImage/0/image.png
+          image: /images/services/blocks/2/value/cardWithImage/0/image.webp
           Button:
             text: Learn more
             slug: exterior-house-painting-services
@@ -48,8 +48,8 @@ blocks:
           description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint.\nNo matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
           image: /images/services/blocks/2/value/cardWithImage/1/image.png
           Button:
-            text: Learn more
-            slug: /
+            text: Free quote
+            slug: https://calendly.com/mrlft/onsite-estimate
         - title: Commercial Painting
           description: >-
             Knowledgeable, professional and experienced, Moorhouse Coating
@@ -60,7 +60,7 @@ blocks:
           image: /images/services/blocks/2/value/cardWithImage/2/image.png
           Button:
             text: Learn more
-            slug: /
+            slug: https://calendly.com/mrlft/onsite-estimate
         - title: Industrial Painting
           description: >-
             There are several important factors to consider when planning and
@@ -72,7 +72,7 @@ blocks:
           image: /images/services/blocks/2/value/cardWithImage/3/image.png
           Button:
             text: Learn more
-            slug: /
+            slug: https://calendly.com/mrlft/onsite-estimate
   - discriminant: whatToExpect
     value:
       pretitle: Professional Commercial & Residential Painting
@@ -121,33 +121,41 @@ blocks:
       testimonials:
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip
-          authorName: Chris Michael
+            "I recently hired Moorhouse Coating for a pressure washing job at my
+            commercial property, and I couldn't be happier with the results.
+            Their team arrived on time, and the level of professionalism was
+            impressive. They thoroughly cleaned our building's exterior,
+            removing years of grime and buildup that had dulled its appearance.
+            The difference is night and day!
+          authorName: John W
           authorpost: Park City
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
+            The crew was courteous and made sure to protect surrounding areas
+            from any potential damage. The job was completed efficiently, and
+            the area was left spotless. I highly recommend Moorhouse Coating for
+            anyone in need of top-quality pressure washing services!
+          authorName: Lisa M
           authorpost: Park City
         - rating: 3
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
+            "Moorhouse Coating did a great job pressure washing the sidewalks
+            and parking lot at our office complex. The results were impressive,
+            with all the stains and debris removed. The team was professional
+            and worked quickly, though there was a slight delay in scheduling
+            which was understandable given the busy season. Overall, we're very
+            satisfied with the service and would use them again for future
+            cleaning projects."
+          authorName: Benjamin
           authorpost: Park City
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
+            "Just had Moorhouse Coating handle a major pressure washing job for
+            our retail space, and they did an outstanding job. The difference in
+            cleanliness was remarkable, with our storefront and outdoor areas
+            looking brand new. The technicians were friendly, efficient, and
+            careful not to damage any landscaping or fixtures. They also gave us
+            some tips on how to maintain the cleanliness moving forward.
+            Excellent service and great value!"
+          authorName: Sophia S
           authorpost: Park City
