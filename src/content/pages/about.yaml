@@ -4,7 +4,7 @@ seoData:
   seoDesription: >-
     Commercial Painting Contractor About Services Interior Exterior Paint
     Company
-  ogImage: /images/seo/about-us/seoData/ogImage.webp
+  ogImage: /images/seo/about/seoData/ogImage.webp
 blocks:
   - discriminant: heroWithBanner
     value:
@@ -12,7 +12,7 @@ blocks:
         Residential, Commercial  & Industrial <span class="text-secondary">
         Projects</span>
       subtitle: Professional Painting Contractor with Roots in Park City, Utah.
-      bgImage: /images/about-us/blocks/0/value/bgImage.png
+      bgImage: /images/about/blocks/0/value/bgImage.png
       banner:
         title: Receive a FREE Estimate!
         button:
@@ -50,23 +50,23 @@ blocks:
         These core values help us achieve success with every project and ensures
         our customers are always satisfied with the end result.
       coreValues:
-        - icon: /images/about-us/blocks/2/value/coreValues/0/icon.png
+        - icon: /images/about/blocks/2/value/coreValues/0/icon.png
           title: Deliver More than you Promised
           description: >-
             The promises made to our customers is always a top priority.
             Ensuring the project is completed on time, within budget, and meets
             your quality standards is our number one goal.
-        - icon: /images/about-us/blocks/2/value/coreValues/1/icon.png
+        - icon: /images/about/blocks/2/value/coreValues/1/icon.png
           title: Professional and Respectful
           description: >-
             It’s important for all Moorhouse employees, customers and suppliers
             to feel valued and respected throughout every interaction.
-        - icon: /images/about-us/blocks/2/value/coreValues/2/icon.png
+        - icon: /images/about/blocks/2/value/coreValues/2/icon.png
           title: We Take Pride in our Craftmanship
           description: >-
             While working on your home or business our painters pay attention to
             the finest details, giving every space the attention it deserves.
-        - icon: /images/about-us/blocks/2/value/coreValues/3/icon.png
+        - icon: /images/about/blocks/2/value/coreValues/3/icon.png
           title: Always Striving to Improve
           description: >-
             We are always thinking about ways to improve your experience with
@@ -87,43 +87,43 @@ blocks:
         - Los Angeles, California
         - Phoenix, Arizona
         - St. George, Utah
-      mapImage: /images/about-us/blocks/3/value/mapImage.png
+      mapImage: /images/about/blocks/3/value/mapImage.png
   - discriminant: whatToExpect
     value:
       pretitle: Professional Commercial & Residential Painting
       heading: What To Expect When You Hire Moorhouse Coating
       cards:
-        - cardIcon: /images/about-us/blocks/4/value/cards/0/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/0/cardIcon.svg
           cardText: Effective Communication Throughout The Process
           cardDescription: >-
             The Key to a successful project is found in good communication. As a
             licensed painting contractor, we have years of experience performing
             quality commercial and residential painting projects.
-        - cardIcon: /images/about-us/blocks/4/value/cards/1/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/1/cardIcon.svg
           cardText: We Value Integrity <br/> & Honesty
           cardDescription: >-
             To Paint with integrity we must be open and forthright, even when
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
-        - cardIcon: /images/about-us/blocks/4/value/cards/2/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/2/cardIcon.svg
           cardText: Over 20+ Years <br/> Experience
           cardDescription: >-
             Our 20+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
-        - cardIcon: /images/about-us/blocks/4/value/cards/3/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/3/cardIcon.svg
           cardText: Effective Communication Throughout The Process
           cardDescription: >-
             The Key to a successful project is found in good communication. As a
             licensed painting contractor, we have years of experience performing
             quality for commercial and residential clients.
-        - cardIcon: /images/about-us/blocks/4/value/cards/4/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/4/cardIcon.svg
           cardText: We Value Integrity <br/> & Honesty
           cardDescription: >-
             To Paint with integrity we must be open and forthright, even when
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
-        - cardIcon: /images/about-us/blocks/4/value/cards/5/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/5/cardIcon.svg
           cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
             Our 25+ years experience in the painting, has shown us nearly every
