@@ -4,6 +4,7 @@ seoData:
   seoDesription: >-
     Commercial Painting Contractor About Services Interior Exterior Paint
     Company
+  ogImage: /images/seo/about/seoData/ogImage.webp
 blocks:
   - discriminant: heroWithBanner
     value:
