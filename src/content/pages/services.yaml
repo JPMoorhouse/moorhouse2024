@@ -2,7 +2,6 @@ title: Services
 seoData:
   seoTitle: Moorhouse Coating Painting Services
   seoDesription: 'Moorhouse Coating Staining Painting Services '
-  ogImage: /images/seo/services/seoData/ogImage.jpeg
 blocks:
   - discriminant: heroWithBanner
     value:
