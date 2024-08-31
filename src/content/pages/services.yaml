@@ -1,13 +1,13 @@
 title: Services
 seoData:
   seoTitle: Moorhouse Coating Painting Services
-  seoDesription: Moorhouse Coating Painting Services
+  seoDesription: 'Moorhouse Coating Painting Services '
   ogImage: /images/seo/services/seoData/ogImage.jpeg
 blocks:
   - discriminant: heroWithBanner
     value:
       title: Commercial & Industrial <span class="text-secondary">Painting</span>
-      subtitle: Professional Painting Contractor with Roots in Park City, Utah.
+      subtitle: Professional Painting Contractor with Roots in Park City Utah
       bgImage: /images/services/blocks/0/value/bgImage.png
       banner:
         title: Receive a FREE Estimate!
@@ -31,7 +31,7 @@ blocks:
 
         Finding the right team to paint your home or office can feel
         overwhelming, but with Moorhouse Coating and Painting you’ll have peace
-        of mind and experts that treat your home with the respect it deserves.\
+        of mind and experts that treat your home with the respect it deserves.
   - discriminant: twoColumn
     value:
       cardWithImage:
@@ -46,7 +46,7 @@ blocks:
           image: /images/services/blocks/2/value/cardWithImage/0/image.webp
           Button:
             text: Learn more
-            slug: exterior-house-painting-services
+            slug: https://calendly.com/moorhousecoating/onsite-estimate
         - title: Interior Residential Painting
           description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint.\nNo matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
           image: /images/services/blocks/2/value/cardWithImage/1/image.png
@@ -63,7 +63,7 @@ blocks:
           image: /images/services/blocks/2/value/cardWithImage/2/image.png
           Button:
             text: Learn more
-            slug: https://calendly.com/mrlft/onsite-estimate
+            slug: https://calendly.com/moorhousecoating/onsite-estimate
         - title: Industrial Painting
           description: >-
             There are several important factors to consider when planning and
@@ -75,7 +75,7 @@ blocks:
           image: /images/services/blocks/2/value/cardWithImage/3/image.png
           Button:
             text: Learn more
-            slug: https://calendly.com/mrlft/onsite-estimate
+            slug: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: whatToExpect
     value:
       pretitle: Professional Commercial & Residential Painting
