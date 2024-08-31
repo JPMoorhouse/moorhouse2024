@@ -1,6 +1,6 @@
 title: Home page
 seoData:
-  seoTitle: MoorHouse Coating
+  seoTitle: Moorhouse Coating
   seoDesription: Professional Painting Contractor serving the Southwest
 blocks:
   - discriminant: hero
@@ -10,7 +10,7 @@ blocks:
       bgImage: /images/home/blocks/0/value/bgImage.png
       Button:
         label: Get FREE Estimate
-        url: '#'
+        url: https://calendly.com/mrlft/onsite-estimate
   - discriminant: aboutmoorhouse
     value:
       pretitle: Welcome to Moorhouse Coating
@@ -41,9 +41,13 @@ blocks:
       pretitle: What We Offer
       heading: We Tailor Our Services To Suit Your Needs.
       bgImage: /images/home/blocks/2/value/bgImage.webp
-      featureCards: []
+      featureCards:
+        - cardText: Commercial Painting
+          cardDescription: 'Commercial Painting '
       banner:
-        button: {}
+        title: Commercial Painting
+        button:
+          text: Commercial Painting
   - discriminant: twoColumn
     value:
       cardWithImage:
