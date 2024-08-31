@@ -12,4 +12,5 @@ navItems:
     link: /blog
 button:
   buttontext: Customer Portal
-  buttonSlug: '#'
+  buttonSlug: >-
+    https://moorhousecoating.retool.com/apps/b281d912-d1b9-11ee-9ecd-4370324ad1ea/Paintkrew%20Customer%20Portal%20Staging/Customer%20Dashboard?_hideNav=true&key=12b02cb9-931e-4b6a-aa94-2b95cba6a9b0
