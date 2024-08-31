@@ -122,7 +122,7 @@ blocks:
       bgImage: /images/exterior-house-painting-services/blocks/2/value/bgImage.jpg
       Button:
         label: 'Learn more   '
-        link: https://moorhousecoating.com/
+        link: /
   - discriminant: testimonials
     value:
       pretitle: Customer Testimonials
