@@ -17,7 +17,7 @@ Sitemap:
     link: /testimonials
 OurServices:
   - label: Residential Painting
-    link: '#'
+    link: https://parkcity.moorhousecoating.com/
   - label: Commercial Painting
     link: '#'
   - label: Exterior Painting
@@ -27,11 +27,11 @@ OurServices:
   - label: Other Service Here
     link: '#'
 OpeningHours:
-  openHours: ' Monday-Friday 10AM - 6PM'
-  openDays: Saturday-Sunday Closed
+  openHours: ' Monday-Friday 6AM - 6PM'
+  openDays: Saturday 9AM- 4PM Sunday Closed
   Button:
     label: ' Get FREE Estimate'
-    url: '#'
+    url: https://calendly.com/mrlft/onsite-estimate
 locations:
   title: Moorhouse Painting Locations
   location:
