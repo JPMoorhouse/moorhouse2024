@@ -101,6 +101,10 @@ blocks:
         - /images/home/blocks/4/value/galleryImages/0.webp
         - /images/home/blocks/4/value/galleryImages/1.webp
         - /images/home/blocks/4/value/galleryImages/2.webp
+        - /images/home/blocks/4/value/galleryImages/3.webp
+        - /images/home/blocks/4/value/galleryImages/4.webp
+        - /images/home/blocks/4/value/galleryImages/5.webp
+        - /images/home/blocks/4/value/galleryImages/6.jpeg
   - discriminant: whatToExpect
     value:
       pretitle: Professional Commercial & Residential Painting
