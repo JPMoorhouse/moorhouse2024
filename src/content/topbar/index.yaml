@@ -4,10 +4,10 @@ message:
 social:
   - icontext: instagram
     image: /images/social/0/image.svg
-    link: '#'
+    link: https://www.instagram.com/moorhousecoating/
   - icontext: facebook
     image: /images/social/1/image.svg
-    link: '#'
+    link: https://www.facebook.com/profile.php?id=100063492910941
   - icontext: youtube
     image: /images/social/2/image.svg
     link: '#'
