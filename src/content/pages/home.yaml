@@ -48,6 +48,7 @@ blocks:
         title: Commercial Painting
         button:
           text: Commercial Painting
+          slug: /
   - discriminant: twoColumn
     value:
       cardWithImage:
