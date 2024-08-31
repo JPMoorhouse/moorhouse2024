@@ -266,33 +266,41 @@ blocks:
       testimonials:
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip
-          authorName: Chris Michael
-          authorpost: Park City
+            "Moorhouse painted several areas of our shopping mall, including
+            common areas and exterior facades. Their team was professional and
+            efficient, ensuring minimal disruption to shoppers and tenants. The
+            mall looks fantastic, and the paint job has really enhanced the
+            overall appearance of the property. We highly recommend them for any
+            large-scale commercial project."
+          authorName: 'Michelle '
+          authorpost: Retail Property Manager
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
+            "Jose worked diligently to complete the job during off-hours to
+            avoid interfering with classes and events. The finished result is
+            both aesthetically pleasing and durable, meeting all our specific
+            needs. We appreciate their flexibility and high standards."
+          authorName: Wes
+          authorpost: Education Campus
         - rating: 3
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
+            "The painting project at our hospital required a careful approach
+            due to the need for minimal disruption and adherence to strict
+            hygiene standards. [Your Company Name] delivered exceptional
+            results, completing the work on schedule and adhering to all our
+            requirements. Their professionalism and the quality of their work
+            have contributed to a more welcoming environment for both patients
+            and staff."
+          authorName: Stuart
+          authorpost: Las Vegas
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
+            I recommend Moorhouse, the project involved extensive surface
+            preparation, specialty coatings, and complex scheduling to avoid
+            disrupting our operations. The team managed everything seamlessly,
+            and the final result was a beautifully finished space that enhances
+            both our productivity and safety. We were particularly impressed
+            with their attention to detail and ability to work around our
+            operational needs."
+          authorName: David
+          authorpost: Palm Desert
