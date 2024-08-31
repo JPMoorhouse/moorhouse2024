@@ -3,5 +3,11 @@ seoData:
   seoTitle: 'Structural Steel Painting '
   seoDesription: Structural Steel Coating Epoxy Urethane Zinc
   ogImage: /images/seo/structural-steel-coating/seoData/ogImage.jpg
-subService: []
-blocks: []
+subService:
+  - null
+blocks:
+  - discriminant: industrialPainting
+    value:
+      title: Macro Epoxy
+      subtitle: Blasting, Zinc, Macro Epoxy, Urethane
+      Button: {}
