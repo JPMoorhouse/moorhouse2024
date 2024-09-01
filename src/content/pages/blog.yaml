@@ -1,0 +1,44 @@
+title: Blog
+seoData:
+  seoTitle: Moorhouse Coating Blog
+  seoDesription: Moorhouse Morehouse morhouse moorehouse Coating Blog
+blocks:
+  - discriminant: frequentlyAskedQuestions
+    value:
+      pretitle: Services
+      heading: Painting Services and Repairs
+      FrequentlyAskedQuestions:
+        - title: How much does it cost to paint an office?
+          answer: >-
+            The cost to paint an average to oversized office (12x14) is
+            approximately $240 to $375. Typically the ceiling doesn’t require
+            painting so the wall dimensions given a 9.5 foot tall ceiling is
+            12+12+14+14=52 * 9.5= 494 Square Feet.  $0.75 = Total $ 370.50.
+        - title: How much do painters charge per hour?
+          answer: >-
+            Painters' price range for labor cost varies widely!  Depending on
+            the season, location, height, skill and overall experience
+            necessary, affect the hourly rate.  Low skilled paint projects will
+            sell for $40.00 per hour upto highly experienced professionally
+            trained $90.00 per hour.  Average rates hover around $50.00 per hour
+            in most cities.
+        - title: How much do painters charge per square foot?
+          answer: >-
+            The average cost to paint the interior of a house falls between
+            $2.00 and 3.00 per square foot if the house has been previously
+            painted.  A new home will cost between $3.00 and $6.00 per square
+            feet depending on the preparation required.  A new custom home cost
+            between $6.00 and $12.00 per square feet.
+        - title: Average cost of painting a house
+          answer: >-
+            The average cost to paint the outside of a 2200 square foot house is
+            $5000.00 If the perimeter is 30 x 40, roughly  30+30+40+40 = 140
+            linear feet * 16 = 2240 Square feet.  The average cost per square
+            foot is roughly $1.50 to $3.00 a square foot.  So, 2240 sq ft *
+            $2.25 is roughly $5,000.00 to paint an existing home exterior.
+        - title: How to find house painters near me?
+          answer: >-
+            Hands down, ask the local paint center for three professional
+            painters.  They know who buys the best paint and has reasonable
+            prices.  Check with your local Sherwin Williams, PPG, Dunn Edwards
+            or Benjamin Moore retail paint center.
