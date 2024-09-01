@@ -182,6 +182,7 @@ blocks:
           authorpost: Promontory
   - discriminant: servingSouthwest
     value:
+      pretitle: Areas
       title: Summit County
       description: |
         We service: Park City, UT
