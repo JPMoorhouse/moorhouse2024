@@ -42,3 +42,44 @@ blocks:
             painters.  They know who buys the best paint and has reasonable
             prices.  Check with your local Sherwin Williams, PPG, Dunn Edwards
             or Benjamin Moore retail paint center.
+  - discriminant: frequentlyAskedQuestions
+    value:
+      pretitle: Future Employee Questions
+      heading: >-
+        Thinking about joining us?  These are the questions we get asked
+        frequently
+      FrequentlyAskedQuestions:
+        - title: When will I get paid?
+          answer: >-
+            Weekly on Friday, previous week reports on Mondays by 9:00am MST.  
+            We assume any corrections are reported prior to Saturday Midnight. 
+            Sunday thru Saturday is the week.
+        - title: Do I have to wear a uniform?
+          answer: >-
+            Yes, we will provide T-Shirts/Hoodies etc that should be worn on the
+            job. Make sure to report your size and preference.
+        - title: Is there work year around?
+          answer: >-
+            Yes, we do not close in the winter and have work all year around. 
+            Please ensure you are moving from P1 to P3 We only consistently have
+            work for P3 and above during the winter months of February and
+            March.
+        - title: Do you do Layoffs?
+          answer: If necessary, yes.  However we haven't laid anyone off since 2008
+        - title: Do you pay overtime?
+          answer: 'Yes'
+        - title: Can I work as an employee?
+          answer: Yes.  We are an employee only company.
+        - title: Hours of operation?
+          answer: >-
+            7:00am to 4:00pm Monday through Friday.  Assume you are responsible
+            for communication between these hours.
+        - title: Is overtime required?
+          answer: >-
+            40 hours is required.  Overtime is not necessary, however P4, CP5
+            and project completion may require overtime.
+        - title: Do you work weekends?
+          answer: >-
+            We prefer to take saturdays and sundays off.  If a rain day occurs
+            during the week, we will substitute Saturday only if necessary for
+            maintaining equipment rental.
