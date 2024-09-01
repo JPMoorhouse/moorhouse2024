@@ -67,7 +67,7 @@ blocks:
         title: Have a Special Request? We’re Up For It!
         button:
           text: Get a Free Estimate
-          slug: https://calendly.com/mrlft/onsite-estimate
+          slug: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: locallyOwnedBusiness
     value:
       pretitle: Moorhouse Coating
@@ -99,9 +99,9 @@ blocks:
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
         - cardIcon: /images/park-city/blocks/4/value/cards/2/cardIcon.svg
-          cardText: Over 20+ Years <br/> Experience
+          cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
-            Our 20+ years experience in the painting, has shown us nearly every
+            Our 25+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
         - cardIcon: /images/park-city/blocks/4/value/cards/3/cardIcon.svg
@@ -117,9 +117,9 @@ blocks:
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
         - cardIcon: /images/park-city/blocks/4/value/cards/5/cardIcon.svg
-          cardText: Over 20+ Years <br/> Experience
+          cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
-            Our 20+ years experience in the painting, has shown us nearly every
+            Our 25+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
   - discriminant: testimonials
@@ -137,7 +137,7 @@ blocks:
             process, which was very reassuring. I highly recommend Moorhouse
             Coating for any commercial painting needs."
           authorName: John D.
-          authorpost: Deer Valley
+          authorpost: Deer Valley Summit County Utah
         - rating: 4
           cardText: >-
             "We worked with Moorhouse Coating for our office building’s interior
@@ -180,3 +180,39 @@ blocks:
             maintenance services!"
           authorName: 'Alexandra '
           authorpost: Promontory
+  - discriminant: servingSouthwest
+    value:
+      title: Summit County
+      description: |
+        We service: Park City, UT
+        ZIP Code: 84060 (Central Park City)
+        ZIP Code: 84098 (Surrounding areas including Snyderville)
+        Heber City, UT
+
+        ZIP Code: 84032
+        Midway, UT
+
+        ZIP Code: 84049
+        Kamas, UT
+
+        ZIP Code: 84036
+        Coalville, UT
+
+        ZIP Code: 84017
+        Snyderville, UT
+
+        ZIP Code: 84098
+        Wanship, UT
+
+        ZIP Code: 84017
+        Peoa, UT
+
+        ZIP Code: 84061
+        Oakley, UT
+
+        ZIP Code: 84055
+      phone: 435-655-9706
+      email: pc@moorhousecoating.com
+      locations:
+        - Heber City
+      mapImage: /images/park-city/blocks/6/value/mapImage.png
