@@ -151,3 +151,13 @@ blocks:
             You will work with a small team of painting craftsman, most projects
             have a team lead and a person responsible to oversee the projects
             success.  There is only one direct report per person.  
+  - discriminant: aboutmoorhouse
+    value:
+      sectionTitle: Reviews
+      card:
+        title: Google Review
+        description: |
+          Please provide a google review.  A review really helps!
+        Button:
+          label: Google Review
+          url: https://g.page/r/CRtYoP-lNts8EBM/review
