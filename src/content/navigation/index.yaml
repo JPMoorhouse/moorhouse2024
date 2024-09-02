@@ -11,5 +11,5 @@ navItems:
   - label: Blog
     link: /blog
 button:
-  buttontext: Customer Portal
-  buttonSlug: https://moorhousecoating.com
+  buttontext: Call Now
+  buttonSlug: 'tel: 1-855-666-2628'
