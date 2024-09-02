@@ -100,19 +100,33 @@ blocks:
       testimonials:
         - rating: 5
           cardText: >-
-            They painted, stained and repaired my deck. It looks so much better
-            and I really like the new color.
-          authorName: Stephanie
-          authorpost: Park Meadows
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip
+          authorName: Chris Michael
+          authorpost: Park City
         - rating: 5
           cardText: >-
-            We struggled to find a solution for our balconies.  Moorhouse made
-            the repairs and they now look beautiful.  I highly recommend.
-          authorName: Anthony
-          authorpost: Deer Valley
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
         - rating: 3
           cardText: >-
-            Just say yes to Moorhouse Painting.  They finished in record time
-            and we love the new stain color.
-          authorName: Jennifer
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          authorName: Chris Michael
           authorpost: Park City
