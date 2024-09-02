@@ -10,8 +10,10 @@ blocks:
     value:
       title: >-
         Residential, Commercial  & Industrial <span class="text-secondary">
-        Projects</span>
-      subtitle: Professional Painting Contractor with Roots in Park City, Utah.
+        Painting Projects</span>
+      subtitle: >-
+        Professional Painting Contractor with Roots in Park City, Utah. Serving
+        the Southwest with Commercial Painting Services.
       bgImage: /images/about/blocks/0/value/bgImage.png
       banner:
         title: Receive a FREE Estimate!
