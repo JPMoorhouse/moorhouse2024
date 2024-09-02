@@ -77,7 +77,7 @@ blocks:
             operations.
           image: /images/home/blocks/3/value/cardWithImage/2/image.png
           Button:
-            text: Learn more
+            text: 'Schedule Estimate '
             slug: https://calendly.com/moorhousecoating/onsite-estimate
         - title: Industrial Painting
           description: >-
@@ -89,7 +89,7 @@ blocks:
             experience can be the difference in the success of a project.
           image: /images/home/blocks/3/value/cardWithImage/3/image.png
           Button:
-            text: Learn more
+            text: Schedule Estimate
             slug: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: gallery
     value:
