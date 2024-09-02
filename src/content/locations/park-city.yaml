@@ -32,11 +32,14 @@ blocks:
           owned and operated company has been transforming commercial spaces,
           one brush stroke at a time. Our team of expert painters brings years
           of experience, cutting-edge techniques, and a keen eye for detail to
-          every project, ensuring unmatched quality and customer satisfaction.
+          every project, ensuring unmatched quality and customer satisfaction
+          Moorhouse ***Painting*** is a full-service ***painting company***
+          located in the heart of ***Park City***, ***Utah***. Our teams
+          specialize in a variety of residential and commercial staining and
+          painting projects.
         image: /images/park-city/blocks/1/value/card/image.png
         Button:
           label: Service Today
-          url: https://calendly.com/mrlft/onsite-estimate
   - discriminant: whatWeOffer
     value:
       pretitle: What We Offer
