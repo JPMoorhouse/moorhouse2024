@@ -17,7 +17,7 @@ Sitemap:
     link: /testimonials
 OurServices:
   - label: Residential Painting
-    link: '#'
+    link: https://parkcity.moorhousecoating.com/
   - label: Commercial Painting
     link: '#'
   - label: Exterior Painting
@@ -47,6 +47,8 @@ locations:
       link: '#'
 otherlinks:
   - label: Privacy Policy
-    link: '#'
+    link: >-
+      https://app.termly.io/policy-viewer/policy.html?policyUUID=db52264f-a472-4d63-90bb-bf60bd2dff8b
   - label: Terms & Conditions
-    link: '#'
+    link: >-
+      https://app.termly.io/policy-viewer/policy.html?policyUUID=837e8ae8-ce4c-4dd7-bbc3-a8c4336999c3

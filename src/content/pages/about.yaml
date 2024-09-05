@@ -1,18 +1,25 @@
 title: About
-seoData: {}
+seoData:
+  seoTitle: 'About Moorhouse Coating '
+  seoDesription: >-
+    Commercial Painting Contractor About Services Interior Exterior Paint
+    Company
+  ogImage: /images/seo/about/seoData/ogImage.webp
 blocks:
   - discriminant: heroWithBanner
     value:
       title: >-
         Residential, Commercial  & Industrial <span class="text-secondary">
-        Projects</span>
-      subtitle: Professional Painting Contractor with Roots in Park City, Utah.
+        Painting Projects</span>
+      subtitle: >-
+        Professional Painting Contractor with Roots in Park City, Utah. Serving
+        the Southwest with Commercial Painting Services.
       bgImage: /images/about/blocks/0/value/bgImage.png
       banner:
         title: Receive a FREE Estimate!
         button:
-          label: Get a Free Estimate
-          link: '#'
+          label: Free Estimate Now
+          link: https://calendly.com/mrlft/experiment1et
   - discriminant: sectionTitleDescription
     value:
       pretitle: About Us
@@ -52,11 +59,10 @@ blocks:
             Ensuring the project is completed on time, within budget, and meets
             your quality standards is our number one goal.
         - icon: /images/about/blocks/2/value/coreValues/1/icon.png
-          title: Always Professional and Respectful
+          title: Professional and Respectful
           description: >-
-            It’s important for all Moorhouse Employees, customers and suppliers
-            to feel valued and respected throughout every interaction with our
-            painters.
+            It’s important for all Moorhouse employees, customers and suppliers
+            to feel valued and respected throughout every interaction.
         - icon: /images/about/blocks/2/value/coreValues/2/icon.png
           title: We Take Pride in our Craftmanship
           description: >-
@@ -78,7 +84,7 @@ blocks:
       phone: 1-435-655-9706
       email: info@moorhousecoating.com
       locations:
-        - Parkcity, Utah
+        - Park City, Utah
         - Palm Springs, California
         - Los Angeles, California
         - Phoenix, Arizona
@@ -94,7 +100,7 @@ blocks:
           cardDescription: >-
             The Key to a successful project is found in good communication. As a
             licensed painting contractor, we have years of experience performing
-            quality for commercial and residential clients.
+            quality commercial and residential painting projects.
         - cardIcon: /images/about/blocks/4/value/cards/1/cardIcon.svg
           cardText: We Value Integrity <br/> & Honesty
           cardDescription: >-
@@ -120,9 +126,9 @@ blocks:
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
         - cardIcon: /images/about/blocks/4/value/cards/5/cardIcon.svg
-          cardText: Over 20+ Years <br/> Experience
+          cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
-            Our 20+ years experience in the painting, has shown us nearly every
+            Our 25+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.   
   - discriminant: frequentlyAskedQuestions
@@ -130,40 +136,66 @@ blocks:
       pretitle: You`ve got questions, we`ve got answers
       heading: Frequently Asked Questions
       FrequentlyAskedQuestions:
+        - title: What types of commercial properties do you paint?
+          answer: >-
+            We paint a wide range of commercial properties, including office
+            buildings, retail stores, restaurants, hotels, warehouses, and more.
+            We can handle both interior and exterior projects.
+        - title: How do you ensure minimal disruption to our business operations?
+          answer: >-
+            We work closely with you to create a schedule that minimizes
+            disruption, often working during off-hours or weekends. Our team is
+            efficient and mindful of your business needs.
+        - title: What kind of paint do you use for commercial projects?
+          answer: >-
+            We use high-quality, durable paints that are specifically designed
+            for commercial use. These paints are often low-VOC, quick-drying,
+            and resistant to wear and tear, ensuring long-lasting results.
+        - title: How do you prepare surfaces for painting?
+          answer: >-
+            Proper surface preparation is key to a successful paint job. We
+            thoroughly clean, sand, and repair surfaces before applying primer
+            and paint. This ensures a smooth, long-lasting finish.
+        - title: Do you offer warranties on your work?
+          answer: >-
+            Yes, we offer warranties on our commercial painting services. The
+            specifics of the warranty depend on the project scope and materials
+            used, but we stand by the quality of our work. Typically we offer 1,
+            2 and 3 year warranties and also 10 year maintenance plans
+        - title: How do you handle safety on the job site?
+          answer: >-
+            Safety is a top priority. Our crew is trained in safety protocols,
+            and we adhere to all OSHA regulations. We also carry full insurance
+            coverage to protect both our team and your property.
+        - title: What is your process for color selection and design?
+          answer: >-
+            We can assist with color selection and design to ensure your
+            commercial space reflects your brand and aesthetic. Our experts can
+            provide color consultations and samples to help you make the best
+            decision.
+        - title: How long will the project take?
+          answer: >-
+            The timeline depends on the size and complexity of the project.
+            After an initial assessment, we provide a detailed schedule and keep
+            you updated on progress throughout the project.
+        - title: What are the costs involved in commercial painting?
+          answer: >-
+            Costs vary based on factors like the size of the area to be painted,
+            the type of paint and materials used, and the level of preparation
+            required. We provide a detailed estimate after evaluating the
+            project.
         - title: >-
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium?
+            Do you handle special requests, like eco-friendly or fire-resistant
+            coatings?
           answer: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-        - title: Nemo enim ipsam voluptatem quia voluptas sit aspernatur?
+            Yes, we offer a range of specialty coatings, including eco-friendly,
+            low-VOC paints, and fire-resistant coatings. Let us know your
+            specific needs, and we’ll tailor our services accordingly.
+        - title: Can you provide references from past commercial projects?
           answer: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-        - title: Ut enim ad minima veniam, quis nostrum exercitationem?
-          answer: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-        - title: Quis autem vel eum iure reprehenderit qui in ea voluptate?
-          answer: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-        - title: >-
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium?
-          answer: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Absolutely. We have a portfolio of completed commercial projects and
+            can provide references upon request. Our previous clients can speak
+            to the quality of our work and professionalism.
   - discriminant: testimonials
     value:
       pretitle: Customer Testimonials
@@ -171,33 +203,33 @@ blocks:
       testimonials:
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip
-          authorName: Chris Michael
+            "After getting several quotes, we decided to go with Moorhouse
+            Coating because of their fair pricing and reputation for quality.
+            They didn't disappoint! The team was friendly, efficient, and
+            delivered a top-notch paint job. Our house looks better than ever,
+            and the paint has held up beautifully through the seasons. Great
+            value for the money!"
+          authorName: Michael
           authorpost: Park City
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
+            Moorhouse Coating. They were very professional and finished the job
+            on time, which was important for us as we were preparing our house
+            for sale. The new paint job really added to the curb appeal, and we
+            were able to sell our home quickly. We would definitely recommend
+            them to anyone needing painting services in the Park City area.
+          authorName: Steve
           authorpost: Park City
-        - rating: 3
+        - rating: 4
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
+            The crew was respectful, clean, and did a flawless job. They even
+            helped us pick the perfect colors. We’d definitely use them again.
+          authorName: 'Chris '
+          authorpost: Deer Valley
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
+            We chose Moorhouse Coating for their reasonable pricing and strong
+            reputation. They delivered excellent results, and our house looks
+            better than ever. Great value for the money!
+          authorName: Erik
+          authorpost: Midway

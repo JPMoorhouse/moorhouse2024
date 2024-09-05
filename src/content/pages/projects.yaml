@@ -1,5 +1,7 @@
 title: Projects
-seoData: {}
+seoData:
+  seoTitle: 'Painting Projects '
+  seoDesription: Painting Projects
 blocks:
   - discriminant: heroWithBanner
     value:
