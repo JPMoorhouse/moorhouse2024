@@ -1,10 +1,10 @@
 <form action="/api/quote" method="POST">
   <div class="flex justify-center items-center md:flex-row w-full flex-col gap-4 mb-8">
     <div class="flex-1 flex justify-start items-start flex-col w-full gap-2">
-      <label for="estimate_first_name" class="text-white">First Name*</label>
+      <label for="firstName" class="text-white">First Name*</label>
       <input
-        id="estimate_first_name"
-        name="estimate_first_name"
+        id="firstName"
+        name="firstName"
         type="text"
         placeholder="Enter first name"
         required
@@ -12,10 +12,10 @@
       />
     </div>
     <div class="flex-1 flex justify-start items-start flex-col w-full gap-2">
-      <label for="estimate_last_name" class="text-white">Last Name*</label>
+      <label for="lastName" class="text-white">Last Name*</label>
       <input
-        id="estimate_last_name"
-        name="estimate_last_name"
+        id="lastName"
+        name="lastName"
         type="text"
         placeholder="Enter last name"
         required
@@ -25,10 +25,10 @@
   </div>
   <div class="flex justify-center items-center md:flex-row w-full flex-col gap-4 mb-8">
     <div class="flex-1 flex justify-start items-start flex-col w-full gap-2">
-      <label for="estimate_phone" class="text-white">Phone Number*</label>
+      <label for="phoneNumber" class="text-white">Phone Number*</label>
       <input
-        id="estimate_phone"
-        name="estimate_phone"
+        id="phoneNumber"
+        name="phoneNumber"
         type="tel"
         placeholder="Enter phone number"
         required
@@ -36,10 +36,10 @@
       />
     </div>
     <div class="flex-1 flex justify-start items-start flex-col w-full gap-2">
-      <label for="estimate_email" class="text-white">Email Address*</label>
+      <label for="emailAddress" class="text-white">Email Address*</label>
       <input
-        id="estimate_email"
-        name="estimate_email"
+        id="emailAddress"
+        name="emailAddress"
         type="email"
         placeholder="Enter email address"
         required
@@ -48,10 +48,10 @@
     </div>
   </div>
   <div class="flex-1 flex justify-start items-start flex-col w-full gap-2">
-    <label for="estimate_street" class="text-white">Street Address*</label>
+    <label for="address" class="text-white">Street Address*</label>
     <input
-      id="estimate_street"
-      name="estimate_street"
+      id="address"
+      name="address"
       type="text"
       placeholder="Enter street address"
       required
@@ -60,10 +60,10 @@
   </div>
   <div class="flex justify-center items-center gap-4 md:flex-row w-full flex-col mt-8">
     <div class="flex-1 flex justify-start items-start flex-col w-full gap-2">
-      <label for="estimate_city" class="text-white">City*</label>
+      <label for="city" class="text-white">City*</label>
       <input
-        id="estimate_city"
-        name="estimate_city"
+        id="city"
+        name="city"
         type="text"
         placeholder="Enter city"
         required
@@ -72,8 +72,8 @@
     </div>
     <div class="flex-1 flex justify-center items-center gap-2">
       <div class="flex-1 justify-start items-start flex-col gap-2">
-        <label for="estimate_state" class="text-white">State*</label>
-        <select id="estimate_state" name="estimate_state" required class="rounded-xl mt-2 w-full h-14 px-4 border-white outline-none text-white border bg-transparent placeholder:text-white/60">
+        <label for="state" class="text-white">State*</label>
+        <select id="state" name="state" required class="rounded-xl mt-2 w-full h-14 px-4 border-white outline-none text-white border bg-transparent placeholder:text-white/60">
           <option value="" disabled selected>Select state</option>
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
@@ -81,10 +81,10 @@
         </select>
       </div>
       <div class="flex-1 flex justify-start items-start flex-col gap-2">
-        <label for="estimate_zip" class="text-white">Postal Code*</label>
+        <label for="zipcode" class="text-white">Postal Code*</label>
         <input
-          id="estimate_zip"
-          name="estimate_zip"
+          id="zipcode"
+          name="zipcode"
           type="text"
           placeholder="Enter zip code"
           required
@@ -95,26 +95,21 @@
   </div>
   <div class="flex justify-center items-center gap-4 md:flex-row w-full flex-col mt-8">
     <div class="flex flex-1 justify-start items-start w-full flex-col gap-2">
-      <label for="estimate_comments" class="text-white">Other Comments</label>
+      <label for="comments" class="text-white">Other Comments</label>
       <input
-        id="estimate_comments"
-        name="estimate_comments"
+        id="comments"
+        name="comments"
         placeholder="Any additional helpful details"
         class="rounded-xl w-full h-14 px-4 py-2 border-white outline-none text-white border bg-transparent placeholder:text-white/60 resize-none"
       />
     </div>
-    
     <div class="md:max-w-[13rem] w-full flex justify-start items-start flex-col gap-2">
-      <label id="estimate_project_type" class="text-white">Property Type*</label>
+      <label class="text-white">Property Type*</label>
       <div class="flex-1 justify-start items-start flex-col gap-2 w-full">
-        <select id="estimate_project_type" name="estimate_project_type" required class="rounded-xl w-full h-14 px-4 border-white outline-none text-white border bg-transparent placeholder:text-white/60">
+        <select id="propertyType" name="propertyType" required class="rounded-xl w-full h-14 px-4 border-white outline-none text-white border bg-transparent placeholder:text-white/60">
           <option value="" disabled selected>Project Type</option>
-          <option value="Residential Exterior">Residential Exterior</option>
-          <option value="Residential Interior">Residential Interior</option>
-          <option value="Commercial Exterior">Commercial Exterior</option>
-          <option value="Commercial Interior">Commercial Interior</option>
-          <option value="New Construction">New Construction</option>
-          <option value="Industrial">Industrial</option>
+          <option value="commercial">Commercial</option>
+          <option value="residential">Residential</option>
         </select>
       </div>
     </div>
