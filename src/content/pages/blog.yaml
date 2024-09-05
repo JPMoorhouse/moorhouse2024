@@ -1,0 +1,153 @@
+title: Blog
+seoData:
+  seoTitle: Moorhouse Coating Blog
+  seoDesription: Moorhouse Morehouse morhouse moorehouse Coating Blog
+blocks:
+  - discriminant: frequentlyAskedQuestions
+    value:
+      pretitle: Services
+      heading: Painting Services and Repairs
+      FrequentlyAskedQuestions:
+        - title: How much does it cost to paint an office?
+          answer: >-
+            The cost to paint an average to oversized office (12x14) is
+            approximately $240 to $375. Typically the ceiling doesn’t require
+            painting so the wall dimensions given a 9.5 foot tall ceiling is
+            12+12+14+14=52 * 9.5= 494 Square Feet.  $0.75 = Total $ 370.50.
+        - title: How much do painters charge per hour?
+          answer: >-
+            Painters' price range for labor cost varies widely!  Depending on
+            the season, location, height, skill and overall experience
+            necessary, affect the hourly rate.  Low skilled paint projects will
+            sell for $40.00 per hour upto highly experienced professionally
+            trained $90.00 per hour.  Average rates hover around $50.00 per hour
+            in most cities.
+        - title: How much do painters charge per square foot?
+          answer: >-
+            The average cost to paint the interior of a house falls between
+            $2.00 and 3.00 per square foot if the house has been previously
+            painted.  A new home will cost between $3.00 and $6.00 per square
+            feet depending on the preparation required.  A new custom home cost
+            between $6.00 and $12.00 per square feet.
+        - title: Average cost of painting a house
+          answer: >-
+            The average cost to paint the outside of a 2200 square foot house is
+            $5000.00 If the perimeter is 30 x 40, roughly  30+30+40+40 = 140
+            linear feet * 16 = 2240 Square feet.  The average cost per square
+            foot is roughly $1.50 to $3.00 a square foot.  So, 2240 sq ft *
+            $2.25 is roughly $5,000.00 to paint an existing home exterior.
+        - title: How to find house painters near me?
+          answer: >-
+            Hands down, ask the local paint center for three professional
+            painters.  They know who buys the best paint and has reasonable
+            prices.  Check with your local Sherwin Williams, PPG, Dunn Edwards
+            or Benjamin Moore retail paint center.
+  - discriminant: frequentlyAskedQuestions
+    value:
+      pretitle: Future Employee Questions
+      heading: >-
+        Thinking about joining us?  These are the questions we get asked
+        frequently
+      FrequentlyAskedQuestions:
+        - title: When will I get paid?
+          answer: >-
+            Weekly on Friday, previous week reports on Mondays by 9:00am MST.  
+            We assume any corrections are reported prior to Saturday Midnight. 
+            Sunday thru Saturday is the week.
+        - title: Do I have to wear a uniform?
+          answer: >-
+            Yes, we will provide T-Shirts/Hoodies etc that should be worn on the
+            job. Make sure to report your size and preference.
+        - title: Is there work year around?
+          answer: >-
+            Yes, we do not close in the winter and have work all year around. 
+            Please ensure you are moving from P1 to P3 We only consistently have
+            work for P3 and above during the winter months of February and
+            March.
+        - title: Do you do Layoffs?
+          answer: If necessary, yes.  However we haven't laid anyone off since 2008
+        - title: Do you pay overtime?
+          answer: 'Yes'
+        - title: Can I work as an employee?
+          answer: Yes.  We are an employee only company.
+        - title: Hours of operation?
+          answer: >-
+            7:00am to 4:00pm Monday through Friday.  Assume you are responsible
+            for communication between these hours.
+        - title: Is overtime required?
+          answer: >-
+            40 hours is required.  Overtime is not necessary, however P4, CP5
+            and project completion may require overtime.
+        - title: Do you work weekends?
+          answer: >-
+            We prefer to take saturdays and sundays off.  If a rain day occurs
+            during the week, we will substitute Saturday only if necessary for
+            maintaining equipment rental.
+        - title: Is this full time work?
+          answer: All employment is full time, we don't offer part time employment.
+        - title: Do I need my own tools?
+          answer: 'No'
+        - title: How often do you pay?
+          answer: Weekly
+        - title: I've been painting a long time, what is the starting pay?
+          answer: >-
+            We will assess your skillset if a very short period of time.  With
+            validation of each skillset, we can pay you accordingly.  Painting
+            varies from company to company, it's difficult to assess in an
+            interview or even the first few day of working.  Assume it will take
+            10 days to see a variety of tasks and challenges to reach your
+            earning potential.
+        - title: Where is most of the work?
+          answer: >-
+            Park City, Salt Lake City if in Utah.  Scottsdale in Phoenix, and
+            the Desert in Southern California
+        - title: Am I required to drive my own car?
+          answer: >-
+            Yes.  Transportation to the job is not provided.  We allow car
+            pooling, but if someone's car breaks down, the entire team maybe out
+            of a job if another car isn't available.
+        - title: Do you offer benefits?
+          answer: Yes.  In six months time we offer full benefits.
+        - title: Is there career opportunities?
+          answer: >-
+            Yes, we are looking for individuals who want to grow with the
+            company, there are opportunities for leadership, education and
+            advancement.
+        - title: I have my own business, but need more work, can you help me?
+          answer: >-
+            Yes, likely you should join our team to understand your skillset or
+            the gaps missing.  You may find that the company at size offers more
+            stability and makes painting enjoyable again.  Running a business is
+            a totally separate skillset and requires a business person to focus
+            on running the operations.  Sometimes it's easier to do one or the
+            other.
+        - title: I want to lean more about painting.
+          answer: This is the right company to join to learn about painting.
+        - title: I'm great with color, can I work with color?
+          answer: Yes.  We have very few colorists in the company.
+        - title: I'm an artist, is there something I can do?
+          answer: >-
+            Yes. Painting is the root of artistic creativity.  The mix of color
+            and medium makes for a great creative learning environment. We also
+            need digital help, faux finish, color rendering, product design and
+            colorist work.
+        - title: When are you hiring?
+          answer: >-
+            We frequently hire in shoulder seasons between segment
+            commencement.  Apply now if you are interested.  Please list all
+            relevant experience.  
+        - title: What does the day to day look like?
+          answer: >-
+            We don't bounce you around from Job to job.  you will stay on a
+            project until it is complete.  There is a great sense of
+            satisfaction when a project is completed.
+        - title: Who am I working with?
+          answer: >-
+            You will spend more time working over your career, than time with
+            your family.  So it's important to really enjoy who you are working
+            with.  We value the idea of a distributed team.  
+        - title: What is the organizational structure?
+          answer: >-
+            You will work with a small team of painting craftsman, most projects
+            have a team lead and a person responsible to oversee the projects
+            success.  There is only one direct report per person.  

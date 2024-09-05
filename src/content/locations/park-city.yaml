@@ -1,6 +1,7 @@
 title: Park City
 seoData:
   seoTitle: Park City
+  seoDesription: Park City Summit County Wasatch Back
 blocks:
   - discriminant: hero
     value:
@@ -12,7 +13,7 @@ blocks:
       bgImage: /images/park-city/blocks/0/value/bgImage.jpeg
       Button:
         label: Free Estimate
-        url: '#'
+        url: https://calendly.com/mrlft/onsite-estimate
   - discriminant: aboutmoorhouse
     value:
       pretitle: Welcome to Moorhouse Coating
@@ -31,9 +32,14 @@ blocks:
           owned and operated company has been transforming commercial spaces,
           one brush stroke at a time. Our team of expert painters brings years
           of experience, cutting-edge techniques, and a keen eye for detail to
-          every project, ensuring unmatched quality and customer satisfaction.
+          every project, ensuring unmatched quality and customer satisfaction
+          Moorhouse ***Painting*** is a full-service ***painting company***
+          located in the heart of ***Park City***, ***Utah***. Our teams
+          specialize in a variety of residential and commercial staining and
+          painting projects.
         image: /images/park-city/blocks/1/value/card/image.png
-        Button: {}
+        Button:
+          label: Service Today
   - discriminant: whatWeOffer
     value:
       pretitle: What We Offer
@@ -64,7 +70,7 @@ blocks:
         title: Have a Special Request? We’re Up For It!
         button:
           text: Get a Free Estimate
-          slug: /
+          slug: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: locallyOwnedBusiness
     value:
       pretitle: Moorhouse Coating
@@ -77,7 +83,7 @@ blocks:
         title: Looking for a painter? Start local.
         button:
           label: Get a Free Estimate
-          link: /
+          link: https://calendly.com/mrlft/onsite-estimate
   - discriminant: whatToExpect
     value:
       pretitle: Professional Commercial & Residential Painting
@@ -96,9 +102,9 @@ blocks:
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
         - cardIcon: /images/park-city/blocks/4/value/cards/2/cardIcon.svg
-          cardText: Over 20+ Years <br/> Experience
+          cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
-            Our 20+ years experience in the painting, has shown us nearly every
+            Our 25+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
         - cardIcon: /images/park-city/blocks/4/value/cards/3/cardIcon.svg
@@ -114,9 +120,9 @@ blocks:
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
         - cardIcon: /images/park-city/blocks/4/value/cards/5/cardIcon.svg
-          cardText: Over 20+ Years <br/> Experience
+          cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
-            Our 20+ years experience in the painting, has shown us nearly every
+            Our 25+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
   - discriminant: testimonials
@@ -126,33 +132,91 @@ blocks:
       testimonials:
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip
-          authorName: Chris Michael
+            "I recently hired Moorhouse Coating for a large commercial project,
+            and I couldn't be more pleased with the outcome. Their team was
+            professional, efficient, and very detail-oriented. They completed
+            the job on time and within budget, and the quality of their work is
+            outstanding. The project manager kept me updated throughout the
+            process, which was very reassuring. I highly recommend Moorhouse
+            Coating for any commercial painting needs."
+          authorName: John D.
+          authorpost: Deer Valley Summit County Utah
+        - rating: 4
+          cardText: >-
+            "We worked with Moorhouse Coating for our office building’s interior
+            painting. The job was done well, and the staff was courteous. There
+            were a few minor delays, but they communicated clearly and adjusted
+            the schedule accordingly. Overall, we’re happy with the results and
+            would consider them for future projects."
+          authorName: 'Emily '
           authorpost: Park City
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
-        - rating: 3
-          cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
+            "Moorhouse Coating exceeded our expectations with their commercial
+            painting services. From the initial consultation to the final
+            walkthrough, their team demonstrated a high level of professionalism
+            and expertise. They helped us select the perfect colors and
+            finishes, and the final result has transformed our office
+            environment. The feedback from our staff has been overwhelmingly
+            positive. Highly recommend!"
+          authorName: Victoria
           authorpost: Park City
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
+            "We recently hired Moorhouse Coating to handle the staining and
+            maintenance of our commercial property’s wooden exterior, and we are
+            thrilled with the results. The team was incredibly professional and
+            knowledgeable about the best types of stains for our climate and
+            wood type. They provided valuable recommendations and detailed
+            explanations about the maintenance process.  The staining work was
+            meticulous, with attention to detail that really enhanced the
+            natural beauty of the wood. The crew worked efficiently and
+            completed the job on schedule, with minimal disruption to our
+            operations. They also left the site spotless, which we greatly
+            appreciated.  Since the work was completed, the wood has held up
+            beautifully, showing no signs of wear or fading. The maintenance
+            tips they provided have been easy to follow, and we’ve noticed a
+            significant improvement in the overall appearance and longevity of
+            our exterior. Moorhouse Coating truly exceeded our expectations, and
+            we will definitely use them for any future projects. Highly
+            recommended for anyone looking for top-notch staining and
+            maintenance services!"
+          authorName: 'Alexandra '
+          authorpost: Promontory
+  - discriminant: servingSouthwest
+    value:
+      pretitle: Areas
+      title: Summit County
+      description: |
+        We service: Park City, UT
+        ZIP Code: 84060 (Central Park City)
+        ZIP Code: 84098 (Surrounding areas including Snyderville)
+        Heber City, UT
+
+        ZIP Code: 84032
+        Midway, UT
+
+        ZIP Code: 84049
+        Kamas, UT
+
+        ZIP Code: 84036
+        Coalville, UT
+
+        ZIP Code: 84017
+        Snyderville, UT
+
+        ZIP Code: 84098
+        Wanship, UT
+
+        ZIP Code: 84017
+        Peoa, UT
+
+        ZIP Code: 84061
+        Oakley, UT
+
+        ZIP Code: 84055
+      phone: 435-655-9706
+      email: pc@moorhousecoating.com
+      locations:
+        - Heber City
+      mapImage: /images/park-city/blocks/6/value/mapImage.png

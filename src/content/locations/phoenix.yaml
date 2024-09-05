@@ -1,0 +1,16 @@
+title: Phoenix
+seoData:
+  seoTitle: Phoenix Scottsdale Arizona
+  seoDesription: Phoenix Scottsdale Arizona serving the greater metro area
+  ogImage: /images/seo/phoenix/seoData/ogImage.jpg
+blocks:
+  - discriminant: whatWeOffer
+    value:
+      pretitle: 'HOA Painting '
+      heading: HOA Painting
+      featureCards: []
+      banner:
+        title: HOA Painting
+        button:
+          text: FREE Consultation
+          slug: https://calendly.com/mrlft/experiment1et
