@@ -27,11 +27,11 @@ OurServices:
   - label: Other Service Here
     link: '#'
 OpeningHours:
-  openHours: ' Monday-Friday 10AM - 6PM'
-  openDays: Saturday-Sunday Closed
+  openHours: ' Monday-Friday 6AM - 6PM'
+  openDays: Saturday 9AM- 4PM Sunday Closed
   Button:
-    label: ' Get FREE Estimate'
-    url: '#'
+    label: ' Call Now'
+    url: 'tel: 1-855-666-2628'
 locations:
   title: Moorhouse Painting Locations
   location:
