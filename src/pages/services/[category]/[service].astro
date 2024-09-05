@@ -46,6 +46,7 @@ interface Props {
 const { service } = Astro.props;
 const serviceData = await getEntry('sub-services', service);
 const data = serviceData?.data;
+console.log(data);
 
 interface Block {
     discriminant: string;
