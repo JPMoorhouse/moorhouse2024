@@ -1,53 +1,57 @@
+export const prerender = false;
 import type { APIRoute } from "astro";
 
-export const prerender = false;
+export const POST: APIRoute = async ({ request, redirect }) => {
+  const RETOOL_URL = import.meta.env.RETOOL_URL;
+  const RETOOL_API_KEY = import.meta.env.RETOOL_API_KEY;
 
-export const POST: APIRoute = async ({ request }) => {
-  try {
-    const data = await request.formData();
-    const requiredFields = [
-      "firstName",
-      "lastName",
-      "phoneNumber",
-      "emailAddress",
-      "address",
-      "city",
-      "state",
-      "zipcode",
-      "propertyType"
-    ];
-    for (var pair of data.entries()) {
-      console.log(pair[0]+ ', ' + pair[1]); 
+  const requestPayload = await request.formData();
+  const requiredFields = [
+    "estimate_first_name",
+    "estimate_last_name",
+    "estimate_phone",
+    "estimate_email",
+    "estimate_street",
+    "estimate_city",
+    "estimate_state",
+    "estimate_zip",
+    "estimate_project_type"
+  ];
+
+  const formData: Record<string, string> = {};
+  for (const field of requiredFields) {
+    const value = requestPayload.get(field);
+    if (!value) {
+      return new Response(
+        JSON.stringify({ message: `Please provide your ${field.replace(/estimate_/g, '').replace(/_/g, ' ')}` }),
+        { status: 400 }
+      );
+    }
+    formData[field] = value.toString();
   }
 
-    const formData: Record<string, string> = {};
-    
-    for (const field of requiredFields) {
-      const value = data.get(field);
-      if (!value) {
-        return new Response(
-          JSON.stringify({ message: `Please provide your ${field.replace(/([A-Z])/g, ' $1').toLowerCase()}` }),
-          { status: 400 }
-        );
-      }
-      formData[field] = value.toString();
+  // Optional field
+  formData.estimate_comments = requestPayload.get('estimate_comments')?.toString() || '';
+
+  try {
+    const retoolResponse = await fetch(RETOOL_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Workflow-Api-Key': RETOOL_API_KEY
+      },
+      body: JSON.stringify(formData)
+    });
+
+    if (!retoolResponse.ok) {
+      throw new Error(`Retool API responded with status: ${retoolResponse.status}`);
     }
 
-    // Optional field
-    formData.comments = data.get('comments')?.toString() || '';
-
-
-    // Process the data here
-    // For example, you could send it to a database or external API
-
-    return new Response(
-      JSON.stringify({ message: "Form submitted successfully", data: formData }),
-      { status: 200 }
-    );
+    return redirect('/thank-you');
   } catch (error) {
-    console.error("Error processing form:", error);
+    console.error("Error processing quote request:", error);
     return new Response(
-      JSON.stringify({ message: "An error occurred while processing the form" }),
+      JSON.stringify({ message: "An error occurred while processing your request. Please try again later." }),
       { status: 500 }
     );
   }
