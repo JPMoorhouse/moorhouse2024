@@ -1,5 +1,8 @@
 title: Exterior House Painting
-seoData: {}
+seoData:
+  seoTitle: Exterior House Painting
+  seoDesription: Exterior House Painting
+  ogImage: /images/seo/exterior-house-painting/seoData/ogImage.webp
 blocks:
   - discriminant: sectionTitleDescription
     value:
@@ -68,33 +71,36 @@ blocks:
       testimonials:
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip
-          authorName: Chris Michael
-          authorpost: Park City
+            "We chose Moorhouse Coating to paint the exterior of our home, and
+            we couldn’t be more pleased. The team was efficient, respectful, and
+            paid attention to every detail. The finished product is stunning,
+            and it’s clear that they take pride in their work. Highly recommend
+            them for any exterior painting needs."
+          authorName: Michael
+          authorpost: Heber City
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
+            "Moorhouse Coating did an excellent job painting the exterior of our
+            home. The crew was friendly and professional, and they worked
+            quickly without sacrificing quality. The paint job has held up
+            beautifully, even in the harsh weather conditions we get here. We
+            couldn’t be happier with the outcome."
+          authorName: Stephen
           authorpost: Park City
         - rating: 3
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
+            "From start to finish, Moorhouse Coating was a pleasure to work
+            with. They were very professional and kept us informed throughout
+            the project. The exterior of our home looks amazing, and the quality
+            of the work is top-notch. They were also very careful to clean up
+            thoroughly each day. We’re thrilled with the results!"
+          authorName: Edward
           authorpost: Park City
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
+            "We hired Moorhouse Coating to stain the exterior of our house, and
+            the team was punctual, professional, and meticulous. Took more time
+            to prepare the surfaces properly, and the new stain has completely
+            transformed our home. Compliments from neighbors!"
+          authorName: Stan
           authorpost: Park City

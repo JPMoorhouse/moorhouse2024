@@ -1,7 +1,7 @@
 title: Home page
 seoData:
-  seoTitle: MoorHouse Coating
-  seoDesription: Professional Painting Contractor serving the Southwest
+  seoTitle: Moorhouse Coating Home
+  seoDesription: Moorhouse Coating Professional Painting Contractor serving the Southwest
 blocks:
   - discriminant: hero
     value:
@@ -10,7 +10,7 @@ blocks:
       bgImage: /images/home/blocks/0/value/bgImage.png
       Button:
         label: Get FREE Estimate
-        url: '#'
+        url: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: aboutmoorhouse
     value:
       pretitle: Welcome to Moorhouse Coating
@@ -29,21 +29,24 @@ blocks:
           beginning, Moorhouse took on large commercial&nbsp;painting projects,
           while maintaining the personal touch of a small company. Moorhouse
           aims to reassure customers thru it’s expertise and personalized
-          service thru professional painting, staining, coating operations.\
-
-          \
+          service thru professional painting, staining, coating operations.
         image: /images/home/blocks/1/value/card/image.png
         Button:
           label: Learn more
-          url: /about-us
+          url: /about/
   - discriminant: whatWeOffer
     value:
       pretitle: What We Offer
       heading: We Tailor Our Services To Suit Your Needs.
       bgImage: /images/home/blocks/2/value/bgImage.webp
-      featureCards: []
+      featureCards:
+        - cardText: Commercial Painting
+          cardDescription: 'Commercial Painting '
       banner:
-        button: {}
+        title: Commercial Painting
+        button:
+          text: Commercial Painting
+          slug: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: twoColumn
     value:
       cardWithImage:
@@ -58,12 +61,13 @@ blocks:
           image: /images/home/blocks/3/value/cardWithImage/0/image.png
           Button:
             text: Learn more
-            slug: /exterior-residential-painting
+            slug: https://calendly.com/moorhousecoating/onsite-estimate
         - title: Interior Residential Painting
           description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint.\nNo matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
           image: /images/home/blocks/3/value/cardWithImage/1/image.png
           Button:
             text: Learn more
+            slug: https://calendly.com/moorhousecoating/onsite-estimate
         - title: Commercial Painting
           description: >-
             Knowledgeable, professional and experienced, Moorhouse Coating
@@ -73,7 +77,8 @@ blocks:
             operations.
           image: /images/home/blocks/3/value/cardWithImage/2/image.png
           Button:
-            text: Learn more
+            text: 'Schedule Estimate '
+            slug: https://calendly.com/moorhousecoating/onsite-estimate
         - title: Industrial Painting
           description: >-
             There are several important factors to consider when planning and
@@ -84,7 +89,8 @@ blocks:
             experience can be the difference in the success of a project.
           image: /images/home/blocks/3/value/cardWithImage/3/image.png
           Button:
-            text: Learn more
+            text: Schedule Estimate
+            slug: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: gallery
     value:
       pretitle: Slideshow Gallery
@@ -93,6 +99,10 @@ blocks:
         - /images/home/blocks/4/value/galleryImages/0.webp
         - /images/home/blocks/4/value/galleryImages/1.webp
         - /images/home/blocks/4/value/galleryImages/2.webp
+        - /images/home/blocks/4/value/galleryImages/3.webp
+        - /images/home/blocks/4/value/galleryImages/4.webp
+        - /images/home/blocks/4/value/galleryImages/5.webp
+        - /images/home/blocks/4/value/galleryImages/6.jpeg
   - discriminant: whatToExpect
     value:
       pretitle: Professional Commercial & Residential Painting
@@ -111,9 +121,9 @@ blocks:
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
         - cardIcon: /images/home/blocks/5/value/cards/2/cardIcon.svg
-          cardText: Over 20+ Years <br/> Experience
+          cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
-            Our 20+ years experience in the painting, has shown us nearly every
+            Our 25+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
         - cardIcon: /images/home/blocks/5/value/cards/3/cardIcon.svg
@@ -129,9 +139,9 @@ blocks:
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
         - cardIcon: /images/home/blocks/5/value/cards/5/cardIcon.svg
-          cardText: Over 20+ Years <br/> Experience
+          cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
-            Our 20+ years experience in the painting, has shown us nearly every
+            Our 25+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
   - discriminant: industrialPainting
@@ -140,47 +150,121 @@ blocks:
       subtitle: "Our experienced and qualified painters will help you achieve  the look and feel you desire.\_"
       bgImage: /images/home/blocks/6/value/bgImage.webp
       Button:
-        label: Get FREE Estimate
-        link: '#'
+        label: Onsite FREE Estimate
+        link: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: frequentlyAskedQuestions
     value:
       pretitle: You`ve got questions, we`ve got answers
       heading: Frequently Asked Questions
       FrequentlyAskedQuestions:
+        - title: What types of large commercial projects do you handle?
+          answer: >-
+            We specialize in a broad range of large-scale commercial projects,
+            including high-rise buildings, shopping malls, large office
+            complexes, industrial facilities, hospitals, educational
+            institutions, and more. Our team is equipped to handle complex
+            projects with extensive requirements.
+        - title: What services do you offer for large commercial projects?
+          answer: >-
+            For large commercial projects, we provide:  Interior and Exterior
+            Painting: Comprehensive services for both interior and exterior
+            surfaces. Surface Preparation: Including cleaning, patching, and
+            priming. Specialty Coatings: Such as anti-corrosion, anti-graffiti,
+            and high-durability finishes. Industrial Coatings: For facilities
+            requiring specialized coatings. Pressure Washing: To prepare
+            surfaces and maintain cleanliness. Color Consultation: Expert advice
+            on color schemes and finishes to match your brand and functional
+            needs. Project Management: Dedicated managers to oversee and
+            coordinate the project.
+        - title: How do you handle large-scale projects?
+          answer: >-
+            We approach large-scale projects with a structured plan that
+            includes detailed project management, scheduling, and coordination.
+            We deploy a team of skilled professionals and use advanced equipment
+            to ensure efficiency and quality. Regular progress updates and site
+            meetings are part of our process to keep everything on track.
+        - title: How do I get a quote for a large commercial project?
+          answer: >-
+            To obtain a quote, please contact us to schedule a detailed site
+            visit. We’ll assess the project scope, discuss your needs, and
+            provide a comprehensive estimate. This process includes evaluating
+            the size of the area, the type of work required, and any specific
+            challenges.
         - title: >-
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium?
+            What is the typical timeline for completing a large commercial
+            painting project?
           answer: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-        - title: Nemo enim ipsam voluptatem quia voluptas sit aspernatur?
+            The timeline for completion depends on factors such as project size,
+            complexity, and specific requirements. During our initial
+            consultation, we will provide you with a detailed timeline and
+            project milestones. We strive to complete projects efficiently while
+            maintaining high-quality standards.
+        - title: How do you ensure minimal disruption to our business operations?
           answer: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-        - title: Ut enim ad minima veniam, quis nostrum exercitationem?
+            We work closely with you to develop a schedule that minimizes
+            disruption. This may include working during off-hours, weekends, or
+            coordinating with your business operations to ensure that our work
+            does not interfere with your daily activities.
+        - title: Are your workers experienced in handling large commercial projects?
           answer: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-        - title: Quis autem vel eum iure reprehenderit qui in ea voluptate?
+            Yes, all our team members are highly experienced in handling large
+            commercial projects. Our painters and project managers are trained
+            to handle complex and large-scale jobs, ensuring professionalism and
+            expertise in every aspect of the work.
+        - title: What safety measures do you implement for large projects?
           answer: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Safety is a top priority for us. We follow all OSHA regulations and
+            industry standards to ensure a safe working environment. This
+            includes using proper safety gear, conducting regular safety
+            training, and maintaining safety protocols on-site.
+        - title: How do you handle unexpected issues or changes during the project?
+          answer: >-
+            We maintain flexibility and adaptability to address any unexpected
+            issues or changes. Our project managers will work with you to assess
+            the situation, provide solutions, and adjust the project plan as
+            needed to ensure successful completion.
+        - title: What types of paints and coatings do you use?
+          answer: >-
+            We use high-quality paints and coatings suited to the specific needs
+            of large commercial projects. This includes durable and
+            high-performance products that meet the requirements for safety,
+            aesthetics, and functionality.
+        - title: Do you offer warranties on your work?
+          answer: >-
+            Yes, we offer warranties on both labor and materials. The specific
+            terms of the warranty will be outlined in your contract, and we
+            stand behind the quality of our work to ensure your satisfaction.
+        - title: How do you manage environmental and regulatory compliance?
+          answer: >-
+            We adhere to all local environmental regulations and industry
+            standards. This includes using eco-friendly paints and coatings when
+            possible, proper disposal of waste materials, and ensuring
+            compliance with all relevant regulations.
+        - title: What payment options do you offer for large projects?
+          answer: >-
+            We offer a variety of payment options, including credit cards,
+            checks, and electronic transfers. Payment terms will be detailed in
+            your contract, and we work with you to set up a payment plan that
+            suits the scale of your project.
+        - title: Can you provide references or case studies from similar projects?
+          answer: >-
+            Yes, we can provide references and case studies from similar large
+            commercial projects. These will give you insight into our experience
+            and the quality of our work.
+        - title: How do I get in touch with you to discuss my project?
+          answer: >-
+            You can contact us via phone, email, or through our website to
+            discuss your project. We’ll schedule a consultation to review your
+            needs and provide you with the information you require to move
+            forward.
         - title: >-
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium?
+            What should I do if I have concerns or issues after the project is
+            completed?
           answer: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            If you have any concerns or issues after the project is completed,
+            please contact us immediately. We are committed to addressing and
+            resolving any problems promptly and ensuring your complete
+            satisfaction.
   - discriminant: testimonials
     value:
       pretitle: Customer Testimonials
@@ -188,33 +272,41 @@ blocks:
       testimonials:
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip
-          authorName: Chris Michael
-          authorpost: Park City
+            "Moorhouse painted several areas of our shopping mall, including
+            common areas and exterior facades. Their team was professional and
+            efficient, ensuring minimal disruption to shoppers and tenants. The
+            mall looks fantastic, and the paint job has really enhanced the
+            overall appearance of the property. We highly recommend them for any
+            large-scale commercial project."
+          authorName: 'Michelle '
+          authorpost: Retail Property Manager
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
+            "Jose worked diligently to complete the job during off-hours to
+            avoid interfering with classes and events. The finished result is
+            both aesthetically pleasing and durable, meeting all our specific
+            needs. We appreciate their flexibility and high standards."
+          authorName: Wes
+          authorpost: Education Campus
         - rating: 3
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
+            "The painting project at our hospital required a careful approach
+            due to the need for minimal disruption and adherence to strict
+            hygiene standards. [Your Company Name] delivered exceptional
+            results, completing the work on schedule and adhering to all our
+            requirements. Their professionalism and the quality of their work
+            have contributed to a more welcoming environment for both patients
+            and staff."
+          authorName: Stuart
+          authorpost: Las Vegas
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
+            I recommend Moorhouse, the project involved extensive surface
+            preparation, specialty coatings, and complex scheduling to avoid
+            disrupting our operations. The team managed everything seamlessly,
+            and the final result was a beautifully finished space that enhances
+            both our productivity and safety. We were particularly impressed
+            with their attention to detail and ability to work around our
+            operational needs."
+          authorName: David
+          authorpost: Palm Desert

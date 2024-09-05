@@ -1,6 +1,7 @@
 title: Exterior House Painting Services
 seoData:
   seoTitle: Exterior House Painting Services
+  seoDesription: 'Exterior House Painting and Staining Park City Utah '
 subService:
   - exterior-house-painting
 blocks:
@@ -9,7 +10,8 @@ blocks:
       pretitle: Services
       title: Exterior House Painting Services
       cards:
-        - description: >
+        - title: Residential Painters
+          description: >
             Moorhouse Coating offers a wide selection of painting
             services.&nbsp; Painting is a common activity that everyone sees in
             their home or office. It improves the appearance of a building that
@@ -119,7 +121,7 @@ blocks:
       subtitle: "Our experienced and qualified painters will help you achieve  the look and feel you desire.\_"
       bgImage: /images/exterior-house-painting-services/blocks/2/value/bgImage.jpg
       Button:
-        label: Learn more   >
+        label: 'Learn more   '
         link: /
   - discriminant: testimonials
     value:
@@ -128,33 +130,29 @@ blocks:
       testimonials:
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip
-          authorName: Chris Michael
-          authorpost: Park City
+            Our house looks brand new, and we've already received compliments
+            from our neighbors. Highly recommend their services!
+          authorName: Michael P
+          authorpost: Old Town, Park City
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
+            The work was completed on time and within budget. The crew was
+            respectful of our property and cleaned up thoroughly after each day.
+            We’re thrilled with how our home looks!"
+          authorName: Sarah L
+          authorpost: Park Meadows, Park City
         - rating: 3
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
+            The quality of the work is outstanding, and the paint has held up
+            beautifully even through the harsh winter months in Park City. We
+            would absolutely hire them again for future projects!
+          authorName: Jennifer l.
+          authorpost: Deer Valley, Park City Utah
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
+            "start to finish, the experience was top-notch. The crew was
+            friendly, efficient, and showed great attention to detail. They even
+            went above and beyond to fix a few minor issues we hadn't noticed.
+            Our home now has a fresh, modern look that we're proud of."
+          authorName: Tom and Emily V.
+          authorpost: Silver Springs, Park City
