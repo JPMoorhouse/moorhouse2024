@@ -5,12 +5,14 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "@components/Header.astro";
 import SimpleHeader from "@components/SimpleHeader.astro";
 import SimpleFooter from "@components/SimpleFooter.astro";
+import { ViewTransitions } from "astro:transitions";
 const { title, description, image } = Astro.props;
 ---
 
 <html lang="en">
     <head> </head>
     <BaseHead title={title} description={description} image={image} />
+    <ViewTransitions />
     <body>
         <SimpleHeader />
         <main class="overflow-x-hidden">
