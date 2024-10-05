@@ -39,7 +39,8 @@ blocks:
           painting projects.
         image: /images/park-city/blocks/1/value/card/image.png
         Button:
-          label: Service Today
+          label: Phone
+          url: +1 435 655 9706
   - discriminant: whatWeOffer
     value:
       pretitle: What We Offer
