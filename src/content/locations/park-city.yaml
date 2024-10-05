@@ -48,12 +48,12 @@ blocks:
       bgImage: /images/park-city/blocks/2/value/bgImage.jpg
       featureCards:
         - cardIcon: /images/park-city/blocks/2/value/featureCards/0/cardIcon.svg
-          cardText: Residential Exterior Painting Services
+          cardText: Exterior Painting Services
           cardDescription: >-
             From offices to boutiques, we provide flawless interior painting
             services that reflect your brand's identity and ethos
         - cardIcon: /images/park-city/blocks/2/value/featureCards/1/cardIcon.svg
-          cardText: Residential Interior  Painting Services
+          cardText: Interior Painting Services
           cardDescription: >-
             Boost your curb appeal with our exterior painting services, designed
             to withstand Summit County's weather while looking great
@@ -63,7 +63,7 @@ blocks:
             From waterproofing to anti-graffiti coatings, our specialty services
             offer added protection and functionality to your premises
         - cardIcon: /images/park-city/blocks/2/value/featureCards/3/cardIcon.svg
-          cardText: Color Consultation Services
+          cardText: Color Consultation and Maintenance Services
           cardDescription: >-
             Unsure about colors? Our color experts can help you choose the
             perfect palette to match your commercial space's ambiance.
