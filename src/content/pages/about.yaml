@@ -3,7 +3,7 @@ seoData:
   seoTitle: 'About Moorhouse Coating '
   seoDesription: >-
     Commercial Painting Contractor About Services Interior Exterior Paint
-    Company
+    Company Find a Painter
   ogImage: /images/seo/about/seoData/ogImage.webp
 blocks:
   - discriminant: heroWithBanner
