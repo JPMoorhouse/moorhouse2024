@@ -319,3 +319,28 @@ blocks:
           Button:
             text: Wooster
             slug: https://www.woosterbrush.com/
+        - title: Sherwin Williams
+          description: Sherwin Williams
+          Button:
+            text: Sherwin Wiliams
+            slug: https://www.sherwin-williams.com/
+        - title: PPG
+          description: PPG
+          Button:
+            text: PPG Architectural US
+            slug: https://www.ppgpaints.com/
+        - title: Tower Sealants
+          description: Tower Sealants
+          Button:
+            text: More Information
+            slug: https://www.towersealants.com/
+        - title: CPIA
+          description: Commercial Painting industry Association
+          Button:
+            text: CPIA
+            slug: https://www.thecpia.com/
+        - title: Paint Care
+          description: Proper Paint Recycling and Disposal
+          Button:
+            text: Find out more
+            slug: https://www.paintcare.org/
