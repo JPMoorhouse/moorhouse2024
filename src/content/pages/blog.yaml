@@ -3,77 +3,6 @@ seoData:
   seoTitle: Moorhouse Coating Blog
   seoDesription: Moorhouse Morehouse morhouse moorehouse Coating Blog
 blocks:
-  - discriminant: twoColumn
-    value:
-      cardWithImage:
-        - title: Blue River Coatings
-          description: High Performance Specialty Coatings
-          image: /images/blog/blocks/0/value/cardWithImage/0/image.png
-          Button:
-            text: 'Find out more '
-            slug: https://www.bluerivercoatings.com/
-        - title: Wooster Brush
-          description: Wooster Roller and Brush - Our Go To!
-          image: /images/blog/blocks/0/value/cardWithImage/1/image.webp
-          Button:
-            text: Wooster
-            slug: https://www.woosterbrush.com/
-        - title: PPG
-          description: PPG
-          image: /images/blog/blocks/0/value/cardWithImage/2/image.svg
-          Button:
-            text: PPG Architectural US
-            slug: https://www.ppgpaints.com/
-        - title: Tower Sealants
-          description: Tower Sealants
-          image: /images/blog/blocks/0/value/cardWithImage/3/image.webp
-          Button:
-            text: More Information
-            slug: https://www.towersealants.com/
-        - title: Sherwin Williams
-          description: Sherwin Williams
-          image: /images/blog/blocks/0/value/cardWithImage/4/image.jpg
-          Button:
-            text: Sherwin Wiliams
-            slug: https://www.sherwin-williams.com/
-        - title: Benjamin Moore
-          description: Benjamin Moore Paint & Stain
-          image: /images/blog/blocks/0/value/cardWithImage/5/image.webp
-          Button:
-            text: Benjamin Moore
-            slug: https://www.benjaminmoore.com/en-us
-        - title: Paint Care
-          description: Proper Paint Recycling and Disposal
-          image: /images/blog/blocks/0/value/cardWithImage/6/image.png
-          Button:
-            text: Find out more
-            slug: https://www.paintcare.org/
-        - title: CPIA
-          description: Commercial Painting industry Association
-          image: /images/blog/blocks/0/value/cardWithImage/7/image.png
-          Button:
-            text: CPIA
-            slug: https://www.thecpia.com/
-        - title: Graco
-          description: 'Graco Contractor Sprayers '
-          image: /images/blog/blocks/0/value/cardWithImage/8/image.svg
-          Button:
-            text: Professional Tools
-            slug: https://www.graco.com/us/en/contractor.html
-        - title: Texcote
-          description: Technologically Advanced Coatings
-          image: /images/blog/blocks/0/value/cardWithImage/9/image.webp
-          Button:
-            text: More
-            slug: https://www.texcote.com/
-        - title: Rustoleum
-          description: |-
-            Beautify. Protect. Enhance.
-            Rust-Oleum
-          image: /images/blog/blocks/0/value/cardWithImage/10/image.png
-          Button:
-            text: More info
-            slug: https://www.rustoleum.com/
   - discriminant: sectionTitleDescription
     value:
       pretitle: Corridor and Common Area Painting
@@ -586,16 +515,3 @@ blocks:
 
 
         Let me know if you'd like more detail on any specific term!
-  - discriminant: locallyOwnedBusiness
-    value:
-      pretitle: Wooster
-      title: Wooster
-      card:
-        title: Brushes and Applicators
-        description: 'Brushes '
-        image: /images/blog/blocks/7/value/card/image.webp
-      banner:
-        title: Wooster
-        button:
-          label: Wooster
-          link: https://www.woosterbrush.com/
