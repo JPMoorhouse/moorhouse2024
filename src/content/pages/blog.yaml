@@ -103,6 +103,61 @@ blocks:
         necessity. With a solid, written plan and a proactive approach, you’ll
         have a property that’s ready for whatever the seasons throw at it,
         staying protected and looking pristine year after year.
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Benefits of High Performance Clear Coats
+      title: High Performance Clear Coatings
+      description: >
+        High-performance clear coatings are a game-changer for surfaces that
+        usually require frequent upkeep. Here’s why investing in them makes
+        maintenance so much easier—and cost-effective:
+
+
+        **Long-Lasting Protection**: High-performance clear coatings create a
+        durable shield against moisture, UV rays, dirt, and even chemicals, so
+        surfaces stay cleaner and protected for longer. This means less wear and
+        tear, less fading, and a much tougher resistance to scuffs, scratches,
+        and general abuse.
+
+
+        **Reduced Maintenance Frequency**: Surfaces treated with clear coatings
+        require fewer maintenance cycles because they stay in better shape
+        between touch-ups. Fewer cycles mean less downtime, lower labor costs,
+        and more time spent enjoying a pristine property rather than constantly
+        maintaining it.
+
+
+        **Enhanced Surface Aesthetic**: Clear coatings offer a polished,
+        professional look, enhancing the natural color and finish of the
+        underlying material. This isn’t just about looks; it’s about putting
+        your best foot forward with a clean, well-maintained appearance that
+        leaves a great impression on clients and visitors.
+
+
+        **Resistance to Environmental Stressors**: For areas exposed to
+        high-traffic, moisture, and extreme temperatures, high-performance clear
+        coatings add an extra layer of resilience. This is especially valuable
+        for mountain or coastal environments, where surfaces are constantly
+        facing harsh elements that can cause quick degradation without adequate
+        protection.
+
+
+        **Cost-Effective Over Time**: Although clear coatings might have a
+        higher upfront cost, the long-term savings are substantial. With less
+        frequent maintenance, fewer repairs, and longer-lasting surfaces, these
+        coatings provide excellent ROI, stretching your budget further.
+
+
+        **Improved Cleanability**: Clear coatings make routine cleaning a
+        breeze. Because the surface is more resistant to grime, stains, and
+        contaminants, cleaning is quicker and requires fewer harsh chemicals,
+        saving time and promoting a safer, greener maintenance routine.
+
+
+        High-performance clear coatings extend the life, look, and cleanliness
+        of surfaces that would otherwise need constant attention. It’s a smart
+        investment for reducing maintenance costs, keeping appearances sharp,
+        and ensuring your surfaces can handle whatever comes their way.
   - discriminant: frequentlyAskedQuestions
     value:
       pretitle: Services
@@ -251,58 +306,16 @@ blocks:
             You will work with a small team of painting craftsman, most projects
             have a team lead and a person responsible to oversee the projects
             success.  There is only one direct report per person.  
-  - discriminant: sectionTitleDescription
+  - discriminant: twoColumn
     value:
-      pretitle: Benefits of High Performance Clear Coats
-      title: High Performance Clear Coatings
-      description: >
-        High-performance clear coatings are a game-changer for surfaces that
-        usually require frequent upkeep. Here’s why investing in them makes
-        maintenance so much easier—and cost-effective:
-
-
-        **Long-Lasting Protection**: High-performance clear coatings create a
-        durable shield against moisture, UV rays, dirt, and even chemicals, so
-        surfaces stay cleaner and protected for longer. This means less wear and
-        tear, less fading, and a much tougher resistance to scuffs, scratches,
-        and general abuse.
-
-
-        **Reduced Maintenance Frequency**: Surfaces treated with clear coatings
-        require fewer maintenance cycles because they stay in better shape
-        between touch-ups. Fewer cycles mean less downtime, lower labor costs,
-        and more time spent enjoying a pristine property rather than constantly
-        maintaining it.
-
-
-        **Enhanced Surface Aesthetic**: Clear coatings offer a polished,
-        professional look, enhancing the natural color and finish of the
-        underlying material. This isn’t just about looks; it’s about putting
-        your best foot forward with a clean, well-maintained appearance that
-        leaves a great impression on clients and visitors.
-
-
-        **Resistance to Environmental Stressors**: For areas exposed to
-        high-traffic, moisture, and extreme temperatures, high-performance clear
-        coatings add an extra layer of resilience. This is especially valuable
-        for mountain or coastal environments, where surfaces are constantly
-        facing harsh elements that can cause quick degradation without adequate
-        protection.
-
-
-        **Cost-Effective Over Time**: Although clear coatings might have a
-        higher upfront cost, the long-term savings are substantial. With less
-        frequent maintenance, fewer repairs, and longer-lasting surfaces, these
-        coatings provide excellent ROI, stretching your budget further.
-
-
-        **Improved Cleanability**: Clear coatings make routine cleaning a
-        breeze. Because the surface is more resistant to grime, stains, and
-        contaminants, cleaning is quicker and requires fewer harsh chemicals,
-        saving time and promoting a safer, greener maintenance routine.
-
-
-        High-performance clear coatings extend the life, look, and cleanliness
-        of surfaces that would otherwise need constant attention. It’s a smart
-        investment for reducing maintenance costs, keeping appearances sharp,
-        and ensuring your surfaces can handle whatever comes their way.
+      cardWithImage:
+        - title: Blue River Coatings
+          description: High Performance Specialty Coatings
+          Button:
+            text: 'Find out more '
+            slug: https://www.bluerivercoatings.com/
+        - title: Wooster Brush
+          description: Wooster Roller and Brush - Our Go To!
+          Button:
+            text: Wooster
+            slug: https://www.woosterbrush.com/
