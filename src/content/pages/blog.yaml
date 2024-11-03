@@ -311,36 +311,43 @@ blocks:
       cardWithImage:
         - title: Blue River Coatings
           description: High Performance Specialty Coatings
+          image: /images/blog/blocks/5/value/cardWithImage/0/image.png
           Button:
             text: 'Find out more '
             slug: https://www.bluerivercoatings.com/
         - title: Wooster Brush
           description: Wooster Roller and Brush - Our Go To!
+          image: /images/blog/blocks/5/value/cardWithImage/1/image.webp
           Button:
             text: Wooster
             slug: https://www.woosterbrush.com/
         - title: Sherwin Williams
           description: Sherwin Williams
+          image: /images/blog/blocks/5/value/cardWithImage/2/image.jpg
           Button:
             text: Sherwin Wiliams
             slug: https://www.sherwin-williams.com/
         - title: PPG
           description: PPG
+          image: /images/blog/blocks/5/value/cardWithImage/3/image.svg
           Button:
             text: PPG Architectural US
             slug: https://www.ppgpaints.com/
         - title: Tower Sealants
           description: Tower Sealants
+          image: /images/blog/blocks/5/value/cardWithImage/4/image.webp
           Button:
             text: More Information
             slug: https://www.towersealants.com/
         - title: CPIA
           description: Commercial Painting industry Association
+          image: /images/blog/blocks/5/value/cardWithImage/5/image.png
           Button:
             text: CPIA
             slug: https://www.thecpia.com/
         - title: Paint Care
           description: Proper Paint Recycling and Disposal
+          image: /images/blog/blocks/5/value/cardWithImage/6/image.png
           Button:
             text: Find out more
             slug: https://www.paintcare.org/
