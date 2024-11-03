@@ -377,3 +377,225 @@ blocks:
             You will work with a small team of painting craftsman, most projects
             have a team lead and a person responsible to oversee the projects
             success.  There is only one direct report per person.  
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Glossary
+      title: Common Painting Terminolgy
+      description: >
+        Here's a glossary of common painting terminology to help clarify
+        industry-specific terms:
+
+
+        ### A
+
+
+        - **Acrylic Paint**: Water-based paint made with acrylic resin. Known
+        for its durability, quick drying time, and versatility for interior and
+        exterior surfaces.
+
+        - **Additive**: Substances added to paint to modify its properties, such
+        as thickeners, stabilizers, or agents to improve flow and drying time.
+
+
+        ### B
+
+
+        - **Back Rolling**: A technique where paint is rolled over a freshly
+        sprayed area to ensure even coverage and adhesion, often used for porous
+        surfaces.
+
+        - **Binder**: The component in paint that holds pigments together and
+        provides adhesion to the surface. Common binders include acrylic, latex,
+        and oil.
+
+        - **Blistering**: Bubbles or raised areas that form on the paint
+        surface, usually due to moisture, heat, or poor surface preparation.
+
+        - **Bleeding**: When a substance (e.g., tannins from wood) seeps through
+        paint, causing discoloration. Primers help prevent this.
+
+
+        ### C
+
+
+        - **Chalking**: The formation of a powdery residue on the paint’s
+        surface due to weathering, commonly seen in older exterior paints.
+
+        - **Cutting In**: The technique of painting edges and corners with a
+        brush before using a roller for larger areas, creating clean, precise
+        edges.
+
+
+        ### D
+
+
+        - **Drop Cloth**: A protective covering (often canvas or plastic) placed
+        over furniture or floors to catch drips and spills.
+
+        - **Dry Brushing**: A technique where a nearly dry brush is used to
+        lightly apply paint, often creating a textured or aged effect.
+
+
+        ### E
+
+
+        - **Eggshell Finish**: A paint finish with a low luster, slightly
+        shinier than flat but less than satin. Often used for walls and trim due
+        to its subtle sheen and durability.
+
+        - **Enamel**: A paint that dries to a hard, glossy finish. Typically
+        used on surfaces that require durability, like doors and cabinets.
+
+
+        ### F
+
+
+        - **Feathering**: Gradually thinning the edges of paint to blend with
+        surrounding areas, especially useful for touch-ups.
+
+        - **Flat Finish**: Paint with a non-reflective finish, ideal for hiding
+        imperfections on walls but less washable than other finishes.
+
+
+        ### G
+
+
+        - **Grain Raising**: The roughening of wood fibers that can occur when
+        water-based finishes are applied, requiring sanding between coats.
+
+
+        ### H
+
+
+        - **HVLP (High Volume Low Pressure)**: A type of spray system that
+        applies paint with reduced overspray, providing a smoother finish.
+
+        - **Hiding Power**: The ability of a paint to cover or “hide” the color
+        of the surface beneath it, influenced by factors like pigment
+        concentration and thickness.
+
+
+        ### I
+
+
+        - **Intumescent Coating**: A type of paint that expands when exposed to
+        heat, creating an insulating barrier. Used for fireproofing.
+
+
+        ### L
+
+
+        - **Latex Paint**: Water-based paint known for its flexibility, ease of
+        application, and quick drying time. Commonly used for walls and
+        ceilings.
+
+
+        ### M
+
+
+        - **Matte Finish**: Similar to flat paint but with slightly more
+        durability. Popular for low-traffic walls that don’t require frequent
+        washing.
+
+        - **Mil**: A measurement of paint film thickness, where 1 mil equals
+        one-thousandth of an inch.
+
+
+        ### O
+
+
+        - **Oil-Based Paint**: Paint that uses an oil-based solvent. Known for
+        its durability and smooth finish but has longer drying times and
+        requires mineral spirits for cleanup.
+
+        - **Overcoating**: Applying additional layers of paint to achieve
+        desired coverage and durability.
+
+
+        ### P
+
+
+        - **Primer**: A preparatory coat that improves paint adhesion, increases
+        durability, and enhances the finish. Essential for many surfaces.
+
+        - **Putty**: A filler used to repair small holes, cracks, and
+        imperfections in walls or wood before painting.
+
+
+        ### R
+
+
+        - **Roller Nap**: The thickness of the roller’s surface, with various
+        naps suited for different textures and surfaces (e.g., short nap for
+        smooth surfaces, long nap for textured ones).
+
+
+        ### S
+
+
+        - **Satin Finish**: A mid-sheen finish that is more durable and washable
+        than flat or eggshell, often used in high-traffic areas.
+
+        - **Sheen**: The level of gloss or shine in a paint finish, ranging from
+        flat to high gloss.
+
+        - **Spackling**: A paste used to fill small holes or cracks in walls,
+        which can then be sanded smooth before painting.
+
+
+        ### T
+
+
+        - **Tack Cloth**: A sticky cloth used to remove dust and particles from
+        surfaces before painting for a clean finish.
+
+        - **Tint**: A color added to base paint to achieve the desired shade,
+        customized for specific color preferences.
+
+
+        ### U
+
+
+        - **Undercoat**: The initial layer of paint applied to prepare a surface
+        for a topcoat, especially in high-gloss or enamel finishes.
+
+
+        ### V
+
+
+        - **Varnish**: A clear or tinted coating that provides a protective,
+        often glossy, finish to wood or painted surfaces.
+
+
+        ### W
+
+
+        - **Wet Edge**: The edge of a freshly painted area, which is kept wet to
+        prevent lap marks as you continue painting.
+
+        - **Wrinkling**: A defect where the paint surface appears wrinkled,
+        typically caused by applying paint too thickly or when the underlying
+        layer has not fully dried.
+
+
+        ### Y
+
+
+        - **Yellowing**: The discoloration of paint, especially white or
+        light-colored paint, due to aging, lack of light, or exposure to heat.
+
+
+        Let me know if you'd like more detail on any specific term!
+  - discriminant: locallyOwnedBusiness
+    value:
+      pretitle: Wooster
+      title: Wooster
+      card:
+        title: Brushes and Applicators
+        description: 'Brushes '
+        image: /images/blog/blocks/7/value/card/image.webp
+      banner:
+        title: Wooster
+        button:
+          label: Wooster
+          link: https://www.woosterbrush.com/
