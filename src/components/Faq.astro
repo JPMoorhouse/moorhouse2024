@@ -40,7 +40,7 @@ const faqSchema = {
       {heading}
     </h2>
 
-    {FrequentlyAskedQuestions.map((item) => <Accordion {...item} />)}
+    {FrequentlyAskedQuestions.map((item: any) => <Accordion {...item} />)}
   </div>
 </section>
 <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
