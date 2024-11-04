@@ -1,4 +1,4 @@
-title: Home page
+title: Home
 seoData:
   seoTitle: Moorhouse Coating Home
   seoDesription: Moorhouse Coating Professional Painting Contractor serving the Southwest
@@ -7,7 +7,7 @@ blocks:
     value:
       title: Full Service <span class="text-secondary">Painting</span>
       subtitle: Professional Painting Contractor with Roots in Park City, Utah.
-      bgImage: /images/moorhousecoating.com/blocks/0/value/bgImage.png
+      bgImage: /images/home/blocks/0/value/bgImage.png
       Button:
         label: Get FREE Estimate
         url: https://calendly.com/moorhousecoating/onsite-estimate
@@ -30,7 +30,7 @@ blocks:
           while maintaining the personal touch of a small company. Moorhouse
           aims to reassure customers thru it’s expertise and personalized
           service thru professional painting, staining, coating operations.
-        image: /images/moorhousecoating.com/blocks/1/value/card/image.png
+        image: /images/home/blocks/1/value/card/image.png
         Button:
           label: Learn more
           url: /about/
@@ -38,7 +38,7 @@ blocks:
     value:
       pretitle: What We Offer
       heading: We Tailor Our Services To Suit Your Needs.
-      bgImage: /images/moorhousecoating.com/blocks/2/value/bgImage.webp
+      bgImage: /images/home/blocks/2/value/bgImage.webp
       featureCards:
         - cardText: Commercial Painting
           cardDescription: 'Commercial Painting '
@@ -58,15 +58,13 @@ blocks:
             other materials. With proper prep work and the right paint for the
             job, you can expect your home’s paint job to look great and stand up
             to the conditions for several years.
-          image: >-
-            /images/moorhousecoating.com/blocks/3/value/cardWithImage/0/image.png
+          image: /images/home/blocks/3/value/cardWithImage/0/image.png
           Button:
             text: Learn more
             slug: https://calendly.com/moorhousecoating/onsite-estimate
         - title: Interior Residential Painting
           description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint.\nNo matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
-          image: >-
-            /images/moorhousecoating.com/blocks/3/value/cardWithImage/1/image.png
+          image: /images/home/blocks/3/value/cardWithImage/1/image.png
           Button:
             text: Learn more
             slug: https://calendly.com/moorhousecoating/onsite-estimate
@@ -77,8 +75,7 @@ blocks:
             rate. We specialize in delivering quality painting that makes your
             business look great, while minimizing disruption to your normal
             operations.
-          image: >-
-            /images/moorhousecoating.com/blocks/3/value/cardWithImage/2/image.png
+          image: /images/home/blocks/3/value/cardWithImage/2/image.png
           Button:
             text: 'Schedule Estimate '
             slug: https://calendly.com/moorhousecoating/onsite-estimate
@@ -90,8 +87,7 @@ blocks:
             required lifespan of the new coating system. Working with an
             experienced industrial painting contractor with many years of
             experience can be the difference in the success of a project.
-          image: >-
-            /images/moorhousecoating.com/blocks/3/value/cardWithImage/3/image.png
+          image: /images/home/blocks/3/value/cardWithImage/3/image.png
           Button:
             text: Schedule Estimate
             slug: https://calendly.com/moorhousecoating/onsite-estimate
@@ -100,49 +96,49 @@ blocks:
       pretitle: Slideshow Gallery
       heading: Our Completed Projects
       galleryImages:
-        - /images/moorhousecoating.com/blocks/4/value/galleryImages/0.webp
-        - /images/moorhousecoating.com/blocks/4/value/galleryImages/1.webp
-        - /images/moorhousecoating.com/blocks/4/value/galleryImages/2.webp
-        - /images/moorhousecoating.com/blocks/4/value/galleryImages/3.webp
-        - /images/moorhousecoating.com/blocks/4/value/galleryImages/4.webp
-        - /images/moorhousecoating.com/blocks/4/value/galleryImages/5.webp
-        - /images/moorhousecoating.com/blocks/4/value/galleryImages/6.jpeg
+        - /images/home/blocks/4/value/galleryImages/0.webp
+        - /images/home/blocks/4/value/galleryImages/1.webp
+        - /images/home/blocks/4/value/galleryImages/2.webp
+        - /images/home/blocks/4/value/galleryImages/3.webp
+        - /images/home/blocks/4/value/galleryImages/4.webp
+        - /images/home/blocks/4/value/galleryImages/5.webp
+        - /images/home/blocks/4/value/galleryImages/6.jpeg
   - discriminant: whatToExpect
     value:
       pretitle: Professional Commercial & Residential Painting
       heading: What To Expect When You Hire Moorhouse Coating
       cards:
-        - cardIcon: /images/moorhousecoating.com/blocks/5/value/cards/0/cardIcon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/0/cardIcon.svg
           cardText: Effective Communication Throughout The Process
           cardDescription: >-
             The Key to a successful project is found in good communication. As a
             licensed painting contractor, we have years of experience performing
             quality for commercial and residential clients.
-        - cardIcon: /images/moorhousecoating.com/blocks/5/value/cards/1/cardIcon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/1/cardIcon.svg
           cardText: We Value Integrity <br/> & Honesty
           cardDescription: >-
             To Paint with integrity we must be open and forthright, even when
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
-        - cardIcon: /images/moorhousecoating.com/blocks/5/value/cards/2/cardIcon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/2/cardIcon.svg
           cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
             Our 25+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
-        - cardIcon: /images/moorhousecoating.com/blocks/5/value/cards/3/cardIcon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/3/cardIcon.svg
           cardText: Effective Communication Throughout The Process
           cardDescription: >-
             The Key to a successful project is found in good communication. As a
             licensed painting contractor, we have years of experience performing
             quality for commercial and residential clients.
-        - cardIcon: /images/moorhousecoating.com/blocks/5/value/cards/4/cardIcon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/4/cardIcon.svg
           cardText: We Value Integrity <br/> & Honesty
           cardDescription: >-
             To Paint with integrity we must be open and forthright, even when
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
-        - cardIcon: /images/moorhousecoating.com/blocks/5/value/cards/5/cardIcon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/5/cardIcon.svg
           cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
             Our 25+ years experience in the painting, has shown us nearly every
@@ -152,7 +148,7 @@ blocks:
     value:
       title: Commercial  & Industrial <span class="text-helper">Painting</span>
       subtitle: "Our experienced and qualified painters will help you achieve  the look and feel you desire.\_"
-      bgImage: /images/moorhousecoating.com/blocks/6/value/bgImage.webp
+      bgImage: /images/home/blocks/6/value/bgImage.webp
       Button:
         label: Onsite FREE Estimate
         link: https://calendly.com/moorhousecoating/onsite-estimate
