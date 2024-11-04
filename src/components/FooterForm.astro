@@ -1,5 +1,7 @@
 <form action="/api/quote" method="POST">
-  <div class="flex justify-center items-center md:flex-row w-full flex-col gap-4 mb-8">
+  <div
+    class="flex justify-center items-center md:flex-row w-full flex-col gap-4 mb-8"
+  >
     <div class="flex-1 flex justify-start items-start flex-col w-full gap-2">
       <label for="estimate_first_name" class="text-white">First Name*</label>
       <input
@@ -23,7 +25,9 @@
       />
     </div>
   </div>
-  <div class="flex justify-center items-center md:flex-row w-full flex-col gap-4 mb-8">
+  <div
+    class="flex justify-center items-center md:flex-row w-full flex-col gap-4 mb-8"
+  >
     <div class="flex-1 flex justify-start items-start flex-col w-full gap-2">
       <label for="estimate_phone" class="text-white">Phone Number*</label>
       <input
@@ -58,7 +62,9 @@
       class="rounded-xl w-full h-14 px-4 outline-none text-white border-white border bg-transparent placeholder:text-white/60"
     />
   </div>
-  <div class="flex justify-center items-center gap-4 md:flex-row w-full flex-col mt-8">
+  <div
+    class="flex justify-center items-center gap-4 md:flex-row w-full flex-col mt-8"
+  >
     <div class="flex-1 flex justify-start items-start flex-col w-full gap-2">
       <label for="estimate_city" class="text-white">City*</label>
       <input
@@ -73,11 +79,63 @@
     <div class="flex-1 flex justify-center items-center gap-2">
       <div class="flex-1 justify-start items-start flex-col gap-2">
         <label for="estimate_state" class="text-white">State*</label>
-        <select id="estimate_state" name="estimate_state" required class="rounded-xl mt-2 w-full h-14 px-4 border-white outline-none text-white border bg-transparent placeholder:text-white/60">
+        <select
+          id="estimate_state"
+          name="estimate_state"
+          required
+          class="rounded-xl mt-2 w-full h-14 px-4 border-white outline-none text-white border bg-transparent placeholder:text-white/60"
+        >
           <option value="" disabled selected>Select state</option>
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
-          <!-- Add more states here -->
+          <option value="AZ">Arizona</option>
+          <option value="AR">Arkansas</option>
+          <option value="CA">California</option>
+          <option value="CO">Colorado</option>
+          <option value="CT">Connecticut</option>
+          <option value="DE">Delaware</option>
+          <option value="FL">Florida</option>
+          <option value="GA">Georgia</option>
+          <option value="HI">Hawaii</option>
+          <option value="ID">Idaho</option>
+          <option value="IL">Illinois</option>
+          <option value="IN">Indiana</option>
+          <option value="IA">Iowa</option>
+          <option value="KS">Kansas</option>
+          <option value="KY">Kentucky</option>
+          <option value="LA">Louisiana</option>
+          <option value="ME">Maine</option>
+          <option value="MD">Maryland</option>
+          <option value="MA">Massachusetts</option>
+          <option value="MI">Michigan</option>
+          <option value="MN">Minnesota</option>
+          <option value="MS">Mississippi</option>
+          <option value="MO">Missouri</option>
+          <option value="MT">Montana</option>
+          <option value="NE">Nebraska</option>
+          <option value="NV">Nevada</option>
+          <option value="NH">New Hampshire</option>
+          <option value="NJ">New Jersey</option>
+          <option value="NM">New Mexico</option>
+          <option value="NY">New York</option>
+          <option value="NC">North Carolina</option>
+          <option value="ND">North Dakota</option>
+          <option value="OH">Ohio</option>
+          <option value="OK">Oklahoma</option>
+          <option value="OR">Oregon</option>
+          <option value="PA">Pennsylvania</option>
+          <option value="RI">Rhode Island</option>
+          <option value="SC">South Carolina</option>
+          <option value="SD">South Dakota</option>
+          <option value="TN">Tennessee</option>
+          <option value="TX">Texas</option>
+          <option value="UT">Utah</option>
+          <option value="VT">Vermont</option>
+          <option value="VA">Virginia</option>
+          <option value="WA">Washington</option>
+          <option value="WV">West Virginia</option>
+          <option value="WI">Wisconsin</option>
+          <option value="WY">Wyoming</option>
         </select>
       </div>
       <div class="flex-1 flex justify-start items-start flex-col gap-2">
@@ -93,7 +151,9 @@
       </div>
     </div>
   </div>
-  <div class="flex justify-center items-center gap-4 md:flex-row w-full flex-col mt-8">
+  <div
+    class="flex justify-center items-center gap-4 md:flex-row w-full flex-col mt-8"
+  >
     <div class="flex flex-1 justify-start items-start w-full flex-col gap-2">
       <label for="estimate_comments" class="text-white">Other Comments</label>
       <input
@@ -103,11 +163,19 @@
         class="rounded-xl w-full h-14 px-4 py-2 border-white outline-none text-white border bg-transparent placeholder:text-white/60 resize-none"
       />
     </div>
-    
-    <div class="md:max-w-[13rem] w-full flex justify-start items-start flex-col gap-2">
-      <label id="estimate_project_type" class="text-white">Property Type*</label>
+
+    <div
+      class="md:max-w-[13rem] w-full flex justify-start items-start flex-col gap-2"
+    >
+      <label id="estimate_project_type" class="text-white">Property Type*</label
+      >
       <div class="flex-1 justify-start items-start flex-col gap-2 w-full">
-        <select id="estimate_project_type" name="estimate_project_type" required class="rounded-xl w-full h-14 px-4 border-white outline-none text-white border bg-transparent placeholder:text-white/60">
+        <select
+          id="estimate_project_type"
+          name="estimate_project_type"
+          required
+          class="rounded-xl w-full h-14 px-4 border-white outline-none text-white border bg-transparent placeholder:text-white/60"
+        >
           <option value="" disabled selected>Project Type</option>
           <option value="Residential Exterior">Residential Exterior</option>
           <option value="Residential Interior">Residential Interior</option>
@@ -122,5 +190,6 @@
   <button
     type="submit"
     class="bg-secondary w-full rounded-xl h-14 mt-12 text-[#333] font-bold text-lg"
-  >Get My FREE Estimate!</button>
+    >Get My FREE Estimate!</button
+  >
 </form>
