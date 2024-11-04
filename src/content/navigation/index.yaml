@@ -1,7 +1,7 @@
 logo: /images/logo.svg
 navItems:
   - label: Home
-    link: moorhousecoating.com
+    link: /
   - label: Services
     link: /services
   - label: Projects
@@ -12,4 +12,4 @@ navItems:
     link: /blog
 button:
   buttontext: Call Now
-  buttonSlug: 'tel: 1-855-666-2628'
+  buttonSlug: "tel: 1-855-666-2628"
