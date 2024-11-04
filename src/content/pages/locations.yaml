@@ -2,7 +2,7 @@ title: Locations
 seoData:
   seoTitle: Southern California, Coachella Valley, Inland Empire, Los Angeles
   seoDesription: 'Southern California, Riverside, Los Angeles, Coachella Valley '
-  ogImage: /images/seo/Southern California/seoData/ogImage.jpeg
+  ogImage: /images/seo/locations/seoData/ogImage.jpeg
 blocks:
   - discriminant: sectionTitleDescription
     value:
