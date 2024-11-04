@@ -7,15 +7,31 @@ interface accordion {
 }
 
 interface faqprops {
-  pretitle: string; // Type annotation added
-  heading: string; // Type annotation added
-  FrequentlyAskedQuestions: accordion[]; // Type annotation added
+  pretitle: string;
+  heading: string;
+  FrequentlyAskedQuestions: accordion[];
 }
-//@ts-ignore
-const { pretitle, heading, FrequentlyAskedQuestions }: faqprops = Astro.props;
+
+const { pretitle, heading, FrequentlyAskedQuestions } = Astro.props;
+
+// Create FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: FrequentlyAskedQuestions.map((faq: any) => ({
+    "@type": "Question",
+    name: faq.title,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.answer,
+    },
+  })),
+};
 ---
 
 <section class="lg:py-20 py-10 px-6">
+  <!-- Inject FAQ Schema in the component -->
+
   <div class="custom-container">
     <p class="text-helper text-center text-lg mb-5">{pretitle}</p>
     <h2
@@ -27,3 +43,4 @@ const { pretitle, heading, FrequentlyAskedQuestions }: faqprops = Astro.props;
     {FrequentlyAskedQuestions.map((item) => <Accordion {...item} />)}
   </div>
 </section>
+<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
