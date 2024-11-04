@@ -311,170 +311,334 @@ blocks:
       pretitle: Glossary
       title: Common Painting Terminolgy
       description: >
-        Here's a glossary of common painting terminology to help clarify
+        Glossary of common painting terminology to help clarify
         industry-specific terms:
 
 
         ### A
 
 
-        - **ACRYLIC PAINT**: Water-based paint made with acrylic resin. Known
-        for its durability, quick drying time, and versatility for interior and
+        **ACRYLIC PAINT**: Water-based paint made with acrylic resin. Known for
+        its durability, quick drying time, and versatility for interior and
         exterior surfaces.
 
-        - **ADDITIVE**: Substances added to paint to modify its properties, such
+
+        **ADDITIVE**: Substances added to paint to modify its properties, such
         as thickeners, stabilizers, or agents to improve flow and drying time.
 
-        - **ABRASION RESISTANCE**: A specially formulated coating property that
+
+        **ABRASION RESISTANCE**: A specially formulated coating property that
         protect structures against corrosion, damage and wear brought about by
         heat and moisture.\
-          **ABRASIVE**: Used for wearing away a surface by rubbing, scraping and sanding in preparation for coating; examples include sandpaper and steel wool.\
-          **ACRYLIC**: A synthetic resin used in high-performance, water-based coatings.\
-          **ADHESION**: The ability of a coating to stick to a surface.\
-          **AIR DRY**: One method by which liquid coatings dry; after solvent evaporation, the binders react with oxygen, or oxidize, creating a hard film.\
-          **AIRLESS SPRAY**: Applicator that pumps coating at a very high pressure through a hose with a tip designed to spray paint evenly in a fan-shaped pattern, covering more area quickly.\
-          **ALKALI**: A substance such as lye, soda or lime that can be highly caustic or corrosive to paint films.\
-          **ALKYD**: Any of a group of synthetic resins that are used in varnishes, paints and adhesives; a paint in which the vehicle is an alkyd resin.\
-          **ALLIGATORING**: A paint failure that appears like small cracks resembling alligator skin due to too many coats, a topcoat applied before the basecoat fully dried or temperature changes that cause substrates to expand and contract.\
-          **ANTI-CORROSIVE PAINT**: Designed to inhibit abrasion and rust and applied directly to that’s used on iron, steel and other metallic substrates, often used as a primer for finish coats.
+
+        **ABRASIVE**: Used for wearing away a surface by rubbing, scraping and
+        sanding in preparation for coating; examples include sandpaper and steel
+        wool.\
+
+        **ACRYLIC**: A synthetic resin used in high-performance, water-based
+        coatings.\
+
+        **ADHESION**: The ability of a coating to stick to a surface.\
+
+        **AIR DRY**: One method by which liquid coatings dry; after solvent
+        evaporation, the binders react with oxygen, or oxidize, creating a hard
+        film.\
+
+        **AIRLESS SPRAY**: Applicator that pumps coating at a very high pressure
+        through a hose with a tip designed to spray paint evenly in a fan-shaped
+        pattern, covering more area quickly.\
+
+        **ALKALI**: A substance such as lye, soda or lime that can be highly
+        caustic or corrosive to paint films.\
+
+        **ALKYD**: Any of a group of synthetic resins that are used in
+        varnishes, paints and adhesives; a paint in which the vehicle is an
+        alkyd resin.\
+
+        **ALLIGATORING**: A paint failure that appears like small cracks
+        resembling alligator skin due to too many coats, a topcoat applied
+        before the basecoat fully dried or temperature changes that cause
+        substrates to expand and contract.\
+
+        **ANTI-CORROSIVE PAINT**: Designed to inhibit abrasion and rust and
+        applied directly to that’s used on iron, steel and other metallic
+        substrates, often used as a primer for finish coats.
+
 
         ### B
 
 
-        - **BACK ROLLING**: A technique where paint is rolled over a freshly
+        **BACK ROLLING**: A technique where paint is rolled over a freshly
         sprayed area to ensure even coverage and adhesion, often used for porous
         surfaces.
 
-        - **BINDER**: The component in paint that holds pigments together and
+
+        **BINDER**: The component in paint that holds pigments together and
         provides adhesion to the surface. Common binders include acrylic, latex,
         and oil.
 
-        - **BLISTERING**: Bubbles or raised areas that form on the paint
-        surface, usually due to moisture, heat, or poor surface preparation.
 
-        - **BLEEDING**: When a substance (e.g., tannins from wood) seeps through
+        **BLISTERING**: Bubbles or raised areas that form on the paint surface,
+        usually due to moisture, heat, or poor surface preparation.
+
+
+        **BLEEDING**: When a substance (e.g., tannins from wood) seeps through
         paint, causing discoloration. Primers help prevent this.
 
-        - **BARRIER COAT**: A layer of a primer or coating that obstructs or
+
+        **BARRIER COAT**: A layer of a primer or coating that obstructs or
         prevents the passage of water or other contaminants through a surface.
         See Intermediate Coat.\
-          **BINDER**: The component of paint that joins pigment particles together to form the film and can determine many of the coating’s performance properties — washability, durability, adhesion, color retention, etc.\
-          **BLEACHING**: The process of lightening or restoring discolored or stained wood to its normal color.\
-          **BLEEDING**: Describes an undercoat staining through the topcoat. Soluble dyes or pigments in undercoat are dissolved by solvents in topcoat and stain through to the new finish.\
-          **BLISTERING**: The formation of bubbles or pimples on a painted surface caused by moisture in a topcoat before the previous coating one thoroughly dried or excessive heat. Also called bubbling.\
-          **BLUSHING**: A coating that becomes cloudy or dull through moisture or excessive solvent evaporation.\
-          **BODY**: The consistency of a coating. See Viscosity.\
-          **BOXING**: Mixing paint by pouring from one container to another several times to ensure a consistent, well-blended color.\
-          **BREATHE**: The ability of a paint film to permit moisture permeation without causing failure.\
-          **BRIDGING**: The ability of a paint to cover or stretch over cracks, voids or other small gaps.\
-          **BRISTLES**: The working part of a brush that contains natural (usually hog) or artificial (nylon or polyester) stiff hairs.\
-          **BRUSHABILITY**: The ability or ease with which paint can be brushed onto a surface.\
-          **BRUSH-OUT**: A technique that consists of applying a sample of paint to a piece of wood or other material, illustrating the finished surface.\
-          **BUILD**: Thickness or depth of a paint film.\
-          **BURNISHING**: To make smooth or glossy by rubbing.
+
+        **BINDER**: The component of paint that joins pigment particles together
+        to form the film and can determine many of the coating’s performance
+        properties — washability, durability, adhesion, color retention, etc.\
+
+        **BLEACHING**: The process of lightening or restoring discolored or
+        stained wood to its normal color.\
+
+        **BLEEDING**: Describes an undercoat staining through the topcoat.
+        Soluble dyes or pigments in undercoat are dissolved by solvents in
+        topcoat and stain through to the new finish.\
+
+        **BLISTERING**: The formation of bubbles or pimples on a painted surface
+        caused by moisture in a topcoat before the previous coating one
+        thoroughly dried or excessive heat. Also called bubbling.\
+
+        **BLUSHING**: A coating that becomes cloudy or dull through moisture or
+        excessive solvent evaporation.\
+
+        **BODY**: The consistency of a coating. See Viscosity.\
+
+        **BOXING**: Mixing paint by pouring from one container to another
+        several times to ensure a consistent, well-blended color.\
+
+        **BREATHE**: The ability of a paint film to permit moisture permeation
+        without causing failure.\
+
+        **BRIDGING**: The ability of a paint to cover or stretch over cracks,
+        voids or other small gaps.\
+
+        **BRISTLES**: The working part of a brush that contains natural (usually
+        hog) or artificial (nylon or polyester) stiff hairs.\
+
+        **BRUSHABILITY**: The ability or ease with which paint can be brushed
+        onto a surface.\
+
+        **BRUSH-OUT**: A technique that consists of applying a sample of paint
+        to a piece of wood or other material, illustrating the finished
+        surface.\
+
+        **BUILD**: Thickness or depth of a paint film.\
+
+        **BURNISHING**: To make smooth or glossy by rubbing.
+
 
         ### C
 
 
-        - **CHALKING**: The formation of a powdery residue on the paint’s
-        surface due to weathering, commonly seen in older exterior paints.
+        **CUTTING IN**: The technique of painting edges and corners with a brush
+        before using a roller for larger areas, creating clean, precise edges.
 
-        - **CUTTING IN**: The technique of painting edges and corners with a
-        brush before using a roller for larger areas, creating clean, precise
-        edges.
 
-        - **CATALYST**: An additive for paint that accelerates drying time and
+        **CATALYST**: An additive for paint that accelerates drying time and
         durability.\
-          **CAULKING COMPOUND**: A slow-drying, flexible sealing material used to fill or close gaps in structures, seal joints and fill crevices around windows, chimneys and most surfaces. Also called sealant.\
-          **CEMENTITIOUS COMPOSITION BOARD**: A versatile, durable and affordable exterior building material that’s more stable than wood or plywood; mimics all-natural wood siding, but unlike wood, doesn’t rot or become infested with parasites such as termites. Also called fiber cement board.\
-          **CHALKING**: The formation of a loose powder on the surface of paint after exposure to the elements.\
-          **CHECKING**: A kind of paint failure characterized by narrow cracks or splitting in the paint film’s surface caused by improper film formation or excessive film build.\
-          **CHROMA**: The purity or intensity of color; a color at its full intensity has maximum chroma.\
-          **CLEAR COATING**: A transparent protective and/or decorative film.\
-          **COALESCENCE**: The process whereby water evaporates from a coating, forcing pigments and binders to fuse together into a dry, durable, continuous film.\
-          **COATING**: A layer of paint, varnish, lacquer or other finish used to create a protective and/or decorative layer.\
-          **COHESION**: The inner strength of a coating determined by molecules sticking to each other because of mutual attraction and required for a long-lasting, protective coating.\
-          **COLORANT**: A dye, pigment or other substance that’s added to something else, such as paint, causing a change in color.\
-          **COLORFAST** or **COLOR-RESISTANT** or **COLOR-RETENTIVE**: A fade-resistant property in paint specially formulated for exposure to the elements or repeated washings.\
-          **COLOR UNIFORMITY**: Ability of a coating to maintain an even, consistent color across its entire surface.\
-          **CONVERSION COATING**: A coating that provides a protective surface layer on a metallic surface that contains a component that chemically reacts with the substrate making it more suitable for adhesive bonding.\
-          **COPPER STAINING**: An aesthetic problem caused by corrosion of copper screens, gutters or downspouts dripping onto painted surfaces.\
-          **CORROSION INHIBITIVE**: A property in a specialty coating formulated to prevent rust by blocking moisture from reaching metal surfaces. See Abrasion Resistance.\
-          **COVERAGE**: Surface area concealed by coating, expressed usually in square feet per gallon or square meters per liter.\
-          **CRACKING**: A type of paint failure characterized by the splitting or breaking of a dry coating that worsens over time, which is caused by poor preparation, cheap paint or repainting before the previous coat is thoroughly dry.\
-          **CRAWLING**: A defect in freshly applied paint or varnish characterized by bare patches and ridging.\
-          **CRAZING**: Small, interlacing cracks appear when two materials bonded together (e.g., substrate and primer, primer and basecoat) expand or contract at different rates, severing surface adhesion.\
-          **CURING**: When paint film has reached maximum hardness and is 100 percent moisture-free.\
-          **CUSTOM COLOR**: One of a kind colors created by mixing colorants.\
-          **CUTTING IN**: The technique of precisely painting an edge, such as the ceiling line or the edge between a wall and molding.
+
+        **CAULKING COMPOUND**: A slow-drying, flexible sealing material used to
+        fill or close gaps in structures, seal joints and fill crevices around
+        windows, chimneys and most surfaces. Also called sealant.\
+
+        **CEMENTITIOUS COMPOSITION BOARD**: A versatile, durable and affordable
+        exterior building material that’s more stable than wood or plywood;
+        mimics all-natural wood siding, but unlike wood, doesn’t rot or become
+        infested with parasites such as termites. Also called fiber cement
+        board.\
+
+        **CHALKING**: The formation of a loose powder on the surface of paint
+        after exposure to the elements.\
+
+        **CHECKING**: A kind of paint failure characterized by narrow cracks or
+        splitting in the paint film’s surface caused by improper film formation
+        or excessive film build.\
+
+        **CHROMA**: The purity or intensity of color; a color at its full
+        intensity has maximum chroma.\
+
+        **CLEAR COATING**: A transparent protective and/or decorative film.\
+
+        **COALESCENCE**: The process whereby water evaporates from a coating,
+        forcing pigments and binders to fuse together into a dry, durable,
+        continuous film.\
+
+        **COATING**: A layer of paint, varnish, lacquer or other finish used to
+        create a protective and/or decorative layer.\
+
+        **COHESION**: The inner strength of a coating determined by molecules
+        sticking to each other because of mutual attraction and required for a
+        long-lasting, protective coating.\
+
+        **COLORANT**: A dye, pigment or other substance that’s added to
+        something else, such as paint, causing a change in color.\
+
+        **COLORFAST** or **COLOR-RESISTANT** or **COLOR-RETENTIVE**: A
+        fade-resistant property in paint specially formulated for exposure to
+        the elements or repeated washings.\
+
+        **COLOR UNIFORMITY**: Ability of a coating to maintain an even,
+        consistent color across its entire surface.\
+
+        **CONVERSION COATING**: A coating that provides a protective surface
+        layer on a metallic surface that contains a component that chemically
+        reacts with the substrate making it more suitable for adhesive bonding.\
+
+        **COPPER STAINING**: An aesthetic problem caused by corrosion of copper
+        screens, gutters or downspouts dripping onto painted surfaces.\
+
+        **CORROSION INHIBITIVE**: A property in a specialty coating formulated
+        to prevent rust by blocking moisture from reaching metal surfaces. See
+        Abrasion Resistance.\
+
+        **COVERAGE**: Surface area concealed by coating, expressed usually in
+        square feet per gallon or square meters per liter.\
+
+        **CRACKING**: A type of paint failure characterized by the splitting or
+        breaking of a dry coating that worsens over time, which is caused by
+        poor preparation, cheap paint or repainting before the previous coat is
+        thoroughly dry.\
+
+        **CRAWLING**: A defect in freshly applied paint or varnish characterized
+        by bare patches and ridging.\
+
+        **CRAZING**: Small, interlacing cracks appear when two materials bonded
+        together (e.g., substrate and primer, primer and basecoat) expand or
+        contract at different rates, severing surface adhesion.\
+
+        **CURING**: When paint film has reached maximum hardness and is 100
+        percent moisture-free.\
+
+        **CUSTOM COLOR**: One of a kind colors created by mixing colorants.\
+
+        **CUTTING IN**: The technique of precisely painting an edge, such as the
+        ceiling line or the edge between a wall and molding.
+
 
         ### D
 
 
-        - **DROP CLOTH**: A protective covering (often canvas or plastic) placed
+        **DROP CLOTH**: A protective covering (often canvas or plastic) placed
         over furniture or floors to catch drips and spills.
 
-        - **DRY BRUSHING**: A technique where a nearly dry brush is used to
+
+        **DRY BRUSHING**: A technique where a nearly dry brush is used to
         lightly apply paint, often creating a textured or aged effect.
 
-        - **DILUENT**: A liquid, such as turpentine, mixed with paint or varnish
+
+        **DILUENT**: A liquid, such as turpentine, mixed with paint or varnish
         to reduce its viscosity and make it easier to apply. Also called
         reducer, thinner, reducing agent or reducing solvent.\
-          **DRAWDOWN CARDS**: Black and white plastic cards supplied by paint stores to provide accurate and consistent color and sheen level of the coatings being used for a job; a small amount of paint is spread onto cards by a metal drawdown bar eliminating brush strokes and roller marks.\
-          **DRY COLORS**: A pigment in powder form that’s mixed with water, alcohol or mineral spirits and resin to form a paint or stain.\
-          **DRY DUST-FREE**: The stage of drying when particles of dust that settle upon the surface don’t stick to the paint film.\
-          **DRY TACK FREE**: The stage of drying when the paint no longer feels sticky or tacky to the touch.\
-          **DRY TO HANDLE**: The stage of drying when a paint film has hardened sufficiently so the surface may be used without marring.\
-          **DRY TO RECOAT**: The stage of drying when the next coat can be applied.\
-          **DRY TO SAND**: The stage of drying when a paint film can be sanded without the sandpaper sticking or clogging.\
-          **DURABILITY**: The ability of paint to hold up well against destructive agents such as weather, detergents, air pollution or abrasion.\
-          **DYE** or DYESTUFF: A soluble, colored agent that soaks into the fibers of the surface used just to even wood color before staining or change color with little or no hiding.
+
+        **DRAWDOWN CARDS**: Black and white plastic cards supplied by paint
+        stores to provide accurate and consistent color and sheen level of the
+        coatings being used for a job; a small amount of paint is spread onto
+        cards by a metal drawdown bar eliminating brush strokes and roller
+        marks.\
+
+        **DRY COLORS**: A pigment in powder form that’s mixed with water,
+        alcohol or mineral spirits and resin to form a paint or stain.\
+
+        **DRY DUST-FREE**: The stage of drying when particles of dust that
+        settle upon the surface don’t stick to the paint film.\
+
+        **DRY TACK FREE**: The stage of drying when the paint no longer feels
+        sticky or tacky to the touch.\
+
+        **DRY TO HANDLE**: The stage of drying when a paint film has hardened
+        sufficiently so the surface may be used without marring.\
+
+        **DRY TO RECOAT**: The stage of drying when the next coat can be
+        applied.\
+
+        **DRY TO SAND**: The stage of drying when a paint film can be sanded
+        without the sandpaper sticking or clogging.\
+
+        **DURABILITY**: The ability of paint to hold up well against destructive
+        agents such as weather, detergents, air pollution or abrasion.\
+
+        **DYE** or DYESTUFF: A soluble, colored agent that soaks into the fibers
+        of the surface used just to even wood color before staining or change
+        color with little or no hiding.
+
 
         ### E
 
 
-        - **EGGSHELL FINISH**: A paint finish with a low luster, slightly
-        shinier than flat but less than satin. Often used for walls and trim due
-        to its subtle sheen and durability.
+        **EGGSHELL FINISH**: A paint finish with a low luster, slightly shinier
+        than flat but less than satin. Often used for walls and trim due to its
+        subtle sheen and durability.
 
-        - **ENAMEL**: A paint that dries to a hard, glossy finish. Typically
-        used on surfaces that require durability, like doors and cabinets.
 
-        - **ELASTOMERIC**: A type of flexible, or stretchy, coating designed for
+        **ENAMEL**: A paint that dries to a hard, glossy finish. Typically used
+        on surfaces that require durability, like doors and cabinets.
+
+
+        **ELASTOMERIC**: A type of flexible, or stretchy, coating designed for
         exterior masonry surfaces, such as concrete, stucco and roofs and to
         handle substrate movement, bridging cracks and keeping water out.\
-          **ELECTROSTATIC COATING**: A coating designed for application by equipment that’s charged with the opposite electrical polarity than the metal surfaces to be painted, and when sprayed is electrically attracted to those substrates.\
-          **EMULSION PAINT**: A mixture of pigment and synthetic resin dispersed in water with low solvent emission, fire- and chemical-resistant properties, good durability and a matte finish.\
-          **ENAMEL**: A broad classification of paints considered to be high-quality, hard-surfaced and high-sheen.\
-          **EPOXY**: A thick coating consisting of a base and curing agent that’s mixed together to produce a chemical reaction that results in a thick, plastic-like, chemical- and corrosion-resistant finish; used to protect demanding surfaces because of its durable, low porosity and strong bond strength.\
-          **EROSION**: The wearing away of a paint film caused by exposure to the elements.\
-          **ETCH**: The process of using abrasion or corrosion (acid) to wear away the surface of glass or metal, often in a decorative pattern.\
-          **EXTENDER**: A volume-increasing, cost-reducing additive in synthetic resin adhesives.
+
+        **ELECTROSTATIC COATING**: A coating designed for application by
+        equipment that’s charged with the opposite electrical polarity than the
+        metal surfaces to be painted, and when sprayed is electrically attracted
+        to those substrates.\
+
+        **EMULSION PAINT**: A mixture of pigment and synthetic resin dispersed
+        in water with low solvent emission, fire- and chemical-resistant
+        properties, good durability and a matte finish.\
+
+        **ENAMEL**: A broad classification of paints considered to be
+        high-quality, hard-surfaced and high-sheen.\
+
+        **EPOXY**: A thick coating consisting of a base and curing agent that’s
+        mixed together to produce a chemical reaction that results in a thick,
+        plastic-like, chemical- and corrosion-resistant finish; used to protect
+        demanding surfaces because of its durable, low porosity and strong bond
+        strength.\
+
+        **EROSION**: The wearing away of a paint film caused by exposure to the
+        elements.\
+
+        **ETCH**: The process of using abrasion or corrosion (acid) to wear away
+        the surface of glass or metal, often in a decorative pattern.\
+
+        **EXTENDER**: A volume-increasing, cost-reducing additive in synthetic
+        resin adhesives.
+
 
         ### F
 
 
-        - **FEATHERING**: Gradually thinning the edges of paint to blend with
+        **FEATHERING**: Gradually thinning the edges of paint to blend with
         surrounding areas, especially useful for touch-ups.
 
-        - **FLAT FINISH**: Paint with a non-reflective finish, ideal for hiding
+
+        **FLAT FINISH**: Paint with a non-reflective finish, ideal for hiding
         imperfections on walls but less washable than other finishes.
 
 
         ### G
 
 
-        - **GRAIN RAISING**: The roughening of wood fibers that can occur when
+        **GRAIN RAISING**: The roughening of wood fibers that can occur when
         water-based finishes are applied, requiring sanding between coats.
 
 
         ### H
 
 
-        - **HVLP (High Volume Low Pressure)**: A type of spray system that
-        applies paint with reduced overspray, providing a smoother finish.
+        **HVLP (High Volume Low Pressure)**: A type of spray system that applies
+        paint with reduced overspray, providing a smoother finish.
 
-        - **HIDING**: The ability of a paint to cover or “hide” the color of the
+
+        **HIDING**: The ability of a paint to cover or “hide” the color of the
         surface beneath it, influenced by factors like pigment concentration and
         thickness.
 
@@ -482,14 +646,14 @@ blocks:
         ### I
 
 
-        - **Intumescent COATING**: A type of paint that expands when exposed to
+        **Intumescent COATING**: A type of paint that expands when exposed to
         heat, creating an insulating barrier. Used for fireproofing.
 
 
         ### L
 
 
-        - **Latex Paint**: Water-based paint known for its flexibility, ease of
+        **Latex Paint**: Water-based paint known for its flexibility, ease of
         application, and quick drying time. Commonly used for walls and
         ceilings.
 
@@ -497,87 +661,94 @@ blocks:
         ### M
 
 
-        - **Matte Finish**: Similar to flat paint but with slightly more
+        **Matte Finish**: Similar to flat paint but with slightly more
         durability. Popular for low-traffic walls that don’t require frequent
         washing.
 
-        - **Mil**: A measurement of paint film thickness, where 1 mil equals
+
+        **Mil**: A measurement of paint film thickness, where 1 mil equals
         one-thousandth of an inch.
 
 
         ### O
 
 
-        - **Oil-Based Paint**: Paint that uses an oil-based solvent. Known for
-        its durability and smooth finish but has longer drying times and
-        requires mineral spirits for cleanup.
+        **Oil-Based Paint**: Paint that uses an oil-based solvent. Known for its
+        durability and smooth finish but has longer drying times and requires
+        mineral spirits for cleanup.
 
-        - **Overcoating**: Applying additional layers of paint to achieve
-        desired coverage and durability.
+
+        **Overcoating**: Applying additional layers of paint to achieve desired
+        coverage and durability.
 
 
         ### P
 
 
-        - **Primer**: A preparatory coat that improves paint adhesion, increases
+        **Primer**: A preparatory coat that improves paint adhesion, increases
         durability, and enhances the finish. Essential for many surfaces.
 
-        - **Putty**: A filler used to repair small holes, cracks, and
+
+        **Putty**: A filler used to repair small holes, cracks, and
         imperfections in walls or wood before painting.
 
 
         ### R
 
 
-        - **Roller Nap**: The thickness of the roller’s surface, with various
-        naps suited for different textures and surfaces (e.g., short nap for
-        smooth surfaces, long nap for textured ones).
+        **Roller Nap**: The thickness of the roller’s surface, with various naps
+        suited for different textures and surfaces (e.g., short nap for smooth
+        surfaces, long nap for textured ones).
 
 
         ### S
 
 
-        - **Satin Finish**: A mid-sheen finish that is more durable and washable
+        **Satin Finish**: A mid-sheen finish that is more durable and washable
         than flat or eggshell, often used in high-traffic areas.
 
-        - **Sheen**: The level of gloss or shine in a paint finish, ranging from
+
+        **Sheen**: The level of gloss or shine in a paint finish, ranging from
         flat to high gloss.
 
-        - **Spackling**: A paste used to fill small holes or cracks in walls,
+
+        **Spackling**: A paste used to fill small holes or cracks in walls,
         which can then be sanded smooth before painting.
 
 
         ### T
 
 
-        - **Tack Cloth**: A sticky cloth used to remove dust and particles from
+        **Tack Cloth**: A sticky cloth used to remove dust and particles from
         surfaces before painting for a clean finish.
 
-        - **Tint**: A color added to base paint to achieve the desired shade,
+
+        **Tint**: A color added to base paint to achieve the desired shade,
         customized for specific color preferences.
 
 
         ### U
 
 
-        - **Undercoat**: The initial layer of paint applied to prepare a surface
+        **Undercoat**: The initial layer of paint applied to prepare a surface
         for a topcoat, especially in high-gloss or enamel finishes.
 
 
         ### V
 
 
-        - **Varnish**: A clear or tinted coating that provides a protective,
-        often glossy, finish to wood or painted surfaces.
+        **Varnish**: A clear or tinted coating that provides a protective, often
+        glossy, finish to wood or painted surfaces.
 
 
         ### W
 
 
-        - **Wet Edge**: The edge of a freshly painted area, which is kept wet to
+        **Wet Edge**: The edge of a freshly painted area, which is kept wet to
         prevent lap marks as you continue painting.
 
-        - **Wrinkling**: A defect where the paint surface appears wrinkled,
+
+        **Wrinkling**: A defect where the paint surface appears wrinkled,
         typically caused by applying paint too thickly or when the underlying
         layer has not fully dried.
 
@@ -585,8 +756,5 @@ blocks:
         ### Y
 
 
-        - **Yellowing**: The discoloration of paint, especially white or
+        **Yellowing**: The discoloration of paint, especially white or
         light-colored paint, due to aging, lack of light, or exposure to heat.
-
-
-        Let me know if you'd like more detail on any specific term!
