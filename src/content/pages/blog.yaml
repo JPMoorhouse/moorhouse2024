@@ -48,6 +48,45 @@ blocks:
 
         So let Moorhouse Coating keep your property polished, protected, and
         priced right, with plenty of laughs (and savings) along the way!
+  - discriminant: frequentlyAskedQuestions
+    value:
+      pretitle: Services
+      heading: Painting Services and Repairs
+      FrequentlyAskedQuestions:
+        - title: How much does it cost to paint an office?
+          answer: >-
+            The cost to paint an average to oversized office (12x14) is
+            approximately $240 to $375. Typically the ceiling doesn’t require
+            painting so the wall dimensions given a 9.5 foot tall ceiling is
+            12+12+14+14=52 * 9.5= 494 Square Feet.  $0.75 = Total $ 370.50.
+        - title: How much do painters charge per hour?
+          answer: >-
+            Painters' price range for labor cost varies widely!  Depending on
+            the season, location, height, skill and overall experience
+            necessary, affect the hourly rate.  Low skilled paint projects will
+            sell for $40.00 per hour upto highly experienced professionally
+            trained $90.00 per hour.  Average rates hover around $50.00 per hour
+            in most cities.
+        - title: How much do painters charge per square foot?
+          answer: >-
+            The average cost to paint the interior of a house falls between
+            $2.00 and 3.00 per square foot if the house has been previously
+            painted.  A new home will cost between $3.00 and $6.00 per square
+            feet depending on the preparation required.  A new custom home cost
+            between $6.00 and $12.00 per square feet.
+        - title: Average cost of painting a house
+          answer: >-
+            The average cost to paint the outside of a 2200 square foot house is
+            $5000.00 If the perimeter is 30 x 40, roughly  30+30+40+40 = 140
+            linear feet * 16 = 2240 Square feet.  The average cost per square
+            foot is roughly $1.50 to $3.00 a square foot.  So, 2240 sq ft *
+            $2.25 is roughly $5,000.00 to paint an existing home exterior.
+        - title: How to find house painters near me?
+          answer: >-
+            Hands down, ask the local paint center for three professional
+            painters.  They know who buys the best paint and has reasonable
+            prices.  Check with your local Sherwin Williams, PPG, Dunn Edwards
+            or Benjamin Moore retail paint center.
   - discriminant: sectionTitleDescription
     value:
       pretitle: Multiyear Annual Maintenance Painting
@@ -158,45 +197,6 @@ blocks:
         of surfaces that would otherwise need constant attention. It’s a smart
         investment for reducing maintenance costs, keeping appearances sharp,
         and ensuring your surfaces can handle whatever comes their way.
-  - discriminant: frequentlyAskedQuestions
-    value:
-      pretitle: Services
-      heading: Painting Services and Repairs
-      FrequentlyAskedQuestions:
-        - title: How much does it cost to paint an office?
-          answer: >-
-            The cost to paint an average to oversized office (12x14) is
-            approximately $240 to $375. Typically the ceiling doesn’t require
-            painting so the wall dimensions given a 9.5 foot tall ceiling is
-            12+12+14+14=52 * 9.5= 494 Square Feet.  $0.75 = Total $ 370.50.
-        - title: How much do painters charge per hour?
-          answer: >-
-            Painters' price range for labor cost varies widely!  Depending on
-            the season, location, height, skill and overall experience
-            necessary, affect the hourly rate.  Low skilled paint projects will
-            sell for $40.00 per hour upto highly experienced professionally
-            trained $90.00 per hour.  Average rates hover around $50.00 per hour
-            in most cities.
-        - title: How much do painters charge per square foot?
-          answer: >-
-            The average cost to paint the interior of a house falls between
-            $2.00 and 3.00 per square foot if the house has been previously
-            painted.  A new home will cost between $3.00 and $6.00 per square
-            feet depending on the preparation required.  A new custom home cost
-            between $6.00 and $12.00 per square feet.
-        - title: Average cost of painting a house
-          answer: >-
-            The average cost to paint the outside of a 2200 square foot house is
-            $5000.00 If the perimeter is 30 x 40, roughly  30+30+40+40 = 140
-            linear feet * 16 = 2240 Square feet.  The average cost per square
-            foot is roughly $1.50 to $3.00 a square foot.  So, 2240 sq ft *
-            $2.25 is roughly $5,000.00 to paint an existing home exterior.
-        - title: How to find house painters near me?
-          answer: >-
-            Hands down, ask the local paint center for three professional
-            painters.  They know who buys the best paint and has reasonable
-            prices.  Check with your local Sherwin Williams, PPG, Dunn Edwards
-            or Benjamin Moore retail paint center.
   - discriminant: frequentlyAskedQuestions
     value:
       pretitle: Future Employee Questions
@@ -318,94 +318,95 @@ blocks:
         ### A
 
 
-        - **Acrylic Paint**: Water-based paint made with acrylic resin. Known
+        - **ACRYLIC PAINT**: Water-based paint made with acrylic resin. Known
         for its durability, quick drying time, and versatility for interior and
         exterior surfaces.
 
-        - **Additive**: Substances added to paint to modify its properties, such
+        - **ADDITIVE**: Substances added to paint to modify its properties, such
         as thickeners, stabilizers, or agents to improve flow and drying time.
 
         - **ABRASION RESISTANCE**: A specially formulated coating property that
         protect structures against corrosion, damage and wear brought about by
         heat and moisture.\
-          \
           **ABRASIVE**: Used for wearing away a surface by rubbing, scraping and sanding in preparation for coating; examples include sandpaper and steel wool.\
-          \
           **ACRYLIC**: A synthetic resin used in high-performance, water-based coatings.\
-          \
           **ADHESION**: The ability of a coating to stick to a surface.\
-          \
           **AIR DRY**: One method by which liquid coatings dry; after solvent evaporation, the binders react with oxygen, or oxidize, creating a hard film.\
-          \
           **AIRLESS SPRAY**: Applicator that pumps coating at a very high pressure through a hose with a tip designed to spray paint evenly in a fan-shaped pattern, covering more area quickly.\
-          \
           **ALKALI**: A substance such as lye, soda or lime that can be highly caustic or corrosive to paint films.\
-          \
           **ALKYD**: Any of a group of synthetic resins that are used in varnishes, paints and adhesives; a paint in which the vehicle is an alkyd resin.\
-          \
           **ALLIGATORING**: A paint failure that appears like small cracks resembling alligator skin due to too many coats, a topcoat applied before the basecoat fully dried or temperature changes that cause substrates to expand and contract.\
-          \
           **ANTI-CORROSIVE PAINT**: Designed to inhibit abrasion and rust and applied directly to that’s used on iron, steel and other metallic substrates, often used as a primer for finish coats.
 
         ### B
 
 
-        - **Back Rolling**: A technique where paint is rolled over a freshly
+        - **BACK ROLLING**: A technique where paint is rolled over a freshly
         sprayed area to ensure even coverage and adhesion, often used for porous
         surfaces.
 
-        - **Binder**: The component in paint that holds pigments together and
+        - **BINDER**: The component in paint that holds pigments together and
         provides adhesion to the surface. Common binders include acrylic, latex,
         and oil.
 
-        - **Blistering**: Bubbles or raised areas that form on the paint
+        - **BLISTERING**: Bubbles or raised areas that form on the paint
         surface, usually due to moisture, heat, or poor surface preparation.
 
-        - **Bleeding**: When a substance (e.g., tannins from wood) seeps through
+        - **BLEEDING**: When a substance (e.g., tannins from wood) seeps through
         paint, causing discoloration. Primers help prevent this.
 
         - **BARRIER COAT**: A layer of a primer or coating that obstructs or
         prevents the passage of water or other contaminants through a surface.
         See Intermediate Coat.\
-          \
           **BINDER**: The component of paint that joins pigment particles together to form the film and can determine many of the coating’s performance properties — washability, durability, adhesion, color retention, etc.\
-          \
           **BLEACHING**: The process of lightening or restoring discolored or stained wood to its normal color.\
-          \
           **BLEEDING**: Describes an undercoat staining through the topcoat. Soluble dyes or pigments in undercoat are dissolved by solvents in topcoat and stain through to the new finish.\
-          \
           **BLISTERING**: The formation of bubbles or pimples on a painted surface caused by moisture in a topcoat before the previous coating one thoroughly dried or excessive heat. Also called bubbling.\
-          \
           **BLUSHING**: A coating that becomes cloudy or dull through moisture or excessive solvent evaporation.\
-          \
           **BODY**: The consistency of a coating. See Viscosity.\
-          \
           **BOXING**: Mixing paint by pouring from one container to another several times to ensure a consistent, well-blended color.\
-          \
           **BREATHE**: The ability of a paint film to permit moisture permeation without causing failure.\
-          \
           **BRIDGING**: The ability of a paint to cover or stretch over cracks, voids or other small gaps.\
-          \
           **BRISTLES**: The working part of a brush that contains natural (usually hog) or artificial (nylon or polyester) stiff hairs.\
-          \
           **BRUSHABILITY**: The ability or ease with which paint can be brushed onto a surface.\
-          \
           **BRUSH-OUT**: A technique that consists of applying a sample of paint to a piece of wood or other material, illustrating the finished surface.\
-          \
           **BUILD**: Thickness or depth of a paint film.\
-          \
           **BURNISHING**: To make smooth or glossy by rubbing.
 
         ### C
 
 
-        - **Chalking**: The formation of a powdery residue on the paint’s
+        - **CHALKING**: The formation of a powdery residue on the paint’s
         surface due to weathering, commonly seen in older exterior paints.
 
-        - **Cutting In**: The technique of painting edges and corners with a
+        - **CUTTING IN**: The technique of painting edges and corners with a
         brush before using a roller for larger areas, creating clean, precise
         edges.
 
+        - **CATALYST**: An additive for paint that accelerates drying time and
+        durability.\
+          **CAULKING COMPOUND**: A slow-drying, flexible sealing material used to fill or close gaps in structures, seal joints and fill crevices around windows, chimneys and most surfaces. Also called sealant.\
+          **CEMENTITIOUS COMPOSITION BOARD**: A versatile, durable and affordable exterior building material that’s more stable than wood or plywood; mimics all-natural wood siding, but unlike wood, doesn’t rot or become infested with parasites such as termites. Also called fiber cement board.\
+          **CHALKING**: The formation of a loose powder on the surface of paint after exposure to the elements.\
+          **CHECKING**: A kind of paint failure characterized by narrow cracks or splitting in the paint film’s surface caused by improper film formation or excessive film build.\
+          **CHROMA**: The purity or intensity of color; a color at its full intensity has maximum chroma.\
+          **CLEAR COATING**: A transparent protective and/or decorative film.\
+          **COALESCENCE**: The process whereby water evaporates from a coating, forcing pigments and binders to fuse together into a dry, durable, continuous film.\
+          **COATING**: A layer of paint, varnish, lacquer or other finish used to create a protective and/or decorative layer.\
+          **COHESION**: The inner strength of a coating determined by molecules sticking to each other because of mutual attraction and required for a long-lasting, protective coating.\
+          **COLORANT**: A dye, pigment or other substance that’s added to something else, such as paint, causing a change in color.\
+          **COLORFAST** or **COLOR-RESISTANT** or **COLOR-RETENTIVE**: A fade-resistant property in paint specially formulated for exposure to the elements or repeated washings.\
+          **COLOR UNIFORMITY**: Ability of a coating to maintain an even, consistent color across its entire surface.\
+          **CONVERSION COATING**: A coating that provides a protective surface layer on a metallic surface that contains a component that chemically reacts with the substrate making it more suitable for adhesive bonding.\
+          **COPPER STAINING**: An aesthetic problem caused by corrosion of copper screens, gutters or downspouts dripping onto painted surfaces.\
+          **CORROSION INHIBITIVE**: A property in a specialty coating formulated to prevent rust by blocking moisture from reaching metal surfaces. See Abrasion Resistance.\
+          **COVERAGE**: Surface area concealed by coating, expressed usually in square feet per gallon or square meters per liter.\
+          **CRACKING**: A type of paint failure characterized by the splitting or breaking of a dry coating that worsens over time, which is caused by poor preparation, cheap paint or repainting before the previous coat is thoroughly dry.\
+          **CRAWLING**: A defect in freshly applied paint or varnish characterized by bare patches and ridging.\
+          **CRAZING**: Small, interlacing cracks appear when two materials bonded together (e.g., substrate and primer, primer and basecoat) expand or contract at different rates, severing surface adhesion.\
+          **CURING**: When paint film has reached maximum hardness and is 100 percent moisture-free.\
+          **CUSTOM COLOR**: One of a kind colors created by mixing colorants.\
+          **CUTTING IN**: The technique of precisely painting an edge, such as the ceiling line or the edge between a wall and molding.
 
         ### D
 
