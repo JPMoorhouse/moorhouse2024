@@ -51,7 +51,7 @@ blocks:
           image: /images/services/blocks/2/value/cardWithImage/1/image.png
           Button:
             text: Free quote
-            slug: https://calendly.com/mrlft/onsite-estimate
+            slug: https://calendly.com/moorhousecoating/onsite-estimate
         - title: Commercial Painting
           description: >-
             Knowledgeable, professional and experienced, Moorhouse Coating
