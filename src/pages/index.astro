@@ -11,32 +11,47 @@ import { getEntry } from "astro:content";
 import IndustrialPainting from "../components/IndustrialPainting.astro";
 import Faq from "../components/Faq.astro";
 
-const homePage:any = await getEntry("pages","home");
-const seodata = homePage?.seoData;
+const homePage: any = await getEntry("pages", "home");
+const seodata = homePage.data.seoData;
 interface blockProps {
-    discriminant: string;
-    value: any;
+  discriminant: string;
+  value: any;
 }
+console.log(homePage);
 ---
 
 <Layout
-    title={seodata?.seoTitle}
-    description={seodata?.seoDesription}
-    image={seodata?.ogImage}
+  title={seodata?.seoTitle}
+  description={seodata?.seoDesription}
+  image={seodata?.ogImage}
 >
-{
-    homePage?.data.blocks.map((block:blockProps)=>(
-        <main>
-            {block.discriminant == "hero" && <Hero {...block.value} />}
-            {block.discriminant == "aboutmoorhouse" && <AboutMoorehouse {...block.value} />}
-            {block.discriminant == "whatWeOffer" && <WhatWeOffer {...block.value} />}
-            {block.discriminant == "gallery" && <Gallery {...block.value} client:only />}
-            {block.discriminant == "whatToExpect" && <WhatToExpect {...block.value} />}
-            {block.discriminant == "industrialPainting" && <IndustrialPainting {...block.value} />}
-            {block.discriminant == "twoColumn" && <TwoCol {...block.value} />}
-            {block.discriminant == "frequentlyAskedQuestions" && <Faq {...block.value} />}
-            {block.discriminant == "testimonials" && <Testimonial client:only {...block.value} />}
-        </main>
+  {
+    homePage?.data.blocks.map((block: blockProps) => (
+      <main>
+        {block.discriminant == "hero" && <Hero {...block.value} />}
+        {block.discriminant == "aboutmoorhouse" && (
+          <AboutMoorehouse {...block.value} />
+        )}
+        {block.discriminant == "whatWeOffer" && (
+          <WhatWeOffer {...block.value} />
+        )}
+        {block.discriminant == "gallery" && (
+          <Gallery {...block.value} client:only />
+        )}
+        {block.discriminant == "whatToExpect" && (
+          <WhatToExpect {...block.value} />
+        )}
+        {block.discriminant == "industrialPainting" && (
+          <IndustrialPainting {...block.value} />
+        )}
+        {block.discriminant == "twoColumn" && <TwoCol {...block.value} />}
+        {block.discriminant == "frequentlyAskedQuestions" && (
+          <Faq {...block.value} />
+        )}
+        {block.discriminant == "testimonials" && (
+          <Testimonial client:only {...block.value} />
+        )}
+      </main>
     ))
-}
+  }
 </Layout>
