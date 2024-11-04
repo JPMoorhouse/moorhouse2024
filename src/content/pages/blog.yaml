@@ -6,7 +6,7 @@ blocks:
   - discriminant: sectionTitleDescription
     value:
       pretitle: Corridor and Common Area Painting
-      title: Common Area Painting - Maintenance Paint
+      title: Common Area Painting
       description: >
         Keeping up with a maintenance painting schedule with Moorhouse Coating
         is like giving your property a mini makeover all year round—with none of
@@ -50,8 +50,8 @@ blocks:
         priced right, with plenty of laughs (and savings) along the way!
   - discriminant: sectionTitleDescription
     value:
-      pretitle: Multiyear Maintenance Painting
-      title: Painting Maintenance Annual Planning
+      pretitle: Multiyear Annual Maintenance Painting
+      title: 'Painting Maintenance '
       description: >
         A multiyear painting agreement for exterior maintenance is the smart,
         long-game play for properties in mountain areas where the elements are
