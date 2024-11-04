@@ -10,16 +10,15 @@ const { title, description, image } = Astro.props;
 ---
 
 <html lang="en">
-    <head> </head>
+  <head>
     <BaseHead title={title} description={description} image={image} />
-    <ViewTransitions />
-    <body>
-        <SimpleHeader />
-        <main class="overflow-x-hidden">
-            <slot />
-        </main>
-        <SimpleFooter />
-    </body>
-
-
+  </head>
+  <ViewTransitions />
+  <body>
+    <SimpleHeader />
+    <main class="overflow-x-hidden">
+      <slot />
+    </main>
+    <SimpleFooter />
+  </body>
 </html>
