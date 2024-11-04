@@ -15,9 +15,8 @@ export default defineConfig({
   integrations: [
     mdx(),
     sitemap({
-      filter: (page) => page == "https://moorhousecoating.com/keystatic/",
+      filter: (page) => page !== "https://moorhousecoating.com/keystatic/",
     }),
-    ,
     tailwind(),
     react(),
     markdoc(),
