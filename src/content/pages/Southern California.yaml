@@ -6,6 +6,8 @@ seoData:
 blocks:
   - discriminant: sectionTitleDescription
     value:
+      pretitle: Locations
+      title: Locations
       description: >
         **Professional Painting Services in Southern California – Moorhouse
         Coating**
