@@ -79,7 +79,7 @@ blocks:
           image: /images/home/blocks/3/value/cardWithImage/0/image.png
           Button:
             text: Learn more
-            slug: https://calendly.com/moorhousecoating/onsite-estimate
+            slug: /exterior-house-painting
         - title: Interior Residential Painting
           description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint.\nNo matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
           image: /images/home/blocks/3/value/cardWithImage/1/image.png
