@@ -1,7 +1,13 @@
 title: Services
 seoData:
   seoTitle: Moorhouse Coating Painting Services
-  seoDesription: 'Moorhouse Coating Staining Painting Services '
+  seoDesription: >-
+    Moorhouse Coating specializes in professional coating, staining, and
+    painting services across the Southwest. Moorhouse Coating offers durable,
+    high-quality finishes for commercial, industrial, and residential
+    properties. Our expert team delivers tailored solutions designed to enhance
+    appearance, protect surfaces, and withstand the unique climate of the
+    Southwest.
 blocks:
   - discriminant: heroWithBanner
     value:
@@ -45,7 +51,7 @@ blocks:
           image: /images/services/blocks/2/value/cardWithImage/0/image.webp
           Button:
             text: Learn more
-            slug: https://calendly.com/moorhousecoating/onsite-estimate
+            slug: exterior-house-painting-services
         - title: Interior Residential Painting
           description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint.\nNo matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
           image: /images/services/blocks/2/value/cardWithImage/1/image.png
