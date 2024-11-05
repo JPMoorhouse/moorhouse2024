@@ -49,6 +49,16 @@ blocks:
           cardDescription: >-
             Transform your home’s interior with professional painting and
             discover how our skilled painters can bring your vision to life.
+        - cardIcon: /images/home/blocks/2/value/featureCards/2/cardIcon.svg
+          cardText: Specialty Coating Services
+          cardDescription: >-
+            From waterproofing to anti-graffiti coatings, our specialty services
+            offer added protection and functionality to your premises.
+        - cardIcon: /images/home/blocks/2/value/featureCards/3/cardIcon.svg
+          cardText: Color Consultation Services
+          cardDescription: >-
+            Unsure about colors? Our color experts can help you choose the
+            perfect palette to match your commercial space's ambiance.
       banner:
         title: Have a Special Request? We’re Up For It!
         button:
