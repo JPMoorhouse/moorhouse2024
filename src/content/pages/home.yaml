@@ -40,12 +40,12 @@ blocks:
       heading: We Tailor Our Services To Suit Your Needs.
       featureCards:
         - cardIcon: /images/home/blocks/2/value/featureCards/0/cardIcon.svg
-          cardText: Residential Exterior Painting Services
+          cardText: Residential Exterior <br> Painting Services
           cardDescription: >-
             Refresh your home’s curb appeal with professional exterior painting
             that withstands the elements and boosts its beauty. 
         - cardIcon: /images/home/blocks/2/value/featureCards/1/cardIcon.svg
-          cardText: Residential Interior Painting Services
+          cardText: Residential Interior <br> Painting Services
           cardDescription: >-
             Transform your home’s interior with professional painting and
             discover how our skilled painters can bring your vision to life.
