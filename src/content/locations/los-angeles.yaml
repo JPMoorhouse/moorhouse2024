@@ -4,17 +4,6 @@ seoData:
   seoDesription: Los Angeles California
   ogImage: /images/seo/los-angeles/seoData/ogImage.jpg
 blocks:
-  - discriminant: hero
-    value:
-      title: <span class="text-secondary">Fullservice</span> Painting in Los Angeles
-      subtitle: >-
-        Enhance your space with Los Angeles premier painting contractor,
-        offering residential, commercial, and industrial services. Contact us
-        today for a free estimate.
-      bgImage: /images/los-angeles/blocks/0/value/bgImage.jpg
-      Button:
-        label: Get Free Estimate
-        url: https://moorhousecoating.com/
   - discriminant: aboutmoorhouse
     value:
       pretitle: Welcome to Moorhouse Coating
@@ -35,30 +24,30 @@ blocks:
           while maintaining the personal touch of a small company. Moorhouse
           aims to reassure customers thru it’s expertise and personalized
           service thru professional painting, staining, coating operations.
-        image: /images/los-angeles/blocks/1/value/card/image.jpg
+        image: /images/los-angeles/blocks/0/value/card/image.jpg
         Button: {}
   - discriminant: whatWeOffer
     value:
       pretitle: What We Offer
       heading: We Tailor Our Services To Suit Your Needs.
-      bgImage: /images/los-angeles/blocks/2/value/bgImage.jpg
+      bgImage: /images/los-angeles/blocks/1/value/bgImage.jpg
       featureCards:
-        - cardIcon: /images/los-angeles/blocks/2/value/featureCards/0/cardIcon.svg
+        - cardIcon: /images/los-angeles/blocks/1/value/featureCards/0/cardIcon.svg
           cardText: Exterior House Painting Services
           cardDescription: >-
             Refresh your home’s curb appeal with professional exterior painting
             that withstands the elements and boosts its beauty. 
-        - cardIcon: /images/los-angeles/blocks/2/value/featureCards/1/cardIcon.svg
+        - cardIcon: /images/los-angeles/blocks/1/value/featureCards/1/cardIcon.svg
           cardText: Interior House Painting Services
           cardDescription: >-
             Transform your home’s interior with professional painting and
             discover how our skilled painters can bring your vision to life.
-        - cardIcon: /images/los-angeles/blocks/2/value/featureCards/2/cardIcon.svg
+        - cardIcon: /images/los-angeles/blocks/1/value/featureCards/2/cardIcon.svg
           cardText: Commercial Painting Services
           cardDescription: >-
             Elevate your business with painting services that enhance aesthetics
             and durability.
-        - cardIcon: /images/los-angeles/blocks/2/value/featureCards/3/cardIcon.svg
+        - cardIcon: /images/los-angeles/blocks/1/value/featureCards/3/cardIcon.svg
           cardText: Industrial Painting Services
           cardDescription: >-
             Protect and enhance your industrial facility with specialized
@@ -76,7 +65,7 @@ blocks:
       card:
         title: Hiring a local painter will save you time and money
         description: "For starters, a local painter will likely already be working in the area. Combined resources and employees familiar with the style and detail of homes in the area will be a huge head start. In addition, they know the best products and applications to use for your specific environment.\_"
-        image: /images/los-angeles/blocks/3/value/card/image.JPG
+        image: /images/los-angeles/blocks/2/value/card/image.JPG
       banner:
         title: Looking for a painter? Start local.
         button:
@@ -87,16 +76,16 @@ blocks:
       pretitle: Professional Commercial & Residential Painting
       heading: What To Expect When You Hire Moorhouse Coating
       cards:
-        - cardIcon: /images/los-angeles/blocks/4/value/cards/0/cardIcon.svg
+        - cardIcon: /images/los-angeles/blocks/3/value/cards/0/cardIcon.svg
           cardText: Effective Communication Throughout The Process
           cardDescription: >-
             The Key to a successful project is found in good communication.
             Moorhouse Coating has years of experience performing quality work
             for commercial and residential clients.
-        - cardIcon: /images/los-angeles/blocks/4/value/cards/1/cardIcon.svg
+        - cardIcon: /images/los-angeles/blocks/3/value/cards/1/cardIcon.svg
           cardText: 'We Value Integrity  & Honesty '
           cardDescription: "\_To Paint with integrity we must be open and forthright, even when its difficult. Open, truthful conversations create opportinities for better analysis and future decisions."
-        - cardIcon: /images/los-angeles/blocks/4/value/cards/2/cardIcon.svg
+        - cardIcon: /images/los-angeles/blocks/3/value/cards/2/cardIcon.svg
           cardText: Over 20+ Years  Experience
           cardDescription: >-
             Our 20+ years experience in the painting, has shown us nearly every
@@ -113,14 +102,14 @@ blocks:
             amazing and the crews they have for painting are professional,
             clean, and very knowledgeable. Recommend Moorhouse Coatings to
             anyone
-          author: /images/los-angeles/blocks/5/value/testimonials/0/author.svg
+          author: /images/los-angeles/blocks/4/value/testimonials/0/author.svg
           authorName: Zach Morrison
           authorpost: Park City, UT
         - rating: 5
           cardText: >-
             These guys are very detail oriented which makes all the difference
             in the finished product.
-          author: /images/los-angeles/blocks/5/value/testimonials/1/author.svg
+          author: /images/los-angeles/blocks/4/value/testimonials/1/author.svg
           authorName: Jacquelyn Walker
           authorpost: Park City, UT
         - rating: 5
@@ -130,6 +119,6 @@ blocks:
             painters. Friendly Environment,, Highly Recommend, We will be
             calling them back soon to paint the interior! They're providing No.1
             Painting service across Utah
-          author: /images/los-angeles/blocks/5/value/testimonials/2/author.svg
+          author: /images/los-angeles/blocks/4/value/testimonials/2/author.svg
           authorName: Emily James
           authorpost: UT
