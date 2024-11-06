@@ -209,6 +209,7 @@ blocks:
             delivered a top-notch paint job. Our house looks better than ever,
             and the paint has held up beautifully through the seasons. Great
             value for the money!"
+          author: /images/about/blocks/6/value/testimonials/0/author.svg
           authorName: Michael
           authorpost: Park City
         - rating: 5
@@ -218,12 +219,14 @@ blocks:
             for sale. The new paint job really added to the curb appeal, and we
             were able to sell our home quickly. We would definitely recommend
             them to anyone needing painting services in the Park City area.
+          author: /images/about/blocks/6/value/testimonials/1/author.svg
           authorName: Steve
           authorpost: Park City
         - rating: 4
           cardText: >-
             The crew was respectful, clean, and did a flawless job. They even
             helped us pick the perfect colors. We’d definitely use them again.
+          author: /images/about/blocks/6/value/testimonials/2/author.svg
           authorName: 'Chris '
           authorpost: Deer Valley
         - rating: 5
@@ -231,5 +234,6 @@ blocks:
             We chose Moorhouse Coating for their reasonable pricing and strong
             reputation. They delivered excellent results, and our house looks
             better than ever. Great value for the money!
+          author: /images/about/blocks/6/value/testimonials/3/author.svg
           authorName: Erik
           authorpost: Midway
