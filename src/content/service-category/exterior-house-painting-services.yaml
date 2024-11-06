@@ -8,11 +8,11 @@ blocks:
   - discriminant: twoColumnWithTitle
     value:
       pretitle: Services
-      title: Exterior House Painting Services
+      title: Exterior Residential Painting Services
       cards:
-        - title: Residential Painters
+        - title: Residential Painting
           description: >
-            Moorhouse Coating offers a wide selection of painting
+            Moorhouse Coating offers a wide selection of residential painting
             services.&nbsp; Painting is a common activity that everyone sees in
             their home or office. It improves the appearance of a building that
             has been affected by water, corrosion, mold, debris, and general
