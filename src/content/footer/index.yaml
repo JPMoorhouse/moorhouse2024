@@ -7,8 +7,6 @@ Sitemap:
     link: /
   - label: About
     link: /about
-  - label: Our blog
-    link: '#'
   - label: Services
     link: /services
   - label: Gallery
