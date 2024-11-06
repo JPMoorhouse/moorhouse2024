@@ -42,76 +42,62 @@ blocks:
           image: >-
             /images/exterior-house-painting-services/blocks/1/value/cards/0/image.svg
           link: /exterior-house-painting
-        - title: Interior House Painting
-          description: >-
-            Revitalize your living space with a fresh coat of paint! Our
-            interior painting services offer vibrant, high-quality finishes that
-            reflect your unique style.
-          image: >-
-            /images/exterior-house-painting-services/blocks/1/value/cards/1/image.svg
         - title: Garage Floor Coating
           description: >-
             Elevate your garage with a sleek, durable floor coating that stands
             up to every challenge. Our top-tier solutions offer stunning looks
             and unbeatable protection
           image: >-
-            /images/exterior-house-painting-services/blocks/1/value/cards/2/image.svg
+            /images/exterior-house-painting-services/blocks/1/value/cards/1/image.svg
         - title: Deck and Fence Painting
           description: >-
             Refresh your outdoor spaces with our expert deck and fence painting
             services! Enjoy vibrant, weather-resistant finishes that enhance
             your home's charm and durability.
           image: >-
-            /images/exterior-house-painting-services/blocks/1/value/cards/3/image.svg
+            /images/exterior-house-painting-services/blocks/1/value/cards/2/image.svg
         - title: Concrete Resurfacing
           description: >-
             Revitalize your worn-out concrete with our seamless resurfacing
             solutions! Achieve a fresh, modern look that enhances durability and
             adds curb appeal.
           image: >-
-            /images/exterior-house-painting-services/blocks/1/value/cards/4/image.svg
+            /images/exterior-house-painting-services/blocks/1/value/cards/3/image.svg
         - title: Pressure Washing
           description: >-
             Reveal your property’s true beauty with our high-powered pressure
             washing services! Say goodbye to grime and stains and hello to a
             spotless, refreshed exterior.
           image: >-
-            /images/exterior-house-painting-services/blocks/1/value/cards/5/image.svg
-        - title: Drywall Repair
-          description: >-
-            Say goodbye to unsightly dents and cracks with our expert drywall
-            repair services! We deliver seamless, flawless results that restore
-            your walls to perfection.
-          image: >-
-            /images/exterior-house-painting-services/blocks/1/value/cards/6/image.svg
+            /images/exterior-house-painting-services/blocks/1/value/cards/4/image.svg
         - title: Specialty Coating
           description: >-
             Elevate your space with our premium specialty coatings! Whether it's
             for added durability, unique textures, or stunning finishes, we've
             got you covered.
           image: >-
-            /images/exterior-house-painting-services/blocks/1/value/cards/7/image.svg
+            /images/exterior-house-painting-services/blocks/1/value/cards/5/image.svg
         - title: Stucco Patch and Repair
           description: >-
             Restore your stucco to its original elegance with our expert patch
             and repair services! We tackle cracks and damage with precision for
             a flawless finish.
           image: >-
-            /images/exterior-house-painting-services/blocks/1/value/cards/8/image.svg
+            /images/exterior-house-painting-services/blocks/1/value/cards/6/image.svg
         - title: Wood Staining
           description: >-
             Enhance the natural beauty of your wood with our premium staining
             services! Choose from a range of rich, vibrant tones to bring out
             the grain and add a touch of elegance.
           image: >-
-            /images/exterior-house-painting-services/blocks/1/value/cards/9/image.svg
+            /images/exterior-house-painting-services/blocks/1/value/cards/7/image.svg
         - title: Color Consultation
           description: >-
             Enhance the natural beauty of your wood with our premium staining
             services! Choose from a range of rich, vibrant tones to bring out
             the grain and add a touch of elegance.
           image: >-
-            /images/exterior-house-painting-services/blocks/1/value/cards/10/image.svg
+            /images/exterior-house-painting-services/blocks/1/value/cards/8/image.svg
   - discriminant: industrialPainting
     value:
       title: Interior Residential <span class="text-secondary">Painting</span>
