@@ -30,7 +30,7 @@ blocks:
             Feel free to contact us via email, phone, or chat to discuss your
             specific requirements.
           image: >-
-            /images/exterior-house-painting-services/blocks/0/value/cards/0/image.png
+            /images/exterior-house-painting-services/blocks/0/value/cards/0/image.jpg
   - discriminant: subServiceCards
     value:
       cards:
