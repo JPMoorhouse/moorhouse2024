@@ -120,6 +120,7 @@ blocks:
           cardText: >-
             These guys are very detail oriented which makes all the difference
             in the finished product.
+          author: /images/los-angeles/blocks/5/value/testimonials/1/author.svg
           authorName: Jacquelyn Walker
           authorpost: Park City, UT
         - rating: 5
@@ -129,5 +130,6 @@ blocks:
             painters. Friendly Environment,, Highly Recommend, We will be
             calling them back soon to paint the interior! They're providing No.1
             Painting service across Utah
+          author: /images/los-angeles/blocks/5/value/testimonials/2/author.svg
           authorName: Emily James
           authorpost: UT
