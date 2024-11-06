@@ -36,7 +36,7 @@ locations:
     - label: Park City
       link: /location/park-city
     - label: Los Angeles
-      link: '#'
+      link: /location/los-angeles
     - label: Palm Desert
       link: '#'
     - label: Phoenix
