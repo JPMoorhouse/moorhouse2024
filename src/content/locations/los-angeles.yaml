@@ -102,3 +102,32 @@ blocks:
             Our 20+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating is an amazing company. Their interior finishes are
+            amazing and the crews they have for painting are professional,
+            clean, and very knowledgeable. Recommend Moorhouse Coatings to
+            anyone
+          author: /images/los-angeles/blocks/5/value/testimonials/0/author.svg
+          authorName: Zach Morrison
+          authorpost: Park City, UT
+        - rating: 5
+          cardText: >-
+            These guys are very detail oriented which makes all the difference
+            in the finished product.
+          authorName: Jacquelyn Walker
+          authorpost: Park City, UT
+        - rating: 5
+          cardText: >-
+            I would like to say Thanks to change the look of my House and Really
+            you guys are amazing. Best Experience with your professional
+            painters. Friendly Environment,, Highly Recommend, We will be
+            calling them back soon to paint the interior! They're providing No.1
+            Painting service across Utah
+          authorName: Emily James
+          authorpost: UT
