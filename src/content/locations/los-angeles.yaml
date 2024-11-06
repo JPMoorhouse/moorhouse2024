@@ -82,3 +82,23 @@ blocks:
         button:
           label: Get a Free Estimate
           link: https://moorhousecoating.com/
+  - discriminant: whatToExpect
+    value:
+      pretitle: Professional Commercial & Residential Painting
+      heading: What To Expect When You Hire Moorhouse Coating
+      cards:
+        - cardIcon: /images/los-angeles/blocks/4/value/cards/0/cardIcon.svg
+          cardText: Effective Communication Throughout The Process
+          cardDescription: >-
+            The Key to a successful project is found in good communication.
+            Moorhouse Coating has years of experience performing quality work
+            for commercial and residential clients.
+        - cardIcon: /images/los-angeles/blocks/4/value/cards/1/cardIcon.svg
+          cardText: 'We Value Integrity  & Honesty '
+          cardDescription: "\_To Paint with integrity we must be open and forthright, even when its difficult. Open, truthful conversations create opportinities for better analysis and future decisions."
+        - cardIcon: /images/los-angeles/blocks/4/value/cards/2/cardIcon.svg
+          cardText: Over 20+ Years  Experience
+          cardDescription: >-
+            Our 20+ years experience in the painting, has shown us nearly every
+            possible situation. Moorhouse handles your paint job in the most
+            efficient, professional way possible.
