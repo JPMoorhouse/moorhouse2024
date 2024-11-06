@@ -33,7 +33,7 @@ blocks:
         image: /images/home/blocks/1/value/card/image.png
         Button:
           label: Learn more
-          url: /about/
+          url: about
   - discriminant: whatWeOffer
     value:
       pretitle: What We Offer
