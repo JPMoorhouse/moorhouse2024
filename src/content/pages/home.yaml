@@ -296,6 +296,7 @@ blocks:
             mall looks fantastic, and the paint job has really enhanced the
             overall appearance of the property. We highly recommend them for any
             large-scale commercial project."
+          author: /images/home/blocks/8/value/testimonials/0/author.svg
           authorName: 'Michelle '
           authorpost: Retail Property Manager
         - rating: 5
@@ -304,6 +305,7 @@ blocks:
             avoid interfering with classes and events. The finished result is
             both aesthetically pleasing and durable, meeting all our specific
             needs. We appreciate their flexibility and high standards."
+          author: /images/home/blocks/8/value/testimonials/1/author.svg
           authorName: Wes
           authorpost: Education Campus
         - rating: 3
@@ -315,6 +317,7 @@ blocks:
             requirements. Their professionalism and the quality of their work
             have contributed to a more welcoming environment for both patients
             and staff."
+          author: /images/home/blocks/8/value/testimonials/2/author.svg
           authorName: Stuart
           authorpost: Las Vegas
         - rating: 5
@@ -326,5 +329,6 @@ blocks:
             both our productivity and safety. We were particularly impressed
             with their attention to detail and ability to work around our
             operational needs."
+          author: /images/home/blocks/8/value/testimonials/3/author.svg
           authorName: David
           authorpost: Palm Desert
