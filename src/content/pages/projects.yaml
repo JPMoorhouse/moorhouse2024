@@ -100,33 +100,26 @@ blocks:
       testimonials:
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip
-          authorName: Chris Michael
+            Moorhouse Coating is an amazing company. Their interior finishes are
+            amazing and the crews they have for painting are professional,
+            clean, and very knowledgeable. Recommend Moorhouse Coatings to
+            anyone
+          author: /images/projects/blocks/3/value/testimonials/0/author.svg
+          authorName: Zach Morrison
           authorpost: Park City
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
-        - rating: 3
-          cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
+            These guys are very detail oriented which makes all the difference
+            in the finished product.
+          author: /images/projects/blocks/3/value/testimonials/1/author.svg
+          authorName: Jacquelyn Walker
           authorpost: Park City
         - rating: 5
           cardText: >-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip.
-          authorName: Chris Michael
-          authorpost: Park City
+            I would like to say Thanks to change the look of my House and Really
+            you guys are amazing. Best Experience with your professional
+            painters. Friendly Environment,, Highly Recommend, We will be
+            calling them back soon to paint the interior! They're providing No.1
+            Painting service across Utah
+          authorName: Emily James
+          authorpost: Utah
