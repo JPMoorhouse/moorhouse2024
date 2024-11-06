@@ -1,6 +1,84 @@
-title: Los Angeles
+title: Fullservice Painting in Los Angeles
 seoData:
   seoTitle: Los Angeles California
   seoDesription: Los Angeles California
   ogImage: /images/seo/los-angeles/seoData/ogImage.jpg
-blocks: []
+blocks:
+  - discriminant: hero
+    value:
+      title: <span class="text-secondary">Fullservice</span> Painting in Los Angeles
+      subtitle: >-
+        Enhance your space with Los Angeles premier painting contractor,
+        offering residential, commercial, and industrial services. Contact us
+        today for a free estimate.
+      bgImage: /images/los-angeles/blocks/0/value/bgImage.jpg
+      Button:
+        label: Get Free Estimate
+        url: https://moorhousecoating.com/
+  - discriminant: aboutmoorhouse
+    value:
+      pretitle: Welcome to Moorhouse Coating
+      sectionTitle: 'Los Angeles Premier Full Service Painting Contractor '
+      card:
+        title: About Moorhouse Coating
+        description: >
+          **Moorhouse Coating is a professional painting contractor Serving Los
+          Angeles with roots in the Southwest.**
+
+
+          \
+
+          Founded in 1997,&nbsp; Moorhouse Coating began with a vision of making
+          residential and commercial painting services easier and more
+          convenient for property owners and commercial managers.&nbsp;From the
+          beginning, Moorhouse took on large commercial&nbsp;painting projects,
+          while maintaining the personal touch of a small company. Moorhouse
+          aims to reassure customers thru it’s expertise and personalized
+          service thru professional painting, staining, coating operations.
+        image: /images/los-angeles/blocks/1/value/card/image.jpg
+        Button: {}
+  - discriminant: whatWeOffer
+    value:
+      pretitle: What We Offer
+      heading: We Tailor Our Services To Suit Your Needs.
+      bgImage: /images/los-angeles/blocks/2/value/bgImage.jpg
+      featureCards:
+        - cardIcon: /images/los-angeles/blocks/2/value/featureCards/0/cardIcon.svg
+          cardText: Exterior House Painting Services
+          cardDescription: >-
+            Refresh your home’s curb appeal with professional exterior painting
+            that withstands the elements and boosts its beauty. 
+        - cardIcon: /images/los-angeles/blocks/2/value/featureCards/1/cardIcon.svg
+          cardText: Interior House Painting Services
+          cardDescription: >-
+            Transform your home’s interior with professional painting and
+            discover how our skilled painters can bring your vision to life.
+        - cardIcon: /images/los-angeles/blocks/2/value/featureCards/2/cardIcon.svg
+          cardText: Commercial Painting Services
+          cardDescription: >-
+            Elevate your business with painting services that enhance aesthetics
+            and durability.
+        - cardIcon: /images/los-angeles/blocks/2/value/featureCards/3/cardIcon.svg
+          cardText: Industrial Painting Services
+          cardDescription: >-
+            Protect and enhance your industrial facility with specialized
+            painting services designed to withstand harsh conditions and heavy
+            use.
+      banner:
+        title: Have a Special Request? We’re Up For It!
+        button:
+          text: Get a Free Estimate
+          slug: https://moorhousecoating.com/
+  - discriminant: locallyOwnedBusiness
+    value:
+      pretitle: Moorhouse Coating
+      title: ' Locally Owned Business'
+      card:
+        title: Hiring a local painter will save you time and money
+        description: "For starters, a local painter will likely already be working in the area. Combined resources and employees familiar with the style and detail of homes in the area will be a huge head start. In addition, they know the best products and applications to use for your specific environment.\_"
+        image: /images/los-angeles/blocks/3/value/card/image.JPG
+      banner:
+        title: Looking for a painter? Start local.
+        button:
+          label: Get a Free Estimate
+          link: https://moorhousecoating.com/
