@@ -132,6 +132,8 @@ blocks:
           cardText: >-
             Our house looks brand new, and we've already received compliments
             from our neighbors. Highly recommend their services!
+          author: >-
+            /images/exterior-house-painting-services/blocks/3/value/testimonials/0/author.svg
           authorName: Michael P
           authorpost: Old Town, Park City
         - rating: 5
@@ -139,6 +141,8 @@ blocks:
             The work was completed on time and within budget. The crew was
             respectful of our property and cleaned up thoroughly after each day.
             We’re thrilled with how our home looks!"
+          author: >-
+            /images/exterior-house-painting-services/blocks/3/value/testimonials/1/author.svg
           authorName: Sarah L
           authorpost: Park Meadows, Park City
         - rating: 3
@@ -146,6 +150,8 @@ blocks:
             The quality of the work is outstanding, and the paint has held up
             beautifully even through the harsh winter months in Park City. We
             would absolutely hire them again for future projects!
+          author: >-
+            /images/exterior-house-painting-services/blocks/3/value/testimonials/2/author.svg
           authorName: Jennifer l.
           authorpost: Deer Valley, Park City Utah
         - rating: 5
@@ -154,5 +160,7 @@ blocks:
             friendly, efficient, and showed great attention to detail. They even
             went above and beyond to fix a few minor issues we hadn't noticed.
             Our home now has a fresh, modern look that we're proud of."
+          author: >-
+            /images/exterior-house-painting-services/blocks/3/value/testimonials/3/author.svg
           authorName: Tom and Emily V.
           authorpost: Silver Springs, Park City
