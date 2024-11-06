@@ -8,8 +8,6 @@ navItems:
     link: /projects
   - label: About
     link: /about
-  - label: Blog
-    link: /blog
 button:
   buttontext: Call Now
-  buttonSlug: "tel: 1-855-666-2628"
+  buttonSlug: 'tel: 1-855-666-2628'
