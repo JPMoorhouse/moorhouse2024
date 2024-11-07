@@ -19,7 +19,7 @@ blocks:
         title: Receive a FREE Estimate!
         button:
           label: Request Virtual Estimate
-          link: https://calendly.com/moorhousecoating/onsite-estimate
+          link: https://calendly.com/moorhousecoating/new-meeting
   - discriminant: sectionTitleDescription
     value:
       pretitle: About Us
