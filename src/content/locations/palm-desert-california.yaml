@@ -12,12 +12,12 @@ blocks:
       title: <span class="text-secondary">Full Service </span>Painting in Palm Desert
       subtitle: >-
         Enhance your space with Palm Desert's premier painting contractor,
-        offering residential, commercial, and industrial services. Contact us
-        today for a free estimate.
+        offering residential, commercial, and industrial painting services.
+        Contact us today for a free estimate.
       bgImage: /images/palm-desert-california/blocks/0/value/bgImage.jpg
       Button:
         label: Get Free Estimate
-        url: https://moorhousecoating.com/
+        url: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: aboutmoorhouse
     value:
       pretitle: Welcome to Moorhouse Coating
