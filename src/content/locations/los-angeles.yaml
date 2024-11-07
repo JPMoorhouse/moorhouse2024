@@ -13,7 +13,7 @@ blocks:
         Contact us today for a free estimate.
       bgImage: /images/los-angeles/blocks/0/value/bgImage.jpg
       Button:
-        label: Get Free Estimate
+        label: Request Virtual Estimate
         url: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: aboutmoorhouse
     value:
