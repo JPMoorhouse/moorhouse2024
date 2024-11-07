@@ -34,7 +34,7 @@ blocks:
       featuredImage: /images/exterior-house-painting/blocks/1/value/featuredImage.png
       galleryImages:
         - /images/exterior-house-painting/blocks/1/value/galleryImages/0.png
-        - /images/exterior-house-painting/blocks/1/value/galleryImages/1.png
+        - /images/exterior-house-painting/blocks/1/value/galleryImages/1.jpg
         - /images/exterior-house-painting/blocks/1/value/galleryImages/2.png
         - /images/exterior-house-painting/blocks/1/value/galleryImages/3.png
   - discriminant: paintingProcess
