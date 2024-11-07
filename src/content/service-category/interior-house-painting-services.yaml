@@ -7,8 +7,7 @@ seoData:
     that add style, warmth, and value to every room. We bring precision and
     quality to each project, ensuring beautiful, lasting results that fit your
     unique style.
-subService:
-  - null
+subService: []
 blocks:
   - discriminant: twoColumnWithTitle
     value:

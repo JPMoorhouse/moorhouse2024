@@ -3,7 +3,7 @@ import Layout from "@layouts/Layout.astro";
 import WhatWeOffer from "@components/WhatWeOffer.astro";
 import WhatToExpect from "@components/WhatToExpect.astro";
 import Hero from "@components/Hero.astro";
-import LocalOwnedBusiness from "@components/localOwnedBusiness.astro"
+import LocalOwnedBusiness from "@components/localOwnedBusiness.astro";
 import TwoCol from "@components/TwoCol.astro";
 import Testimonial from "@components/Testimonial";
 import AboutMoorehouse from "@components/about-moorehouse.astro";
@@ -14,46 +14,68 @@ import TwoColumnTitle from "@components/two-column-title.astro";
 import { getEntry } from "astro:content";
 import HeroWithBanner from "@components/hero-with-banner.astro";
 import SubServicesCards from "@components/sub-services-cards.astro";
-import { createReader } from '@keystatic/core/reader';
-import keystaticConfig from 'keystatic.config';
+import { createReader } from "@keystatic/core/reader";
+import keystaticConfig from "keystatic.config";
 import DetailLayout from "@layouts/DetailLayout.astro";
 export async function getStaticPaths() {
   const reader = createReader(process.cwd(), keystaticConfig);
-    const serviceCategories = await reader.collections.serviceCategory.all();
-  return serviceCategories.map(category => ({
+  const serviceCategories = await reader.collections.serviceCategory.all();
+  return serviceCategories.map((category) => ({
     params: { category: category.slug },
     props: { category },
   }));
 }
 
 const { category } = Astro.props;
-const categoryData:any = await getEntry("service-category",category.slug)
-const Categorydata = categoryData
-const data = Categorydata.data
-
+const categoryData: any = await getEntry("service-category", category.slug);
+const Categorydata = categoryData;
+const data = Categorydata.data;
 ---
+
 <DetailLayout
-    title={data.seoData.seoTitle}
-    description={data.seoData.seoDesription}
-    image={data.seoData.ogImage}
+  title={data.seoData.seoTitle}
+  description={data.seoData.seoDesription}
+  image={data.seoData.ogImage}
 >
-    {
-        data?.blocks.map((block: any) => (
-          <>
-            {block.discriminant == "twoColumnWithTitle" && <TwoColumnTitle {...block.value} />}
-            {block.discriminant == "subServiceCards" && <SubServicesCards {...block.value} />}
-            {block.discriminant == "hero" && <Hero {...block.value} />}
-            {block.discriminant == "heroWithBanner" && <HeroWithBanner {...block.value} />}
-            {block.discriminant == "aboutmoorhouse" && <AboutMoorehouse {...block.value} />}
-            {block.discriminant == "whatWeOffer" && <WhatWeOffer {...block.value} />}
-            {block.discriminant == "gallery" && <Gallery {...block.value} client:only />}
-            {block.discriminant == "whatToExpect" && <WhatToExpect {...block.value} />}
-            {block.discriminant == "locallyOwnedBusiness" && <LocalOwnedBusiness {...block.value} />}
-            {block.discriminant == "industrialPainting" && <IndustrialPainting {...block.value} />}
-            {block.discriminant == "twoColumn" && <TwoCol {...block.value} />}
-            {block.discriminant == "frequentlyAskedQuestions" && <Faq {...block.value} />}
-            {block.discriminant == "testimonials" && <Testimonial client:only {...block.value} />}
-            </>
-        ))
-    }
+  {
+    data?.blocks.map((block: any) => (
+      <>
+        {block.discriminant == "twoColumnWithTitle" && (
+          <TwoColumnTitle {...block.value} />
+        )}
+        {block.discriminant == "subServiceCards" && (
+          <SubServicesCards {...block.value} />
+        )}
+        {block.discriminant == "hero" && <Hero {...block.value} />}
+        {block.discriminant == "heroWithBanner" && (
+          <HeroWithBanner {...block.value} />
+        )}
+        {block.discriminant == "aboutmoorhouse" && (
+          <AboutMoorehouse {...block.value} />
+        )}
+        {block.discriminant == "whatWeOffer" && (
+          <WhatWeOffer {...block.value} />
+        )}
+        {block.discriminant == "gallery" && (
+          <Gallery {...block.value} client:only />
+        )}
+        {block.discriminant == "whatToExpect" && (
+          <WhatToExpect {...block.value} />
+        )}
+        {block.discriminant == "locallyOwnedBusiness" && (
+          <LocalOwnedBusiness {...block.value} />
+        )}
+        {block.discriminant == "industrialPainting" && (
+          <IndustrialPainting {...block.value} />
+        )}
+        {block.discriminant == "twoColumn" && <TwoCol {...block.value} />}
+        {block.discriminant == "frequentlyAskedQuestions" && (
+          <Faq {...block.value} />
+        )}
+        {block.discriminant == "testimonials" && (
+          <Testimonial client:only {...block.value} />
+        )}
+      </>
+    ))
+  }
 </DetailLayout>

@@ -19,14 +19,14 @@ import {
   coreValues,
   servingSouthwest,
   projectCardsWithCategory,
-  paintingProcess
+  paintingProcess,
 } from "./src/blocks";
 
 export default config({
   storage: {
-kind: "cloud",
+    kind: "cloud",
   },
-  
+
   cloud: {
     project: "moorhouse/moorhouse2024",
   },
@@ -67,7 +67,7 @@ kind: "cloud",
             frequentlyAskedQuestions,
             testimonials,
             coreValues,
-            servingSouthwest
+            servingSouthwest,
           },
           { label: "Blocks" }
         ),
@@ -106,7 +106,7 @@ kind: "cloud",
             frequentlyAskedQuestions,
             testimonials,
             coreValues,
-            servingSouthwest
+            servingSouthwest,
           },
           { label: "Blocks" }
         ),
@@ -140,12 +140,12 @@ kind: "cloud",
             gallery,
             testimonials,
             coreValues,
-            servingSouthwest
+            servingSouthwest,
           },
           { label: "Blocks" }
         ),
       },
-     }),
+    }),
     serviceCategory: collection({
       label: "Service Category Pages",
       slugField: "title",
@@ -167,11 +167,12 @@ kind: "cloud",
         }),
         subService: fields.array(
           fields.relationship({
-            label: 'Sub Service',
-            description: 'A list of sub service for this Category',
-            collection: 'subServices'
-          }), {
-            label: 'Sub Service',
+            label: "Sub Service",
+            description: "A list of sub service for this Category",
+            collection: "subServices",
+          }),
+          {
+            label: "Sub Service",
           }
         ),
         blocks: fields.blocks(
@@ -184,7 +185,7 @@ kind: "cloud",
             testimonials,
             coreValues,
             servingSouthwest,
-            paintingProcess
+            paintingProcess,
           },
           { label: "Blocks" }
         ),
@@ -219,12 +220,12 @@ kind: "cloud",
             testimonials,
             coreValues,
             servingSouthwest,
-            paintingProcess
+            paintingProcess,
           },
           { label: "Blocks" }
         ),
       },
-     })
+    }),
   },
   singletons: {
     header: singleton({
@@ -255,7 +256,6 @@ kind: "cloud",
           buttontext: fields.text({ label: "Button Text" }),
           buttonSlug: fields.text({ label: "Button Slug" }),
         }),
-       
       },
     }),
     topbar: singleton({
