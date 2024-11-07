@@ -9,7 +9,7 @@ blocks:
       subtitle: Professional Painting Contractor with Roots in Park City, Utah.
       bgImage: /images/home/blocks/0/value/bgImage.jpg
       Button:
-        label: Get FREE Estimate
+        label: Request Virtual Estimate
         url: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: aboutmoorhouse
     value:
