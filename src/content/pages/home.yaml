@@ -10,7 +10,7 @@ blocks:
       bgImage: /images/home/blocks/0/value/bgImage.jpg
       Button:
         label: Request Virtual Estimate
-        url: https://calendly.com/moorhousecoating/onsite-estimate
+        url: https://calendly.com/moorhousecoating/new-meeting
   - discriminant: aboutmoorhouse
     value:
       pretitle: Welcome to Moorhouse Coating
