@@ -134,39 +134,18 @@ blocks:
         - cardIcon: /images/home/blocks/5/value/cards/0/cardIcon.svg
           cardText: Effective Communication Throughout The Process
           cardDescription: >-
-            The Key to a successful project is found in good communication. As a
-            licensed painting contractor, we have years of experience performing
-            quality for commercial and residential clients.
+            Effective communication throughout the project ensures that every
+            detail aligns with your vision, from color selection to final
+            touches.
         - cardIcon: /images/home/blocks/5/value/cards/1/cardIcon.svg
           cardText: We Value Integrity <br/> & Honesty
-          cardDescription: >-
-            To Paint with integrity we must be open and forthright, even when
-            its difficult. Open, truthful conversations create opportunities for
-            better analysis and future decisions.
+          cardDescription: "\_To Paint with integrity we must be open and forthright, even when its difficult. Open, truthful conversations create opportunities for improvements."
         - cardIcon: /images/home/blocks/5/value/cards/2/cardIcon.svg
           cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
-            Our 25+ years experience in the painting, has shown us nearly every
-            possible situation. Moorhouse handles your paint job in the most
-            efficient, professional way possible.
-        - cardIcon: /images/home/blocks/5/value/cards/3/cardIcon.svg
-          cardText: Effective Communication Throughout The Process
-          cardDescription: >-
-            The Key to a successful project is found in good communication. As a
-            licensed painting contractor, we have years of experience performing
-            quality for commercial and residential clients.
-        - cardIcon: /images/home/blocks/5/value/cards/4/cardIcon.svg
-          cardText: We Value Integrity <br/> & Honesty
-          cardDescription: >-
-            To Paint with integrity we must be open and forthright, even when
-            its difficult. Open, truthful conversations create opportunities for
-            better analysis and future decisions.
-        - cardIcon: /images/home/blocks/5/value/cards/5/cardIcon.svg
-          cardText: Over 25+ Years <br/> Experience
-          cardDescription: >-
-            Our 25+ years experience in the painting, has shown us nearly every
-            possible situation. Moorhouse handles your paint job in the most
-            efficient, professional way possible.
+            Our 20+ years experience in the painting, has shown us nearly every
+            possible situation. Moorhouse Coating handles your paint job in the
+            most efficient, professional way possible.
   - discriminant: industrialPainting
     value:
       title: Commercial  & Industrial <span class="text-helper">Painting</span>
