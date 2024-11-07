@@ -5,7 +5,7 @@ seoData:
 blocks:
   - discriminant: hero
     value:
-      title: Full Service <span class="text-secondary">Painting</span>
+      title: 'Full Service <span class="text-secondary">Painting</span> Contractor '
       subtitle: Professional Painting Contractor with Roots in Park City, Utah.
       bgImage: /images/home/blocks/0/value/bgImage.jpg
       Button:
