@@ -170,11 +170,11 @@ blocks:
   - discriminant: industrialPainting
     value:
       title: Commercial  & Industrial <span class="text-helper">Painting</span>
-      subtitle: "Our experienced and qualified painters will help you achieve  the look and feel you desire.\_"
+      subtitle: "Our experienced and qualified painters will help you achieve the look and feel you desire.\_"
       bgImage: /images/home/blocks/6/value/bgImage.webp
       Button:
-        label: Onsite FREE Estimate
-        link: https://calendly.com/moorhousecoating/onsite-estimate
+        label: Request Virtual Estimate
+        link: https://calendly.com/moorhousecoating/new-meeting
   - discriminant: frequentlyAskedQuestions
     value:
       pretitle: You`ve got questions, we`ve got answers
