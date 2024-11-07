@@ -6,7 +6,7 @@ blocks:
   - discriminant: hero
     value:
       title: 'Full Service <span class="text-secondary">Painting</span> Contractor '
-      subtitle: Professional Painting Contractor with Roots in Park City, Utah.
+      subtitle: Professional painting contractor with roots in Park City, Utah.
       bgImage: /images/home/blocks/0/value/bgImage.jpg
       Button:
         label: Request Virtual Estimate
