@@ -120,11 +120,11 @@ blocks:
       heading: Our Completed Projects
       galleryImages:
         - /images/home/blocks/4/value/galleryImages/0.webp
-        - /images/home/blocks/4/value/galleryImages/1.webp
-        - /images/home/blocks/4/value/galleryImages/2.webp
-        - /images/home/blocks/4/value/galleryImages/3.webp
-        - /images/home/blocks/4/value/galleryImages/4.webp
-        - /images/home/blocks/4/value/galleryImages/5.webp
+        - /images/home/blocks/4/value/galleryImages/1.jpeg
+        - /images/home/blocks/4/value/galleryImages/2.JPG
+        - /images/home/blocks/4/value/galleryImages/3.jpeg
+        - /images/home/blocks/4/value/galleryImages/4.jpg
+        - /images/home/blocks/4/value/galleryImages/5.JPG
         - /images/home/blocks/4/value/galleryImages/6.jpeg
   - discriminant: whatToExpect
     value:
