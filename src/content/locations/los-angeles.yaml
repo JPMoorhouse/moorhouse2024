@@ -14,7 +14,7 @@ blocks:
       bgImage: /images/los-angeles/blocks/0/value/bgImage.jpg
       Button:
         label: Get Free Estimate
-        url: https://moorhousecoating.com/
+        url: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: aboutmoorhouse
     value:
       pretitle: Welcome to Moorhouse Coating
