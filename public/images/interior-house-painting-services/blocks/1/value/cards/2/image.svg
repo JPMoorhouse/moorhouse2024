@@ -1,3 +1,14 @@
-<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1 5H49M1 13H49M1 45H49M6.55372 5V45M43.0496 5V45M24.8017 13V45M20.8347 9.4H28.7686M1 1H48.6033V49H1V1ZM21.6281 23.4C21.6281 23.8418 21.2729 24.2 20.8347 24.2C20.3965 24.2 20.0413 23.8418 20.0413 23.4C20.0413 22.9582 20.3965 22.6 20.8347 22.6C21.2729 22.6 21.6281 22.9582 21.6281 23.4ZM29.562 23.4C29.562 23.8418 29.2068 24.2 28.7686 24.2C28.3304 24.2 27.9752 23.8418 27.9752 23.4C27.9752 22.9582 28.3304 22.6 28.7686 22.6C29.2068 22.6 29.562 22.9582 29.562 23.4Z" stroke="white" stroke-width="1.5"/>
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="7" width="10" height="10" fill="black"/>
+<rect y="50" width="60" height="10" fill="black"/>
+<rect y="19" width="10" height="29" fill="black"/>
+<rect x="50" y="19" width="10" height="29" fill="black"/>
+<rect x="50" y="7" width="10" height="10" fill="black"/>
+<rect x="12" y="7" width="36" height="10" fill="black"/>
+<rect x="12" y="19" width="17" height="29" fill="black"/>
+<rect x="31" y="19" width="17" height="29" fill="black"/>
+<rect width="60" height="5" fill="black"/>
+<circle cx="23" cy="27" r="1" fill="white"/>
+<circle cx="37" cy="27" r="1" fill="white"/>
+<path d="M24 12H35.5" stroke="white" stroke-width="1.5"/>
 </svg>
