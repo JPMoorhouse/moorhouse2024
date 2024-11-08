@@ -90,7 +90,7 @@ blocks:
           image: /images/home/blocks/3/value/cardWithImage/1/image.png
           Button:
             text: Learn more
-            slug: https://calendly.com/moorhousecoating/onsite-estimate
+            slug: /interior-house-painting-services
         - title: Commercial Painting
           description: >-
             Knowledgeable, professional and experienced, Moorhouse Coating
