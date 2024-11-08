@@ -78,7 +78,6 @@ blocks:
         - title: Commercial Painting
           cards:
             - title: Golden Bear Golf Villa
-              link: golden-bear-golf-villa
               image: /images/projects/blocks/2/value/categories/2/cards/0/image.jpg
             - title: Auto Zone
               link: /
