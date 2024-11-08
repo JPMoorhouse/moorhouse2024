@@ -2,8 +2,12 @@ title: About
 seoData:
   seoTitle: 'About Moorhouse Coating '
   seoDesription: >-
-    Commercial Painting Contractor About Services Interior Exterior Paint
-    Company Find a Painter
+    Moorhouse Coating is a premier painting contractor offering residential,
+    commercial, and industrial painting services. With a focus on quality, our
+    team delivers high-end finishes that enhance and protect your property. We
+    use top-tier products and techniques tailored to withstand the Southwest
+    climate, ensuring beautiful, lasting results for homes, businesses, and
+    industrial facilities.
   ogImage: /images/seo/about/seoData/ogImage.webp
 blocks:
   - discriminant: heroWithBanner
