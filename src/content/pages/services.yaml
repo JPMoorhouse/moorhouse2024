@@ -68,7 +68,7 @@ blocks:
           image: /images/services/blocks/2/value/cardWithImage/2/image.png
           Button:
             text: Learn more
-            slug: https://calendly.com/moorhousecoating/onsite-estimate
+            slug: /commercial-painting-services
         - title: Industrial Painting
           description: >-
             There are several important factors to consider when planning and
