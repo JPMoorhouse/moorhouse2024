@@ -18,36 +18,19 @@ blocks:
       cards:
         - title: Commercial Painting
           description: >
-            Knowledgeable, professional and experienced, Moorhouse Coating
-            provides superior commercial painting services at an affordable
-            rate. We specialize in delivering quality painting that makes your
-            business look great, while minimizing disruption to your normal
-            operations.\
+            Moorhouse Coating provides top-quality commercial painting services
+            at affordable rates, ensuring your business looks its best with
+            minimal disruption to daily operations. Our commitment to excellence
+            drives us to continually evaluate products and techniques, tailoring
+            each project to your specific needs—including flexible scheduling on
+            nights, weekends, and holidays.
 
-            &nbsp;\
 
-            Moorhouse Coating is able to provide premium commercial painting
-            because of our commitment to excellence and improvement. We are
-            constantly evaluating products and techniques to determine the best
-            methods for each individual painting project. We also tailor our
-            operations to suit the needs of commercial businesses, including
-            scheduling our work around your needs. We will work nights,
-            weekends, holidays and other down-times to keep your facility
-            operating as normally as possible.\
-
-            \
-
-            Moorhouse Coating is committed to innovation and development in the
-            commercial painting field. Our professional painters are
-            highly-trained, and our equipment is up-to-date. We know the demands
-            of the commercial environment, so safety and efficiency are the
-            hallmarks of our painting services. Make your business look its
-            best, with commercial painting by Moorhouse Coating.&nbsp;\
-
-            If your business needs commercial painting services, contact
-            Moorhouse Coating. We normally schedule work in advance, but even if
-            you need emergency or rush-work, contact us and we will try to fit
-            you in.
+            With highly trained painters and modern equipment, we prioritize
+            safety and efficiency to meet the demands of a commercial
+            environment. Whether you’re planning ahead or need urgent work,
+            Moorhouse Coating is ready to enhance your space with professional
+            painting services that keep your business running smoothly.
           image: >-
             /images/commercial-painting-services/blocks/0/value/cards/0/image.JPG
   - discriminant: subServiceCards
