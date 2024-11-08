@@ -56,8 +56,8 @@ blocks:
           description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint.\nNo matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
           image: /images/services/blocks/2/value/cardWithImage/1/image.png
           Button:
-            text: Free quote
-            slug: https://calendly.com/moorhousecoating/onsite-estimate
+            text: Learn more
+            slug: /interior-house-painting-services
         - title: Commercial Painting
           description: >-
             Knowledgeable, professional and experienced, Moorhouse Coating
