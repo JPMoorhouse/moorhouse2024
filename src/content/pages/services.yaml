@@ -135,6 +135,7 @@ blocks:
             impressive. They thoroughly cleaned our building's exterior,
             removing years of grime and buildup that had dulled its appearance.
             The difference is night and day!
+          author: /images/services/blocks/4/value/testimonials/0/author.svg
           authorName: John W
           authorpost: Park City
         - rating: 5
@@ -143,6 +144,7 @@ blocks:
             from any potential damage. The job was completed efficiently, and
             the area was left spotless. I highly recommend Moorhouse Coating for
             anyone in need of top-quality pressure washing services!
+          author: /images/services/blocks/4/value/testimonials/1/author.svg
           authorName: Lisa M
           authorpost: Park City
         - rating: 3
@@ -154,6 +156,7 @@ blocks:
             which was understandable given the busy season. Overall, we're very
             satisfied with the service and would use them again for future
             cleaning projects."
+          author: /images/services/blocks/4/value/testimonials/2/author.svg
           authorName: Benjamin
           authorpost: Park City
         - rating: 5
@@ -165,5 +168,6 @@ blocks:
             careful not to damage any landscaping or fixtures. They also gave us
             some tips on how to maintain the cleanliness moving forward.
             Excellent service and great value!"
+          author: /images/services/blocks/4/value/testimonials/3/author.svg
           authorName: Sophia S
           authorpost: Park City
