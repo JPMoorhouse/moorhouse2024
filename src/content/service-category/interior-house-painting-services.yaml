@@ -35,3 +35,107 @@ blocks:
             specific requirements.
           image: >-
             /images/interior-house-painting-services/blocks/0/value/cards/0/image.jpg
+  - discriminant: subServiceCards
+    value:
+      cards:
+        - title: Interior House Painting
+          description: >-
+            Revitalize your living space with a fresh coat of paint! Our
+            interior painting services offer vibrant, high-quality finishes that
+            reflect your unique style.
+          image: >-
+            /images/interior-house-painting-services/blocks/1/value/cards/0/image.svg
+        - title: Drywall Repair
+          description: >-
+            Say goodbye to unsightly dents and cracks with our expert drywall
+            repair services! We deliver seamless, flawless results that restore
+            your walls to perfection.
+          image: >-
+            /images/interior-house-painting-services/blocks/1/value/cards/1/image.svg
+        - title: Cabinet Refinishing
+          description: >-
+            Refresh your kitchen or bathroom with cabinet refinishing that
+            brings new life to your existing cabinets without the cost of a full
+            replacement.
+          image: >-
+            /images/interior-house-painting-services/blocks/1/value/cards/2/image.svg
+        - title: Crown Molding
+          description: >-
+            Elevate the elegance of your home with custom crown molding that
+            adds a polished, architectural touch to any room. Click to see how
+            our expert installation can bring timeless style and value to your
+            space!
+          image: >-
+            /images/interior-house-painting-services/blocks/1/value/cards/3/image.svg
+        - title: Wallpaper Removal
+          description: >-
+            Easily update your walls with our professional wallpaper removal
+            service, leaving a clean, smooth surface ready for paint or new
+            decor. Click to learn how we can handle the mess and hassle, giving
+            your space a fresh start!
+          image: >-
+            /images/interior-house-painting-services/blocks/1/value/cards/4/image.svg
+        - title: Popcorn Ceiling Removal
+          description: >-
+            Modernize your home with our professional popcorn ceiling removal,
+            creating a clean, updated look that adds value and appeal. Click to
+            learn how we can safely and efficiently transform your ceilings for
+            a fresh, smooth finish!
+          image: >-
+            /images/interior-house-painting-services/blocks/1/value/cards/5/image.svg
+        - title: Textured & Faux Painting
+          description: >-
+            Bring unique character to your walls with our textured and faux
+            painting services, designed to add depth, elegance, and artistry to
+            any room.
+          image: >-
+            /images/interior-house-painting-services/blocks/1/value/cards/6/image.svg
+        - title: Wallpaper Installation
+          description: >-
+            Elevate your home’s style with professional wallpaper installation
+            that brings pattern, texture, and personality to any room. Our
+            application will ensure a flawless, long-lasting finish you'll love!
+          image: >-
+            /images/interior-house-painting-services/blocks/1/value/cards/7/image.svg
+        - title: Cabinet Painting
+          description: >-
+            Refresh your kitchen or bathroom with cabinet painting that provides
+            a stunning, like-new look without the cost of replacement. Our
+            professional painters will transform your cabinets with a durable,
+            beautiful finish!
+          image: >-
+            /images/interior-house-painting-services/blocks/1/value/cards/8/image.svg
+        - title: Color Consultation
+          description: >-
+            Unsure which colors will bring out the best in your home? Our expert
+            color consultation service helps you choose the perfect shades to
+            enhance each room’s personality and style.
+          image: >-
+            /images/interior-house-painting-services/blocks/1/value/cards/9/image.svg
+  - discriminant: industrialPainting
+    value:
+      title: Exterior Residental Painting
+      subtitle: "Our experienced and qualified painters will help you achieve  the look and feel you desire.\_"
+      bgImage: /images/interior-house-painting-services/blocks/2/value/bgImage.jpg
+      Button:
+        label: Request Virtual Estimate
+        link: https://calendly.com/moorhousecoating/new-meeting
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating is an amazing company. Their interior finishes are
+            amazing and the crews they have for painting are professional,
+            clean, and very knowledgeable. Recommend Moorhouse Coatings to
+            anyone
+          authorName: Zach Morrison
+          authorpost: Park City, UT
+        - rating: 5
+          cardText: >-
+            These guys are very detail oriented which makes all the difference
+            in the finished product.
+          authorName: Jacquelyn Walker
+          authorpost: Park City, UT
