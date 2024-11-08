@@ -112,8 +112,7 @@ blocks:
             experience can be the difference in the success of a project.
           image: /images/home/blocks/3/value/cardWithImage/3/image.png
           Button:
-            text: Schedule Estimate
-            slug: https://calendly.com/moorhousecoating/onsite-estimate
+            text: Learn more
   - discriminant: gallery
     value:
       pretitle: Slideshow Gallery
