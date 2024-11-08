@@ -1,7 +1,13 @@
 title: Home
 seoData:
   seoTitle: Moorhouse Coating Home
-  seoDesription: Moorhouse Coating Professional Painting Contractor serving the Southwest
+  seoDesription: >-
+    Moorhouse Coating is a premier painting contractor offering residential,
+    commercial, and industrial painting services. With a focus on quality, our
+    team delivers high-end finishes that enhance and protect your property. We
+    use top-tier products and techniques tailored to withstand the Southwest
+    climate, ensuring beautiful, lasting results for homes, businesses, and
+    industrial facilities.
 blocks:
   - discriminant: hero
     value:
