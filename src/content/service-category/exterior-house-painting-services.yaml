@@ -104,12 +104,14 @@ blocks:
             /images/exterior-house-painting-services/blocks/1/value/cards/8/image.svg
   - discriminant: industrialPainting
     value:
-      title: Interior Residential <span class="text-secondary">Painting</span>
+      title: >-
+        Interior Residential <span class="text-secondary">Painting</span>
+        Services
       subtitle: "Our experienced and qualified painters will help you achieve  the look and feel you desire.\_"
       bgImage: /images/exterior-house-painting-services/blocks/2/value/bgImage.jpg
       Button:
         label: 'Learn more   '
-        link: /
+        link: /services/interior-house-painting-services
   - discriminant: testimonials
     value:
       pretitle: Customer Testimonials
