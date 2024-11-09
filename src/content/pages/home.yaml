@@ -158,7 +158,7 @@ blocks:
       bgImage: /images/home/blocks/6/value/bgImage.webp
       Button:
         label: Learn more
-        link: /commercial-painting-services
+        link: /services/commercial-painting-services
   - discriminant: frequentlyAskedQuestions
     value:
       pretitle: You`ve got questions, we`ve got answers
