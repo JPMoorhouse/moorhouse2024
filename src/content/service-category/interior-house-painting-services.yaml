@@ -111,7 +111,9 @@ blocks:
             /images/interior-house-painting-services/blocks/1/value/cards/9/image.svg
   - discriminant: industrialPainting
     value:
-      title: Exterior Residental Painting Services
+      title: >-
+        Exterior Residental <span class="text-secondary">Painting</span>
+        Services
       subtitle: "Our experienced and qualified painters will help you achieve  the look and feel you desire.\_"
       bgImage: /images/interior-house-painting-services/blocks/2/value/bgImage.jpg
       Button:
