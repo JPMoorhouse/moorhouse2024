@@ -64,21 +64,21 @@ blocks:
               image: /images/projects/blocks/2/value/categories/0/cards/5/image.jpg
         - title: Interior Residential Painting
           cards:
-            - title: Client Name 1
+            - title: Kitchens and Great Rooms
               link: /
               image: /images/projects/blocks/2/value/categories/1/cards/0/image.jpg
-            - title: Client Name 2
+            - title: Fireplaces and Sitting Areas
               link: /
               image: /images/projects/blocks/2/value/categories/1/cards/1/image.jpg
-            - title: Client Name 3
+            - title: Hallways and Entries
               image: /images/projects/blocks/2/value/categories/1/cards/2/image.jpg
-            - title: Client Name 4
+            - title: Bathrooms and Closets
               link: /
               image: /images/projects/blocks/2/value/categories/1/cards/3/image.jpg
-            - title: Client Name 5
+            - title: Cabinets
               link: /
               image: /images/projects/blocks/2/value/categories/1/cards/4/image.jpg
-            - title: Client Name 6
+            - title: Libraries and Wood Work
               link: /
               image: /images/projects/blocks/2/value/categories/1/cards/5/image.jpg
         - title: Commercial Painting
