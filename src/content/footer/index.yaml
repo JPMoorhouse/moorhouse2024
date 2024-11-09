@@ -15,11 +15,11 @@ Sitemap:
     link: /testimonials
 OurServices:
   - label: Residential Painting
-    link: https://parkcity.moorhousecoating.com/
+    link: https://moorhousecoating.com/
   - label: Commercial Painting
     link: '#'
   - label: Exterior Painting
-    link: '#'
+    link: /
   - label: Exterior Staining
     link: '#'
   - label: Other Service Here
@@ -40,7 +40,7 @@ locations:
     - label: Palm Desert
       link: /location/palm-desert-california
     - label: Phoenix
-      link: '#'
+      link: https://moorhousecoating.com/location/phoenix/
     - label: St George
       link: '#'
 otherlinks:
