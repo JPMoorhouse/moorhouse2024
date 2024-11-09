@@ -11,3 +11,9 @@ social:
   - icontext: youtube
     image: /images/social/2/image.svg
     link: https://youtu.be/SN9NGmC_Epg?si=7HPNe5VkJ6Nn5Pvr
+  - icontext: linkedin
+    image: /images/social/3/image.svg
+    link: https://www.linkedin.com/company/moorhouse-coating/
+  - icontext: Twitter
+    image: /images/social/4/image.svg
+    link: https://x.com/moorhousejason
