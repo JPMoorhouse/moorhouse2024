@@ -2,18 +2,15 @@ message:
   icon: /images/message/icon.png
   email: info@moorhousecoating.com
 social:
-  - icontext: instagram
-    image: /images/social/0/image.svg
-    link: https://www.instagram.com/moorhousecoating/
   - icontext: facebook
-    image: /images/social/1/image.svg
+    image: /images/social/0/image.svg
     link: https://www.facebook.com/profile.php?id=100063492910941
   - icontext: youtube
-    image: /images/social/2/image.svg
+    image: /images/social/1/image.svg
     link: https://youtu.be/SN9NGmC_Epg?si=7HPNe5VkJ6Nn5Pvr
   - icontext: linkedin
-    image: /images/social/3/image.svg
+    image: /images/social/2/image.svg
     link: https://www.linkedin.com/company/moorhouse-coating/
   - icontext: Twitter
-    image: /images/social/4/image.svg
+    image: /images/social/3/image.svg
     link: https://x.com/Jmohouse
