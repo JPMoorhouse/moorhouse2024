@@ -42,7 +42,9 @@ blocks:
           providing our customers with high-quality painting services using the
           best products and applications for your project.&nbsp;
         image: /images/palm-desert-california/blocks/1/value/card/image.jpg
-        Button: {}
+        Button:
+          label: Free Estimate
+          url: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: whatWeOffer
     value:
       pretitle: What We Offer
@@ -90,7 +92,7 @@ blocks:
         title: Looking for a painter? Start local.
         button:
           label: Get a Free Estimate
-          link: https://moorhousecoating.com/
+          link: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: whatToExpect
     value:
       pretitle: Professional Commercial & Residential Painting
