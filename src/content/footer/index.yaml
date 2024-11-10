@@ -9,8 +9,6 @@ Sitemap:
     link: /about
   - label: Services
     link: /services
-  - label: Gallery
-    link: /gallery
   - label: Testimonials
     link: /testimonials
 OurServices:
