@@ -12,7 +12,7 @@ blocks:
   - discriminant: heroWithBanner
     value:
       title: Commercial & Industrial <span class="text-secondary">Painting</span>
-      subtitle: Professional Painting Contractor with Roots in Park City Utah
+      subtitle: Commercial Painting Services | Moorhouse Coating – Quality & Expertise
       bgImage: /images/services/blocks/0/value/bgImage.png
       banner:
         title: Receive a FREE Estimate
