@@ -1,7 +1,9 @@
 title: Blog
 seoData:
-  seoTitle: Moorhouse Coating Blog
-  seoDesription: Moorhouse Morehouse morhouse moorehouse Coating Painting Blog
+  seoTitle: Moorhouse Coating Blog | Insights on Commercial Painting & Industry Trends
+  seoDesription: >-
+    Commercial Painting Solutions, Tips, and Inspiration | Moorhouse Coating
+    Blog
 blocks:
   - discriminant: sectionTitleDescription
     value:
