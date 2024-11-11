@@ -1,7 +1,13 @@
 title: Fullservice Painting in Los Angeles
 seoData:
-  seoTitle: Los Angeles California
-  seoDesription: Los Angeles California
+  seoTitle: >-
+    Los Angeles California Professional Painting Services for Businesses |
+    Moorhouse Coating
+  seoDesription: >-
+    Moorhouse Coating specializes in professional commercial painting, offering
+    comprehensive services across Southern California and the West. Let our
+    experienced team enhance your property's appearance and durability with
+    superior craftsmanship.
   ogImage: /images/seo/los-angeles/seoData/ogImage.jpg
 blocks:
   - discriminant: hero
@@ -71,7 +77,7 @@ blocks:
         title: Have a Special Request? We’re Up For It!
         button:
           text: Get a Free Estimate
-          slug: https://moorhousecoating.com/
+          slug: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: locallyOwnedBusiness
     value:
       pretitle: Moorhouse Coating
