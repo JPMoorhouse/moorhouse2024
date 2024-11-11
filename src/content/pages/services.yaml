@@ -1,6 +1,6 @@
 title: Services
 seoData:
-  seoTitle: Moorhouse Coating Painting Services
+  seoTitle: Moorhouse Coating Services | Expert Commercial & Industrial Painting
   seoDesription: >-
     Moorhouse Coating specializes in professional coating, staining, and
     painting services across the Southwest. Moorhouse Coating offers durable,
@@ -53,9 +53,7 @@ blocks:
         - title: Interior House Painting
           description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint.\nNo matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
           image: /images/services/blocks/2/value/cardWithImage/1/image.png
-          Button:
-            text: Learn more
-            slug: /interior-house-painting-services
+          Button: {}
         - title: Commercial Painting
           description: >-
             Knowledgeable, professional and experienced, Moorhouse Coating
@@ -64,9 +62,7 @@ blocks:
             business look great, while minimizing disruption to your normal
             operations.
           image: /images/services/blocks/2/value/cardWithImage/2/image.png
-          Button:
-            text: Learn more
-            slug: /commercial-painting-services
+          Button: {}
         - title: Industrial Painting
           description: >-
             There are several important factors to consider when planning and
@@ -76,8 +72,7 @@ blocks:
             experienced industrial painting contractor with many years of
             experience can be the difference in the success of a project.
           image: /images/services/blocks/2/value/cardWithImage/3/image.png
-          Button:
-            text: Learn more
+          Button: {}
   - discriminant: whatToExpect
     value:
       pretitle: Professional Commercial & Residential Painting
