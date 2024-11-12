@@ -44,33 +44,27 @@ blocks:
         - title: Epoxy Coatings
           description: >-
             Protect your industrial floors with durable epoxy coatings that
-            resist heavy traffic, chemicals, abrasion, and corrosion. Our
-            high-performance epoxy solutions can enhance your floors, tanks, and
-            metal surfaces.
+            resist heavy traffic, chemicals, abrasion, and corrosion.
           image: >-
             /images/industrial-painting-services/blocks/1/value/cards/0/image.svg
         - title: Polyurethane Coatings
           description: >-
             Shield your industrial surfaces with resilient polyurethane coatings
             that provide exceptional abrasion and chemical resistance.
-            High-performance coatings provide UV resistance and are often
-            applied as topcoats over epoxy.
           image: >-
             /images/industrial-painting-services/blocks/1/value/cards/1/image.svg
         - title: Zinc-Rich Coatings
           description: >-
             Enhance corrosion resistance for your industrial equipment with
             zinc-rich coatings that offer superior protection in harsh
-            environments. Prevent corrosion resistance through galvanic
-            protection.
+            environments.
           image: >-
             /images/industrial-painting-services/blocks/1/value/cards/2/image.svg
         - title: Intumescent Coatings
           description: >-
             Safeguard your facility with intumescent coatings that expand under
             high temperatures to provide critical fire resistance for steel
-            structures. Our fireproofing solutions can enhance safety and meet
-            compliance standards in high-risk environments.
+            structures.
           image: >-
             /images/industrial-painting-services/blocks/1/value/cards/3/image.svg
         - title: Chemical-Resistant Coatings
@@ -84,8 +78,7 @@ blocks:
           description: >-
             Protect your industrial surfaces with moisture-cure urethane
             coatings that offer exceptional durability and resistance to harsh
-            conditions, even in high-humidity areas. These coatings can extend
-            the life of your equipment with reliable, long-lasting protection.
+            conditions, even in high-humidity areas.
           image: >-
             /images/industrial-painting-services/blocks/1/value/cards/5/image.svg
         - title: Abrasive Blasting
@@ -107,9 +100,7 @@ blocks:
         - title: Power Tool Cleaning
           description: >-
             Remove rust, old paint, and contaminants with our power tool
-            cleaning service, ideal for preparing industrial surfaces. Our
-            expert team ensures a clean, smooth surface for coating
-            applications.
+            cleaning service, ideal for preparing industrial surfaces.
           image: >-
             /images/industrial-painting-services/blocks/1/value/cards/8/image.svg
         - title: Chemical Cleaning
