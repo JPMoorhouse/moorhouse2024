@@ -215,7 +215,7 @@ blocks:
       bgImage: /images/commercial-painting-services/blocks/2/value/bgImage.jpg
       Button:
         label: Learn more
-        link: industrial-painting-services/
+        link: industrial-painting-services
   - discriminant: testimonials
     value:
       pretitle: Customer Testimonials
