@@ -6,7 +6,7 @@ seoData:
     exterior house painting service. Our skilled painters use premium,
     weather-resistant paint to protect and beautify your home’s exterior,
     providing a long-lasting finish that adds value and style.
-  ogImage: /images/seo/exterior-house-painting/seoData/ogImage.webp
+  ogImage: /images/seo/exterior-house-painting/seoData/ogImage.jpg
 blocks:
   - discriminant: sectionTitleDescription
     value:
