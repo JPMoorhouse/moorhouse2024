@@ -190,9 +190,7 @@ blocks:
       title: Commercial <span class="text-secondary">Painting</span> Services
       subtitle: "Our experienced and qualified painters will help you achieve  the look and feel you desire.\_"
       bgImage: /images/industrial-painting-services/blocks/2/value/bgImage.jpg
-      Button:
-        label: Learn more
-        link: commercial-painting-services
+      Button: {}
   - discriminant: testimonials
     value:
       pretitle: Customer Testimonials
