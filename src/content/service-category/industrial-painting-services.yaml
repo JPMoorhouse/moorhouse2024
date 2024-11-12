@@ -1,6 +1,14 @@
-title: Industrial Painting Services
+title: Industrial Painting & Coating Services
 seoData:
   seoTitle: Industrial Painting Services
+  seoDesription: >-
+    Moorhouse Coatings' industrial painting and coating services provide
+    solutions to protect, enhance, and extend the life of industrial surfaces.
+    Specializing in corrosion-resistant coatings, epoxy and urethane finishes,
+    and advanced surface preparation. Our expert team uses cutting-edge products
+    and techniques to deliver durable, cost-effective protection for equipment,
+    floors, and structures, ensuring optimal performance and compliance with
+    safety standards.
 subService: []
 blocks:
   - discriminant: twoColumnWithTitle
@@ -30,3 +38,193 @@ blocks:
             and specialized services.
           image: >-
             /images/industrial-painting-services/blocks/0/value/cards/0/image.jpg
+  - discriminant: subServiceCards
+    value:
+      cards:
+        - title: Epoxy Coatings
+          description: >-
+            Protect your industrial floors with durable epoxy coatings that
+            resist heavy traffic, chemicals, abrasion, and corrosion. Our
+            high-performance epoxy solutions can enhance your floors, tanks, and
+            metal surfaces.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/0/image.svg
+        - title: Polyurethane Coatings
+          description: >-
+            Shield your industrial surfaces with resilient polyurethane coatings
+            that provide exceptional abrasion and chemical resistance.
+            High-performance coatings provide UV resistance and are often
+            applied as topcoats over epoxy.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/1/image.svg
+        - title: Zinc-Rich Coatings
+          description: >-
+            Enhance corrosion resistance for your industrial equipment with
+            zinc-rich coatings that offer superior protection in harsh
+            environments. Prevent corrosion resistance through galvanic
+            protection.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/2/image.svg
+        - title: Intumescent Coatings
+          description: >-
+            Safeguard your facility with intumescent coatings that expand under
+            high temperatures to provide critical fire resistance for steel
+            structures. Our fireproofing solutions can enhance safety and meet
+            compliance standards in high-risk environments.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/3/image.svg
+        - title: Chemical-Resistant Coatings
+          description: >-
+            Revitalize your worn-out concrete with our seamless resurfacing
+            solutions! Achieve a fresh, modern look that enhances durability and
+            adds curb appeal.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/4/image.svg
+        - title: Moisture-Cure Urethanes
+          description: >-
+            Protect your industrial surfaces with moisture-cure urethane
+            coatings that offer exceptional durability and resistance to harsh
+            conditions, even in high-humidity areas. These coatings can extend
+            the life of your equipment with reliable, long-lasting protection.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/5/image.svg
+        - title: Abrasive Blasting
+          description: >-
+            Prepare your surfaces for optimal coating adhesion with professional
+            abrasive blasting that removes rust, contaminants, and old coatings.
+            Our precise blasting process creates a clean, smooth foundation for
+            durable, high-performance finishes!
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/6/image.svg
+        - title: Water Blasting
+          description: >-
+            Effectively clear tough buildup and contaminants with high-powered
+            water blasting that leaves surfaces clean and ready for maintenance
+            or coating. Our water blasting service provides a thorough,
+            eco-friendly solution when sandblasting isn’t feasible.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/7/image.svg
+        - title: Power Tool Cleaning
+          description: >-
+            Remove rust, old paint, and contaminants with our power tool
+            cleaning service, ideal for preparing industrial surfaces. Our
+            expert team ensures a clean, smooth surface for coating
+            applications.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/8/image.svg
+        - title: Chemical Cleaning
+          description: >-
+            Eliminate tough residues, oils, and contaminants with our chemical
+            cleaning service. Prepare industrial surfaces for coating or repair,
+            especially in sensitive environments.  Ensures a clean, safe
+            foundation for your equipment and facilities.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/9/image.svg
+        - title: Acid Etching
+          description: >-
+            Achieve a textured, adhesive-ready surface with our acid etching
+            service, perfect for prepping concrete and metal in industrial
+            settings. Our acid etching service enhances coating durability and
+            long-term performance.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/10/image.svg
+        - title: Polyaspartic Coatings
+          description: >-
+            Protect and enhance your industrial floors with durable polyaspartic
+            coatings that cure quickly and resist abrasion, chemicals, and
+            impact. Our solution offers a long-lasting, high-performance finish
+            for your toughest environments.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/11/image.svg
+        - title: Polyurea Coatings
+          description: >-
+            Strengthen your industrial floors with polyurea coatings that
+            provide exceptional durability, flexibility, and resistance to
+            extreme temperatures and chemicals. Our polyurea solutions deliver
+            fast-curing, long-lasting protection for your high-traffic areas!
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/12/image.svg
+        - title: Anti-Slip Floor Coatings
+          description: >-
+            Ensure safety in your industrial facility with our anti-slip floor
+            coatings and reduce the risk of slips and falls in high-traffic
+            areas. Our durable, textured coatings provide reliable traction and
+            long-lasting protection for your floors.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/13/image.svg
+        - title: Concrete Sealing & Staining
+          description: >-
+            Protect and enhance your industrial concrete surfaces with our
+            sealing and staining services, designed to resist wear, stains, and
+            moisture damage. Our solutions improve durability while adding a
+            professional, polished finish to your floors and walls.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/14/image.svg
+        - title: Anti-Corrosion Coatings
+          description: >-
+            Prevent rust and corrosion with our specialized anti-corrosion
+            coatings, designed to protect industrial equipment and steel
+            structures from rust and corrosion. Our durable coatings provide
+            long-lasting protection, extending the life of your assets and
+            reducing maintenance costs.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/15/image.svg
+        - title: High-Build Coatings
+          description: >-
+            Enhance the durability and protection of your industrial surfaces
+            with our high-build coatings, designed to provide extra thickness
+            for long-term protection of structural steel. Our solutions offer
+            long-lasting protection of structural steel in harsh conditions.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/16/image.svg
+        - title: Electrostatic Painting
+          description: >-
+            Achieve a smooth, even finish with our electrostatic painting
+            service, which uses charged particles to ensure precise coverage and
+            minimal overspray. This method reduces waste and enhances your
+            industrial equipment with a durable, high-quality coating.
+          image: >-
+            /images/industrial-painting-services/blocks/1/value/cards/17/image.svg
+  - discriminant: industrialPainting
+    value:
+      title: Commercial Painting
+      subtitle: "Our experienced and qualified painters will help you achieve  the look and feel you desire.\_"
+      bgImage: /images/industrial-painting-services/blocks/2/value/bgImage.jpg
+      Button:
+        label: Learn more
+        link: services/commercial-painting-services
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating is an amazing company. Their interior finishes are
+            amazing and the crews they have for painting are professional,
+            clean, and very knowledgeable. Recommend Moorhouse Coatings to
+            anyone
+          author: >-
+            /images/industrial-painting-services/blocks/3/value/testimonials/0/author.svg
+          authorName: Zach Morrison
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating painted several areas of our shopping mall,
+            including common areas and exterior facades. Their team was
+            professional and efficient, ensuring minimal disruption to shoppers
+            and tenants. The mall looks fantastic, and the paint job has really
+            enhanced the overall appearance of the property. We highly recommend
+            them for any large-scale commercial project.
+          author: >-
+            /images/industrial-painting-services/blocks/3/value/testimonials/1/author.svg
+          authorName: Chris Michael
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            These guys are very detail oriented which makes all the difference
+            in the finished product.
+          author: >-
+            /images/industrial-painting-services/blocks/3/value/testimonials/2/author.svg
+          authorName: Jacquelyn Walker
+          authorpost: Park City
