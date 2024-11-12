@@ -214,8 +214,8 @@ blocks:
       subtitle: "Our experienced and qualified painters will help you achieve  the look and feel you desire.\_"
       bgImage: /images/commercial-painting-services/blocks/2/value/bgImage.jpg
       Button:
-        label: Request Virtual Estimate
-        link: https://calendly.com/moorhousecoating/new-meeting
+        label: Learn more
+        link: industrial-painting-services/
   - discriminant: testimonials
     value:
       pretitle: Customer Testimonials
