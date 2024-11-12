@@ -42,10 +42,10 @@ blocks:
           detail to every project, ensuring unmatched quality and customer
           satisfaction. We take pride in delivering high-quality results, using
           top-tier products and techniques tailored to each project.
-        image: /images/home/blocks/1/value/card/image.png
+        image: /images/home/blocks/1/value/card/image.jpg
         Button:
           label: Learn more
-          url: /about
+          url: about
   - discriminant: whatWeOffer
     value:
       pretitle: What We Offer
