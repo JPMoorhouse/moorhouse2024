@@ -1,0 +1,69 @@
+title: Interior House Painting
+seoData:
+  seoTitle: Interior House Painting
+  seoDesription: Interior House Painting
+  ogImage: /images/seo/interior-house-painting/seoData/ogImage.JPG
+blocks:
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Service
+      title: Interior House Painting
+      description: >
+        Transform your home’s interior with painting services that bring
+        elegance and sophistication to every room. The interior house painting
+        process begins with a personalized color consultation to ensure each
+        shade complements your style and enhances your space. Our team of
+        skilled painters prepares every surface for a flawless finish, using
+        top-quality paints and the latest application techniques to deliver
+        results that are as durable as they are beautiful. We understand the
+        value of precision and cleanliness, protecting your home and furnishings
+        with care from start to finish.\
+
+        \
+
+        Tailored to meet the standards of luxury homes, our painting services
+        will elevate the look and feel of your residence, providing a refined,
+        professional finish that reflects your home’s distinct character.
+        Whether you’re refreshing a single room or reimagining the entire
+        interior, we work efficiently and respectfully within your space,
+        completing each project with minimal disruption. Let Moorhouse Coating
+        enhance your home and its lasting value.
+  - discriminant: gridGallery
+    value:
+      featuredImage: /images/interior-house-painting/blocks/1/value/featuredImage.JPG
+      galleryImages:
+        - /images/interior-house-painting/blocks/1/value/galleryImages/0.jpeg
+        - /images/interior-house-painting/blocks/1/value/galleryImages/1.JPG
+        - /images/interior-house-painting/blocks/1/value/galleryImages/2.JPG
+        - /images/interior-house-painting/blocks/1/value/galleryImages/3.JPG
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating is an amazing company. Their interior finishes are
+            amazing and the crews they have for painting are professional,
+            clean, and very knowledgeable. Recommend Moorhouse Coating to anyone
+          author: >-
+            /images/interior-house-painting/blocks/2/value/testimonials/0/author.svg
+          authorName: Zach Morrison
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            These guys are very detail oriented which makes all the difference
+            in the finished product.
+          author: >-
+            /images/interior-house-painting/blocks/2/value/testimonials/1/author.svg
+          authorName: Jacquelyn Walker
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Moorhouse coating is a very professional painting company that would
+            HIGHLY recommend!! They pull all the stops to get your project
+            complete in a timely matter! "At your service" is their motto!
+          author: >-
+            /images/interior-house-painting/blocks/2/value/testimonials/2/author.svg
+          authorName: 'Nichol Saulino '
+          authorpost: Park City
