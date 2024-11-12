@@ -109,7 +109,7 @@ blocks:
           Button:
             text: Learn more
             slug: /commercial-painting-services
-        - title: Industrial Painting
+        - title: Industrial Painting & Coating
           description: >-
             There are several important factors to consider when planning and
             completing an industrial painting project. These factors include
@@ -120,6 +120,7 @@ blocks:
           image: /images/home/blocks/3/value/cardWithImage/3/image.png
           Button:
             text: Learn more
+            slug: industrial-painting-services
   - discriminant: gallery
     value:
       pretitle: Slideshow Gallery
