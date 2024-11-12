@@ -49,11 +49,15 @@ blocks:
             job, you can expect your home’s paint job to look great and stand up
             to the conditions for several years.
           image: /images/services/blocks/2/value/cardWithImage/0/image.jpg
-          Button: {}
+          Button:
+            text: Learn more
+            slug: exterior-house-painting-services
         - title: Interior House Painting
           description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint.\nNo matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
           image: /images/services/blocks/2/value/cardWithImage/1/image.png
-          Button: {}
+          Button:
+            text: Learn more
+            slug: interior-house-painting-services
         - title: Commercial Painting
           description: >-
             Knowledgeable, professional and experienced, Moorhouse Coating
@@ -62,8 +66,10 @@ blocks:
             business look great, while minimizing disruption to your normal
             operations.
           image: /images/services/blocks/2/value/cardWithImage/2/image.png
-          Button: {}
-        - title: Industrial Painting
+          Button:
+            text: Learn more
+            slug: commercial-painting-services
+        - title: Industrial Painting & Coating
           description: >-
             There are several important factors to consider when planning and
             completing an industrial painting project. These factors include
@@ -72,7 +78,9 @@ blocks:
             experienced industrial painting contractor with many years of
             experience can be the difference in the success of a project.
           image: /images/services/blocks/2/value/cardWithImage/3/image.png
-          Button: {}
+          Button:
+            text: Learn more
+            slug: industrial-painting-services
   - discriminant: whatToExpect
     value:
       pretitle: Professional Commercial & Residential Painting
