@@ -14,7 +14,7 @@ blocks:
   - discriminant: twoColumnWithTitle
     value:
       pretitle: Services
-      title: Industrial Painting Services
+      title: Industrial Painting & Coating Services
       cards:
         - title: Industrial Painting Services
           description: >
