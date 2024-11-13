@@ -5,23 +5,23 @@ bedge: /images/bedge.webp
 Sitemap:
   - label: Home
     link: /
-  - label: About
-    link: /about
   - label: Services
     link: /services
-  - label: Testimonials
-    link: /testimonials
+  - label: Projects
+    link: /projects
+  - label: About
+    link: /about
 OurServices:
-  - label: Residential Painting
-    link: https://moorhousecoating.com/
-  - label: Commercial Painting
-    link: '#'
-  - label: Exterior Painting
-    link: /
-  - label: Exterior Staining
-    link: '#'
-  - label: Other Service Here
-    link: '#'
+  - label: Interior House Painting
+    link: >-
+      https://moorhousecoating.com/services/interior-house-painting-services/interior-house-painting/
+  - label: Exterior House Painting
+    link: >-
+      https://moorhousecoating.com/services/exterior-house-painting-services/exterior-house-painting/
+  - label: Commercial Painting Services
+    link: https://moorhousecoating.com/services/commercial-painting-services/
+  - label: Industrial Painting Services
+    link: https://moorhousecoating.com/services/industrial-painting-services/
 OpeningHours:
   openHours: ' Monday-Friday 6AM - 6PM'
   openDays: Saturday 9AM- 4PM Sunday Closed
