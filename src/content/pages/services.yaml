@@ -1,6 +1,8 @@
 title: Services
 seoData:
-  seoTitle: Moorhouse Coating Services | Expert Commercial & Industrial Painting
+  seoTitle: >-
+    Moorhouse Coating Services | Expert Residential, Commercial & Industrial
+    Painting
   seoDesription: >-
     Moorhouse Coating specializes in professional coating, staining, and
     painting services across the Southwest. Moorhouse Coating offers durable,
@@ -11,8 +13,12 @@ seoData:
 blocks:
   - discriminant: heroWithBanner
     value:
-      title: Commercial & Industrial <span class="text-secondary">Painting</span>
-      subtitle: Commercial Painting Services | Moorhouse Coating – Quality & Expertise
+      title: >-
+        Residential, Commercial & Industrial <span
+        class="text-secondary">Painting Services</span>
+      subtitle: >-
+        Professional Painting Contractor | Moorhouse Coating – Quality &
+        Expertise
       bgImage: /images/services/blocks/0/value/bgImage.png
       banner:
         title: Receive a FREE Estimate
