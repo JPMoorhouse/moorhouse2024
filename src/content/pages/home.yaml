@@ -1,19 +1,21 @@
-title: Home
+title: Moorhouse Coating
 seoData:
   seoTitle: >-
-    Moorhouse Coating – Premier Commercial Painting Contractor for Businesses &
-    Institutions
+    Moorhouse Coating – Painting contractor serving Park City, Los Angeles, Palm
+    Desert, Phoenix, and St. George
   seoDesription: >-
     Moorhouse Coating is a premier painting contractor offering residential,
     commercial, and industrial painting services. Moorhouse Coating provides
-    expert commercial painting services, transforming spaces with quality,
-    precision, and professionalism. Serving businesses in Park City, Palm
-    Desert, Scottsdale, Los Angeles, and St. George.
+    expert residential, commercial, and industrial painting services,
+    transforming spaces with quality, precision, and professionalism. Serving
+    businesses in Park City, Palm Desert, Phoenix, Los Angeles, and St. George.
 blocks:
   - discriminant: hero
     value:
-      title: 'Full Service <span class="text-secondary">Painting</span> Contractor '
-      subtitle: Professional painting contractor with roots in Park City, Utah.
+      title: 'Full-Service <span class="text-secondary">Painting</span> Contractor '
+      subtitle: >-
+        Professional painting contractor serving the Southwest with roots in
+        Park City, Utah.
       bgImage: /images/home/blocks/0/value/bgImage.jpg
       Button:
         label: Request Virtual Estimate
@@ -43,9 +45,7 @@ blocks:
           satisfaction. We take pride in delivering high-quality results, using
           top-tier products and techniques tailored to each project.
         image: /images/home/blocks/1/value/card/image.JPG
-        Button:
-          label: Learn more
-          url: about
+        Button: {}
   - discriminant: whatWeOffer
     value:
       pretitle: What We Offer
