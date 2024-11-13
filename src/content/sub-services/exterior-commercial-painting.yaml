@@ -1,0 +1,93 @@
+title: Exterior Commercial Painting
+seoData:
+  seoTitle: >-
+    Moorhouse Coating – commercial painting contractor serving Park City, Los
+    Angeles, Palm Desert, Phoenix, and St. George
+  seoDesription: >-
+    Enhance and protect your building’s exterior with our professional
+    commercial painting service. Moorhouse Coating specializes in durable,
+    weather-resistant finishes, we work with office buildings, retail spaces,
+    and hospitality venues to create a polished, lasting impression. Our expert
+    team ensures minimal disruption to operations while delivering high-quality
+    results that elevate your property’s appearance and value.
+  ogImage: /images/seo/exterior-commercial-painting/seoData/ogImage.jpg
+blocks:
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Service
+      title: Exterior Commercial Painting
+      description: >
+        Moorhouse Coating's exterior commercial painting service can help you
+        make a lasting impression while enhancing the durability of your
+        commercial space. Our team works closely with you to understand your
+        brand and aesthetic goals, selecting high-quality paints and finishes
+        that align with your brand and withstand the elements. Whether
+        refreshing your building’s appearance or applying protective coatings,
+        we ensure each project aligns with your vision, using color and design
+        to attract customers and communicate professionalism.
+
+
+        We understand the importance of maintaining a smooth operation, our
+        painters prioritize efficiency, safety, and minimal disruption to your
+        business. Offering flexible scheduling, we accommodate your needs while
+        adhering to strict quality standards for a long-lasting, vibrant finish.
+        Our attention to detail and commitment to using top-grade materials help
+        protect your building’s exterior from weather, UV damage, and general
+        wear, making your property stand out for all the right reasons.
+  - discriminant: gridGallery
+    value:
+      featuredImage: /images/exterior-commercial-painting/blocks/1/value/featuredImage.jpg
+      galleryImages:
+        - >-
+          /images/exterior-commercial-painting/blocks/1/value/galleryImages/0.JPG
+        - >-
+          /images/exterior-commercial-painting/blocks/1/value/galleryImages/1.JPG
+        - >-
+          /images/exterior-commercial-painting/blocks/1/value/galleryImages/2.jpg
+        - >-
+          /images/exterior-commercial-painting/blocks/1/value/galleryImages/3.JPG
+        - >-
+          /images/exterior-commercial-painting/blocks/1/value/galleryImages/4.jpg
+        - >-
+          /images/exterior-commercial-painting/blocks/1/value/galleryImages/5.jpeg
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            We chose Moorhouse Coating to paint the exterior of our home, and we
+            couldn’t be more pleased. The team was efficient, respectful, and
+            paid attention to every detail. The finished product is stunning,
+            and it’s clear that they take pride in their work. Highly recommend
+            them for any exterior painting needs. 
+          author: >-
+            /images/exterior-commercial-painting/blocks/2/value/testimonials/0/author.svg
+          authorName: Michael
+          authorpost: Heber City
+        - rating: 5
+          cardText: >-
+            I recommend Moorhouse, the project involved extensive surface
+            preparation, specialty coatings, and complex scheduling to avoid
+            disrupting our operations. The team managed everything seamlessly,
+            and the final result was a beautifully finished space that enhances
+            both our productivity and safety. We were particularly impressed
+            with their attention to detail and ability to work around our
+            operational needs.
+          author: >-
+            /images/exterior-commercial-painting/blocks/2/value/testimonials/1/author.svg
+          authorName: David
+          authorpost: Palm Desert
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating painted several areas of our shopping mall,
+            including common areas and exterior facades. Their team was
+            professional and efficient, ensuring minimal disruption to shoppers
+            and tenants. The mall looks fantastic, and the paint job has really
+            enhanced the overall appearance of the property. We highly recommend
+            them for any large-scale commercial project. 
+          author: >-
+            /images/exterior-commercial-painting/blocks/2/value/testimonials/2/author.svg
+          authorName: Michelle
+          authorpost: Retail Property Manager
