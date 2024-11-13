@@ -11,6 +11,7 @@ seoData:
     elevates and protects your commercial space.
 subService:
   - interior-commercial-painting
+  - exterior-commercial-painting
 blocks:
   - discriminant: twoColumnWithTitle
     value:
@@ -43,6 +44,7 @@ blocks:
             elements.
           image: >-
             /images/commercial-painting-services/blocks/1/value/cards/0/image.svg
+          link: exterior-commercial-painting
         - title: Interior Painting
           description: >-
             Transform your commercial space with our expert interior painting
