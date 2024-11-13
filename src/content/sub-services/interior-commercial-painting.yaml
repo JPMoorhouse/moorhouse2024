@@ -94,3 +94,13 @@ blocks:
             /images/interior-commercial-painting/blocks/2/value/testimonials/2/author.svg
           authorName: Michelle
           authorpost: Retail Property Manager
+        - rating: 5
+          cardText: >-
+            We hired Moorhouse Coating to stain the exterior of our house, and
+            the team was punctual, professional, and meticulous. Took more time
+            to prepare the surfaces properly, and the new stain has completely
+            transformed our home. Compliments from neighbors!
+          author: >-
+            /images/interior-commercial-painting/blocks/2/value/testimonials/3/author.svg
+          authorName: Stan
+          authorpost: Park City
