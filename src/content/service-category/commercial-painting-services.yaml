@@ -9,7 +9,8 @@ seoData:
     withstand the Southwest’s unique climate. From precision surface preparation
     to custom color application, we ensure a smooth, efficient process that
     elevates and protects your commercial space.
-subService: []
+subService:
+  - interior-commercial-painting
 blocks:
   - discriminant: twoColumnWithTitle
     value:
