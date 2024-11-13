@@ -27,23 +27,24 @@ blocks:
       card:
         title: About Moorhouse Coating
         description: >
-          ***Moorhouse PAitnig is a professional painting contractor Serving the
+          ***Moorhouse Coating is a professional painting contractor Serving the
           Southwest with roots in Park City, Utah.*** \
 
           \
 
-          Founded in 1997, Moorhouse Coating has established itself as a
-          premiere painting contractor. Our vision is to make residential and
-          commercial painting services easier and more convenient for property
-          owners and commercial managers. From the beginning, Moorhouse Coating
-          took on large commercial&nbsp;painting projects, while maintaining the
-          personal touch of a small company. With a commitment to excellence and
-          a passion for perfection, Moorhouse Coating has been transforming
-          commercial spaces, one brush stroke at a time. Our painters bring
-          years of experience, cutting-edge techniques, and a keen eye for
-          detail to every project, ensuring unmatched quality and customer
-          satisfaction. We take pride in delivering high-quality results, using
-          top-tier products and techniques tailored to each project.
+          Founded in 1997 and rooted in Park City, Utah, Moorhouse Coating has
+          built a reputation as a premier painting contractor for luxury homes
+          and commercial properties. With over 20 years in business, we have
+          become trusted experts in residential and commercial painting
+          throughout the Southwest. Our skilled painters are adept at working
+          with a wide variety of substrates and advanced application methods,
+          ensuring that each project receives the finest attention to detail.
+          Whether it’s a high-value residential property or a large-scale
+          commercial space, Moorhouse Coating brings a blend of expertise,
+          top-tier products, and innovative techniques to each project. Our
+          commitment to excellence and customer satisfaction has helped us
+          transform properties with elegance and precision, one brushstroke at a
+          time.
         image: /images/home/blocks/1/value/card/image.JPG
         Button: {}
   - discriminant: whatWeOffer
