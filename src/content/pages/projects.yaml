@@ -71,6 +71,7 @@ blocks:
               link: /
               image: /images/projects/blocks/2/value/categories/1/cards/1/image.jpg
             - title: Hallways and Entries
+              link: /
               image: /images/projects/blocks/2/value/categories/1/cards/2/image.jpg
             - title: Bathrooms and Closets
               link: /
@@ -84,11 +85,13 @@ blocks:
         - title: Commercial Painting
           cards:
             - title: Golden Bear Golf Villa
+              link: /
               image: /images/projects/blocks/2/value/categories/2/cards/0/image.jpg
             - title: Auto Zone
               link: /
               image: /images/projects/blocks/2/value/categories/2/cards/1/image.jpg
             - title: Chateaux Deer Valley
+              link: /
               image: /images/projects/blocks/2/value/categories/2/cards/2/image.jpg
             - title: Bear Lodge Park City
               link: /
@@ -97,6 +100,7 @@ blocks:
               link: /
               image: /images/projects/blocks/2/value/categories/2/cards/4/image.jpg
             - title: Golf Pro Shop
+              link: /
               image: /images/projects/blocks/2/value/categories/2/cards/5/image.jpg
   - discriminant: testimonials
     value:
