@@ -13,9 +13,7 @@ seoData:
 blocks:
   - discriminant: heroWithBanner
     value:
-      title: >-
-        Residential, Commercial  & Industrial <span class="text-secondary">
-        Painting Projects</span>
+      title: About<span class="text-secondary"> Moorhouse Coating</span>
       subtitle: >-
         Professional Painting Contractor with Roots in Park City, Utah. Serving
         the Southwest with Commercial Painting Services.
