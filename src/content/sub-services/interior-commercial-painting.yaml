@@ -1,0 +1,96 @@
+title: Interior Commercial Painting
+seoData:
+  seoTitle: >-
+    Moorhouse Coating – commercial painting contractor serving Park City, Los
+    Angeles, Palm Desert, Phoenix, and St. George
+  seoDesription: >-
+    Enhance your commercial workspace with our professional interior painting
+    service that creates a polished, inviting atmosphere for clients and
+    employees. Our experienced team specializes in efficient, high-quality
+    interior painting tailored to meet the unique needs of commercial spaces,
+    including offices, retail, and hospitality. With premium products and
+    meticulous attention to detail, we deliver durable, attractive finishes that
+    elevate your workspace and reflect your brand’s professionalism.
+  ogImage: /images/seo/interior-commercial-painting/seoData/ogImage.jpeg
+blocks:
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Service
+      title: Interior Commercial Painting
+      description: >
+        Create an inspiring, professional environment with our interior
+        commercial painting service for retail, hospitality, and office spaces.
+        We understand the importance of first impressions and the role a
+        well-designed interior plays in customer experience and employee
+        satisfaction. From vibrant, welcoming colors to subtle, sophisticated
+        tones, our team works with you to select finishes that align with your
+        brand and enhance your space. Every project begins with a thorough
+        consultation to ensure we meet your aesthetic and functional needs,
+        while our experienced painters apply top-quality products that stand up
+        to high-traffic use.
+
+
+        Our team is dedicated to minimizing disruption to your business. We
+        offer flexible scheduling options and maintain clean, orderly workspaces
+        throughout the project. By blending efficiency with meticulous attention
+        to detail, we deliver results that elevate your space with durable,
+        long-lasting finishes. Let us help you refresh your interior with a
+        professional, polished look that enhances your brand and supports a
+        welcoming, productive atmosphere for all who enter.
+  - discriminant: gridGallery
+    value:
+      featuredImage: /images/interior-commercial-painting/blocks/1/value/featuredImage.jpeg
+      galleryImages:
+        - >-
+          /images/interior-commercial-painting/blocks/1/value/galleryImages/0.webp
+        - >-
+          /images/interior-commercial-painting/blocks/1/value/galleryImages/1.jpg
+        - >-
+          /images/interior-commercial-painting/blocks/1/value/galleryImages/2.jpg
+        - >-
+          /images/interior-commercial-painting/blocks/1/value/galleryImages/3.jpeg
+        - >-
+          /images/interior-commercial-painting/blocks/1/value/galleryImages/4.jpeg
+        - >-
+          /images/interior-commercial-painting/blocks/1/value/galleryImages/5.jpeg
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            We chose Moorhouse Coating to paint the exterior of our home, and we
+            couldn’t be more pleased. The team was efficient, respectful, and
+            paid attention to every detail. The finished product is stunning,
+            and it’s clear that they take pride in their work. Highly recommend
+            them for any exterior painting needs.
+          author: >-
+            /images/interior-commercial-painting/blocks/2/value/testimonials/0/author.svg
+          authorName: Michael
+          authorpost: Heber City
+        - rating: 5
+          cardText: >-
+            I recommend Moorhouse, the project involved extensive surface
+            preparation, specialty coatings, and complex scheduling to avoid
+            disrupting our operations. The team managed everything seamlessly,
+            and the final result was a beautifully finished space that enhances
+            both our productivity and safety. We were particularly impressed
+            with their attention to detail and ability to work around our
+            operational needs.
+          author: >-
+            /images/interior-commercial-painting/blocks/2/value/testimonials/1/author.svg
+          authorName: David
+          authorpost: Palm Desert
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating painted several areas of our shopping mall,
+            including common areas and exterior facades. Their team was
+            professional and efficient, ensuring minimal disruption to shoppers
+            and tenants. The mall looks fantastic, and the paint job has really
+            enhanced the overall appearance of the property. We highly recommend
+            them for any large-scale commercial project.
+          author: >-
+            /images/interior-commercial-painting/blocks/2/value/testimonials/2/author.svg
+          authorName: Michelle
+          authorpost: Retail Property Manager
