@@ -73,10 +73,10 @@ blocks:
             painting services designed to withstand harsh conditions and heavy
             use.
       banner:
-        title: Have a Special Request? We’re Up For It!
+        title: Ready to learn more?
         button:
-          text: Commercial Painting
-          slug: https://calendly.com/moorhousecoating/onsite-estimate
+          text: Learn more
+          slug: /services
   - discriminant: twoColumn
     value:
       cardWithImage:
@@ -93,17 +93,17 @@ blocks:
             text: Learn more
             slug: exterior-house-painting-services
         - title: Interior House Painting
-          description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint.\nNo matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
+          description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint. No matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
           image: /images/home/blocks/3/value/cardWithImage/1/image.png
           Button:
             text: Learn more
             slug: /interior-house-painting-services
         - title: Commercial Painting
           description: >-
-            Knowledgeable, professional and experienced, Moorhouse Coating
+            Knowledgeable, professional, and experienced, Moorhouse Coating
             provides superior commercial painting services at an affordable
             rate. We specialize in delivering quality painting that makes your
-            business look great, while minimizing disruption to your normal
+            business look great while minimizing disruption to your normal
             operations.
           image: /images/home/blocks/3/value/cardWithImage/2/image.png
           Button:
@@ -135,8 +135,8 @@ blocks:
         - /images/home/blocks/4/value/galleryImages/6.jpeg
   - discriminant: whatToExpect
     value:
-      pretitle: Professional Commercial & Residential Painting
-      heading: What To Expect When You Hire Moorhouse Coating
+      pretitle: The Moorhouse Advantage
+      heading: What To Expect When You Choose Moorhouse Coating
       cards:
         - cardIcon: /images/home/blocks/5/value/cards/0/cardIcon.svg
           cardText: Effective Communication Throughout The Process
@@ -150,9 +150,9 @@ blocks:
         - cardIcon: /images/home/blocks/5/value/cards/2/cardIcon.svg
           cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
-            Our 20+ years experience in the painting, has shown us nearly every
-            possible situation. Moorhouse Coating handles your paint job in the
-            most efficient, professional way possible.
+            With over 20 years in business, we have seen nearly every possible
+            situation. Moorhouse Coating handles your paint job in the most
+            efficient, professional way possible.
   - discriminant: industrialPainting
     value:
       title: Commercial <span class="text-helper">Painting</span> Services
@@ -319,7 +319,7 @@ blocks:
             and the final result was a beautifully finished space that enhances
             both our productivity and safety. We were particularly impressed
             with their attention to detail and ability to work around our
-            operational needs."
+            operational needs.
           author: /images/home/blocks/8/value/testimonials/3/author.svg
           authorName: David
           authorpost: Palm Desert
