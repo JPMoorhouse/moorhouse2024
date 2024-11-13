@@ -35,179 +35,186 @@ blocks:
   - discriminant: subServiceCards
     value:
       cards:
-        - title: Interior & Exterior Painting
+        - title: Exterior Painting
           description: >-
-            Transform your commercial space with expert interior and exterior
-            painting that enhances both aesthetics and durability.
+            Enhance your building’s exterior with our expert exterior painting
+            service, designed to improve durability and protect against the
+            elements.
           image: >-
             /images/commercial-painting-services/blocks/1/value/cards/0/image.svg
+        - title: Interior Painting
+          description: >-
+            Transform your commercial space with our expert interior painting
+            service that enhances both aesthetics and durability.
+          image: >-
+            /images/commercial-painting-services/blocks/1/value/cards/1/image.svg
         - title: Wall Covering Installation
           description: >-
             Elevate your workspace with professional wall covering installation
             that combines style and function.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/1/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/2/image.svg
         - title: Electrostatic Spray Painting
           description: >-
             Revitalize your metal surfaces with commercial electrostatic spray
             painting, delivering a smooth, durable finish that looks like new.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/2/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/3/image.svg
         - title: Metal Refinishing
           description: >-
             Restore and protect your metal surfaces with expert commercial metal
             refinishing, giving them a refreshed look and extended life.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/3/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/4/image.svg
         - title: Waterproofing & Sealing
           description: >-
             Protect your commercial property with professional waterproofing and
             sealing that guards against moisture and extends the life of your
             surfaces.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/4/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/5/image.svg
         - title: Caulking
           description: >-
             Ensure your building's integrity with expert commercial caulking
             that seals gaps and prevents leaks for lasting protection.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/5/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/6/image.svg
         - title: Wood Restoration & Refinishing
           description: >-
             Revive the beauty of your wood surfaces with professional commercial
             wood restoration and refinishing that preserves their character and
             extends their lifespan.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/6/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/7/image.svg
         - title: Floor Preparation
           description: >-
             Prepare your floors for lasting success with expert commercial floor
             preparation that ensures a flawless foundation for any finish.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/7/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/8/image.svg
         - title: Concrete Repair & Coating
           description: >-
             Restore and protect your concrete surfaces with expert commercial
             concrete repair and coating, enhancing both durability and
             appearance.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/8/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/9/image.svg
         - title: Expansion Joint Repair
           description: >-
             Ensure the longevity and safety of your structure with expert
             commercial expansion joint repair that accommodates movement and
             prevents damage. 
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/9/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/10/image.svg
         - title: Epoxy Flooring
           description: >-
             Transform your commercial space with durable and stylish epoxy
             flooring that resists wear and enhances aesthetics.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/10/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/11/image.svg
         - title: Urethane Coatings
           description: >-
             Enhance the durability and appearance of your commercial surfaces
             with high-quality urethane coatings that offer superior protection
             and a sleek finish.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/11/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/12/image.svg
         - title: Polyaspartic Coating
           description: >-
             Upgrade your commercial floors with polyaspartic coating, delivering
             unmatched durability and a stunning finish that stands up to heavy
             use.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/12/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/13/image.svg
         - title: 100% Solids
           description: >-
             Experience superior durability with our 100% solids commercial
             coatings, offering a high-performance, long-lasting finish without
             the need for solvents.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/13/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/14/image.svg
         - title: Floor Safety Coatings
           description: >-
             Enhance safety in your commercial space with specialized floor
             safety coatings that provide slip resistance and durability.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/14/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/15/image.svg
         - title: Corrosion Control
           description: >-
             Protect your commercial assets with expert corrosion control
             services that safeguard against rust and deterioration.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/15/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/16/image.svg
         - title: Liquid Insulation
           description: >-
             Boost energy efficiency and protect your commercial assets with
             advanced liquid insulation that provides seamless coverage and
             superior thermal performance.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/16/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/17/image.svg
         - title: Media Blasting
           description: >-
             Revitalize your surfaces with precision media blasting, effectively
             removing old coatings and contaminants for a clean, smooth finish.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/17/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/18/image.svg
         - title: Instrument Coatings
           description: >-
             Protect and enhance your equipment with specialized commercial
             instrument coatings that offer durability and precision. 
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/18/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/19/image.svg
         - title: Tuck Pointing
           description: >-
             Revitalize your masonry with expert tuck pointing that repairs and
             reinforces mortar joints for lasting strength and a refreshed
             appearance.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/19/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/20/image.svg
         - title: Marine Coatings
           description: >-
             Protect your marine assets with specialized commercial marine
             coatings that resist harsh elements and extend the life of your
             vessels.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/20/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/21/image.svg
         - title: Graffiti Removal and Anti-Graffiti Coatings
           description: >-
             Keep your property looking pristine with expert graffiti removal and
             anti-graffiti coatings that protect surfaces from future damage.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/21/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/22/image.svg
         - title: Pressure Washing and Surface Preparation
           description: >-
             Achieve a spotless finish with professional pressure washing and
             surface preparation that removes dirt, grime, and old coatings.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/22/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/23/image.svg
         - title: Custom Murals and Decorative Painting
           description: >-
             Transform your space with stunning custom murals and decorative
             painting that reflect your brand’s personality and vision.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/23/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/24/image.svg
         - title: Historic Building Restoration
           description: >-
             Preserve the charm and integrity of your historic property with
             expert restoration services that honor its original craftsmanship.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/24/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/25/image.svg
         - title: Texture Coating
           description: >-
             Enhance your commercial surfaces with texture coating that adds
             depth, durability, and a unique finish to any space.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/25/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/26/image.svg
         - title: High-Durability Coating
           description: >-
             Protect your commercial surfaces with specialized coatings that are
             designed to withstand harsh environments, heavy wear, and industrial
             conditions.
           image: >-
-            /images/commercial-painting-services/blocks/1/value/cards/26/image.svg
+            /images/commercial-painting-services/blocks/1/value/cards/27/image.svg
   - discriminant: industrialPainting
     value:
       title: Industrial <span class="text-secondary">Painting</span> Services
