@@ -120,7 +120,7 @@ blocks:
       bgImage: /images/interior-house-painting-services/blocks/2/value/bgImage.jpg
       Button:
         label: Learn more
-        link: /exterior-house-painting-services
+        link: /services/exterior-house-painting-services
   - discriminant: testimonials
     value:
       pretitle: Customer Testimonials
