@@ -136,6 +136,8 @@ blocks:
         - /images/home/blocks/4/value/galleryImages/6.jpeg
         - /images/home/blocks/4/value/galleryImages/7.JPG
         - /images/home/blocks/4/value/galleryImages/8.jpeg
+        - /images/home/blocks/4/value/galleryImages/9.jpg
+        - /images/home/blocks/4/value/galleryImages/10.jpg
   - discriminant: whatToExpect
     value:
       pretitle: The Moorhouse Advantage
