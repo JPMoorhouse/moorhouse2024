@@ -83,14 +83,6 @@ blocks:
             /images/exterior-commercial-painting/blocks/2/value/testimonials/1/author.svg
           authorName: David
           authorpost: Palm Desert
-        - rating: 3
-          cardText: >-
-            We hired Moorhouse Coating to stain the exterior of our house, and
-            the team was punctual, professional, and meticulous. Took more time
-            to prepare the surfaces properly, and the new stain has completely
-            transformed our home. Compliments from neighbors! 
-          authorName: Stan
-          authorpost: Park City
         - rating: 5
           cardText: >-
             Moorhouse Coating painted several areas of our shopping mall,
@@ -100,6 +92,14 @@ blocks:
             enhanced the overall appearance of the property. We highly recommend
             them for any large-scale commercial project. 
           author: >-
-            /images/exterior-commercial-painting/blocks/2/value/testimonials/3/author.svg
+            /images/exterior-commercial-painting/blocks/2/value/testimonials/2/author.svg
           authorName: Michelle
           authorpost: Retail Property Manager
+        - rating: 3
+          cardText: >-
+            We hired Moorhouse Coating to stain the exterior of our house, and
+            the team was punctual, professional, and meticulous. Took more time
+            to prepare the surfaces properly, and the new stain has completely
+            transformed our home. Compliments from neighbors! 
+          authorName: Stan
+          authorpost: Park City
