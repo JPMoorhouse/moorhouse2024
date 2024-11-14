@@ -8,6 +8,7 @@ seoData:
     use top-tier products and techniques tailored to withstand the Southwest
     climate, ensuring beautiful, lasting results for homes, businesses, and
     industrial facilities.
+  ogImage: /images/seo/projects/seoData/ogImage.jpg
 blocks:
   - discriminant: heroWithBanner
     value:
