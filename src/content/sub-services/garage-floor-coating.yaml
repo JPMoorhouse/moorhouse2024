@@ -1,0 +1,85 @@
+title: Garage Floor Coating
+seoData:
+  seoTitle: Moorhouse Coating professional garage floor coating service
+  seoDesription: >-
+    Protect and enhance your garage floor with our professional floor coating
+    service, designed for durability and style. Our high-quality epoxy and
+    polyaspartic floor coatings provide a seamless, slip-resistant finish that
+    resists stains, chemicals, and wear. Our professional floor coating service
+    will transform your garage into a clean, polished space. With expert
+    application and long-lasting results, our garage floor coatings are the
+    perfect upgrade for your home.
+blocks:
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Service
+      title: Garage Floor Coating
+      description: >
+        Elevate your garage with our premium floor coating services. Our
+        high-quality epoxy and polyaspartic coatings create a seamless, glossy
+        finish that transforms your garage into a clean, stylish, and functional
+        space. With advanced formulations that resist stains, chemicals, and
+        daily wear, these coatings provide long-lasting protection and a refined
+        look that complements your luxury home.
+
+
+        Our team takes a meticulous approach to every step of the coating
+        process. From surface preparation to precise application, we ensure
+        flawless results that are both visually appealing and built to last.
+        With flexible scheduling and expert craftsmanship, we make it easy to
+        turn your garage into a polished extension of your home, combining
+        aesthetics with durability to meet the unique needs of homeowners.
+
+
+        \
+  - discriminant: gridGallery
+    value:
+      featuredImage: /images/garage-floor-coating/blocks/1/value/featuredImage.jpg
+      galleryImages:
+        - /images/garage-floor-coating/blocks/1/value/galleryImages/0.jpg
+        - /images/garage-floor-coating/blocks/1/value/galleryImages/1.JPG
+        - /images/garage-floor-coating/blocks/1/value/galleryImages/2.jpg
+        - /images/garage-floor-coating/blocks/1/value/galleryImages/3.jpg
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            We chose Moorhouse Coating to paint the exterior of our home, and we
+            couldn’t be more pleased. The team was efficient, respectful, and
+            paid attention to every detail. The finished product is stunning,
+            and it’s clear that they take pride in their work. Highly recommend
+            them for any exterior painting needs.
+          authorName: Michael
+          authorpost: Heber City
+        - rating: 5
+          cardText: >-
+            I recently hired Moorhouse Coating for a large commercial project,
+            and I couldn't be more pleased with the outcome. Their team was
+            professional, efficient, and very detail-oriented. They completed
+            the job on time and within budget, and the quality of their work is
+            outstanding. The project manager kept me updated throughout the
+            process, which was very reassuring. I highly recommend Moorhouse
+            Coating for any commercial painting needs.
+          authorName: John D.
+          authorpost: Deer Valley, Summit County Utah
+        - rating: 3
+          cardText: >-
+            We hired Moorhouse Coating to stain the exterior of our house, and
+            the team was punctual, professional, and meticulous. Took more time
+            to prepare the surfaces properly, and the new stain has completely
+            transformed our home. Compliments from neighbors! 
+          authorName: Stan
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating painted several areas of our shopping mall,
+            including common areas and exterior facades. Their team was
+            professional and efficient, ensuring minimal disruption to shoppers
+            and tenants. The mall looks fantastic, and the paint job has really
+            enhanced the overall appearance of the property. We highly recommend
+            them for any large-scale commercial project.
+          authorName: Michelle
+          authorpost: Retail Property Manager
