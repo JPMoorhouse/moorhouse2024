@@ -36,7 +36,7 @@ blocks:
         wear, making your property stand out for all the right reasons.
   - discriminant: gridGallery
     value:
-      featuredImage: /images/exterior-commercial-painting/blocks/1/value/featuredImage.jpg
+      featuredImage: /images/exterior-commercial-painting/blocks/1/value/featuredImage.jpeg
       galleryImages:
         - >-
           /images/exterior-commercial-painting/blocks/1/value/galleryImages/0.JPG
