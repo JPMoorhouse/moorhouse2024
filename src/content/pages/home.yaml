@@ -9,6 +9,7 @@ seoData:
     expert residential, commercial, and industrial painting services,
     transforming spaces with quality, precision, and professionalism. Serving
     businesses in Park City, Palm Desert, Phoenix, Los Angeles, and St. George.
+  ogImage: /images/seo/home/seoData/ogImage.jpg
 blocks:
   - discriminant: hero
     value:
