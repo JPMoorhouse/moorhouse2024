@@ -18,10 +18,12 @@ OurServices:
   - label: Exterior House Painting
     link: >-
       https://moorhousecoating.com/services/exterior-house-painting-services/exterior-house-painting/
-  - label: Commercial Painting Services
-    link: https://moorhousecoating.com/services/commercial-painting-services/
-  - label: Industrial Painting Services
-    link: https://moorhousecoating.com/services/industrial-painting-services/
+  - label: Exterior Commercial Painting
+    link: >-
+      https://moorhousecoating.com/services/commercial-painting-services/exterior-commercial-painting/
+  - label: Interior Commercial Painting
+    link: >-
+      https://moorhousecoating.com/services/commercial-painting-services/interior-commercial-painting/
 OpeningHours:
   openHours: ' Monday-Friday 6AM - 6PM'
   openDays: Saturday 9AM- 4PM Sunday Closed
