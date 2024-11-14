@@ -6,8 +6,10 @@ seoData:
     exterior house painting services. Our skilled painters use premium,
     weather-resistant products to protect and beautify your home’s exterior,
     providing a long-lasting finish that adds value and style.
+  ogImage: /images/seo/exterior-house-painting-services/seoData/ogImage.jpg
 subService:
   - exterior-house-painting
+  - garage-floor-coating
 blocks:
   - discriminant: twoColumnWithTitle
     value:
@@ -52,6 +54,7 @@ blocks:
             and unbeatable protection
           image: >-
             /images/exterior-house-painting-services/blocks/1/value/cards/1/image.svg
+          link: garage-floor-coating
         - title: Deck and Fence Painting
           description: >-
             Refresh your outdoor spaces with our expert deck and fence painting
