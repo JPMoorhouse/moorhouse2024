@@ -29,9 +29,6 @@ blocks:
         With flexible scheduling and expert craftsmanship, we make it easy to
         turn your garage into a polished extension of your home, combining
         aesthetics with durability to meet the unique needs of homeowners.
-
-
-        \
   - discriminant: gridGallery
     value:
       featuredImage: /images/garage-floor-coating/blocks/1/value/featuredImage.jpg
@@ -52,6 +49,8 @@ blocks:
             paid attention to every detail. The finished product is stunning,
             and it’s clear that they take pride in their work. Highly recommend
             them for any exterior painting needs.
+          author: >-
+            /images/garage-floor-coating/blocks/2/value/testimonials/0/author.svg
           authorName: Michael
           authorpost: Heber City
         - rating: 5
@@ -63,6 +62,8 @@ blocks:
             outstanding. The project manager kept me updated throughout the
             process, which was very reassuring. I highly recommend Moorhouse
             Coating for any commercial painting needs.
+          author: >-
+            /images/garage-floor-coating/blocks/2/value/testimonials/1/author.svg
           authorName: John D.
           authorpost: Deer Valley, Summit County Utah
         - rating: 3
@@ -71,6 +72,8 @@ blocks:
             the team was punctual, professional, and meticulous. Took more time
             to prepare the surfaces properly, and the new stain has completely
             transformed our home. Compliments from neighbors! 
+          author: >-
+            /images/garage-floor-coating/blocks/2/value/testimonials/2/author.svg
           authorName: Stan
           authorpost: Park City
         - rating: 5
@@ -81,5 +84,7 @@ blocks:
             and tenants. The mall looks fantastic, and the paint job has really
             enhanced the overall appearance of the property. We highly recommend
             them for any large-scale commercial project.
+          author: >-
+            /images/garage-floor-coating/blocks/2/value/testimonials/3/author.svg
           authorName: Michelle
           authorpost: Retail Property Manager
