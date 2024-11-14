@@ -50,6 +50,10 @@ blocks:
           /images/exterior-commercial-painting/blocks/1/value/galleryImages/4.jpg
         - >-
           /images/exterior-commercial-painting/blocks/1/value/galleryImages/5.jpeg
+        - >-
+          /images/exterior-commercial-painting/blocks/1/value/galleryImages/6.JPG
+        - >-
+          /images/exterior-commercial-painting/blocks/1/value/galleryImages/7.jpeg
   - discriminant: testimonials
     value:
       pretitle: Customer Testimonials
