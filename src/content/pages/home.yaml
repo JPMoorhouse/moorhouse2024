@@ -24,7 +24,7 @@ blocks:
   - discriminant: aboutmoorhouse
     value:
       pretitle: Welcome to Moorhouse Coating
-      sectionTitle: Proudly Serving the Southwest United States
+      sectionTitle: Painting the Southwest, One Brushstroke at a Time
       card:
         title: About Moorhouse Coating
         description: >
@@ -44,8 +44,7 @@ blocks:
           commercial space, Moorhouse Coating brings a blend of expertise,
           top-tier products, and innovative techniques to each project. Our
           commitment to excellence and customer satisfaction has helped us
-          transform properties with elegance and precision, one brushstroke at a
-          time.
+          transform properties with elegance and precision.
         image: /images/home/blocks/1/value/card/image.JPG
         Button: {}
   - discriminant: whatWeOffer
