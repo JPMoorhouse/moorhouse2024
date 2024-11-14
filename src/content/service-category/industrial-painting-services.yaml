@@ -16,8 +16,7 @@ blocks:
       pretitle: Services
       title: Industrial Painting & Coating Services
       cards:
-        - title: Industrial Painting Services
-          description: >
+        - description: >
             When planning and executing an industrial painting project, several
             critical factors come into play. These include the type of substrate
             material, the level of chemical exposure, prevailing atmospheric
