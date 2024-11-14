@@ -42,9 +42,9 @@ blocks:
       featuredImage: /images/interior-commercial-painting/blocks/1/value/featuredImage.jpeg
       galleryImages:
         - >-
-          /images/interior-commercial-painting/blocks/1/value/galleryImages/0.webp
+          /images/interior-commercial-painting/blocks/1/value/galleryImages/0.jpg
         - >-
-          /images/interior-commercial-painting/blocks/1/value/galleryImages/1.jpg
+          /images/interior-commercial-painting/blocks/1/value/galleryImages/1.webp
         - >-
           /images/interior-commercial-painting/blocks/1/value/galleryImages/2.jpg
         - >-
