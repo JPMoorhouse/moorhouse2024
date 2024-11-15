@@ -1,0 +1,80 @@
+title: Moorhouse Coating Wood Staining Service
+seoData:
+  seoTitle: Moorhouse Coating professional wood staining service
+  seoDesription: >-
+    Let Moorhouse Coating enhance the beauty and longevity of your home’s wood
+    surfaces with our professional wood staining services. Ideal for decks,
+    fences, doors, and interior woodwork, our staining service brings out the
+    natural grain and color while providing a durable layer of protection
+    against the elements. Our team uses premium products and techniques to
+    deliver stunning, long-lasting results that enrich your home's appearance
+    and value.
+  ogImage: /images/seo/wood-staining/seoData/ogImage.jpg
+blocks:
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Service
+      title: Wood Staining
+      description: >
+        Let Moorhouse Coating bring out the natural beauty of your wood surfaces
+        with our professional wood staining service. Our staining treatments
+        enhance the wood’s rich texture and color while providing a protective
+        barrier against the elements. Whether for outdoor decks, fences, gates,
+        doors, or interior wood features, we use premium products to preserve
+        the beauty of your woodwork, ensuring a finish that enhances the value
+        of your home.
+
+
+        We understand the expectations of homeowners and property managers, and
+        our approach combines meticulous preparation with expert application for
+        stunning, long-lasting results. Each project begins with a thorough
+        assessment to choose the ideal stain and technique for your wood’s
+        specific type and exposure. With a focus on precision, durability, and
+        minimal disruption to your home, our wood staining services offer the
+        luxurious look and protection your home deserves.
+  - discriminant: gridGallery
+    value:
+      featuredImage: /images/wood-staining/blocks/1/value/featuredImage.jpg
+      galleryImages:
+        - /images/wood-staining/blocks/1/value/galleryImages/0.JPG
+        - /images/wood-staining/blocks/1/value/galleryImages/1.jpg
+        - /images/wood-staining/blocks/1/value/galleryImages/2.jpg
+        - /images/wood-staining/blocks/1/value/galleryImages/3.jpg
+        - /images/wood-staining/blocks/1/value/galleryImages/4.jpg
+        - /images/wood-staining/blocks/1/value/galleryImages/5.JPG
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            We chose Moorhouse Coating to paint the exterior of our home, and we
+            couldn’t be more pleased. The team was efficient, respectful, and
+            paid attention to every detail. The finished product is stunning,
+            and it’s clear that they take pride in their work. Highly recommend
+            them for any exterior painting needs.
+          author: /images/wood-staining/blocks/2/value/testimonials/0/author.svg
+          authorName: Michael
+          authorpost: Heber City
+        - rating: 5
+          cardText: >-
+            We hired Moorhouse Coating to stain the exterior of our house, and
+            the team was punctual, professional, and meticulous. Took more time
+            to prepare the surfaces properly, and the new stain has completely
+            transformed our home. Compliments from neighbors!
+          author: /images/wood-staining/blocks/2/value/testimonials/1/author.svg
+          authorName: Stan
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            I recommend Moorhouse, the project involved extensive surface
+            preparation, specialty coatings, and complex scheduling to avoid
+            disrupting our operations. The team managed everything seamlessly,
+            and the final result was a beautifully finished space that enhances
+            both our productivity and safety. We were particularly impressed
+            with their attention to detail and ability to work around our
+            operational needs.
+          author: /images/wood-staining/blocks/2/value/testimonials/2/author.svg
+          authorName: David
+          authorpost: Palm Desert
