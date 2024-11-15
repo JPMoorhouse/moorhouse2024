@@ -36,22 +36,21 @@ blocks:
         resort community. With a vision of making residential and commercial
         painting services easier and more convenient for property owners and
         commercial managers.
-  - discriminant: twoColumn
-    value:
-      cardWithImage:
-        - description: >-
-            Today,  Moorhouse Coating is a premier painting contractor in the
-            Southwest, with a reputation for excellent craftsmanship and
-            customer service. Moorhouse specializes in painting, staining, and
-            coating services for properties throughout the Southwest. From the
-            extreme heat in Palm Desert to the wet winters in Park City, we have
-            experience serving communities with unique weather challenges.
-            Moorhouse Coating focuses on providing complete satisfaction in
-            everything we do.  Our reputation is about ensuring a reliable
-            successful painting project. Moorhouse Coating is locally owned and
-            operated. There are no subsidiaries, affiliates, or franchises.
-          image: /images/about/blocks/2/value/cardWithImage/0/image.jpg
-          Button: {}
+
+
+        <br/>
+
+
+        Today,  Moorhouse Coating is a premier painting contractor in the
+        Southwest, with a reputation for excellent craftsmanship and customer
+        service. Moorhouse specializes in painting, staining, and coating
+        services for properties throughout the Southwest. From the extreme heat
+        in Palm Desert to the wet winters in Park City, we have experience
+        serving communities with unique weather challenges. Moorhouse Coating
+        focuses on providing complete satisfaction in everything we do.  Our
+        reputation is about ensuring a reliable successful painting project.
+        Moorhouse Coating is locally owned and operated. There are no
+        subsidiaries, affiliates, or franchises.
   - discriminant: coreValues
     value:
       pretitle: Moorhouse Core Values
@@ -60,23 +59,23 @@ blocks:
         These core values help us achieve success with every project and ensures
         our customers are always satisfied with the end result.
       coreValues:
-        - icon: /images/about/blocks/3/value/coreValues/0/icon.png
+        - icon: /images/about/blocks/2/value/coreValues/0/icon.png
           title: Deliver More than you Promised
           description: >-
             The promises made to our customers is always a top priority.
             Ensuring the project is completed on time, within budget, and meets
             your quality standards is our number one goal.
-        - icon: /images/about/blocks/3/value/coreValues/1/icon.png
+        - icon: /images/about/blocks/2/value/coreValues/1/icon.png
           title: Professional and Respectful
           description: >-
             It’s important for all Moorhouse employees, customers and suppliers
             to feel valued and respected throughout every interaction.
-        - icon: /images/about/blocks/3/value/coreValues/2/icon.png
+        - icon: /images/about/blocks/2/value/coreValues/2/icon.png
           title: We Take Pride in our Craftmanship
           description: >-
             While working on your home or business our painters pay attention to
             the finest details, giving every space the attention it deserves.
-        - icon: /images/about/blocks/3/value/coreValues/3/icon.png
+        - icon: /images/about/blocks/2/value/coreValues/3/icon.png
           title: Always Striving to Improve
           description: >-
             We are always thinking about ways to improve your experience with
@@ -97,46 +96,46 @@ blocks:
         - Los Angeles, California
         - Phoenix, Arizona
         - St. George, Utah
-      mapImage: /images/about/blocks/4/value/mapImage.png
+      mapImage: /images/about/blocks/3/value/mapImage.png
   - discriminant: whatToExpect
     value:
       pretitle: The Moorhouse Advantage
       heading: What To Expect When You Hire Moorhouse Coating
       cards:
-        - cardIcon: /images/about/blocks/5/value/cards/0/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/0/cardIcon.svg
           cardText: Experienced Team
           cardDescription: >-
             Our painters have years of experience in residential, commercial,
             and industrial projects, ensuring a flawless finish every time.
-        - cardIcon: /images/about/blocks/5/value/cards/1/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/1/cardIcon.svg
           cardText: Effective Communication Throughout The Process
           cardDescription: >-
             The Key to a successful project is found in good communication. As a
             licensed painting contractor, we have years of experience performing
             quality commercial and residential painting projects.
-        - cardIcon: /images/about/blocks/5/value/cards/2/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/2/cardIcon.svg
           cardText: We Value Integrity <br/> & Honesty
           cardDescription: >-
             To Paint with integrity we must be open and forthright, even when
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
-        - cardIcon: /images/about/blocks/5/value/cards/3/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/3/cardIcon.svg
           cardText: Over 20+ Years <br/> Experience
           cardDescription: >-
             Our 20+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
-        - cardIcon: /images/about/blocks/5/value/cards/4/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/4/cardIcon.svg
           cardText: Quality Materials
           cardDescription: >-
             We use only premium paints and materials, including eco-friendly
             options, to deliver results that last.
-        - cardIcon: /images/about/blocks/5/value/cards/5/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/5/cardIcon.svg
           cardText: Customer Satisfaction
           cardDescription: >-
             Our commitment to customer service means we go above and beyond to
             make your painting experience smooth and hassle-free.
-        - cardIcon: /images/about/blocks/5/value/cards/6/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/6/cardIcon.svg
           cardText: Licensed & Insured
           cardDescription: >-
             We’re a fully licensed and insured painting company, giving you
@@ -245,7 +244,7 @@ blocks:
             delivered a top-notch paint job. Our house looks better than ever,
             and the paint has held up beautifully through the seasons. Great
             value for the money!
-          author: /images/about/blocks/7/value/testimonials/0/author.svg
+          author: /images/about/blocks/6/value/testimonials/0/author.svg
           authorName: Michael
           authorpost: Park City
         - rating: 5
@@ -255,14 +254,14 @@ blocks:
             for sale. The new paint job really added to the curb appeal, and we
             were able to sell our home quickly. We would definitely recommend
             them to anyone needing painting services in the Park City area.
-          author: /images/about/blocks/7/value/testimonials/1/author.svg
+          author: /images/about/blocks/6/value/testimonials/1/author.svg
           authorName: Steve
           authorpost: Park City
         - rating: 4
           cardText: >-
             The crew was respectful, clean, and did a flawless job. They even
             helped us pick the perfect colors. We’d definitely use them again.
-          author: /images/about/blocks/7/value/testimonials/2/author.svg
+          author: /images/about/blocks/6/value/testimonials/2/author.svg
           authorName: 'Chris '
           authorpost: Deer Valley
         - rating: 5
@@ -270,6 +269,6 @@ blocks:
             We chose Moorhouse Coating for their reasonable pricing and strong
             reputation. They delivered excellent results, and our house looks
             better than ever. Great value for the money!
-          author: /images/about/blocks/7/value/testimonials/3/author.svg
+          author: /images/about/blocks/6/value/testimonials/3/author.svg
           authorName: Erik
           authorpost: Midway
