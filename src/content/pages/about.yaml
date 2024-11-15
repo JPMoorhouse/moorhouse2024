@@ -40,13 +40,9 @@ blocks:
 
         Moorhouse Painting focuses on providing complete satisfaction.&nbsp;
         Everything we do, our reputation is about ensuring a reliable successful
-        painting project.\
-
-        \
-
-        Moorhouse Coating is not a franchise, it is locally owned and
-        operated.&nbsp; There are no subsidiary, no affiliates, or franchise
-        network.&nbsp;
+        painting project. Moorhouse Coating is not a franchise, it is locally
+        owned and operated.&nbsp; There are no subsidiary, no affiliates, or
+        franchise network.&nbsp;
   - discriminant: coreValues
     value:
       pretitle: Moorhouse Core Values
@@ -82,8 +78,8 @@ blocks:
       pretitle: Locations
       title: Proudly Serving the Southwest
       description: >-
-        Moorhouse Coating has been proudly serving the Southwest United States
-        for over 20 years with locations in Utah, Arizona, and California.
+        Moorhouse Coating has been serving the Southwest United States for over
+        20 years with locations in Utah, Arizona, and California.
       phone: 1-855-666-2628
       email: info@moorhousecoating.com
       locations:
@@ -95,45 +91,47 @@ blocks:
       mapImage: /images/about/blocks/3/value/mapImage.png
   - discriminant: whatToExpect
     value:
-      pretitle: Professional Commercial & Residential Painting
+      pretitle: The Moorhouse Advantage
       heading: What To Expect When You Hire Moorhouse Coating
       cards:
         - cardIcon: /images/about/blocks/4/value/cards/0/cardIcon.svg
+          cardText: Experienced Team
+          cardDescription: >-
+            Our painters have years of experience in residential, commercial,
+            and industrial projects, ensuring a flawless finish every time.
+        - cardIcon: /images/about/blocks/4/value/cards/1/cardIcon.svg
           cardText: Effective Communication Throughout The Process
           cardDescription: >-
             The Key to a successful project is found in good communication. As a
             licensed painting contractor, we have years of experience performing
             quality commercial and residential painting projects.
-        - cardIcon: /images/about/blocks/4/value/cards/1/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/2/cardIcon.svg
           cardText: We Value Integrity <br/> & Honesty
           cardDescription: >-
             To Paint with integrity we must be open and forthright, even when
             its difficult. Open, truthful conversations create opportunities for
             better analysis and future decisions.
-        - cardIcon: /images/about/blocks/4/value/cards/2/cardIcon.svg
+        - cardIcon: /images/about/blocks/4/value/cards/3/cardIcon.svg
           cardText: Over 20+ Years <br/> Experience
           cardDescription: >-
             Our 20+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
-        - cardIcon: /images/about/blocks/4/value/cards/3/cardIcon.svg
-          cardText: Effective Communication Throughout The Process
-          cardDescription: >-
-            The Key to a successful project is found in good communication. As a
-            licensed painting contractor, we have years of experience performing
-            quality for commercial and residential clients.
         - cardIcon: /images/about/blocks/4/value/cards/4/cardIcon.svg
-          cardText: We Value Integrity <br/> & Honesty
+          cardText: Quality Materials
           cardDescription: >-
-            To Paint with integrity we must be open and forthright, even when
-            its difficult. Open, truthful conversations create opportunities for
-            better analysis and future decisions.
+            We use only premium paints and materials, including eco-friendly
+            options, to deliver results that last.
         - cardIcon: /images/about/blocks/4/value/cards/5/cardIcon.svg
-          cardText: Over 25+ Years <br/> Experience
+          cardText: Customer Satisfaction
           cardDescription: >-
-            Our 25+ years experience in the painting, has shown us nearly every
-            possible situation. Moorhouse handles your paint job in the most
-            efficient, professional way possible.   
+            Our commitment to customer service means we go above and beyond to
+            make your painting experience smooth and hassle-free.
+        - cardIcon: /images/about/blocks/4/value/cards/6/cardIcon.svg
+          cardText: Licensed & Insured
+          cardDescription: >-
+            We’re a fully licensed and insured painting company, giving you
+            peace of mind with every project.
   - discriminant: frequentlyAskedQuestions
     value:
       pretitle: You`ve got questions, we`ve got answers
