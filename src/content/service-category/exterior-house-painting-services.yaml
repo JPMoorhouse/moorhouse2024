@@ -10,6 +10,7 @@ seoData:
 subService:
   - exterior-house-painting
   - garage-floor-coating
+  - wood-staining
 blocks:
   - discriminant: twoColumnWithTitle
     value:
@@ -97,6 +98,7 @@ blocks:
             the grain and add a touch of elegance.
           image: >-
             /images/exterior-house-painting-services/blocks/1/value/cards/7/image.svg
+          link: wood-staining
         - title: Color Consultation
           description: >-
             Unsure which colors will bring out the best in your home? Our expert
