@@ -144,14 +144,15 @@ blocks:
             We can handle both interior and exterior projects.
         - title: How do you ensure minimal disruption to our business operations?
           answer: >-
-            We work closely with you to create a schedule that minimizes
-            disruption, often working during off-hours or weekends. Our team is
-            efficient and mindful of your business needs.
-        - title: What kind of paint do you use for commercial projects?
+            We work closely with you to develop a schedule that minimizes
+            disruption. This may include working during off-hours, weekends, or
+            coordinating with your business operations to ensure that our work
+            does not interfere with your daily activities.
+        - title: What types of paints and coatings do you use?
           answer: >-
-            We use high-quality, durable paints that are specifically designed
-            for commercial use. These paints are often low-VOC, quick-drying,
-            and resistant to wear and tear, ensuring long-lasting results.
+            We use high-quality paints and coatings suited to the specific needs
+            of the project. This includes premium products that meet the
+            requirements for safety, aesthetics, and durability.
         - title: How do you prepare surfaces for painting?
           answer: >-
             Proper surface preparation is key to a successful paint job. We
@@ -159,22 +160,22 @@ blocks:
             and paint. This ensures a smooth, long-lasting finish.
         - title: Do you offer warranties on your work?
           answer: >-
-            Yes, we offer warranties on our commercial painting services. The
-            specifics of the warranty depend on the project scope and materials
-            used, but we stand by the quality of our work. Typically we offer 1,
-            2 and 3 year warranties and also 10 year maintenance plans
-        - title: How do you handle safety on the job site?
+            Yes, we offer warranties on both labor and materials. The specific
+            terms of the warranty will be outlined in your contract, and we
+            stand behind the quality of our work to ensure your satisfaction.
+        - title: What safety measures do you implement on the job site?
           answer: >-
-            Safety is a top priority. Our crew is trained in safety protocols,
-            and we adhere to all OSHA regulations. We also carry full insurance
-            coverage to protect both our team and your property.
+            Safety is a top priority for us. We follow all OSHA regulations and
+            industry standards to ensure a safe working environment. This
+            includes using proper safety gear, conducting regular safety
+            training, and maintaining safety protocols on-site.
         - title: What is your process for color selection and design?
           answer: >-
             We can assist with color selection and design to ensure your
             commercial space reflects your brand and aesthetic. Our experts can
             provide color consultations and samples to help you make the best
             decision.
-        - title: How long will the project take?
+        - title: 'What is the typical timeline for completing a painting project? '
           answer: >-
             The timeline depends on the size and complexity of the project.
             After an initial assessment, we provide a detailed schedule and keep
@@ -192,11 +193,36 @@ blocks:
             Yes, we offer a range of specialty coatings, including eco-friendly,
             low-VOC paints, and fire-resistant coatings. Let us know your
             specific needs, and we’ll tailor our services accordingly.
-        - title: Can you provide references from past commercial projects?
+        - title: Can you provide references from similar projects?
           answer: >-
             Absolutely. We have a portfolio of completed commercial projects and
             can provide references upon request. Our previous clients can speak
             to the quality of our work and professionalism.
+        - title: What payment options do you offer?
+          answer: >-
+            We offer a variety of payment options, including credit cards,
+            checks, and electronic transfers. Payment terms will be detailed in
+            your contract, and we work with you to set up a payment plan that
+            suits the scale of your project.
+        - title: How do you handle large-scale projects?
+          answer: >-
+            We approach large-scale projects with a structured plan that
+            includes detailed project management, scheduling, and coordination.
+            We deploy a team of skilled professionals and use advanced equipment
+            to ensure efficiency and quality. Regular progress updates and site
+            meetings are part of our process to keep everything on track.
+        - title: How do you handle unexpected issues or changes during the project?
+          answer: >-
+            We maintain flexibility and adaptability to address any unexpected
+            issues or changes. Our project managers will work with you to assess
+            the situation, provide solutions, and adjust the project plan as
+            needed to ensure successful completion.
+        - title: How do you manage environmental and regulatory compliance?
+          answer: >-
+            We adhere to all local environmental regulations and industry
+            standards. This includes using eco-friendly paints and coatings when
+            possible, proper disposal of waste materials, and ensuring
+            compliance with all relevant regulations.
   - discriminant: testimonials
     value:
       pretitle: Customer Testimonials
