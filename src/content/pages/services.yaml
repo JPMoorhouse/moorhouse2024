@@ -28,21 +28,18 @@ blocks:
   - discriminant: sectionTitleDescription
     value:
       pretitle: Our Services
-      title: Full Service Painting Contractor
+      title: Full-Service Painting Contractor
       description: >
-        Moorhouse Painting provides a wide range of painting services.&nbsp;
+        Moorhouse Coating provides a wide range of painting services.&nbsp;
         Moorhouse offers custom interior and exterior painting services,
         allowing for a seamless installation experience.&nbsp; Moorhouse offers
         exceptional results in every home and commercial painting project.&nbsp;
         Thinking about refreshing the interior of your home’s walls, bedrooms or
-        bathrooms?&nbsp; The Moorhouse Painting team approaches every painting
-        project with an eye for detail and a complete painting plan.\
-
-        \
-
-        Finding the right team to paint your home or office can feel
-        overwhelming, but with Moorhouse Coating and Painting you’ll have peace
-        of mind and experts that treat your home with the respect it deserves.
+        bathrooms?&nbsp; Our team approaches every painting project with an eye
+        for detail and a complete painting plan. Finding the right team to paint
+        your home or office can feel overwhelming, but with Moorhouse Coating
+        you’ll have peace of mind and experts that treat your home with the
+        respect it deserves.
   - discriminant: twoColumn
     value:
       cardWithImage:
