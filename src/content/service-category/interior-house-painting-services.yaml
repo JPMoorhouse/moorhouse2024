@@ -9,6 +9,7 @@ seoData:
     unique style.
 subService:
   - interior-house-painting
+  - cabinet-painting
 blocks:
   - discriminant: twoColumnWithTitle
     value:
@@ -103,6 +104,7 @@ blocks:
             beautiful finish!
           image: >-
             /images/interior-house-painting-services/blocks/1/value/cards/8/image.svg
+          link: cabinet-painting
         - title: Color Consultation
           description: >-
             Unsure which colors will bring out the best in your home? Our expert
