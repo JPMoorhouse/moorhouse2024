@@ -17,8 +17,8 @@ blocks:
         Residential, Commercial & Industrial <span
         class="text-secondary">Painting</span>
       subtitle: >-
-        Professional Painting Contractor | Moorhouse Coating – Quality &
-        Expertise
+        Moorhouse Coating – Professional painting contractor serving the
+        Southwest with roots in Park City, Utah.
       bgImage: /images/services/blocks/0/value/bgImage.jpg
       banner:
         title: Receive a FREE Estimate
@@ -56,7 +56,7 @@ blocks:
             text: Learn more
             slug: exterior-house-painting-services
         - title: Interior House Painting
-          description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint.\nNo matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
+          description: "Moorhouse Coating specializes in providing exceptional interior painting as one of its many services. A new coat of paint can transform a room immediately.\_ There isn’t a single item in your home that will change the look and feel as dramatically as a fresh coat of paint. No matter the scope of work involved, Moorhouse painters will transform any space with professionalism, cleanliness, and attention to detail in mind."
           image: /images/services/blocks/2/value/cardWithImage/1/image.png
           Button:
             text: Learn more
@@ -77,16 +77,16 @@ blocks:
             There are several important factors to consider when planning and
             completing an industrial painting project. These factors include
             substrate material, chemical exposure, atmospheric conditions, and
-            required lifespan of the new coating system. Working with an
+            the required lifespan of the new coating system. Working with an
             experienced industrial painting contractor with many years of
-            experience can be the difference in the success of a project.
+            experience can make a difference in the success of a project.
           image: /images/services/blocks/2/value/cardWithImage/3/image.png
           Button:
             text: Learn more
             slug: industrial-painting-services
   - discriminant: whatToExpect
     value:
-      pretitle: Professional Commercial & Residential Painting
+      pretitle: The Moorhouse Advantage
       heading: What To Expect When You Hire Moorhouse Coating
       cards:
         - cardIcon: /images/services/blocks/3/value/cards/0/cardIcon.svg
@@ -108,23 +108,25 @@ blocks:
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
         - cardIcon: /images/services/blocks/3/value/cards/3/cardIcon.svg
-          cardText: Effective Communication Throughout The Process
+          cardText: Experienced Team
           cardDescription: >-
-            The Key to a successful project is found in good communication. As a
-            licensed painting contractor, we have years of experience performing
-            quality for commercial and residential clients.
+            Our painters have years of experience in residential, commercial,
+            and industrial projects, ensuring a flawless finish every time.
         - cardIcon: /images/services/blocks/3/value/cards/4/cardIcon.svg
-          cardText: We Value Integrity <br/> & Honesty
+          cardText: Quality Materials
           cardDescription: >-
-            To Paint with integrity we must be open and forthright, even when
-            its difficult. Open, truthful conversations create opportunities for
-            better analysis and future decisions.
+            We use only premium paints and materials, including eco-friendly
+            options, to deliver results that last.
         - cardIcon: /images/services/blocks/3/value/cards/5/cardIcon.svg
-          cardText: Over 20+ Years <br/> Experience
+          cardText: Customer Satisfaction
           cardDescription: >-
-            Our 20+ years experience in the painting, has shown us nearly every
-            possible situation. Moorhouse handles your paint job in the most
-            efficient, professional way possible.
+            Our commitment to customer service means we go above and beyond to
+            make your painting experience smooth and hassle-free.
+        - cardIcon: /images/services/blocks/3/value/cards/6/cardIcon.svg
+          cardText: Licensed & Insured
+          cardDescription: >-
+            We’re a fully licensed and insured painting company, giving you
+            peace of mind with every project.
   - discriminant: testimonials
     value:
       pretitle: Customer Testimonials
@@ -132,7 +134,7 @@ blocks:
       testimonials:
         - rating: 5
           cardText: >-
-            "I recently hired Moorhouse Coating for a pressure washing job at my
+            I recently hired Moorhouse Coating for a pressure washing job at my
             commercial property, and I couldn't be happier with the results.
             Their team arrived on time, and the level of professionalism was
             impressive. They thoroughly cleaned our building's exterior,
@@ -152,25 +154,25 @@ blocks:
           authorpost: Park City
         - rating: 3
           cardText: >-
-            "Moorhouse Coating did a great job pressure washing the sidewalks
-            and parking lot at our office complex. The results were impressive,
-            with all the stains and debris removed. The team was professional
-            and worked quickly, though there was a slight delay in scheduling
-            which was understandable given the busy season. Overall, we're very
+            Moorhouse Coating did a great job pressure washing the sidewalks and
+            parking lot at our office complex. The results were impressive, with
+            all the stains and debris removed. The team was professional and
+            worked quickly, though there was a slight delay in scheduling which
+            was understandable given the busy season. Overall, we're very
             satisfied with the service and would use them again for future
-            cleaning projects."
+            cleaning projects.
           author: /images/services/blocks/4/value/testimonials/2/author.svg
           authorName: Benjamin
           authorpost: Park City
         - rating: 5
           cardText: >-
-            "Just had Moorhouse Coating handle a major pressure washing job for
+            Just had Moorhouse Coating handle a major pressure washing job for
             our retail space, and they did an outstanding job. The difference in
             cleanliness was remarkable, with our storefront and outdoor areas
             looking brand new. The technicians were friendly, efficient, and
             careful not to damage any landscaping or fixtures. They also gave us
             some tips on how to maintain the cleanliness moving forward.
-            Excellent service and great value!"
+            Excellent service and great value!
           author: /images/services/blocks/4/value/testimonials/3/author.svg
           authorName: Sophia S
           authorpost: Park City
