@@ -1,0 +1,77 @@
+title: Cabinet Painting
+seoData:
+  seoTitle: >-
+    Moorhouse Coating Cabinet Painting - serving Park City, Los Angeles, Palm
+    Desert, Phoenix, and St. George
+  seoDesription: >-
+    Let Moorhouse Coating transform your kitchen or bathroom with our
+    professional cabinet painting service. Using premium paints and expert
+    techniques, we refresh your cabinets with a flawless, durable finish that
+    complements your interior design. Perfect for modernizing your home without
+    the replacement cost, our cabinet painting service delivers stunning
+    results.
+blocks:
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Service
+      title: Cabinet Painting
+      description: >
+        Revitalize your kitchen or bathroom with our premium cabinet painting
+        service. A professionally painted cabinet can completely transform the
+        look of your home, offering a sleek, modern finish that complements your
+        home’s design. Our team uses premium paints to ensure a flawless,
+        durable finish that enhances aesthetics and functionality. Whether
+        you’re seeking to refresh your cabinets or match them to an updated
+        interior, our service delivers stunning results that align with the
+        quality of your home.
+
+
+        </br>
+
+
+        Moorhouse Coating provides a tailored approach to every project. From
+        meticulous surface preparation to careful color selection, we ensure
+        your cabinets look pristine. By choosing cabinet painting instead of a
+        full replacement, you can achieve a sophisticated upgrade with minimal
+        downtime, making it an efficient, cost-effective solution for
+        maintaining the beauty and value of your property.
+
+
+        \
+  - discriminant: gridGallery
+    value:
+      featuredImage: /images/cabinet-painting/blocks/1/value/featuredImage.jpg
+      galleryImages:
+        - /images/cabinet-painting/blocks/1/value/galleryImages/0.JPG
+        - /images/cabinet-painting/blocks/1/value/galleryImages/1.jpg
+        - /images/cabinet-painting/blocks/1/value/galleryImages/2.JPG
+        - /images/cabinet-painting/blocks/1/value/galleryImages/3.jpg
+        - /images/cabinet-painting/blocks/1/value/galleryImages/4.JPG
+        - /images/cabinet-painting/blocks/1/value/galleryImages/5.jpg
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating is an amazing company. Their interior finishes are
+            amazing and the crews they have for painting are professional,
+            clean, and very knowledgeable. Recommend Moorhouse Coating to anyone
+          author: /images/cabinet-painting/blocks/2/value/testimonials/0/author.svg
+          authorName: Zach Morrison
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            These guys are very detail oriented which makes all the difference
+            in the finished product.
+          author: /images/cabinet-painting/blocks/2/value/testimonials/1/author.svg
+          authorName: Jacquelyn Walker
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            The crew was respectful, clean, and did a flawless job. They even
+            helped us pick the perfect colors. We’d definitely use them again.
+          author: /images/cabinet-painting/blocks/2/value/testimonials/2/author.svg
+          authorName: Chris
+          authorpost: Deer Valley
