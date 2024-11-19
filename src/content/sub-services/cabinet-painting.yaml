@@ -35,9 +35,6 @@ blocks:
         full replacement, you can achieve a sophisticated upgrade with minimal
         downtime, making it an efficient, cost-effective solution for
         maintaining the beauty and value of your property.
-
-
-        \
   - discriminant: gridGallery
     value:
       featuredImage: /images/cabinet-painting/blocks/1/value/featuredImage.jpg
