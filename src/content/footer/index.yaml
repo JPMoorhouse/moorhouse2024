@@ -43,7 +43,7 @@ locations:
     - label: Palm Desert
       link: /location/palm-desert-california
     - label: Phoenix
-      link: https://moorhousecoating.com/location/phoenix/
+      link: '#'
     - label: St George
       link: '#'
 otherlinks:
