@@ -138,50 +138,42 @@ blocks:
         - /images/home/blocks/4/value/galleryImages/8.jpeg
         - /images/home/blocks/4/value/galleryImages/9.jpg
         - /images/home/blocks/4/value/galleryImages/10.jpg
-  - discriminant: industrialPainting
-    value:
-      title: Commercial <span class="text-helper">Painting</span> Services
-      subtitle: "Our experienced and qualified painters will help you achieve the look and feel you desire.\_"
-      bgImage: /images/home/blocks/5/value/bgImage.webp
-      Button:
-        label: Learn more
-        link: /services/commercial-painting-services
   - discriminant: whatToExpect
     value:
       pretitle: The Moorhouse Advantage
       heading: What To Expect When You Choose Moorhouse Coating
       cards:
-        - cardIcon: /images/home/blocks/6/value/cards/0/cardIcon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/0/cardIcon.svg
           cardText: Experienced Team
           cardDescription: >-
             Our painters have years of experience in residential, commercial,
             and industrial projects, ensuring a flawless finish every time.
-        - cardIcon: /images/home/blocks/6/value/cards/1/cardIcon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/1/cardIcon.svg
           cardText: Effective Communication Throughout The Process
           cardDescription: >-
             Effective communication throughout the project ensures that every
             detail aligns with your vision, from color selection to final
             touches.
-        - cardIcon: /images/home/blocks/6/value/cards/2/cardIcon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/2/cardIcon.svg
           cardText: Quality Materials
           cardDescription: >-
             We use only premium paints and materials, including eco-friendly
             options, to deliver results that last.
-        - cardIcon: /images/home/blocks/6/value/cards/3/cardIcon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/3/cardIcon.svg
           cardText: We Value Integrity <br/> & Honesty
           cardDescription: "\_To Paint with integrity we must be open and forthright, even when its difficult. Open, truthful conversations create opportunities for improvements."
-        - cardIcon: /images/home/blocks/6/value/cards/4/cardIcon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/4/cardIcon.svg
           cardText: Licensed & Insured
           cardDescription: >-
             We’re a fully licensed and insured painting company, giving you
             peace of mind with every project.
-        - cardIcon: /images/home/blocks/6/value/cards/5/cardIcon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/5/cardIcon.svg
           cardText: Over 25+ Years <br/> Experience
           cardDescription: >-
             With over 20 years in business, we have seen nearly every possible
             situation. Moorhouse Coating handles your paint job in the most
             efficient, professional way possible.
-        - cardIcon: /images/home/blocks/6/value/cards/6/cardIcon.svg
+        - cardIcon: /images/home/blocks/5/value/cards/6/cardIcon.svg
           cardText: Customer Satisfaction
           cardDescription: >-
             Our commitment to customer service means we go above and beyond to
@@ -199,7 +191,7 @@ blocks:
             and tenants. The mall looks fantastic, and the paint job has really
             enhanced the overall appearance of the property. We highly recommend
             them for any large-scale commercial project.
-          author: /images/home/blocks/7/value/testimonials/0/author.svg
+          author: /images/home/blocks/6/value/testimonials/0/author.svg
           authorName: 'Michelle '
           authorpost: Retail Property Manager
         - rating: 5
@@ -208,7 +200,7 @@ blocks:
             interfering with classes and events. The finished result is both
             aesthetically pleasing and durable, meeting all our specific needs.
             We appreciate their flexibility and high standards.
-          author: /images/home/blocks/7/value/testimonials/1/author.svg
+          author: /images/home/blocks/6/value/testimonials/1/author.svg
           authorName: Wes
           authorpost: Education Campus
         - rating: 3
@@ -220,7 +212,7 @@ blocks:
             requirements. Their professionalism and the quality of their work
             have contributed to a more welcoming environment for both patients
             and staff.
-          author: /images/home/blocks/7/value/testimonials/2/author.svg
+          author: /images/home/blocks/6/value/testimonials/2/author.svg
           authorName: Stuart
           authorpost: Las Vegas
         - rating: 5
@@ -232,6 +224,6 @@ blocks:
             both our productivity and safety. We were particularly impressed
             with their attention to detail and ability to work around our
             operational needs.
-          author: /images/home/blocks/7/value/testimonials/3/author.svg
+          author: /images/home/blocks/6/value/testimonials/3/author.svg
           authorName: David
           authorpost: Palm Desert
