@@ -216,6 +216,56 @@ blocks:
             conditions.
           image: >-
             /images/commercial-painting-services/blocks/1/value/cards/27/image.svg
+        - title: Deck & Balcony Repairs
+          description: >-
+            Ensure the safety and longevity of your deck and balcony with our
+            repair services. We address structural issues, weather damage, and
+            wear to restore your deck or balcony to optimal condition.
+          image: >-
+            /images/commercial-painting-services/blocks/1/value/cards/28/image.svg
+        - title: Fencing & Railing Repairs
+          description: >-
+            Maintain the security and appearance of your commercial property
+            with our professional fencing and railing repair services.
+          image: >-
+            /images/commercial-painting-services/blocks/1/value/cards/29/image.svg
+        - title: Stucco & Masonry Repairs
+          description: >-
+            Preserve the structural integrity and visual appeal of your
+            commercial property with our expert stucco and masonry repair
+            services.
+          image: >-
+            /images/commercial-painting-services/blocks/1/value/cards/30/image.svg
+        - title: Acoustic Paneling
+          description: >-
+            Enhance the comfort and functionality of your workspace with our
+            professional acoustic paneling installation. We create
+            sound-optimized environments that reduce noise and improve
+            productivity.
+          image: >-
+            /images/commercial-painting-services/blocks/1/value/cards/31/image.svg
+        - title: Wall Graphics
+          description: >-
+            Transform your workspace with our professional wall graphics
+            installation. From logos to custom designs, we ensure a flawless
+            application that makes a lasting impression on your clients and
+            employees.
+          image: >-
+            /images/commercial-painting-services/blocks/1/value/cards/32/image.svg
+        - title: SB 326 Inspections & Repairs
+          description: >-
+            Ensure your property complies with SB 326 regulations through our
+            professional inspection and repair services. We identify and repair
+            structural issues in balconies, decks, and elevated walkways.
+          image: >-
+            /images/commercial-painting-services/blocks/1/value/cards/33/image.svg
+        - title: SB 721 Inspections & Repairs
+          description: >-
+            Stay compliant with SB 721 requirements with our expert inspections
+            and repair services. We inspect and repair balconies and elevated
+            structures to ensure tenant safety.
+          image: >-
+            /images/commercial-painting-services/blocks/1/value/cards/34/image.svg
   - discriminant: industrialPainting
     value:
       title: Industrial <span class="text-secondary">Painting</span> Services
