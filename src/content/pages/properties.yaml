@@ -4,12 +4,12 @@ seoData:
     Moorhouse Coating | Expert Residential, Commercial & Industrial Painting
     Services
   seoDesription: >-
-    Moorhouse Coating specializes in professional coating, staining, and
-    painting services across the Southwest. Moorhouse Coating offers durable,
-    high-quality finishes for commercial, industrial, and residential
-    properties. Our expert team delivers tailored solutions designed to enhance
-    appearance, protect surfaces, and withstand the unique climate of the
-    Southwest.
+    Moorhouse Painting has over 20 years of experience, specializing in
+    professional painting services for commercial properties. Moorhouse Coating
+    offers durable, high-quality finishes for commercial properties. Our expert
+    team delivers tailored solutions designed to enhance appearance, protect
+    surfaces, and withstand the unique climate of the Southwest.
+  ogImage: /images/seo/properties/seoData/ogImage.jpg
 blocks:
   - discriminant: heroWithBanner
     value:
