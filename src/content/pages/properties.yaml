@@ -1,0 +1,103 @@
+title: Properties We Serve
+seoData:
+  seoTitle: >-
+    Moorhouse Coating | Expert Residential, Commercial & Industrial Painting
+    Services
+  seoDesription: >-
+    Moorhouse Coating specializes in professional coating, staining, and
+    painting services across the Southwest. Moorhouse Coating offers durable,
+    high-quality finishes for commercial, industrial, and residential
+    properties. Our expert team delivers tailored solutions designed to enhance
+    appearance, protect surfaces, and withstand the unique climate of the
+    Southwest.
+blocks:
+  - discriminant: heroWithBanner
+    value:
+      title: Commercial Properties
+      subtitle: Professional Painting Contractor with Roots in Park City, Utah.
+      bgImage: /images/properties/blocks/0/value/bgImage.jpg
+      banner:
+        title: Receive a FREE Estimate!
+        button:
+          label: Request Virtual Estimate
+          link: https://calendly.com/moorhousecoating/new-meeting
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Properties We Paint
+      title: Properties Painted to Perfection.
+      description: >
+        Moorhouse Painting has over 20 years of experience, specializing in
+        professional painting services for commercial properties. Our expertise
+        extends beyond aesthetics—we understand the technical demands of
+        commercial painting, ensuring durable finishes that meet the unique
+        requirements of each property type. Whether revitalizing a storefront or
+        enhancing the appeal of a large-scale facility, our team delivers
+        exceptional results tailored to your needs.
+  - discriminant: projectCardsWithCategory
+    value:
+      categories:
+        - title: Properties
+          cards:
+            - title: Home Owners Association
+              image: /images/properties/blocks/2/value/categories/0/cards/0/image.jpg
+            - title: Hotels/Resorts
+              image: /images/properties/blocks/2/value/categories/0/cards/1/image.JPG
+            - title: Apartments
+              image: /images/properties/blocks/2/value/categories/0/cards/2/image.jpg
+            - title: Retail
+              image: /images/properties/blocks/2/value/categories/0/cards/3/image.JPG
+            - title: Office Buildings
+              image: /images/properties/blocks/2/value/categories/0/cards/4/image.JPG
+            - title: Hangers
+              image: /images/properties/blocks/2/value/categories/0/cards/5/image.jpg
+            - title: Wharehouses
+              image: /images/properties/blocks/2/value/categories/0/cards/6/image.jpg
+            - title: Data Centers
+              image: /images/properties/blocks/2/value/categories/0/cards/7/image.jpg
+            - title: Schools
+              image: /images/properties/blocks/2/value/categories/0/cards/8/image.jpg
+            - title: Self Storage
+              image: /images/properties/blocks/2/value/categories/0/cards/9/image.jpg
+            - title: Parking Garages
+              image: >-
+                /images/properties/blocks/2/value/categories/0/cards/10/image.jpg
+            - title: Clubhouses
+              image: >-
+                /images/properties/blocks/2/value/categories/0/cards/11/image.jpg
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            I recently hired Moorhouse Coating for a pressure washing job at my
+            commercial property, and I couldn't be happier with the results.
+            Their team arrived on time, and the level of professionalism was
+            impressive. They thoroughly cleaned our building's exterior,
+            removing years of grime and buildup that had dulled its appearance.
+            The difference is night and day!
+          author: /images/properties/blocks/3/value/testimonials/0/author.svg
+          authorName: John W.
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            The crew was courteous and made sure to protect surrounding areas
+            from any potential damage. The job was completed efficiently, and
+            the area was left spotless. I highly recommend Moorhouse Coating for
+            anyone in need of top-quality pressure washing services!
+          author: /images/properties/blocks/3/value/testimonials/1/author.svg
+          authorName: Lisa M.
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating did a great job pressure washing the sidewalks and
+            parking lot at our office complex. The results were impressive, with
+            all the stains and debris removed. The team was professional and
+            worked quickly, though there was a slight delay in scheduling which
+            was understandable given the busy season. Overall, we're very
+            satisfied with the service and would use them again for future
+            cleaning projects.
+          author: /images/properties/blocks/3/value/testimonials/2/author.svg
+          authorName: Benjamin
+          authorpost: Park City
