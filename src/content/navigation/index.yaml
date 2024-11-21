@@ -6,6 +6,8 @@ navItems:
     link: /services
   - label: Projects
     link: /projects
+  - label: Properties
+    link: /properties
   - label: About
     link: /about
 button:
