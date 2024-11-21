@@ -13,7 +13,7 @@ seoData:
 blocks:
   - discriminant: heroWithBanner
     value:
-      title: Commercial Properties
+      title: Commercial <span class="text-secondary">Properties</span>
       subtitle: Professional Painting Contractor with Roots in Park City, Utah.
       bgImage: /images/properties/blocks/0/value/bgImage.jpg
       banner:
