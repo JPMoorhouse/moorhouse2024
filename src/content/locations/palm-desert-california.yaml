@@ -17,7 +17,7 @@ blocks:
       bgImage: /images/palm-desert-california/blocks/0/value/bgImage.jpg
       Button:
         label: Request Virtual Estimate
-        url: https://calendly.com/moorhousecoating/new-meeting
+        url: https://calendar.app.google/xn7JEi6KgC7m82bs5
   - discriminant: aboutmoorhouse
     value:
       pretitle: Welcome to Moorhouse Coating
