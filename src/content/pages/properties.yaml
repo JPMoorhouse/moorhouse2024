@@ -36,7 +36,7 @@ blocks:
   - discriminant: projectCardsWithCategory
     value:
       categories:
-        - title: Properties
+        - title: Commercial Properties
           cards:
             - title: Home Owners Association
               image: /images/properties/blocks/2/value/categories/0/cards/0/image.jpg
