@@ -48,23 +48,31 @@ blocks:
               link: apartment-painting
               image: /images/properties/blocks/2/value/categories/0/cards/2/image.jpg
             - title: Retail
+              link: '#'
               image: /images/properties/blocks/2/value/categories/0/cards/3/image.JPG
             - title: Office Buildings
+              link: '#'
               image: /images/properties/blocks/2/value/categories/0/cards/4/image.JPG
             - title: Hangers
+              link: '#'
               image: /images/properties/blocks/2/value/categories/0/cards/5/image.jpg
             - title: Wharehouses
+              link: '#'
               image: /images/properties/blocks/2/value/categories/0/cards/6/image.jpg
             - title: Data Centers
               image: /images/properties/blocks/2/value/categories/0/cards/7/image.jpg
             - title: Schools
+              link: '#'
               image: /images/properties/blocks/2/value/categories/0/cards/8/image.jpg
             - title: Self Storage
+              link: '#'
               image: /images/properties/blocks/2/value/categories/0/cards/9/image.jpg
             - title: Parking Garages
+              link: '#'
               image: >-
                 /images/properties/blocks/2/value/categories/0/cards/10/image.jpg
             - title: Clubhouses
+              link: '#'
               image: >-
                 /images/properties/blocks/2/value/categories/0/cards/11/image.jpg
   - discriminant: testimonials
