@@ -1,14 +1,7 @@
-title: Moorhouse Coating
+title: 'Transforming Commercial Spaces with Expert Painting Solutions Since 1997 '
 seoData:
-  seoTitle: >-
-    Moorhouse Coating – residential and commercial painting contractor serving
-    Park City, Los Angeles, Palm Desert, Phoenix, and St. George
-  seoDesription: >-
-    Moorhouse Coating is a premier painting contractor offering residential,
-    commercial, and industrial painting services. Moorhouse Coating provides
-    expert residential, commercial, and industrial painting services,
-    transforming spaces with quality, precision, and professionalism. Serving
-    businesses in Park City, Palm Desert, Phoenix, Los Angeles, and St. George.
+  seoTitle: commercial painting contractor industrial coatings
+  seoDesription: commercial painting contractor and industrial coatings
   ogImage: /images/seo/home/seoData/ogImage.jpg
 blocks:
   - discriminant: hero
@@ -20,7 +13,7 @@ blocks:
       bgImage: /images/home/blocks/0/value/bgImage.jpg
       Button:
         label: Request Virtual Estimate
-        url: https://calendly.com/moorhousecoating/new-meeting
+        url: https://calendar.app.google/xn7JEi6KgC7m82bs5
   - discriminant: aboutmoorhouse
     value:
       pretitle: Welcome to Moorhouse Coating
