@@ -53,7 +53,6 @@ blocks:
     value:
       pretitle: What We Offer
       heading: We Tailor Our Services To Suit Your Needs
-      bgImage: /images/phoenix/blocks/2/value/bgImage.jpg
       featureCards:
         - cardIcon: /images/phoenix/blocks/2/value/featureCards/0/cardIcon.svg
           cardText: Exterior House Painting Services
