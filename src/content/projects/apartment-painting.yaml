@@ -1,0 +1,83 @@
+title: Apartment Painting
+seoData:
+  seoTitle: >-
+    Moorhouse Coating – commercial painting contractor serving Park City, Los
+    Angeles, Palm Desert, Phoenix, and St. George
+  seoDesription: >-
+    Moorhouse Coating provides interior and exterior painting services for
+    Apartments throughout the Southwest. Our expert painters provide meticulous
+    preparation and elegant finishes to enhance the beauty and sophistication of
+    each building. Using only the finest materials and techniques, we deliver
+    results that match the high standards of your community, adding style,
+    value, and timeless appeal to each unit.
+  ogImage: /images/seo/apartment-painting/seoData/ogImage.jpeg
+blocks:
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Property
+      title: Apartments
+      description: >
+        Transform your apartment complex with professional painting services
+        tailored to meet the needs of property managers and residents alike.
+        With over 20 years of experience painting commercial properties,
+        Moorhouse Coating specializes in delivering high-quality, durable
+        finishes for both interior and exterior apartment painting projects.
+        From refreshing individual units to enhancing common areas and facades,
+        we understand the unique requirements of multi-family housing and focus
+        on creating an appealing, well-maintained environment for current and
+        prospective tenants.
+
+
+        <br/>
+
+
+        At Moorhouse Coating, we pride ourselves on our technical expertise and
+        commitment to minimizing disruptions during your project. We work around
+        your schedule to ensure a smooth painting process, using top-tier
+        materials and techniques to deliver long-lasting results. Whether it’s
+        preparing units for new tenants or revitalizing the exterior of your
+        complex, we’ll help you maintain the value and appearance of your
+        property while keeping residents satisfied. Let us enhance your
+        apartments with a polished, professional finish that stands the test of
+        time.
+  - discriminant: gridGallery
+    value:
+      featuredImage: /images/apartment-painting/blocks/1/value/featuredImage.jpg
+      galleryImages:
+        - /images/apartment-painting/blocks/1/value/galleryImages/0.jpg
+        - /images/apartment-painting/blocks/1/value/galleryImages/1.jpg
+        - /images/apartment-painting/blocks/1/value/galleryImages/2.jpg
+        - /images/apartment-painting/blocks/1/value/galleryImages/3.jpg
+        - /images/apartment-painting/blocks/1/value/galleryImages/4.jpg
+        - /images/apartment-painting/blocks/1/value/galleryImages/5.jpg
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating is an amazing company. Their interior finishes are
+            amazing and the crews they have for painting are professional,
+            clean, and very knowledgeable. I would recommend Moorhouse Coating
+            to anyone.
+          author: /images/apartment-painting/blocks/2/value/testimonials/0/author.svg
+          authorName: Zach M.
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            We chose Moorhouse Coating to paint the exterior of our home, and we
+            couldn’t be more pleased. The team was efficient, respectful, and
+            paid attention to every detail. The finished product is stunning,
+            and it’s clear that they take pride in their work. Highly recommend
+            them for any exterior painting needs.
+          author: /images/apartment-painting/blocks/2/value/testimonials/1/author.svg
+          authorName: Michael
+          authorpost: Heber City
+        - rating: 5
+          cardText: >-
+            The crew was respectful, clean, and did a flawless job. They even
+            helped us pick the perfect colors. We’d definitely use them again.
+          author: /images/apartment-painting/blocks/2/value/testimonials/2/author.svg
+          authorName: Chris
+          authorpost: Deer Valley
