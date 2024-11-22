@@ -45,7 +45,7 @@ locations:
     - label: Palm Desert
       link: /location/palm-desert-california
     - label: Phoenix
-      link: '#'
+      link: phoenix
     - label: St George
       link: '#'
 otherlinks:
