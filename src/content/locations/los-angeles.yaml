@@ -1,20 +1,20 @@
-title: Fullservice Painting in Los Angeles
+title: Moorhouse Coating Full-Service Painting in Los Angeles
 seoData:
   seoTitle: >-
-    Los Angeles California Professional Painting Services for Businesses |
-    Moorhouse Coating
+    Los Angeles California Professional Commercial & Residential Painting
+    Services | Moorhouse Coating
   seoDesription: >-
-    Moorhouse Coating specializes in professional commercial painting, offering
-    comprehensive services across Southern California and the West. Let our
-    experienced team enhance your property's appearance and durability with
-    superior craftsmanship.
+    Moorhouse Coating is a professional painting contractor, offering
+    comprehensive painting services across Southern California. We provide
+    expert residential, commercial, and industrial painting services,
+    transforming spaces with quality, precision, and professionalism. 
   ogImage: /images/seo/los-angeles/seoData/ogImage.jpg
 blocks:
   - discriminant: hero
     value:
       title: <span class="text-secondary">Full Service </span>Painting in Los Angeles
       subtitle: >-
-        Enhance your space with Los Angeles premier painting contractor,
+        Enhance your space with Los Angeles's premier painting contractor,
         offering residential, commercial, and industrial painting services.
         Contact us today for a free estimate.
       bgImage: /images/los-angeles/blocks/0/value/bgImage.jpg
@@ -80,7 +80,7 @@ blocks:
             painting services designed to withstand harsh conditions and heavy
             use.
       banner:
-        title: Have a Special Request? We’re Up For It!
+        title: Do you have a Special Request? We’re Up For It!
         button:
           text: Get a Free Estimate
           slug: https://calendly.com/moorhousecoating/onsite-estimate
@@ -99,7 +99,7 @@ blocks:
           link: https://moorhousecoating.com/
   - discriminant: whatToExpect
     value:
-      pretitle: Professional Commercial & Residential Painting
+      pretitle: The Moorhouse Advantage
       heading: What To Expect When You Hire Moorhouse Coating
       cards:
         - cardIcon: /images/los-angeles/blocks/4/value/cards/0/cardIcon.svg
@@ -117,6 +117,26 @@ blocks:
             Our 20+ years experience in the painting, has shown us nearly every
             possible situation. Moorhouse handles your paint job in the most
             efficient, professional way possible.
+        - cardIcon: /images/los-angeles/blocks/4/value/cards/3/cardIcon.svg
+          cardText: Experienced Team
+          cardDescription: >-
+            Our painters have years of experience in residential, commercial,
+            and industrial projects, ensuring a flawless finish every time.
+        - cardIcon: /images/los-angeles/blocks/4/value/cards/4/cardIcon.svg
+          cardText: Quality Materials
+          cardDescription: >-
+            We use only premium paints and materials, including eco-friendly
+            options, to deliver results that last.
+        - cardIcon: /images/los-angeles/blocks/4/value/cards/5/cardIcon.svg
+          cardText: Customer Satisfaction
+          cardDescription: >-
+            Our commitment to customer service means we go above and beyond to
+            make your painting experience smooth and hassle-free.
+        - cardIcon: /images/los-angeles/blocks/4/value/cards/6/cardIcon.svg
+          cardText: Licensed & Insured
+          cardDescription: >-
+            We’re a fully licensed and insured painting company, giving you
+            peace of mind with every project.
   - discriminant: testimonials
     value:
       pretitle: Customer Testimonials
@@ -133,17 +153,22 @@ blocks:
           authorpost: Park City, UT
         - rating: 5
           cardText: >-
-            These guys are very detail oriented which makes all the difference
-            in the finished product.
+            I recommend Moorhouse, the project involved extensive surface
+            preparation, specialty coatings, and complex scheduling to avoid
+            disrupting our operations. The team managed everything seamlessly,
+            and the final result was a beautifully finished space that enhances
+            both our productivity and safety. We were particularly impressed
+            with their attention to detail and ability to work around our
+            operational needs. 
           author: /images/los-angeles/blocks/5/value/testimonials/1/author.svg
-          authorName: Jacquelyn Walker
-          authorpost: Park City, UT
+          authorName: David
+          authorpost: Palm Desert
         - rating: 5
           cardText: >-
-            I would like to say Thanks to change the look of my House and Really
+            I would like to say thanks for changing the look of my house. Really
             you guys are amazing. Best Experience with your professional
-            painters. Friendly Environment,, Highly Recommend, We will be
-            calling them back soon to paint the interior! They're providing No.1
+            painters. Friendly Environment. Highly Recommend, We will be calling
+            them back soon to paint the interior! They're providing No.1
             Painting service across Utah
           author: /images/los-angeles/blocks/5/value/testimonials/2/author.svg
           authorName: Emily James
