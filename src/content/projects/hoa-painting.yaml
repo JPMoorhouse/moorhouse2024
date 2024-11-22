@@ -1,0 +1,75 @@
+title: Homeowners Associations
+seoData:
+  seoTitle: >-
+    Moorhouse Coating – commercial painting contractor serving Park City, Los
+    Angeles, Palm Desert, Phoenix, and St. George
+  seoDesription: >-
+    Moorhouse Coating provides interior and exterior painting services for
+    homeowner associations (HOA) throughout the Southwest. Our expert painters
+    provide meticulous preparation and elegant finishes to enhance the beauty
+    and sophistication of each building. Using only the finest materials and
+    techniques, we deliver results that match the high standards of your
+    community, adding style, value, and timeless appeal to each unit.
+  ogImage: /images/seo/hoa-painting/seoData/ogImage.jpg
+blocks:
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Property
+      title: Homeowners Associations
+      description: >
+        Maintaining the appearance and value of homeowners association (HOA)
+        properties requires a trusted partner with extensive experience in
+        painting and restoration. At Moorhouse Coating, we bring over 20 years
+        of expertise in commercial and HOA painting to every project. From
+        multi-unit buildings to community facilities, we understand the unique
+        challenges and technical demands of HOA painting. Our team collaborates
+        closely with HOA boards and property managers to ensure every detail is
+        handled professionally and efficiently.
+
+
+        <br/>
+
+
+        With a focus on durability, aesthetics, and compliance, we use
+        premium-grade materials and advanced techniques tailored to the specific
+        needs of HOA communities. Whether your project involves repainting
+        exterior or interior spaces our team delivers lasting results that
+        enhance curb appeal and property value. We're dedicated to providing a
+        seamless painting experience that keeps your HOA looking its best while
+        maintaining harmony within the community.
+  - discriminant: gridGallery
+    value:
+      featuredImage: /images/hoa-painting/blocks/1/value/featuredImage.jpg
+      galleryImages:
+        - /images/hoa-painting/blocks/1/value/galleryImages/0.jpg
+        - /images/hoa-painting/blocks/1/value/galleryImages/1.jpg
+        - /images/hoa-painting/blocks/1/value/galleryImages/2.jpg
+        - /images/hoa-painting/blocks/1/value/galleryImages/3.jpg
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating is an amazing company. Their interior finishes are
+            amazing and the crews they have for painting are professional,
+            clean, and very knowledgeable. I would recommend Moorhouse Coating
+            to anyone.
+          author: /images/hoa-painting/blocks/2/value/testimonials/0/author.svg
+          authorName: Zach M.
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            These guys are very detail oriented which makes all the difference
+            in the finished product.
+          author: /images/hoa-painting/blocks/2/value/testimonials/1/author.svg
+          authorName: Jacquelyn W.
+          authorpost: Park City
+        - rating: 5
+          cardText: >-
+            The crew was respectful, clean, and did a flawless job. They even
+            helped us pick the perfect colors. We’d definitely use them again.
+          author: /images/hoa-painting/blocks/2/value/testimonials/2/author.svg
+          authorName: Chris
+          authorpost: Deer Valley
