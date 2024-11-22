@@ -8,7 +8,6 @@ seoData:
     comprehensive painting services across the Phoenix metropolitan area. We
     provide expert residential, commercial, and industrial painting services,
     transforming spaces with quality, precision, and professionalism.
-  ogImage: /images/seo/phoenix/seoData/ogImage.jpg
 blocks:
   - discriminant: hero
     value:
