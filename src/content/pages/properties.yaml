@@ -39,10 +39,13 @@ blocks:
         - title: Commercial Properties
           cards:
             - title: Homeowner Associations
+              link: hoa-painting
               image: /images/properties/blocks/2/value/categories/0/cards/0/image.jpg
             - title: Hotels/Resorts
+              link: hotel-resort-painting
               image: /images/properties/blocks/2/value/categories/0/cards/1/image.JPG
             - title: Apartments
+              link: apartment-painting
               image: /images/properties/blocks/2/value/categories/0/cards/2/image.jpg
             - title: Retail
               image: /images/properties/blocks/2/value/categories/0/cards/3/image.JPG
