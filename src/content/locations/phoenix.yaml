@@ -103,43 +103,43 @@ blocks:
       heading: What To Expect When You Hire Moorhouse Coating
       cards:
         - cardIcon: /images/phoenix/blocks/4/value/cards/0/cardIcon.svg
+          cardText: Licensed & Insured
+          cardDescription: >-
+            We’re a fully licensed and insured painting company, giving you
+            peace of mind with every project.
+        - cardIcon: /images/phoenix/blocks/4/value/cards/1/cardIcon.svg
           cardText: Effective Communication
           cardDescription: >-
             Effective communication throughout the project ensures that every
             detail aligns with your vision, from color selection to final
             touches.
-        - cardIcon: /images/phoenix/blocks/4/value/cards/1/cardIcon.svg
+        - cardIcon: /images/phoenix/blocks/4/value/cards/2/cardIcon.svg
           cardText: 'We Value Integrity & Honesty '
           cardDescription: >-
             To Paint with integrity we must be open and forthright, even when
             it's difficult. Open, truthful conversations create opportunities
             for improvement.
-        - cardIcon: /images/phoenix/blocks/4/value/cards/2/cardIcon.svg
-          cardText: Over 25+ Years Experience
-          cardDescription: >-
-            With over 20 years in business, we have seen nearly every possible
-            situation. Moorhouse Coating handles your paint job in the most
-            efficient, professional way possible.
         - cardIcon: /images/phoenix/blocks/4/value/cards/3/cardIcon.svg
           cardText: Experienced Team
           cardDescription: >-
             Our painters have years of experience in residential, commercial,
             and industrial projects, ensuring a flawless finish every time.
         - cardIcon: /images/phoenix/blocks/4/value/cards/4/cardIcon.svg
-          cardText: Quality Materials
+          cardText: Over 25+ Years Experience
           cardDescription: >-
-            We use only premium paints and materials, including eco-friendly
-            options, to deliver results that last.
+            With over 20 years in business, we have seen nearly every possible
+            situation. Moorhouse Coating handles your paint job in the most
+            efficient, professional way possible.
         - cardIcon: /images/phoenix/blocks/4/value/cards/5/cardIcon.svg
           cardText: Customer Satisfaction
           cardDescription: >-
             Our commitment to customer service means we go above and beyond to
             make your painting experience smooth and hassle-free.
         - cardIcon: /images/phoenix/blocks/4/value/cards/6/cardIcon.svg
-          cardText: Licensed & Insured
+          cardText: Quality Materials
           cardDescription: >-
-            We’re a fully licensed and insured painting company, giving you
-            peace of mind with every project.
+            We use only premium paints and materials, including eco-friendly
+            options, to deliver results that last.
   - discriminant: testimonials
     value:
       pretitle: Customer Testimonials
