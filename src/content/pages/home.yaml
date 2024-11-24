@@ -39,7 +39,9 @@ blocks:
           and customer satisfaction has helped us transform properties with
           elegance and precision.
         image: /images/home/blocks/1/value/card/image.JPG
-        Button: {}
+        Button:
+          label: About Moorhouse
+          link: /about
   - discriminant: whatWeOffer
     value:
       pretitle: What We Offer
@@ -49,23 +51,27 @@ blocks:
           cardText: Exterior House Painting Services
           cardDescription: >-
             Refresh your home’s curb appeal with professional exterior painting
-            that withstands the elements and boosts its beauty. 
+            that withstands the elements and boosts its beauty.
+          link: /services/exterior-house-painting-services
         - cardIcon: /images/home/blocks/2/value/featureCards/1/cardIcon.svg
           cardText: Interior House Painting Services
           cardDescription: >-
             Transform your home’s interior with professional painting and
             discover how our skilled painters can bring your vision to life.
+          link: /services/interior-house-painting-services
         - cardIcon: /images/home/blocks/2/value/featureCards/2/cardIcon.svg
           cardText: Commercial Painting Services
           cardDescription: >-
             Elevate your business with painting services that enhance aesthetics
             and durability.
+          link: /services/commercial-painting-services
         - cardIcon: /images/home/blocks/2/value/featureCards/3/cardIcon.svg
           cardText: Industrial Painting Services
           cardDescription: >-
             Protect and enhance your industrial facility with specialized
             painting services designed to withstand harsh conditions and heavy
             use.
+          link: /services/industrial-painting-services
       banner:
         title: Ready to learn more?
         button:

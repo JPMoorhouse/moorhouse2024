@@ -11,8 +11,9 @@ const { title, description, image } = Astro.props;
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} image={image} />
+    <ViewTransitions />
   </head>
-  <ViewTransitions />
+
   <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript

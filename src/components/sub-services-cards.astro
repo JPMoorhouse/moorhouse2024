@@ -1,37 +1,42 @@
 ---
-import { Image } from "astro:assets"
-const {cards} = Astro.props
-const currentService = Astro.url.pathname
+import { Image } from "astro:assets";
+const { cards } = Astro.props;
+const currentService = Astro.url.pathname;
 interface cardsProps {
-    image: string;
-    title: string;
-    description: string;
-    link: string;
+  image: string;
+  title: string;
+  description: string;
+  link: string;
 }
 ---
+
 <section class="custom-container lg:py-10 py-10">
-    <div class="grid grid-cols-1 sm:grid-rows-2 md:grid-cols-3 gap-7 lg:px-12">
-    {cards.length > 0  &&
-        cards.map((item:cardsProps)=>(
-            <a href={`${item.link ? currentService + item.link : "#"}`}>
-<div class="border border-[#E3E3E3] bg-[#F9F9F9] rounded-[30px] px-8 py-8">
-    <Image
-        src={item.image as string}
-        class="bg-[#E6EFF5] mx-auto rounded-2xl p-3 w-20 h-20 object-contain"
-        alt=""
-        loading="lazy"
-        width={80}
-        height={80}
-    />
-    <h3 class="text-xl font-medium  my-6 text-center md:h-10 leading-normal text-black" set:html={item.title} />
+  <div class="columns-3 gap-5 lg:px-12">
+    {
+      cards.length > 0 &&
+        cards.map((item: cardsProps) => (
+          <a
+            href={`${item.link ? currentService + item.link : "#"}`}
+            class="mb-5 block break-inside-avoid cursor-pointer"
+          >
+            <div class="border border-[#E3E3E3] bg-[#F9F9F9] rounded-[30px] px-8 py-8 mb-5">
+              <Image
+                src={item.image as string}
+                class="bg-[#E6EFF5] mx-auto rounded-2xl p-3 w-20 h-20 object-contain"
+                alt=""
+                loading="lazy"
+                width={80}
+                height={80}
+              />
+              <h3
+                class="text-xl font-medium  my-6 text-center md:h-10 leading-normal text-black"
+                set:html={item.title}
+              />
 
-
-    <p class="text-black text-center line-clamp-4">
-        {item.description}
-    </p>
-</div>
-</a>
+              <p class="text-black text-center ">{item.description}</p>
+            </div>
+          </a>
         ))
     }
-    </div>
+  </div>
 </section>

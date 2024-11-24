@@ -32,24 +32,28 @@ const { title, answer }: props = Astro.props;
         </svg>
       </div>
     </button>
-    <div class="accordion-content overflow-hidden hidden pb-6 text-black group-hover:text-white">
+    <div
+      class="accordion-content overflow-hidden hidden pb-6 text-black group-hover:text-white"
+    >
       <p>{answer}</p>
     </div>
 
     <script>
-      const accordionItems = document.querySelectorAll(".accordion-item");
+      document.addEventListener("astro:page-load", () => {
+        const accordionItems = document.querySelectorAll(".accordion-item");
 
-      accordionItems.forEach((item) => {
-        const header = item.querySelector(".accordion-header");
-        const content = item.querySelector(".accordion-content");
+        accordionItems.forEach((item) => {
+          const header = item.querySelector(".accordion-header");
+          const content = item.querySelector(".accordion-content");
 
-        header?.addEventListener("click", () => {
-          content?.classList.toggle("hidden");
-          const svg = header.querySelector("svg path");
-          svg?.setAttribute(
-            "fill",
-            content?.classList.contains("hidden") ? "white" : "#187692"
-          );
+          header?.addEventListener("click", () => {
+            content?.classList.toggle("hidden");
+            const svg = header.querySelector("svg path");
+            svg?.setAttribute(
+              "fill",
+              content?.classList.contains("hidden") ? "white" : "#187692"
+            );
+          });
         });
       });
     </script>

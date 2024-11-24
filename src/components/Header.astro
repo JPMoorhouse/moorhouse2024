@@ -8,160 +8,152 @@ const topbar: any = await reader.singletons.topbar.read();
 ---
 
 <div class="bg-transparent relative z-20 hidden">
-    <div
-        class="text-white xl:hidden custom-container lg:px-14 px-0 flex justify-between items-center gap-4 py-2"
+  <div
+    class="text-white xl:hidden custom-container lg:px-14 px-0 flex justify-between items-center gap-4 py-2"
+  >
+    <a
+      href={`mailto:${topbar.message.email}`}
+      class="flex justify-center items-center text-sm gap-2 mr-4"
     >
-        <a
-            href={`mailto:${topbar.message.email}`}
-            class="flex justify-center items-center text-sm gap-2 mr-4"
-        >
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="13"
-                height="13"
-                class="mr-2"
-                viewBox="0 0 13 13"
-                fill="none"
-            >
-                <g clip-path="url(#clip0_1_47)">
-                    <path
-                        d="M12.9751 3.00195L8.41533 7.5617C7.90691 8.06884 7.21811 8.35364 6.5 8.35364C5.78189 8.35364 5.09309 8.06884 4.58467 7.5617L0.0249167 3.00195C0.0173333 3.08754 0 3.16499 0 3.25004V9.75004C0.00086009 10.4681 0.286478 11.1564 0.794202 11.6642C1.30193 12.1719 1.9903 12.4575 2.70833 12.4584H10.2917C11.0097 12.4575 11.6981 12.1719 12.2058 11.6642C12.7135 11.1564 12.9991 10.4681 13 9.75004V3.25004C13 3.16499 12.9827 3.08754 12.9751 3.00195Z"
-                        fill="white"></path>
-                    <path
-                        d="M7.64943 6.79559L12.597 1.84746C12.3573 1.45005 12.0193 1.12111 11.6155 0.892358C11.2117 0.663608 10.7558 0.542772 10.2917 0.541504H2.70835C2.24426 0.542772 1.78833 0.663608 1.38453 0.892358C0.980731 1.12111 0.642691 1.45005 0.403015 1.84746L5.3506 6.79559C5.65587 7.09963 6.06916 7.27034 6.50001 7.27034C6.93086 7.27034 7.34416 7.09963 7.64943 6.79559Z"
-                        fill="white"></path>
-                </g>
-                <defs>
-                    <clipPath id="clip0_1_47">
-                        <rect width="13" height="13" fill="white"></rect>
-                    </clipPath>
-                </defs>
-            </svg>
-            <span>{topbar.message.email}</span>
-        </a>
-        <div class="flex justify-center items-center gap-3">
-            {
-                topbar.social.map((item: any) => (
-                    <a href={item.link} aria-label={item.icontext}>
-                        <Image
-                            src={item.image}
-                            class="w-4 h-4"
-                            alt=""
-                            height={16}
-                            width={16}
-                        />
-                    </a>
-                ))
-            }
-        </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="13"
+        height="13"
+        class="mr-2"
+        viewBox="0 0 13 13"
+        fill="none"
+      >
+        <g clip-path="url(#clip0_1_47)">
+          <path
+            d="M12.9751 3.00195L8.41533 7.5617C7.90691 8.06884 7.21811 8.35364 6.5 8.35364C5.78189 8.35364 5.09309 8.06884 4.58467 7.5617L0.0249167 3.00195C0.0173333 3.08754 0 3.16499 0 3.25004V9.75004C0.00086009 10.4681 0.286478 11.1564 0.794202 11.6642C1.30193 12.1719 1.9903 12.4575 2.70833 12.4584H10.2917C11.0097 12.4575 11.6981 12.1719 12.2058 11.6642C12.7135 11.1564 12.9991 10.4681 13 9.75004V3.25004C13 3.16499 12.9827 3.08754 12.9751 3.00195Z"
+            fill="white"></path>
+          <path
+            d="M7.64943 6.79559L12.597 1.84746C12.3573 1.45005 12.0193 1.12111 11.6155 0.892358C11.2117 0.663608 10.7558 0.542772 10.2917 0.541504H2.70835C2.24426 0.542772 1.78833 0.663608 1.38453 0.892358C0.980731 1.12111 0.642691 1.45005 0.403015 1.84746L5.3506 6.79559C5.65587 7.09963 6.06916 7.27034 6.50001 7.27034C6.93086 7.27034 7.34416 7.09963 7.64943 6.79559Z"
+            fill="white"></path>
+        </g>
+        <defs>
+          <clipPath id="clip0_1_47">
+            <rect width="13" height="13" fill="white"></rect>
+          </clipPath>
+        </defs>
+      </svg>
+      <span>{topbar.message.email}</span>
+    </a>
+    <div class="flex justify-center items-center gap-3">
+      {
+        topbar.social.map((item: any) => (
+          <a href={item.link} aria-label={item.icontext}>
+            <Image
+              src={item.image}
+              class="w-4 h-4"
+              alt=""
+              height={16}
+              width={16}
+            />
+          </a>
+        ))
+      }
     </div>
+  </div>
 </div>
-<div
-    class="custom-container absolute top-0 left-0 right-0 z-50 bg-transparent"
->
-    <div
-        class="relative lg:px-14 z-20 flex justify-between items-center gap-14"
-    >
-        <div class="w-fit relative z-50">
-            <a href="/">
-
-                <Image
-                src={header.logo}
-                class="w-36"
-                alt=""
-                width="144"
-                height="135"
-                />
-            </a>
-        </div>
-        <div class="lg:w-full">
-            <div
-                class="text-white xl:flex w-full hidden justify-end items-center gap-4 border-b pb-4 border-[#D9D9D980]"
-            >
-                <a
-                    href={`mailto:${topbar.message.email}`}
-                    class="flex justify-center items-center text-sm gap-2 mr-8"
-                >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="13"
-                        height="13"
-                        class="mr-2"
-                        viewBox="0 0 13 13"
-                        fill="none"
-                    >
-                        <g clip-path="url(#clip0_1_47)">
-                            <path
-                                d="M12.9751 3.00195L8.41533 7.5617C7.90691 8.06884 7.21811 8.35364 6.5 8.35364C5.78189 8.35364 5.09309 8.06884 4.58467 7.5617L0.0249167 3.00195C0.0173333 3.08754 0 3.16499 0 3.25004V9.75004C0.00086009 10.4681 0.286478 11.1564 0.794202 11.6642C1.30193 12.1719 1.9903 12.4575 2.70833 12.4584H10.2917C11.0097 12.4575 11.6981 12.1719 12.2058 11.6642C12.7135 11.1564 12.9991 10.4681 13 9.75004V3.25004C13 3.16499 12.9827 3.08754 12.9751 3.00195Z"
-                                fill="white"></path>
-                            <path
-                                d="M7.64943 6.79559L12.597 1.84746C12.3573 1.45005 12.0193 1.12111 11.6155 0.892358C11.2117 0.663608 10.7558 0.542772 10.2917 0.541504H2.70835C2.24426 0.542772 1.78833 0.663608 1.38453 0.892358C0.980731 1.12111 0.642691 1.45005 0.403015 1.84746L5.3506 6.79559C5.65587 7.09963 6.06916 7.27034 6.50001 7.27034C6.93086 7.27034 7.34416 7.09963 7.64943 6.79559Z"
-                                fill="white"></path>
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_1_47">
-                                <rect width="13" height="13" fill="white"
-                                ></rect>
-                            </clipPath>
-                        </defs>
-                    </svg>{topbar.message.email}
-                </a>
-                {
-                    topbar.social.map((item: any) => (
-                        <a href={item.link} aria-label={item.icontext}>
-                            <Image
-                                src={item.image}
-                                class="w-4 h-4"
-                                alt=""
-                                height={16}
-                                width={16}
-                            />
-                        </a>
-                    ))
-                }
-            </div>
-            <div
-                class="lg:flex lg:rounded-b-3xl rounded-b-[30px] lg:flex-row lg:justify-between hidden flex-col lg:static absolute top-0 left-0 lg:right-0 l lg:bg-transparent bg-primary w-full justify-start items-center lg:pb-0 pb-4 text-white text-sm  lg:pt-6 pt-40"
-                id="menu-items"
-            >
-            <div class="flex gap-8 lg:flex-row flex-col items-start px-8 lg:px-0 w-full lg:w-auto">
-                {
-                    header.navItems.map((item: any) => (
-                        <a href={item.link}>{item.label}</a>
-                    ))
-                }</div>
-
-                <div class="flex justify-end items-center gap-4">
-                
-                    <a
-                        href={header.button.buttonSlug}
-                        class="rounded-full px-4 bg-secondary whitespace-nowrap gap-3 text-sm text-white py-2 flex justify-center items-center w-fit"
-                        >{header.button.buttontext}</a
-                    >
-                </div>
-            </div>
-            <div class="lg:hidden flex relative z-50" id="bars">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="64"
-                    height="64"
-                    viewBox="0 0 24 24"
-                >
-                    <path
-                        fill="#ffffff"
-                        d="M19 12.75H5a.75.75 0 0 1 0-1.5h14a.75.75 0 0 1 0 1.5Zm0-4.5H5a.75.75 0 0 1 0-1.5h14a.75.75 0 0 1 0 1.5Zm0 9H5a.75.75 0 0 1 0-1.5h14a.75.75 0 0 1 0 1.5Z"
-                    ></path>
-                </svg>
-            </div>
-        </div>
+<div class="custom-container absolute top-0 left-0 right-0 z-50 bg-transparent">
+  <div class="relative lg:px-14 z-20 flex justify-between items-center gap-14">
+    <div class="w-fit relative z-50">
+      <a href="/">
+        <Image src={header.logo} class="w-36" alt="" width="144" height="135" />
+      </a>
     </div>
+    <div class="lg:w-full">
+      <div
+        class="text-white xl:flex w-full hidden justify-end items-center gap-4 border-b pb-4 border-[#D9D9D980]"
+      >
+        <a
+          href={`mailto:${topbar.message.email}`}
+          class="flex justify-center items-center text-sm gap-2 mr-8"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="13"
+            height="13"
+            class="mr-2"
+            viewBox="0 0 13 13"
+            fill="none"
+          >
+            <g clip-path="url(#clip0_1_47)">
+              <path
+                d="M12.9751 3.00195L8.41533 7.5617C7.90691 8.06884 7.21811 8.35364 6.5 8.35364C5.78189 8.35364 5.09309 8.06884 4.58467 7.5617L0.0249167 3.00195C0.0173333 3.08754 0 3.16499 0 3.25004V9.75004C0.00086009 10.4681 0.286478 11.1564 0.794202 11.6642C1.30193 12.1719 1.9903 12.4575 2.70833 12.4584H10.2917C11.0097 12.4575 11.6981 12.1719 12.2058 11.6642C12.7135 11.1564 12.9991 10.4681 13 9.75004V3.25004C13 3.16499 12.9827 3.08754 12.9751 3.00195Z"
+                fill="white"></path>
+              <path
+                d="M7.64943 6.79559L12.597 1.84746C12.3573 1.45005 12.0193 1.12111 11.6155 0.892358C11.2117 0.663608 10.7558 0.542772 10.2917 0.541504H2.70835C2.24426 0.542772 1.78833 0.663608 1.38453 0.892358C0.980731 1.12111 0.642691 1.45005 0.403015 1.84746L5.3506 6.79559C5.65587 7.09963 6.06916 7.27034 6.50001 7.27034C6.93086 7.27034 7.34416 7.09963 7.64943 6.79559Z"
+                fill="white"></path>
+            </g>
+            <defs>
+              <clipPath id="clip0_1_47">
+                <rect width="13" height="13" fill="white"></rect>
+              </clipPath>
+            </defs>
+          </svg>{topbar.message.email}
+        </a>
+        {
+          topbar.social.map((item: any) => (
+            <a href={item.link} aria-label={item.icontext}>
+              <Image
+                src={item.image}
+                class="w-4 h-4"
+                alt=""
+                height={16}
+                width={16}
+              />
+            </a>
+          ))
+        }
+      </div>
+      <div
+        class="lg:flex lg:rounded-b-3xl rounded-b-[30px] lg:flex-row lg:justify-between hidden flex-col lg:static absolute top-0 left-0 lg:right-0 l lg:bg-transparent bg-primary w-full justify-start items-center lg:pb-0 pb-4 text-white text-sm lg:pt-6 pt-40"
+        id="menu-items"
+      >
+        <div
+          class="flex gap-8 lg:flex-row flex-col items-start px-8 lg:px-0 w-full lg:w-auto"
+        >
+          {
+            header.navItems.map((item: any) => (
+              <a href={item.link}>{item.label}</a>
+            ))
+          }
+        </div>
+
+        <div class="flex justify-end items-center gap-4">
+          <a
+            href={header.button.buttonSlug}
+            class="rounded-full px-4 bg-secondary whitespace-nowrap gap-3 text-sm text-white py-2 flex justify-center items-center w-fit"
+            >{header.button.buttontext}</a
+          >
+        </div>
+      </div>
+      <div class="lg:hidden flex relative z-50" id="bars">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="64"
+          height="64"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="#ffffff"
+            d="M19 12.75H5a.75.75 0 0 1 0-1.5h14a.75.75 0 0 1 0 1.5Zm0-4.5H5a.75.75 0 0 1 0-1.5h14a.75.75 0 0 1 0 1.5Zm0 9H5a.75.75 0 0 1 0-1.5h14a.75.75 0 0 1 0 1.5Z"
+          ></path>
+        </svg>
+      </div>
+    </div>
+  </div>
 </div>
 <script>
+  document.addEventListener("astro:page-load", () => {
     const bars = document.querySelector("#bars");
     const menu_items = document.querySelector("#menu-items");
 
     bars?.addEventListener("click", () => {
-        menu_items?.classList.toggle("hidden");
-        menu_items?.classList.toggle("flex");
+      menu_items?.classList.toggle("hidden");
+      menu_items?.classList.toggle("flex");
     });
+  });
 </script>

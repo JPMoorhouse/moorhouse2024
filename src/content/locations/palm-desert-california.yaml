@@ -44,7 +44,7 @@ blocks:
         image: /images/palm-desert-california/blocks/1/value/card/image.jpg
         Button:
           label: Free Estimate
-          url: https://calendly.com/moorhousecoating/onsite-estimate
+          link: https://calendly.com/moorhousecoating/onsite-estimate
   - discriminant: whatWeOffer
     value:
       pretitle: What We Offer
@@ -55,7 +55,7 @@ blocks:
           cardText: Exterior House Painting Services
           cardDescription: >-
             Refresh your home’s curb appeal with professional exterior painting
-            that withstands the elements and boosts its beauty. 
+            that withstands the elements and boosts its beauty.
         - cardIcon: >-
             /images/palm-desert-california/blocks/2/value/featureCards/1/cardIcon.svg
           cardText: Interior House Painting Services
@@ -105,10 +105,10 @@ blocks:
             licensed painting contractor, we have years of experience performing
             quality work for commercial and residential clients.
         - cardIcon: /images/palm-desert-california/blocks/4/value/cards/1/cardIcon.svg
-          cardText: 'We Value Integrity & Honesty '
+          cardText: "We Value Integrity & Honesty "
           cardDescription: "\_To Paint with integrity we must be open and forthright, even when it's difficult. Open, truthful conversations create opportunities for better analysis and future decisions."
         - cardIcon: /images/palm-desert-california/blocks/4/value/cards/2/cardIcon.svg
-          cardText: 'Over 20+ Years Experience '
+          cardText: "Over 20+ Years Experience "
           cardDescription: >-
             Our 20+ years of experience in the painting industry has shown us
             nearly every possible situation. Moorhouse handles your paint job in

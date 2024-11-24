@@ -56,12 +56,16 @@ const { title, subtitle, bgImage, Button } = Astro.props;
         set:html={title}
       />
       <p class="mt-6 mb-8 text-lg text-start lg:w-[45%]">{subtitle}</p>
-      <a
-        href={Button.link}
-        class="rounded-2xl text-base cursor-pointer bg-green px-8 gap-4 py-3 font-bold text-white flex justify-center items-center w-fit"
-      >
-        {Button.label}
-      </a>
+      {
+        Button && Button.label && Button.link && (
+          <a
+            href={Button.link}
+            class="rounded-2xl text-base cursor-pointer bg-green px-8 gap-4 py-3 font-bold text-white flex justify-center items-center w-fit"
+          >
+            {Button.label}
+          </a>
+        )
+      }
     </div>
   </div>
 </div>

@@ -30,7 +30,7 @@ export const aboutmoorhouse = {
       }),
       Button: fields.object({
         label: fields.text({ label: "Button" }),
-        url: fields.text({ label: "Button Slug" }),
+        link: fields.text({ label: "Button Slug" }),
       }),
     }),
   }),
@@ -86,6 +86,7 @@ export const whatWeOffer = {
         }),
         cardText: fields.text({ label: "Card Text" }),
         cardDescription: fields.text({ label: "Card Description" }),
+        link: fields.text({ label: "Link" }),
       }),
       {
         label: "What we offer ",

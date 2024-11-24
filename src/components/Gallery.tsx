@@ -1,13 +1,13 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-import { Pagination } from 'swiper/modules';
+import { Pagination } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 interface Slide {
-slide: string;
+  slide: string;
 }
 
 interface GalleryProps {
@@ -42,19 +42,16 @@ const Gallery: React.FC<GalleryProps> = ({
             nextEl: ".next",
           }}
           modules={[Navigation, Pagination]}
-          pagination={{
-            clickable: true,
-          }}
           className="testimonals"
         >
           {galleryImages.map((slide: any, index: number) => (
             <SwiperSlide key={index}>
               <div>
-                <div className="border border-[#F1F1F1] rounded-[50px]  ">
+                <div className="border border-[#F1F1F1] rounded-[50px] overflow-hidden  ">
                   <img
                     loading="lazy"
                     src={slide}
-                    className="w-full lg:h-[500px]"
+                    className="w-full lg:h-[500px] "
                     alt=""
                   />
                 </div>

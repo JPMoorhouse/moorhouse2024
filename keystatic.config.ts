@@ -371,5 +371,15 @@ export default config({
         ),
       },
     }),
+    headScripts: singleton({
+      label: "Head Scripts",
+      path: "src/content/headscripts/",
+      schema: {
+        headScripts: fields.text({
+          label: "Head Scripts",
+          multiline: true,
+        }),
+      },
+    }),
   },
 });
