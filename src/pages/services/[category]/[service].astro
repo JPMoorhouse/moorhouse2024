@@ -30,8 +30,6 @@ export const getStaticPaths = async () => {
     const relatedServices = category.entry.subService;
     if (relatedServices.length > 0) {
       for (const service of relatedServices) {
-        console.log("Service", service);
-        console.log("Category", category);
         paths.push({
           params: { category: category.slug, service: service },
           props: { service },
@@ -48,14 +46,12 @@ interface Props {
 }
 
 const { service } = Astro.props;
-console.log(service);
 const serviceData = await getEntry("sub-services", service);
 const data = serviceData?.data;
 interface Block {
   discriminant: string;
   value: any;
 }
-console.log(data);
 ---
 
 <DetailLayout
@@ -89,7 +85,7 @@ console.log(data);
           <WhatWeOffer {...block.value} />
         )}
         {block.discriminant === "gallery" && (
-          <Gallery {...block.value} client:only />
+          <Gallery {...block.value} client:only="react" />
         )}
         {block.discriminant === "whatToExpect" && (
           <WhatToExpect {...block.value} />
@@ -105,7 +101,7 @@ console.log(data);
           <Faq {...block.value} />
         )}
         {block.discriminant === "testimonials" && (
-          <Testimonial client:only {...block.value} />
+          <Testimonial client:only="react" {...block.value} />
         )}
         {block.discriminant === "paintingProcess" && (
           <PantingProcess {...block.value} />

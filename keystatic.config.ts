@@ -24,7 +24,7 @@ import {
 
 export default config({
   storage: {
-    kind: "cloud",
+    kind: "local",
   },
 
   cloud: {

@@ -18,20 +18,25 @@
     "@astrojs/react": "^3.6.3",
     "@astrojs/rss": "^4.0.9",
     "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/svelte": "^6.0.2",
     "@astrojs/tailwind": "^5.1.2",
     "@fontsource/prompt": "^5.0.14",
     "@keystatic/astro": "^5.0.0",
     "@keystatic/core": "^0.5.32",
+    "@types/mjml": "^4.7.4",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
     "astro": "^4.16.14",
     "astro-robots-txt": "^1.0.0",
     "marked": "^14.0.0",
+    "mjml": "^4.15.3",
+    "postmark": "^4.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "svelte": "^5.2.7",
     "swiper": "^11.1.0",
     "tailwindcss": "^3.4.3",
-    "typescript": "^5.4.4"
+    "typescript": "^5.7.2"
   },
   "devDependencies": {
     "@types/node": "^18.19.45"

@@ -20,44 +20,70 @@ import SubServicesCards from "@components/sub-services-cards.astro";
 import HeroWithBanner from "@components/hero-with-banner.astro";
 import DetailLayout from "@layouts/DetailLayout.astro";
 export async function getStaticPaths() {
-    const reader = createReader(process.cwd(), keystaticConfig);
-    const projects = await reader.collections.projects.all();
-    return projects.map(({ slug }) => {
-        return {
-            params: { slug },
-           
-        };
-    });
+  const reader = createReader(process.cwd(), keystaticConfig);
+  const projects = await reader.collections.projects.all();
+  return projects.map(({ slug }) => {
+    return {
+      params: { slug },
+    };
+  });
 }
 
 const { slug } = Astro.params;
-const projectsData:any = await getEntry("projects",slug)
-const data = projectsData.data
+const projectsData: any = await getEntry("projects", slug);
+const data = projectsData.data;
 ---
+
 <DetailLayout
-    title={data.seoData.seoTitle}
-    description={data.seoData.seoDesription}
-    image={data.seoData.ogImage}
+  title={data.seoData.seoTitle}
+  description={data.seoData.seoDesription}
+  image={data.seoData.ogImage}
 >
-    {
-        data?.blocks.map((block: any) => (
-          <>
-            {block.discriminant == "twoColumnWithTitle" && <TwoColumnTitle {...block.value} />}
-            {block.discriminant == "subServiceCards" && <SubServicesCards {...block.value} />}
-            {block.discriminant == "sectionTitleDescription" && <RichTextWithTitle {...block.value} />}
-            {block.discriminant == "gridGallery" && <ServiceGallery {...block.value} />}
-            {block.discriminant == "hero" && <Hero {...block.value} />}
-            {block.discriminant == "heroWithBanner" && <HeroWithBanner {...block.value} />}
-            {block.discriminant == "aboutmoorhouse" && <AboutMoorehouse {...block.value} />}
-            {block.discriminant == "whatWeOffer" && <WhatWeOffer {...block.value} />}
-            {block.discriminant == "gallery" && <Gallery {...block.value} client:only />}
-            {block.discriminant == "whatToExpect" && <WhatToExpect {...block.value} />}
-            {block.discriminant == "locallyOwnedBusiness" && <LocalOwnedBusiness {...block.value} />}
-            {block.discriminant == "industrialPainting" && <IndustrialPainting {...block.value} />}
-            {block.discriminant == "twoColumn" && <TwoCol {...block.value} />}
-            {block.discriminant == "frequentlyAskedQuestions" && <Faq {...block.value} />}
-            {block.discriminant == "testimonials" && <Testimonial client:only {...block.value} />}
-            </>
-        ))
-    }
+  {
+    data?.blocks.map((block: any) => (
+      <>
+        {block.discriminant == "twoColumnWithTitle" && (
+          <TwoColumnTitle {...block.value} />
+        )}
+        {block.discriminant == "subServiceCards" && (
+          <SubServicesCards {...block.value} />
+        )}
+        {block.discriminant == "sectionTitleDescription" && (
+          <RichTextWithTitle {...block.value} />
+        )}
+        {block.discriminant == "gridGallery" && (
+          <ServiceGallery {...block.value} />
+        )}
+        {block.discriminant == "hero" && <Hero {...block.value} />}
+        {block.discriminant == "heroWithBanner" && (
+          <HeroWithBanner {...block.value} />
+        )}
+        {block.discriminant == "aboutmoorhouse" && (
+          <AboutMoorehouse {...block.value} />
+        )}
+        {block.discriminant == "whatWeOffer" && (
+          <WhatWeOffer {...block.value} />
+        )}
+        {block.discriminant == "gallery" && (
+          <Gallery {...block.value} client:only="react" />
+        )}
+        {block.discriminant == "whatToExpect" && (
+          <WhatToExpect {...block.value} />
+        )}
+        {block.discriminant == "locallyOwnedBusiness" && (
+          <LocalOwnedBusiness {...block.value} />
+        )}
+        {block.discriminant == "industrialPainting" && (
+          <IndustrialPainting {...block.value} />
+        )}
+        {block.discriminant == "twoColumn" && <TwoCol {...block.value} />}
+        {block.discriminant == "frequentlyAskedQuestions" && (
+          <Faq {...block.value} />
+        )}
+        {block.discriminant == "testimonials" && (
+          <Testimonial client:only="react" {...block.value} />
+        )}
+      </>
+    ))
+  }
 </DetailLayout>

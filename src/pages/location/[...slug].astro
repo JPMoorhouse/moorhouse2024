@@ -14,40 +14,55 @@ import Faq from "@components/Faq.astro";
 import { getEntry } from "astro:content";
 import LocalOwnedBusiness from "@components/localOwnedBusiness.astro";
 export async function getStaticPaths() {
-    const reader = createReader(process.cwd(), keystaticConfig);
-    const Locations = await reader.collections.locations.all();
-    return Locations.map(({ slug }) => {
-        return {
-            params: { slug },
-           
-        };
-    });
+  const reader = createReader(process.cwd(), keystaticConfig);
+  const Locations = await reader.collections.locations.all();
+  return Locations.map(({ slug }) => {
+    return {
+      params: { slug },
+    };
+  });
 }
 
 const { slug } = Astro.params;
-const locationData:any = await getEntry("locations",slug)
-const data = locationData.data
+const locationData: any = await getEntry("locations", slug);
+const data = locationData.data;
 ---
 
 <Layout
-    title={data.seoData.seoTitle}
-    description={data.seoData.seoDesription}
-    image={data.seoData.ogImage}
+  title={data.seoData.seoTitle}
+  description={data.seoData.seoDesription}
+  image={data.seoData.ogImage}
 >
-    {
-        data?.blocks.map((block: any) => (
-            <main class="">
-            {block.discriminant == "hero" && <Hero {...block.value} />}
-            {block.discriminant == "aboutmoorhouse" && <AboutMoorehouse {...block.value} />}
-            {block.discriminant == "whatWeOffer" && <WhatWeOffer {...block.value} />}
-            {block.discriminant == "gallery" && <Gallery {...block.value} client:only />}
-            {block.discriminant == "whatToExpect" && <WhatToExpect {...block.value} />}
-            {block.discriminant == "locallyOwnedBusiness" && <LocalOwnedBusiness {...block.value} />}
-            {block.discriminant == "industrialPainting" && <IndustrialPainting {...block.value} />}
-            {block.discriminant == "twoColumn" && <TwoCol {...block.value} />}
-            {block.discriminant == "frequentlyAskedQuestions" && <Faq {...block.value} />}
-            {block.discriminant == "testimonials" && <Testimonial client:only {...block.value} />}
-            </main>
-        ))
-    }
+  {
+    data?.blocks.map((block: any) => (
+      <main class="">
+        {block.discriminant == "hero" && <Hero {...block.value} />}
+        {block.discriminant == "aboutmoorhouse" && (
+          <AboutMoorehouse {...block.value} />
+        )}
+        {block.discriminant == "whatWeOffer" && (
+          <WhatWeOffer {...block.value} />
+        )}
+        {block.discriminant == "gallery" && (
+          <Gallery {...block.value} client:only="react" />
+        )}
+        {block.discriminant == "whatToExpect" && (
+          <WhatToExpect {...block.value} />
+        )}
+        {block.discriminant == "locallyOwnedBusiness" && (
+          <LocalOwnedBusiness {...block.value} />
+        )}
+        {block.discriminant == "industrialPainting" && (
+          <IndustrialPainting {...block.value} />
+        )}
+        {block.discriminant == "twoColumn" && <TwoCol {...block.value} />}
+        {block.discriminant == "frequentlyAskedQuestions" && (
+          <Faq {...block.value} />
+        )}
+        {block.discriminant == "testimonials" && (
+          <Testimonial client:only="react" {...block.value} />
+        )}
+      </main>
+    ))
+  }
 </Layout>

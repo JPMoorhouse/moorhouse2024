@@ -1,52 +1,54 @@
 ---
 import { Image } from "astro:assets";
-const {cardWithImage } = Astro.props;
+const { cardWithImage } = Astro.props;
 interface cardsProps {
-    image: string;
-    title: string;
-    description: string;
-    Button: {
-        text: string;
-        slug: string;
-    };
+  image: string;
+  title: string;
+  description: string;
+  Button: {
+    text: string;
+    slug: string;
+  };
 }
 ---
 
 <div class="custom-container lg:mt-10 lg:py-20 py-16">
-    {
-        cardWithImage &&
-            cardWithImage.map((card:cardsProps, index:number) => (
-                <div
-                    class={`${index % 2 == 0 ? "lg:flex-row flex-col-reverse" : "lg:flex-row-reverse flex-col-reverse"} gap-16 flex justify-between mt-14 items-center lg:px-12`}
-                >
-                    <div class="lg:w-1/2 w-full relative">
-                        <div class="size-full internal-shadow absolute top-0 bottom-0 left-0 right-0 rounded-[45px] z-40"></div>
-                        <Image
-                            src={card.image}
-                            alt=""
-                            class="w-full rounded-[45px] z-0"
-                            width="500"
-                            height="450"
-                        />
-                    </div>
-                    <div class="lg:w-1/2 w-full">
-                        <h3 class="lg:text-4xl md:text-3xl font-body text-2xl font-medium md:mb-6 mb-3">
-                         <span class="text-[#EDC81A]">{`0${index + 1}`}</span>  {card.title}
-                        </h3>
-                        <div
-                            class="text-lg opacity-80 font-normal md:mb-12 mb-3 leading-[29px]"
-                            set:html={card.description}
-                        />
-                        {card.Button && card.Button.text && (
-                            <a
-                                href={`/services/${card.Button.slug}`}
-                                class="rounded-2xl text-base cursor-pointer bg-green px-8 gap-4 py-3 font-bold text-white flex justify-center items-center w-fit"
-                            >
-                                {card.Button.text}
-                            </a>
-                        )}
-                    </div>
-                </div>
-            ))
-    }
+  {
+    cardWithImage &&
+      cardWithImage.map((card: cardsProps, index: number) => (
+        <div
+          class={`${index % 2 == 0 ? "lg:flex-row flex-col-reverse" : "lg:flex-row-reverse flex-col-reverse"} gap-16 flex justify-between mt-14 items-center lg:px-12`}
+        >
+          <div class="lg:w-1/2 w-full relative">
+            <div class="size-full internal-shadow absolute top-0 bottom-0 left-0 right-0 rounded-[45px] z-40" />
+            {card && card.image && (
+              <Image
+                src={card.image}
+                alt=""
+                class="w-full rounded-[45px] z-0"
+                width="500"
+                height="450"
+              />
+            )}
+          </div>
+          <div class="lg:w-1/2 w-full">
+            <h3 class="lg:text-4xl md:text-3xl font-body text-2xl font-medium md:mb-6 mb-3">
+              <span class="text-[#EDC81A]">{`0${index + 1}`}</span> {card.title}
+            </h3>
+            <div
+              class="text-lg opacity-80 font-normal md:mb-12 mb-3 leading-[29px]"
+              set:html={card.description}
+            />
+            {card.Button && card.Button.text && (
+              <a
+                href={`/services/${card.Button.slug}`}
+                class="rounded-2xl text-base cursor-pointer bg-green px-8 gap-4 py-3 font-bold text-white flex justify-center items-center w-fit"
+              >
+                {card.Button.text}
+              </a>
+            )}
+          </div>
+        </div>
+      ))
+  }
 </div>

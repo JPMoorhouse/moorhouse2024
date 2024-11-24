@@ -1,57 +1,55 @@
 ---
 import { Image } from "astro:assets";
-const {pretitle,sectionTitle,card} = Astro.props;
-import {marked} from "marked"
-const renderDescription =  marked.parse(card.description);
+const { pretitle, sectionTitle, card } = Astro.props;
+import { marked } from "marked";
+const renderDescription = marked.parse(card.description);
+console.log("Image with cards", card);
 ---
 
-
 <div class="custom-container lg:mt-10 lg:py-20 py-16">
-    {
-        pretitle && sectionTitle && (
-            <>
-                <p class="text-helper text-center">{pretitle}</p>
-                <h2 class="lg:text-6xl md:text-5xl text-4xl font-medium font-body text-center mt-3 !leading-tight">
-                    {sectionTitle}
-                </h2>
-            </>
-        )
-    }
-    {
-        card &&
-       (
-                <div
-                    class=" flex gap-16 justify-between lg:flex-row flex-col-reverse lg:px-12 items-center lg:mt-[103px] mt-14"
-                >
-                    <div class="lg:w-1/2 w-full relative">
-                        <div class="size-full internal-shadow absolute top-0 bottom-0 left-0 right-0 rounded-[45px] z-40"></div>
-                        <Image
-                            src={card.image}
-                            alt=""
-                            class="w-full rounded-[45px] z-0"
-                            width="500"
-                            height="450"
-                        />
-                    </div>
-                    <div class="lg:w-1/2 w-full">
-                        <h3 class="lg:text-4xl md:text-3xl font-body text-2xl font-medium md:mb-6 mb-3">
-                            {card.title}
-                        </h3>
-                        <div
-                            class="text-lg opacity-80 font-normal md:mb-12 mb-3 leading-[29px]"
-                            set:html={renderDescription}
-                        />
-                        {card.Button && card.Button.label && (
-                            <a
-                                href={card.Button.link}
-                                class="rounded-2xl text-base cursor-pointer bg-green px-8 gap-4 py-3 font-bold text-white flex justify-center items-center w-fit"
-                            >
-                                {card.Button.label}
-                               
-                            </a>
-                        )}
-                    </div>
-                </div>
-            )
-    }
+  {
+    pretitle && sectionTitle && (
+      <>
+        <p class="text-helper text-center">{pretitle}</p>
+        <h2 class="lg:text-6xl md:text-5xl text-4xl font-medium font-body text-center mt-3 !leading-tight">
+          {sectionTitle}
+        </h2>
+      </>
+    )
+  }
+  {
+    card && (
+      <div class=" flex gap-16 justify-between lg:flex-row flex-col-reverse lg:px-12 items-center lg:mt-[103px] mt-14">
+        <div class="lg:w-1/2 w-full relative">
+          <div class="size-full internal-shadow absolute top-0 bottom-0 left-0 right-0 rounded-[45px] z-40" />
+          {card.image && (
+            <Image
+              src={card.image}
+              alt=""
+              class="w-full rounded-[45px] z-0"
+              width="500"
+              height="450"
+            />
+          )}
+        </div>
+        <div class="lg:w-1/2 w-full">
+          <h3 class="lg:text-4xl md:text-3xl font-body text-2xl font-medium md:mb-6 mb-3">
+            {card.title}
+          </h3>
+          <div
+            class="text-lg opacity-80 font-normal md:mb-12 mb-3 leading-[29px]"
+            set:html={renderDescription}
+          />
+          {card.Button && card.Button.label && (
+            <a
+              href={card.Button.link}
+              class="rounded-2xl text-base cursor-pointer bg-green px-8 gap-4 py-3 font-bold text-white flex justify-center items-center w-fit"
+            >
+              {card.Button.label}
+            </a>
+          )}
+        </div>
+      </div>
+    )
+  }
 </div>

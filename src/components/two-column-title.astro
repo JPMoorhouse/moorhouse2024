@@ -5,51 +5,57 @@ import { marked } from "marked";
 const { pretitle, title, cards } = Astro.props;
 
 interface cardsProps {
-    image: string;
-    title: string;
-    description: string;
+  image: string;
+  title: string;
+  description: string;
 }
 ---
 
 <div class="custom-container lg:mt-10 lg:py-20 py-16">
-    <div>
-        <p class="text-helper text-center">{pretitle}</p>
-        <h2 class="lg:text-6xl md:text-5xl text-4xl lg:leading-[70px] mx-auto font-medium text-center text-black mt-3">
-            {title}
-        </h2>
-    </div>
-    {
-        cards &&
-        cards.map((card: cardsProps, index: number) => (
+  <div>
+    <p class="text-helper text-center">{pretitle}</p>
+    <h2
+      class="lg:text-6xl md:text-5xl text-4xl lg:leading-[70px] mx-auto font-medium text-center text-black mt-3"
+    >
+      {title}
+    </h2>
+  </div>
+  {
+    cards &&
+      cards.map((card: cardsProps, index: number) => (
+        <div
+          class={`${
+            index % 2 == 0
+              ? "lg:flex-row flex-col-reverse"
+              : "lg:flex-row-reverse flex-col-reverse"
+          } gap-16 flex justify-between mt-14 items-center lg:px-12`}
+        >
+          <div class="lg:w-1/2 w-full relative">
+            <div class="size-full internal-shadow absolute top-0 bottom-0 left-0 right-0 rounded-[45px] z-40" />
+            {card && card.image && (
+              <Image
+                src={card.image}
+                alt=""
+                class="w-full rounded-[45px] z-0"
+                width="500"
+                height="450"
+              />
+            )}
+          </div>
+          <div class="lg:w-1/2 w-full">
+            <h3 class="lg:text-4xl md:text-3xl font-body text-2xl font-medium md:mb-6 mb-3">
+              {card.title && (
+                <span class="text-[#EDC81A]">
+                  {`0${index + 1}`} {card.title}
+                </span>
+              )}
+            </h3>
             <div
-                class={`${
-                    index % 2 == 0 ? "lg:flex-row flex-col-reverse" : "lg:flex-row-reverse flex-col-reverse"
-                } gap-16 flex justify-between mt-14 items-center lg:px-12`}
-            >
-                <div class="lg:w-1/2 w-full relative">
-                    <div class="size-full internal-shadow absolute top-0 bottom-0 left-0 right-0 rounded-[45px] z-40"></div>
-                    <Image
-                        src={card.image}
-                        alt=""
-                        class="w-full rounded-[45px] z-0"
-                        width="500"
-                        height="450"
-                    />
-                </div>
-                <div class="lg:w-1/2 w-full">
-                    <h3 class="lg:text-4xl md:text-3xl font-body text-2xl font-medium md:mb-6 mb-3">
-                        {card.title && (
-                            <span class="text-[#EDC81A]">
-                                {`0${index + 1}`} {card.title}
-                            </span>
-                        )}
-                    </h3>
-                    <div
-                        class="text-lg opacity-80 font-normal md:mb-12 mb-3 leading-[29px] prose"
-                        set:html={marked.parse(card.description)}
-                    />
-                </div>
-            </div>
-        ))
-    }
+              class="text-lg opacity-80 font-normal md:mb-12 mb-3 leading-[29px] prose"
+              set:html={marked.parse(card.description)}
+            />
+          </div>
+        </div>
+      ))
+  }
 </div>

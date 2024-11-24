@@ -9,21 +9,14 @@ import netlify from "@astrojs/netlify";
 import partytown from "@astrojs/partytown";
 import robotsTxt from "astro-robots-txt";
 
+import svelte from "@astrojs/svelte";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://moorhousecoating.com",
-  integrations: [
-    mdx(),
-    sitemap({
-      filter: (page) => page !== "https://moorhousecoating.com/keystatic/",
-    }),
-    tailwind(),
-    react(),
-    markdoc(),
-    keystatic(),
-    robotsTxt(),
-    partytown(),
-  ],
+  integrations: [mdx(), sitemap({
+    filter: (page) => page !== "https://moorhousecoating.com/keystatic/",
+  }), tailwind(), react(), markdoc(), keystatic(), robotsTxt(), partytown(), svelte()],
   output: "hybrid",
   adapter: netlify(),
 });
