@@ -1,26 +1,43 @@
 import { defineAction } from "astro:actions";
 import { z } from "astro:schema";
-import * as postmark from "postmark";
+import sgMail from "@sendgrid/mail";
 import mjml2html from "mjml";
 
 export const server = {
   quoteForm: defineAction({
     input: z.object({
-      fullName: z.string().min(1, { message: "Please enter your full name" }),
-      email: z
+      estimate_first_name: z
         .string()
-        .min(1, { message: "Please enter an email address" })
-        .email({ message: "Please enter a valid email address" }),
-      phone: z.string().min(1, { message: "Please enter a phone" }),
-      fullMessage: z.string().min(1, { message: "Please enter a message" }),
+        .min(1, { message: "First name is required" }),
+      estimate_last_name: z
+        .string()
+        .min(1, { message: "Last name is required" }),
+      estimate_email: z
+        .string()
+        .email({ message: "Please enter a valid email address" })
+        .min(1, { message: "Email address is required" }),
+      estimate_phone: z
+        .string()
+        .min(1, { message: "Phone number is required" }),
+      estimate_street: z
+        .string()
+        .min(1, { message: "Street address is required" }),
+      estimate_city: z.string().min(1, { message: "City is required" }),
+      estimate_state: z.string().min(1, { message: "State is required" }),
+      estimate_zip: z.string().min(1, { message: "Postal code is required" }),
+      estimate_comments: z.string().optional(),
+      estimate_project_type: z
+        .string()
+        .min(1, { message: "Project type is required" }),
       cfTurnstileResponse: z
         .string()
         .min(1, { message: "Turnstile verification required" }),
     }),
     handler: async (input) => {
+      // Validate Turnstile response
       const formData = new FormData();
       formData.append("secret", import.meta.env.TURNSTILE_SECRET_TOKEN);
-      formData.append("response", input.cfTurnstileResponse as string);
+      formData.append("response", input.cfTurnstileResponse);
       const result = await fetch(
         "https://challenges.cloudflare.com/turnstile/v0/siteverify",
         {
@@ -38,12 +55,12 @@ export const server = {
         };
       }
 
-      const client = new postmark.ServerClient(import.meta.env.POSTMARK_TOKEN);
+      // Prepare email content
+      sgMail.setApiKey(import.meta.env.SENDGRID_TOKEN);
       const { html: emailBody } = mjml2html(`
         <mjml>
           <mj-head>
-            <mj-title>Healing at the Well</mj-title>
-            <mj-font name="Arial" href="https://fonts.googleapis.com/css?family=Arial" />
+            <mj-title>Estimate Request</mj-title>
             <mj-attributes>
               <mj-all font-family="Arial, sans-serif" />
             </mj-attributes>
@@ -51,60 +68,70 @@ export const server = {
           <mj-body background-color="#f4f4f4">
             <mj-section background-color="#ffffff" padding-bottom="0px">
               <mj-column>
-                <mj-image src="https://healingatthewell.org/logo.png" alt="Healing at the Well" align="center" width="200px" />
+                <mj-image src="https://healingatthewell.org/logo.png" alt="Logo" align="center" width="200px" />
               </mj-column>
             </mj-section>
 
             <mj-section background-color="#ffffff">
               <mj-column>
                 <mj-text>
-                  <h2>Hi ${input.fullName},</h2>
-                  <p>Thank you for reaching out to Healing at the Well.</p>
-                  <p>Please see the details below for your records.</p>
+                  <h2>Thank you for your estimate request, ${input.estimate_first_name} ${input.estimate_last_name}.</h2>
+                  <p>Below are the details you provided:</p>
                 </mj-text>
               </mj-column>
             </mj-section>
 
             <mj-section background-color="#ffffff">
-              <mj-column width="60%">
+              <mj-column>
+                <mj-text>
+                  <p><strong>Contact Information:</strong></p>
+                  <p>Email: ${input.estimate_email}</p>
+                  <p>Phone: ${input.estimate_phone}</p>
+                  <p><strong>Address:</strong></p>
+                  <p>${input.estimate_street}, ${input.estimate_city}, ${input.estimate_state}, ${input.estimate_zip}</p>
+                  <p><strong>Project Type:</strong> ${input.estimate_project_type}</p>
+                  ${
+                    input.estimate_comments
+                      ? `<p><strong>Comments:</strong> ${input.estimate_comments}</p>`
+                      : ""
+                  }
+                </mj-text>
               </mj-column>
             </mj-section>
 
             <mj-section background-color="#ffffff">
               <mj-column>
                 <mj-text>
-                  <p>From: ${input.email}</p>
-                  <p>Phone: ${input.phone}</p>
-                  <p>Message:</p>
-                  <p>${input.fullMessage}</p>
+                  <p>We will review your request and get back to you shortly.</p>
+                  <p>Thank you,</p>
+                  <p>The Healing at the Well Team</p>
                 </mj-text>
               </mj-column>
             </mj-section>
           </mj-body>
         </mjml>
-        `);
+      `);
+
+      // Send email
       try {
-        await client.sendEmail({
-          From: "Healing at the Well <nicole@healingatthewell.org>",
-          To: `${input.email}`,
-          Cc: "nicole@healingatthewell.org",
-          Subject: "Thank you for contacting Healing at the Well",
-          HtmlBody: emailBody,
-          MessageStream: "outbound",
-        });
+        // Send email via SendGrid
+        const adminMsg = {
+          to: "info@moorhousecoating.com",
+          from: "website@moorhousecoating.com",
+          subject: "We Have New Form Submission On Website",
+          html: emailBody,
+        };
+        await sgMail.send(adminMsg);
       } catch (error) {
-        console.error("Error sending email:", error);
-        return new Response(
-          JSON.stringify({
-            status: "500 Internal Server Error",
-            message: "An error occurred while sending the email.",
-          }),
-          { status: 500 }
-        );
+        return {
+          success: false,
+          message: "An error occurred while sending the email.",
+        };
       }
+
       return {
         status: 200,
-        message: "Success",
+        message: "Estimate request submitted successfully.",
       };
     },
   }),

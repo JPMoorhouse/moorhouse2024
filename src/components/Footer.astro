@@ -1,7 +1,7 @@
 ---
-import FooterForm from "./FooterForm.astro";
 import Image from "astro/components/Image.astro";
-import keystaticConfig from "../../keystatic.config";
+import QuoteForm from "./QuoteForm.svelte";
+import keystaticConfig from "keystatic.config";
 const reader = createReader(process.cwd(), keystaticConfig);
 import { createReader } from "@keystatic/core/reader";
 const footer: any = await reader.singletons.footer.read();
@@ -22,7 +22,7 @@ const footer: any = await reader.singletons.footer.read();
         {footer.heading}
       </h2>
       <div class="lg:max-w-[900px] mx-auto">
-        <FooterForm />
+        <QuoteForm client:only="svelte" />
       </div>
     </div>
     <div
