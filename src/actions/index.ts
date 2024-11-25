@@ -58,7 +58,7 @@ export const server = {
       // Prepare email content
       sgMail.setApiKey(import.meta.env.SENDGRID_TOKEN);
       const { html: emailBody } = mjml2html(`
-    <mjml>
+         <mjml>
   <mj-head>
     <mj-title>Estimate Request Confirmation</mj-title>
     <mj-attributes>
@@ -70,10 +70,10 @@ export const server = {
   </mj-head>
   <mj-body background-color="#f4f4f4">
     <!-- Header Section -->
-    <mj-section background-color="#445B9F" padding="20px">
+    <mj-section background-color="#fff" padding="20px">
       <mj-column>
         <mj-image src="https://moorhousecoating.com/assets/images/moorhouse-logo.png" alt="Logo" width="200px" />
-        <mj-text align="center" color="#ffffff" font-size="24px" font-weight="bold" padding-top="10px">
+        <mj-text align="center" color="#445B9F" font-size="24px" font-weight="bold" padding-top="10px">
           Estimate Request Confirmation
         </mj-text>
       </mj-column>
@@ -113,7 +113,7 @@ export const server = {
       <mj-column>
         <mj-text align="center">
           <p>Our team is reviewing your request and will get back to you soon.</p>
-          <p>If you have any questions, feel free to <a href="mailto:support@moorhousecoating.com" style="color: #445B9F; text-decoration: none;">contact us</a>.</p>
+          <p>If you have any questions, feel free to <a href="mailto:info@moorhousecoating.com" style="color: #445B9F; text-decoration: none;">contact us</a>.</p>
         </mj-text>
         <mj-button href="https://moorhousecoating.com" padding="20px">
           Visit Our Website
