@@ -58,58 +58,83 @@ export const server = {
       // Prepare email content
       sgMail.setApiKey(import.meta.env.SENDGRID_TOKEN);
       const { html: emailBody } = mjml2html(`
-        <mjml>
-          <mj-head>
-            <mj-title>Estimate Request</mj-title>
-            <mj-attributes>
-              <mj-all font-family="Arial, sans-serif" />
-            </mj-attributes>
-          </mj-head>
-          <mj-body background-color="#f4f4f4">
-            <mj-section background-color="#ffffff" padding-bottom="0px">
-              <mj-column>
-                <mj-image src="https://healingatthewell.org/logo.png" alt="Logo" align="center" width="200px" />
-              </mj-column>
-            </mj-section>
+    <mjml>
+  <mj-head>
+    <mj-title>Estimate Request Confirmation</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Arial, sans-serif" />
+      <mj-text color="#333333" font-size="16px" line-height="1.5" />
+      <mj-section padding="0px" />
+      <mj-button background-color="#445B9F" color="#ffffff" font-size="16px" border-radius="5px" padding="15px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#f4f4f4">
+    <!-- Header Section -->
+    <mj-section background-color="#445B9F" padding="20px">
+      <mj-column>
+        <mj-image src="https://moorhousecoating.com/assets/images/moorhouse-logo.png" alt="Logo" width="200px" />
+        <mj-text align="center" color="#ffffff" font-size="24px" font-weight="bold" padding-top="10px">
+          Estimate Request Confirmation
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
-            <mj-section background-color="#ffffff">
-              <mj-column>
-                <mj-text>
-                  <h2>Thank you for your estimate request, ${input.estimate_first_name} ${input.estimate_last_name}.</h2>
-                  <p>Below are the details you provided:</p>
-                </mj-text>
-              </mj-column>
-            </mj-section>
+    <!-- Introduction Section -->
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+        <mj-text>
+          <h2 style="margin-bottom: 10px; color: #445B9F;">Thank You, ${input.estimate_first_name}!</h2>
+          <p>We appreciate your interest in MoorHouse Coating. Here’s a summary of your estimate request:</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
-            <mj-section background-color="#ffffff">
-              <mj-column>
-                <mj-text>
-                  <p><strong>Contact Information:</strong></p>
-                  <p>Email: ${input.estimate_email}</p>
-                  <p>Phone: ${input.estimate_phone}</p>
-                  <p><strong>Address:</strong></p>
-                  <p>${input.estimate_street}, ${input.estimate_city}, ${input.estimate_state}, ${input.estimate_zip}</p>
-                  <p><strong>Project Type:</strong> ${input.estimate_project_type}</p>
-                  ${
-                    input.estimate_comments
-                      ? `<p><strong>Comments:</strong> ${input.estimate_comments}</p>`
-                      : ""
-                  }
-                </mj-text>
-              </mj-column>
-            </mj-section>
+    <!-- Contact Details Section -->
+    <mj-section background-color="#f9f9f9" padding="20px">
+      <mj-column>
+        <mj-text>
+          <p><strong>Contact Information:</strong></p>
+          <p>Email: <a href="mailto:${input.estimate_email}" style="color: #445B9F; text-decoration: none;">${input.estimate_email}</a></p>
+          <p>Phone: ${input.estimate_phone}</p>
+          <p><strong>Address:</strong></p>
+          <p>${input.estimate_street}<br>${input.estimate_city}, ${input.estimate_state} ${input.estimate_zip}</p>
+          <p><strong>Project Type:</strong> ${input.estimate_project_type}</p>
+          ${
+            input.estimate_comments
+              ? `<p><strong>Comments:</strong> ${input.estimate_comments}</p>`
+              : ""
+          }
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
-            <mj-section background-color="#ffffff">
-              <mj-column>
-                <mj-text>
-                  <p>We will review your request and get back to you shortly.</p>
-                  <p>Thank you,</p>
-                  <p>The Healing at the Well Team</p>
-                </mj-text>
-              </mj-column>
-            </mj-section>
-          </mj-body>
-        </mjml>
+    <!-- Footer Message -->
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+        <mj-text align="center">
+          <p>Our team is reviewing your request and will get back to you soon.</p>
+          <p>If you have any questions, feel free to <a href="mailto:support@moorhousecoating.com" style="color: #445B9F; text-decoration: none;">contact us</a>.</p>
+        </mj-text>
+        <mj-button href="https://moorhousecoating.com" padding="20px">
+          Visit Our Website
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section background-color="#333333" padding="10px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="14px">
+          © ${new Date().getFullYear()} MoorHouse Coating. All rights reserved.
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="14px">
+          <a href="#" style="color: #ffffff; text-decoration: underline;">Privacy Policy</a> | <a href="#" style="color: #ffffff; text-decoration: underline;">Terms of Service</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
+
       `);
 
       // Send email
