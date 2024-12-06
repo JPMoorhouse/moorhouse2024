@@ -1,5 +1,6 @@
-headScripts: |
+headScripts: >-
   <!--Start of Tawk.to Script-->
+
   <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
       Tawk_LoadStart = new Date();
@@ -13,9 +14,12 @@ headScripts: |
       s0.parentNode.insertBefore(s1, s0);
     })();
   </script>
+
   <!--End of Tawk.to Script-->
 
+
   <!-- Google Tag Manager -->
+
   <script type="text/javascript">
     (function (w, d, s, l, i) {
       w[l] = w[l] || [];
@@ -28,11 +32,16 @@ headScripts: |
       f.parentNode.insertBefore(j, f);
     })(window, document, "script", "dataLayer", "GTM-NHSZKHG");
   </script>
+
   <!-- End Google Tag Manager -->
 
+
   <!-- Google tag (gtag.js) -->
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1NC93CGCYC"
+
   ></script>
+
   <script type="text/javascript">
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -41,4 +50,20 @@ headScripts: |
     gtag("js", new Date());
 
     gtag("config", "G-1NC93CGCYC");
+  </script>
+
+
+  <!-- Google tag (gtag.js) -->
+
+  <script async
+  src="https://www.googletagmanager.com/gtag/js?id=AW-16478614668">
+
+  </script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-16478614668');
   </script>
