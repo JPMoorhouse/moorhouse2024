@@ -47,6 +47,7 @@ blocks:
           area, with the same commitment to quality and customer care. We take
           pride in delivering high-quality results, using top-tier products and
           techniques tailored to each project.
+        image: /images/phoenix/blocks/1/value/card/image.JPG
         Button: {}
   - discriminant: whatWeOffer
     value:
