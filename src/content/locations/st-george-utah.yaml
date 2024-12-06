@@ -12,7 +12,9 @@ seoData:
 blocks:
   - discriminant: hero
     value:
-      title: Full-Service Painting in St. George, Utah
+      title: >-
+        <span class="text-secondary">Full-Service </span Painting in St. George,
+        Utah
       subtitle: >-
         Premier painting contractor serving the city of St. George, offering
         residential, commercial, and industrial painting services. Contact us
