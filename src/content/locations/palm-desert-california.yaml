@@ -9,7 +9,7 @@ seoData:
 blocks:
   - discriminant: hero
     value:
-      title: <span class="text-secondary">Full Service </span>Painting in Palm Desert
+      title: <span class="text-secondary">Full-Service </span>Painting in Palm Desert
       subtitle: >-
         Enhance your space with Palm Desert's premier painting contractor,
         offering residential, commercial, and industrial painting services.
@@ -105,10 +105,10 @@ blocks:
             licensed painting contractor, we have years of experience performing
             quality work for commercial and residential clients.
         - cardIcon: /images/palm-desert-california/blocks/4/value/cards/1/cardIcon.svg
-          cardText: "We Value Integrity & Honesty "
+          cardText: 'We Value Integrity & Honesty '
           cardDescription: "\_To Paint with integrity we must be open and forthright, even when it's difficult. Open, truthful conversations create opportunities for better analysis and future decisions."
         - cardIcon: /images/palm-desert-california/blocks/4/value/cards/2/cardIcon.svg
-          cardText: "Over 20+ Years Experience "
+          cardText: 'Over 20+ Years Experience '
           cardDescription: >-
             Our 20+ years of experience in the painting industry has shown us
             nearly every possible situation. Moorhouse handles your paint job in
