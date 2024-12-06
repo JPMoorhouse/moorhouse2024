@@ -47,7 +47,7 @@ locations:
     - label: Phoenix
       link: /location/phoenix
     - label: St George
-      link: '#'
+      link: /location/st-george-utah
 otherlinks:
   - label: Privacy Policy
     link: >-
