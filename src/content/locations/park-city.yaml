@@ -5,7 +5,9 @@ seoData:
 blocks:
   - discriminant: hero
     value:
-      title: Full Service Painting in Park City
+      title: >-
+        <span class="text-secondary">Full-Service </span>Painting in Park City,
+        Utah
       subtitle: >-
         Enhance your space with Summit County's premier painting contractor,
         offering residential, commercial, and industrial painting services.
