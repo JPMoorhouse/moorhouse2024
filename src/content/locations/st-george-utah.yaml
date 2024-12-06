@@ -1,11 +1,176 @@
 title: St. George, Utah
 seoData:
-  seoTitle: Southwestern Utah St. George and Surrounding areas
+  seoTitle: >-
+    Professional Commercial & Residential Painting Services in St. George, Utah
+    | Moorhouse Coating
   seoDesription: >-
-    84770 St. George 84790,84765 - Santa Clara 84780 - Washington 84738 - Ivins 
-    84737 - Hurricane 84745 - Leeds 84746 - Hildale 84722 - Central 84783 - Pine
-    Valley 84757 - New Harmony 84763 Rockville 84784 Toquerville 84767
-    Springdale 84774 La Verkin 84721 Cedar City 84782  Pine Valley 84779 -
-    Virgin
-  ogImage: /images/seo/st-george-utah/seoData/ogImage.webp
-blocks: []
+    Moorhouse Coating is a professional painting contractor, offering
+    comprehensive painting services across St. George and the surrounding area.
+    We provide expert residential, commercial, and industrial painting services,
+    transforming spaces with quality, precision, and professionalism.
+  ogImage: /images/seo/st-george-utah/seoData/ogImage.jpg
+blocks:
+  - discriminant: hero
+    value:
+      title: Full-Service Painting in St. George, Utah
+      subtitle: >-
+        Premier painting contractor serving the city of St. George, offering
+        residential, commercial, and industrial painting services. Contact us
+        today for a free estimate.
+      bgImage: /images/st-george-utah/blocks/0/value/bgImage.jpg
+      Button:
+        label: Request Virtual Estimat
+        url: https://calendar.app.google/xn7JEi6KgC7m82bs5
+  - discriminant: aboutmoorhouse
+    value:
+      pretitle: Welcome to Moorhouse Coating
+      sectionTitle: 'St. George’s Premier Full-Service Painting Contractor '
+      card:
+        title: About Moorthouse Coating
+        description: >
+          **Moorhouse Coating is a professional painting contractor proudly
+          serving the city of St. George, Utah.**
+
+
+          Looking for reliable commercial painters? Moorhouse Coating provides
+          top-tier painting services to businesses, property managers, and
+          institutions. From project management to flawless finishes, we
+          transform spaces with precision and care.
+
+
+          <br/>
+
+
+          Founded in 1997, Moorhouse Coating set out to make residential and
+          commercial painting services more accessible and convenient for
+          homeowners, property managers, and commercial managers. From the
+          beginning, we took on large commercial painting projects while
+          preserving the personal touch of a small company. Today, Moorhouse
+          Coating remains dedicated to providing professional painting,
+          staining, and coating services throughout the St. George area, with
+          the same commitment to quality and customer care. We take pride in
+          delivering high-quality results, using top-tier products and
+          techniques tailored to each project.
+        image: /images/st-george-utah/blocks/1/value/card/image.jpg
+        Button: {}
+  - discriminant: whatWeOffer
+    value:
+      pretitle: What We Offer
+      heading: We Tailor Our Services To Suit Your Needs
+      featureCards:
+        - cardIcon: /images/st-george-utah/blocks/2/value/featureCards/0/cardIcon.svg
+          cardText: Exterior House Painting Services
+          cardDescription: >-
+            Refresh your home’s curb appeal with professional exterior painting
+            that withstands the elements and boosts its beauty.
+        - cardIcon: /images/st-george-utah/blocks/2/value/featureCards/1/cardIcon.svg
+          cardText: Interior House Painting Services
+          cardDescription: >-
+            Transform your home’s interior with professional painting and
+            discover how our skilled painters can bring your vision to life.
+        - cardIcon: /images/st-george-utah/blocks/2/value/featureCards/2/cardIcon.svg
+          cardText: Commercial Painting Services
+          cardDescription: ' Elevate your business with painting services that enhance aesthetics and durability.'
+        - cardIcon: /images/st-george-utah/blocks/2/value/featureCards/3/cardIcon.svg
+          cardText: Industrial Painting Services
+          cardDescription: >-
+            Protect and enhance your industrial facility with specialized
+            painting services designed to withstand harsh conditions and heavy
+            use.
+      banner:
+        title: 'Do you have a Special Request? We’re Up For It! '
+        button:
+          text: Schedule a Free Estimate
+          slug: https://calendar.app.google/xn7JEi6KgC7m82bs5
+  - discriminant: locallyOwnedBusiness
+    value:
+      pretitle: Moorhouse Coating
+      title: Locally Owned Business
+      card:
+        title: Hiring a local painter will save you time and money
+        description: >-
+          For starters, a local painter will likely already be working in the
+          area. Combined resources and employees familiar with the style and
+          detail of homes in the area will be a huge head start. In addition,
+          they know the best products and applications to use for your specific
+          environment. 
+        image: /images/st-george-utah/blocks/3/value/card/image.JPG
+      banner:
+        title: Looking for a painter? Start local.
+        button:
+          label: Schedule a Free Estimate
+          link: https://calendar.app.google/xn7JEi6KgC7m82bs5
+  - discriminant: whatToExpect
+    value:
+      pretitle: The Moorhouse Advantage
+      heading: What To Expect When You Hire Moorhouse Coating
+      cards:
+        - cardIcon: /images/st-george-utah/blocks/4/value/cards/0/cardIcon.svg
+          cardText: Effective Communication
+          cardDescription: >-
+            Effective communication throughout the project ensures that every
+            detail aligns with your vision, from color selection to final
+            touches.
+        - cardIcon: /images/st-george-utah/blocks/4/value/cards/1/cardIcon.svg
+          cardText: We Value Integrity & Honesty
+          cardDescription: >-
+            To Paint with integrity we must be open and forthright, even when
+            it's difficult. Open, truthful conversations create opportunities
+            for improvement.
+        - cardIcon: /images/st-george-utah/blocks/4/value/cards/2/cardIcon.svg
+          cardText: Over 20+ Years Experience
+          cardDescription: >-
+            With over 20 years in business, we have seen nearly every possible
+            situation. Moorhouse Coating handles your paint job in the most
+            efficient, professional way possible.
+        - cardIcon: /images/st-george-utah/blocks/4/value/cards/3/cardIcon.svg
+          cardText: Experienced Team
+          cardDescription: >-
+            Our painters have years of experience in residential, commercial,
+            and industrial projects, ensuring a flawless finish every time.
+        - cardIcon: /images/st-george-utah/blocks/4/value/cards/4/cardIcon.svg
+          cardText: Customer Satisfaction
+          cardDescription: >-
+            Our commitment to customer service means we go above and beyond to
+            make your painting experience smooth and hassle-free.
+        - cardIcon: /images/st-george-utah/blocks/4/value/cards/5/cardIcon.svg
+          cardText: Licensed & Insured
+          cardDescription: >-
+            We’re a fully licensed and insured painting company, giving you
+            peace of mind with every project.
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating is an amazing company. Their interior finishes are
+            amazing and the crews they have for painting are professional,
+            clean, and very knowledgeable. I would recommend Moorhouse Coating
+            to anyone.
+          author: /images/st-george-utah/blocks/5/value/testimonials/0/author.svg
+          authorName: Zach M.
+          authorpost: Park City, UT
+        - rating: 5
+          cardText: >-
+            I recommend Moorhouse, the project involved extensive surface
+            preparation, specialty coatings, and complex scheduling to avoid
+            disrupting our operations. The team managed everything seamlessly,
+            and the final result was a beautifully finished space that enhanced
+            both our productivity and safety. We were particularly impressed
+            with their attention to detail and ability to work around our
+            operational needs.
+          author: /images/st-george-utah/blocks/5/value/testimonials/1/author.svg
+          authorName: David
+          authorpost: Palm Desert, CA
+        - rating: 5
+          cardText: >-
+            I would like to say thanks for changing the look of my house. Really
+            you guys are amazing. Best Experience with your professional
+            painters. Friendly Environment. Highly Recommend, We will be calling
+            them back soon to paint the interior! They're providing No.1
+            Painting service across Utah
+          author: /images/st-george-utah/blocks/5/value/testimonials/2/author.svg
+          authorName: Emily J.
+          authorpost: UT
