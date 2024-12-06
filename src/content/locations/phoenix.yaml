@@ -11,7 +11,9 @@ seoData:
 blocks:
   - discriminant: hero
     value:
-      title: Full-service Painting in Phoenix, Arizona
+      title: >-
+        <span class="text-secondary">Full-Service </span> Painting in Phoenix,
+        Arizona
       subtitle: >-
         Premier painting contractor serving the Phoenix metropolitan area,
         offering residential, commercial, and industrial painting services.
