@@ -60,6 +60,7 @@ blocks:
               link: '#'
               image: /images/properties/blocks/2/value/categories/0/cards/6/image.jpg
             - title: Data Centers
+              link: '#'
               image: /images/properties/blocks/2/value/categories/0/cards/7/image.jpg
             - title: Schools
               link: '#'
