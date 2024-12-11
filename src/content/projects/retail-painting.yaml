@@ -1,0 +1,78 @@
+title: Retail Painting
+seoData:
+  seoTitle: >-
+    Moorhouse Coating – commercial painting contractor serving Park City, Los
+    Angeles, Palm Desert, Phoenix, and St. George
+  seoDesription: >-
+    Moorhouse Coating provides interior and exterior painting services for
+    retail stores throughout the Southwest. Our expert painters provide
+    meticulous preparation and elegant finishes to enhance the beauty and
+    sophistication of your retail store. Using only the finest materials and
+    techniques, we deliver results that match the high standards of your brand.
+  ogImage: /images/seo/retail-painting/seoData/ogImage.JPG
+blocks:
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Property
+      title: Retail Painting
+      description: >
+        Make your retail store stand out with painting services designed to
+        enhance your brand and attract customers. With over 20 years of
+        experience painting commercial properties, Moorhouse Coating specializes
+        in transforming retail spaces into visually appealing environments that
+        align with your brand identity. Whether you need an eye-catching
+        exterior to draw foot traffic or a sleek, polished interior to create
+        the perfect shopping experience, we deliver high-quality results
+        tailored to your store's unique needs.
+
+
+        <br/>
+
+
+        At Moorhouse Coating, we understand the technical demands of painting
+        retail spaces, from coordinating around business hours to ensuring
+        compliance with safety and durability standards. Our professional team
+        works efficiently to minimize disruptions while delivering flawless
+        finishes that last. Let us help you make a lasting impression on your
+        customers with a retail space that is as inviting as it is functional.
+  - discriminant: gridGallery
+    value:
+      featuredImage: /images/retail-painting/blocks/1/value/featuredImage.JPG
+      galleryImages:
+        - /images/retail-painting/blocks/1/value/galleryImages/0.jpg
+        - /images/retail-painting/blocks/1/value/galleryImages/1.jpg
+        - /images/retail-painting/blocks/1/value/galleryImages/2.jpg
+        - /images/retail-painting/blocks/1/value/galleryImages/3.JPG
+        - /images/retail-painting/blocks/1/value/galleryImages/4.jpg
+        - /images/retail-painting/blocks/1/value/galleryImages/5.JPG
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating is an amazing company. Their interior finishes are
+            amazing and the crews they have for painting are professional,
+            clean, and very knowledgeable. I would recommend Moorhouse Coating
+            to anyone.
+          author: /images/retail-painting/blocks/2/value/testimonials/0/author.svg
+          authorName: Zach M.
+          authorpost: Park City, UT
+        - rating: 5
+          cardText: >-
+            We chose Moorhouse Coating to paint the exterior of our home, and we
+            couldn’t be more pleased. The team was efficient, respectful, and
+            paid attention to every detail. The finished product is stunning,
+            and it’s clear that they take pride in their work. Highly recommend
+            them for any exterior painting needs.
+          author: /images/retail-painting/blocks/2/value/testimonials/1/author.svg
+          authorName: Michael
+          authorpost: Heber City
+        - rating: 5
+          cardText: >-
+            The crew was respectful, clean, and did a flawless job. They even
+            helped us pick the perfect colors. We’d definitely use them again.
+          author: /images/retail-painting/blocks/2/value/testimonials/2/author.svg
+          authorName: Chris
+          authorpost: Deer Valley
