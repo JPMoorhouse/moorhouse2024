@@ -48,7 +48,7 @@ blocks:
               link: apartment-painting
               image: /images/properties/blocks/2/value/categories/0/cards/2/image.jpg
             - title: Retail
-              link: '#'
+              link: retail-painting
               image: /images/properties/blocks/2/value/categories/0/cards/3/image.JPG
             - title: Office Buildings
               link: '#'
