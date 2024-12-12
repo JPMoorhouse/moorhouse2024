@@ -1,0 +1,82 @@
+title: Office Building Painting
+seoData:
+  seoTitle: >-
+    Moorhouse Coating – Professional Office Building Painting Services for
+    Commercial Properties
+  seoDesription: >-
+    Transform your office building with professional painting services tailored
+    to commercial properties. Our expert team specializes in high-quality
+    interior and exterior painting, enhancing aesthetics, durability, and brand
+    appeal. With over 20 years of experience, we deliver efficient, minimally
+    disruptive solutions to meet your office painting needs.
+  ogImage: /images/seo/office-building-painting/seoData/ogImage.JPG
+blocks:
+  - discriminant: sectionTitleDescription
+    value:
+      pretitle: Property
+      title: Office Building Painting
+      description: >
+        Maintaining a professional and polished appearance is essential for
+        office buildings, and a fresh coat of paint can make a significant
+        difference. With over 20 years of experience in commercial painting, our
+        team understands the unique challenges of painting office buildings.
+        Whether it’s refreshing the exterior to create a welcoming first
+        impression or updating interior spaces to reflect your company’s
+        professionalism, we deliver high-quality painting services designed to
+        meet your specific needs. Our expertise ensures seamless application,
+        durability, and colors that enhance both functionality and aesthetics.
+
+
+        <br/>
+
+
+        Office building painting requires careful planning to minimize
+        disruptions to daily operations. We work closely with property managers
+        and business owners to create a schedule that suits your operations. Our
+        skilled painters are well-versed in safety protocols and efficient
+        techniques, ensuring the job is done right the first time. Trust us to
+        provide a professional finish that elevates your office building’s
+        appearance and leaves a lasting impression on employees, clients, and
+        visitors alike.
+  - discriminant: gridGallery
+    value:
+      featuredImage: /images/office-building-painting/blocks/1/value/featuredImage.JPG
+      galleryImages:
+        - /images/office-building-painting/blocks/1/value/galleryImages/0.jpg
+        - /images/office-building-painting/blocks/1/value/galleryImages/1.jpg
+        - /images/office-building-painting/blocks/1/value/galleryImages/2.JPG
+        - /images/office-building-painting/blocks/1/value/galleryImages/3.jpg
+  - discriminant: testimonials
+    value:
+      pretitle: Customer Testimonials
+      heading: What People Say About Us
+      testimonials:
+        - rating: 5
+          cardText: >-
+            Moorhouse Coating is an amazing company. Their interior finishes are
+            amazing and the crews they have for painting are professional,
+            clean, and very knowledgeable. I would recommend Moorhouse Coating
+            to anyone.
+          author: >-
+            /images/office-building-painting/blocks/2/value/testimonials/0/author.svg
+          authorName: Zach M.
+          authorpost: Park City, UT
+        - rating: 5
+          cardText: >-
+            We chose Moorhouse Coating to paint the exterior of our home, and we
+            couldn’t be more pleased. The team was efficient, respectful, and
+            paid attention to every detail. The finished product is stunning,
+            and it’s clear that they take pride in their work. Highly recommend
+            them for any exterior painting needs
+          author: >-
+            /images/office-building-painting/blocks/2/value/testimonials/1/author.svg
+          authorName: Michael
+          authorpost: Heber City,UT
+        - rating: 5
+          cardText: >-
+            The crew was respectful, clean, and did a flawless job. They even
+            helped us pick the perfect colors. We’d definitely use them again.
+          author: >-
+            /images/office-building-painting/blocks/2/value/testimonials/2/author.svg
+          authorName: Chris
+          authorpost: Deer Valley, UT
